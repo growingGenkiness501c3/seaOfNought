@@ -7,6 +7,8 @@ const count = ref(0)
 </script>
 
 <template>
+  will it blend?
+  <code>This is a  Some Thing in code tags</code>
   <h1>{{ msg }}</h1>
 
   <div class="card">
