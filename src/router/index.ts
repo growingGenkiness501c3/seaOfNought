@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import CrowsNest from '@/views/CrowsNest.vue'
 import Forecastle from '@/views/Forecastle.vue'
+import Anchor from '@/views/Anchor.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -14,6 +15,11 @@ const router = createRouter({
       path: '/forecastle',
       name: 'forecastle',
       component: Forecastle
+    },
+    {
+      path: '/anchor',
+      name: 'anchor',
+      component: Anchor
     },
 
   ]

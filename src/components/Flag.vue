@@ -4,7 +4,7 @@ defineOptions({
 });
 </script>
 <template>
-  <code class="bg-lime-400">
+  <code class="mea-culpa-regular" style="font-size: 33px;">
     <slot name="default">
     </slot>
   </code>

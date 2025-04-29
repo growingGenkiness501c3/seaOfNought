@@ -7,6 +7,8 @@ const count = ref(0)
 </script>
 
 <template>
+
+<a href="https://tailwindcss.com/docs/colors" class="text-blue-500 hover:underline"> tailwindcss/docs/colors </a>
   will it blend?
   <code>This is a  Some Thing in code tags</code>
   <h1>{{ msg }}</h1>
