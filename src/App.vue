@@ -56,12 +56,34 @@ import { RouterLink, RouterView } from 'vue-router'
     </header>
     <Clock />
     <RouterView />
-
-
-  
-  <Flag>Some Flagged Value</Flag>
-  <HelloWorld msg="Vite + Vue" />
-  <Flag>Some Other Flagged Value</Flag>
-
+    <br>
+    <Flag>abcdefghijklmnopqrstuvwxyz</Flag>
+    <HelloWorld msg="Vite ooo Vue" />
+    <Flag>Let's manifest some tests! !! !!!</Flag><br>
+    <center><span class="text-sky-950">&nbsp;⬤&nbsp;</span>
+    <span class="text-sky-900">&nbsp;⬤&nbsp;</span>
+    <span class="text-sky-800">&nbsp;⬤&nbsp;</span>
+    <span class="text-sky-700">&nbsp;⬤&nbsp;</span>
+    <span class="text-sky-600">&nbsp;⬤&nbsp;</span>
+    <span class="text-sky-500">&nbsp;⬤&nbsp;</span>
+    <span class="text-sky-400">&nbsp;⬤&nbsp;</span>
+    <span class="text-sky-300">&nbsp;⬤&nbsp;</span>
+    <span class="text-sky-200">&nbsp;⬤&nbsp;</span>
+    <span class="text-sky-100">&nbsp;⬤&nbsp;</span>
+    <span class="text-sky-50">&nbsp;⬤&nbsp;</span>
+    <span class="text-sky-100">&nbsp;⬤&nbsp;</span>
+    <span class="text-sky-200">&nbsp;⬤&nbsp;</span>
+    <span class="text-sky-300">&nbsp;⬤&nbsp;</span>
+    <span class="text-sky-400">&nbsp;⬤&nbsp;</span>
+    <span class="text-sky-500">&nbsp;⬤&nbsp;</span>
+    <span class="text-sky-600">&nbsp;⬤&nbsp;</span>
+    <span class="text-sky-700">&nbsp;⬤&nbsp;</span>
+    <span class="text-sky-800">&nbsp;⬤&nbsp;</span>
+    <span class="text-sky-900">&nbsp;⬤&nbsp;</span>
+    <span class="text-sky-950">&nbsp;⬤&nbsp;</span>
+    </center><br />
+    <center><Flag>01234567890</Flag></center><br />
+    <center><Flag>ABCDEFGHIJKLM</Flag></center><br />
+    <center><Flag>NOPQRSTUVWXYZ</Flag></center>
 </template>
 

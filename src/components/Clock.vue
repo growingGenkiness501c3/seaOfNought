@@ -24,5 +24,5 @@ onMounted(() => {
   <br />
   <Flag class="hubot-sans" style="font-size: 22px;">&nbsp;&nbsp;&nbsp;{{ currentdate }}&nbsp;&nbsp;&nbsp;</Flag>
   <br />
-  <code class="lime">exploring https://tailwindcss.com/<br></code>
+  <code class="lime">&nbsp;&nbsp;&nbsp;⾈ exploring https://tailwindcss.com/ ⛵<br></code>
 </template>
