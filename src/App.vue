@@ -1,6 +1,12 @@
 <script setup lang="ts">
 import HelloWorld from '@/components/HelloWorld.vue'
 import Flag from '@/components/Flag.vue'
+import blackFlag from '@/components/blackFlag.vue'
+import yellowFlag from '@/components/yellowFlag.vue'
+import magentaFlag from '@/components/magentaFlag.vue'
+import cyanFlag from '@/components/cyanFlag.vue'
+
+
 import Clock from '@/components/Clock.vue'
 import { RouterLink, RouterView } from 'vue-router'
 </script>
@@ -21,8 +27,16 @@ import { RouterLink, RouterView } from 'vue-router'
 </style>
 <template>
   <dfn>interesting to see oklch being used so much in this project....</dfn>
-  &nbsp;&nbsp;&nbsp;<sub>Meleneth: kitemite kudasai!</sub>
-   <header class="text-center">
+  &nbsp;&nbsp;&nbsp;<sub>Meleneth: kitemite kudasai!</sub><br>
+  <Flag>&nbsp;&nbsp;&nbsp;oO0&nbsp;&nbsp;&nbsp;</Flag><br>
+  <blackFlag>&nbsp;&nbsp;&nbsp;oO0&nbsp;&nbsp;&nbsp;</blackFlag><br>
+  <yellowFlag>&nbsp;&nbsp;&nbsp;oO0&nbsp;&nbsp;&nbsp;</yellowFlag><br>
+  <magentaFlag>&nbsp;&nbsp;&nbsp;oO0&nbsp;&nbsp;&nbsp;</magentaFlag><br>
+  <cyanFlag>&nbsp;&nbsp;&nbsp;oO0&nbsp;&nbsp;&nbsp;</cyanFlag><br>
+  
+  
+  <hr>
+    <header class="text-center">
     <span class="font-mea-culpa text-[33px]"> ∅© </span>
     <span class="mea-culpa-regular" style="font-size: 55px">NaughtSea &nbsp;&nbsp;&nbsp;<br /></span>
     <span class="mea-culpa-regular" style="font-size: 22px">

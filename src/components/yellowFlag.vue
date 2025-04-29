@@ -1,10 +1,10 @@
 <script setup lang="ts">
 defineOptions({
-  name: "blackFlag"
+  name: "yellowFlag"
 });
 </script>
 <template>
-  <code class="mea-culpa-regular" style="font-size: 33px;">
+  <code class="hubot-sans bg-yellow-300/25 p-1 text-yellow-300" style="font-size: 20px;">
     <slot name="default">
     </slot>
   </code>
