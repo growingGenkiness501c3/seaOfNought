@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import HelloWorld from '@/components/HelloWorld.vue'
 import Flag from '@/components/Flag.vue'
+import whiteFlag from '@/components/whiteFlag.vue'
 import blackFlag from '@/components/blackFlag.vue'
 import yellowFlag from '@/components/yellowFlag.vue'
 import magentaFlag from '@/components/magentaFlag.vue'
@@ -24,17 +25,35 @@ import { RouterLink, RouterView } from 'vue-router'
   font-variation-settings:
     "wdth" 100;
 }
+.alumni-sans-pinstripe-regular {
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.alumni-sans-pinstripe-regular-italic {
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.coral-pixels-regular {
+  font-family: "Coral Pixels", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 </style>
 <template>
   <dfn>interesting to see oklch being used so much in this project....</dfn>
   &nbsp;&nbsp;&nbsp;<sub>Meleneth: kitemite kudasai!</sub><br>
-  <Flag>&nbsp;&nbsp;&nbsp;oO0&nbsp;&nbsp;&nbsp;</Flag><br>
-  <blackFlag>&nbsp;&nbsp;&nbsp;oO0&nbsp;&nbsp;&nbsp;</blackFlag><br>
-  <yellowFlag>&nbsp;&nbsp;&nbsp;oO0&nbsp;&nbsp;&nbsp;</yellowFlag><br>
-  <magentaFlag>&nbsp;&nbsp;&nbsp;oO0&nbsp;&nbsp;&nbsp;</magentaFlag><br>
-  <cyanFlag>&nbsp;&nbsp;&nbsp;oO0&nbsp;&nbsp;&nbsp;</cyanFlag><br>
-  
-  
+  <whiteFlag>&nbsp;&nbsp;&nbsp;oO0&nbsp;&nbsp;&nbsp;</whiteFlag><br>
+<blackFlag>&nbsp;&nbsp;&nbsp;oO0&nbsp;&nbsp;&nbsp;</blackFlag><br>
+<yellowFlag>&nbsp;&nbsp;&nbsp;oO0&nbsp;&nbsp;&nbsp;</yellowFlag><br>
+<magentaFlag>&nbsp;&nbsp;&nbsp;oO0&nbsp;&nbsp;&nbsp;</magentaFlag><br>
+<cyanFlag>&nbsp;&nbsp;&nbsp;oO0&nbsp;&nbsp;&nbsp;</cyanFlag><br>
+
+<br>
+<Flag>&nbsp;&nbsp;&nbsp;oO0&nbsp;&nbsp;&nbsp;</Flag><br>
+
   <hr>
     <header class="text-center">
     <span class="font-mea-culpa text-[33px]"> ∅© </span>

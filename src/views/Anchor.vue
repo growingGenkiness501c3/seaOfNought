@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import Flag from '@/components/Flag.vue'
 
 defineOptions({
   name: "Anchor"
@@ -14,6 +13,11 @@ defineOptions({
 <Flag>... you can do eet! ! !!! &nbsp;&nbsp;&nbsp;⚓
  
 </Flag>
+
+
+
+
+
 <div class="text-right">
   <sup>"warning: <br> tr cannot be a child of table,<br> according to HTML specifications.<br> This can cause hydration errors<br> or potentially disrupt future functionality"</sup>
   <br><sub>what are hydration errors?</sub>
