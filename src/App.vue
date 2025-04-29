@@ -20,6 +20,8 @@ import { RouterLink, RouterView } from 'vue-router'
 }
 </style>
 <template>
+  <dfn>interesting to see oklch being used so much in this project....</dfn>
+  &nbsp;&nbsp;&nbsp;<sub>Meleneth: kitemite kudasai!</sub>
    <header class="text-center">
     <span class="font-mea-culpa text-[33px]"> ∅© </span>
     <span class="mea-culpa-regular" style="font-size: 55px">NaughtSea &nbsp;&nbsp;&nbsp;<br /></span>
