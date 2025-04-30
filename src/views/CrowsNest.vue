@@ -13,8 +13,7 @@ defineOptions({
 </script>
 <template>
 
-
-⛵⾈<br>
+🐦‍ <br>
 
 &nbsp;oO0&nbsp;<whiteFlag>&nbsp;oO0&nbsp;<blackFlag>&nbsp;oO0&nbsp;<yellowFlag>&nbsp;oO0&nbsp;<magentaFlag>&nbsp;oO0&nbsp;<cyanFlag>&nbsp;oO0&nbsp;<flag>&nbsp;oO0&nbsp;&nbsp;</flag>&nbsp;oO0&nbsp;</cyanFlag>&nbsp;oO0&nbsp;</magentaFlag>&nbsp;oO0&nbsp;</yellowFlag>&nbsp;oO0&nbsp;</blackFlag>&nbsp;oO0&nbsp;</whiteFlag>&nbsp;oO0&nbsp;<br>
 <br>
@@ -36,4 +35,5 @@ defineOptions({
   <template #two><magentaFlag><hr>2</magentaFlag></template>
   <template #four><cyanFlag><hr>3</cyanFlag></template>
 </SplitOneTwoThree>
+⛵⾈
 </template>

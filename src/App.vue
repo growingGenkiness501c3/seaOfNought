@@ -40,18 +40,14 @@ import { RouterLink, RouterView } from 'vue-router'
   font-weight: 400;
   font-style: normal;
 }
-
 </style>
 <template>
   <dfn>interesting to see oklch being used so much in this project....</dfn>
   &nbsp;&nbsp;&nbsp;<sub>Meleneth: kitemite kudasai!</sub><br>
-  <whiteFlag>&nbsp;&nbsp;&nbsp;oO0&nbsp;&nbsp;&nbsp;</whiteFlag><br>
-<blackFlag>&nbsp;&nbsp;&nbsp;oO0&nbsp;&nbsp;&nbsp;</blackFlag><br>
-<yellowFlag>&nbsp;&nbsp;&nbsp;oO0&nbsp;&nbsp;&nbsp;</yellowFlag><br>
-<magentaFlag>&nbsp;&nbsp;&nbsp;oO0&nbsp;&nbsp;&nbsp;</magentaFlag><br>
-<cyanFlag>&nbsp;&nbsp;&nbsp;oO0&nbsp;&nbsp;&nbsp;</cyanFlag><br>
-
-<br>
+  <whiteFlag>&nbsp;&nbsp;&nbsp;oO0&nbsp;&nbsp;&nbsp;</whiteFlag><blackFlag>&nbsp;&nbsp;&nbsp;oO0&nbsp;&nbsp;&nbsp;</blackFlag>
+<yellowFlag>&nbsp;&nbsp;&nbsp;oO0&nbsp;&nbsp;&nbsp;</yellowFlag>
+<magentaFlag>&nbsp;&nbsp;&nbsp;oO0&nbsp;&nbsp;&nbsp;</magentaFlag>
+<cyanFlag>&nbsp;&nbsp;&nbsp;oO0&nbsp;&nbsp;&nbsp;</cyanFlag>
 <Flag>&nbsp;&nbsp;&nbsp;oO0&nbsp;&nbsp;&nbsp;</Flag><br>
 
   <hr>
@@ -84,12 +80,13 @@ import { RouterLink, RouterView } from 'vue-router'
       <span class="text-sky-100">&nbsp;⬤&nbsp;</span>
       <span class="text-sky-50">&nbsp;⬤&nbsp;</span>
       <nav class="flex flex-wrap items-center justify-center">
-        <RouterLink class="p-2.5; text-sky-100" to="/">| Crow's Nest |</RouterLink>
-        <RouterLink class="p-2.5; text-sky-200" to="/forecastle">| Forecastle |</RouterLink>
-        <RouterLink class="p-2.5; text-sky-100" to="/anchor">| Anchor |</RouterLink>
+        <RouterLink class="p-2.5; text-sky-100" to="/">| 🐦‍ Crow's Nest |</RouterLink>
+        <RouterLink class="p-2.5; text-sky-200" to="/forecastle">| 🏰 Forecastle |</RouterLink>
+        <RouterLink class="p-2.5; text-sky-200" to="/anchor">| ⚓ Anchor |</RouterLink>
+        <RouterLink class="p-2.5; text-sky-100" to="/vocabulary">| 📖 vocabulary |</RouterLink>        
       </nav>
     </header>
-    <Clock />
+    <center><Clock /></center>
     <RouterView />
     <br>
     <Flag>abcdefghijklmnopqrstuvwxyz</Flag>
