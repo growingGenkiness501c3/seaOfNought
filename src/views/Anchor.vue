@@ -13,7 +13,6 @@ defineOptions({
  npm run dev <br><br>
 </magentaFlag>
 <Flag>... you can do eet! ! !!! &nbsp;&nbsp;&nbsp;</Flag>
-
 <div class="text-right">
   <center><sub>"warning: tr cannot be a child of table, according to HTML specifications. This can cause hydration errors or potentially disrupt future functionality"</sub></center>
   <center><sup>what are hydration errors?</sup></center>
@@ -38,100 +37,5 @@ defineOptions({
   </div>
   </div> 
 
-<span class="text-sky-50">&nbsp;⬤&nbsp;</span>
-<span class="text-sky-100">&nbsp;⬤&nbsp;</span>
-<span class="text-sky-200">&nbsp;⬤&nbsp;</span>
-<span class="text-sky-300">&nbsp;⬤&nbsp;</span>
-<span class="text-sky-400">&nbsp;⬤&nbsp;</span>
-<span class="text-sky-500">&nbsp;⬤&nbsp;</span>
-<span class="text-sky-600">&nbsp;⬤&nbsp;</span>
-<span class="text-sky-700">&nbsp;⬤&nbsp;</span>
-<span class="text-sky-800">&nbsp;⬤&nbsp;</span>
-<span class="text-sky-900">&nbsp;⬤&nbsp;</span>
-<span class="text-sky-950">&nbsp;⬤&nbsp;</span>
-<span class="text-sky-900">&nbsp;⬤&nbsp;</span>
-<span class="text-sky-800">&nbsp;⬤&nbsp;</span>
-<span class="text-sky-700">&nbsp;⬤&nbsp;</span>
-<span class="text-sky-600">&nbsp;⬤&nbsp;</span>
-<span class="text-sky-500">&nbsp;⬤&nbsp;</span>
-<span class="text-sky-400">&nbsp;⬤&nbsp;</span>
-<span class="text-sky-300">&nbsp;⬤&nbsp;</span>
-<span class="text-sky-200">&nbsp;⬤&nbsp;</span>
-<span class="text-sky-100">&nbsp;⬤&nbsp;</span>
-<span class="text-sky-50">&nbsp;⬤&nbsp;</span>
-<hr>
-<br>
-<span class="text-yellow-300">&nbsp;⬤&nbsp;</span>
-<span class="text-lime-300">&nbsp;⬤&nbsp;</span>
-<span class="text-green-300">&nbsp;⬤&nbsp;</span>
-<span class="text-emerald-300">&nbsp;⬤&nbsp;</span>
-<span class="text-teal-300">&nbsp;⬤&nbsp;</span>
-<span class="text-cyan-300">&nbsp;⬤&nbsp;</span>
-<span class="text-sky-300">&nbsp;⬤&nbsp;</span>
-<span class="text-blue-300">&nbsp;⬤&nbsp;</span>
-<span class="text-indigo-300">&nbsp;⬤&nbsp;</span>
-<span class="text-violet-300">&nbsp;⬤&nbsp;</span>
-<span class="text-purple-300">&nbsp;⬤&nbsp;</span>
-<span class="text-fuchsia-300">&nbsp;⬤&nbsp;</span>
-<span class="text-pink-300">&nbsp;⬤&nbsp;</span>
-<span class="text-rose-300">&nbsp;⬤&nbsp;</span>
-<span class="text-red-300">&nbsp;⬤&nbsp;</span>
-<span class="text-orange-300">&nbsp;⬤&nbsp;</span>
-<span class="text-amber-300">&nbsp;⬤&nbsp;</span>
-<span class="text-slate-300">&nbsp;⬤&nbsp;</span>
-<span class="text-gray-300">&nbsp;⬤&nbsp;</span>
-<span class="text-zinc-300">&nbsp;⬤&nbsp;</span>
-<span class="text-neutral-300">&nbsp;⬤&nbsp;</span>
-<span class="text-stone-300">&nbsp;⬤&nbsp;</span>
-<br>
-<span class="text-yellow-500">&nbsp;⬤&nbsp;</span>
-<span class="text-lime-500">&nbsp;⬤&nbsp;</span>
-<span class="text-green-500">&nbsp;⬤&nbsp;</span>
-<span class="text-emerald-500">&nbsp;⬤&nbsp;</span>
-<span class="text-teal-500">&nbsp;⬤&nbsp;</span>
-<span class="text-cyan-500">&nbsp;⬤&nbsp;</span>
-<span class="text-sky-500">&nbsp;⬤&nbsp;</span>
-<span class="text-blue-500">&nbsp;⬤&nbsp;</span>
-<span class="text-indigo-500">&nbsp;⬤&nbsp;</span>
-<span class="text-violet-500">&nbsp;⬤&nbsp;</span>
-<span class="text-purple-500">&nbsp;⬤&nbsp;</span>
-<span class="text-fuchsia-500">&nbsp;⬤&nbsp;</span>
-<span class="text-pink-500">&nbsp;⬤&nbsp;</span>
-<span class="text-rose-500">&nbsp;⬤&nbsp;</span>
-<span class="text-red-500">&nbsp;⬤&nbsp;</span>
-<span class="text-orange-500">&nbsp;⬤&nbsp;</span>
-<span class="text-amber-500">&nbsp;⬤&nbsp;</span>
-<span class="text-slate-500">&nbsp;⬤&nbsp;</span>
-<span class="text-gray-500">&nbsp;⬤&nbsp;</span>
-<span class="text-zinc-500">&nbsp;⬤&nbsp;</span>
-<span class="text-neutral-500">&nbsp;⬤&nbsp;</span>
-<span class="text-stone-500">&nbsp;⬤&nbsp;</span>
-
-<br>
-<span class="text-yellow-800">&nbsp;⬤&nbsp;</span>
-<span class="text-lime-800">&nbsp;⬤&nbsp;</span>
-<span class="text-green-800">&nbsp;⬤&nbsp;</span>
-<span class="text-emerald-800">&nbsp;⬤&nbsp;</span>
-<span class="text-teal-800">&nbsp;⬤&nbsp;</span>
-<span class="text-cyan-800">&nbsp;⬤&nbsp;</span>
-<span class="text-sky-800">&nbsp;⬤&nbsp;</span>
-<span class="text-blue-800">&nbsp;⬤&nbsp;</span>
-<span class="text-indigo-800">&nbsp;⬤&nbsp;</span>
-<span class="text-violet-800">&nbsp;⬤&nbsp;</span>
-<span class="text-purple-800">&nbsp;⬤&nbsp;</span>
-<span class="text-fuchsia-800">&nbsp;⬤&nbsp;</span>
-<span class="text-pink-800">&nbsp;⬤&nbsp;</span>
-<span class="text-rose-800">&nbsp;⬤&nbsp;</span>
-<span class="text-red-800">&nbsp;⬤&nbsp;</span>
-<span class="text-orange-800">&nbsp;⬤&nbsp;</span>
-<span class="text-amber-800">&nbsp;⬤&nbsp;</span>
-<span class="text-slate-800">&nbsp;⬤&nbsp;</span>
-<span class="text-gray-800">&nbsp;⬤&nbsp;</span>
-<span class="text-zinc-800">&nbsp;⬤&nbsp;</span>
-<span class="text-neutral-800">&nbsp;⬤&nbsp;</span>
-<span class="text-stone-800">&nbsp;⬤&nbsp;</span>
-
-
-<br>
-<Flag>⚓</Flag>
+⚓
 </template>

@@ -16,7 +16,7 @@ defineOptions({
 });
 </script>
 <template>
-<blackFlag>begin &nbsp; begin &nbsp; begin &nbsp; begin &nbsp; begin &nbsp; begin &nbsp; </blackFlag>
+<blackFlag>🏰begin &nbsp; begin &nbsp; begin &nbsp; begin &nbsp; begin &nbsp; begin &nbsp; </blackFlag>
 <br><br><br><br>
 <center>
 &nbsp;oO0&nbsp;<whiteFlag>&nbsp;oO0&nbsp;
@@ -69,5 +69,5 @@ defineOptions({
 
 
 <br>
-<blackFlag>end &nbsp; end &nbsp; end &nbsp; end &nbsp; end &nbsp; end &nbsp; end </blackFlag>
+<blackFlag>🏰end &nbsp; end &nbsp; end &nbsp; end &nbsp; end &nbsp; end &nbsp; end </blackFlag>
 </template>

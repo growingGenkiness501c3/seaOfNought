@@ -53,8 +53,8 @@ import { RouterLink, RouterView } from 'vue-router'
     <span class="font-mea-culpa text-[33px]"> ∅© </span>
     <span class="mea-culpa-regular" style="font-size: 55px">NaughtSea &nbsp;&nbsp;&nbsp;<br /></span>
     <span class="mea-culpa-regular" style="font-size: 22px">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with Vite + Vue & tailwindcss &nbsp;<span style="font-size: 11px">⚓</span>
-      </span>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with Vite + Vue & tailwindcss &nbsp;
+      </span><br>
       <skyTop /><skyTop />
       <nav class="flex flex-wrap items-center justify-center">
         <RouterLink class="p-2.5; text-sky-100" to="/">| 🐦‍ Crow's Nest 🏠 |</RouterLink>
@@ -71,7 +71,8 @@ import { RouterLink, RouterView } from 'vue-router'
     🔹App.vue
     
     <br>
-    🖐️<HelloWorld msg="Vite HelloWorld Vue" />🖐️
+    🖐️
+    <HelloWorld msg="Vite HelloWorld Vue" />🖐️
 
     <center><Flag>Let's manifest some tests! !! !!!</Flag><br></center>
     <center><skyBottom /><skyBottom /></center>

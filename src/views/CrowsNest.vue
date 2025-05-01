@@ -17,7 +17,8 @@ defineOptions({
 <br>
 <SplitOneTwoThree>
   <template #one><yellowFlag><hr>⛵</yellowFlag></template>
-  <template #two><magentaFlag><hr>🐦</magentaFlag></template>
+  <template #two><magentaFlag><hr>🐦
+  </magentaFlag></template>
   <template #four><cyanFlag><hr>🔹🖥️📱🧩📦⚙️🔧🗂️</cyanFlag></template>
 </SplitOneTwoThree>
 <blackFlag>🐦‍<br></blackFlag>

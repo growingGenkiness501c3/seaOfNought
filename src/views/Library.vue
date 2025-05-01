@@ -12,9 +12,8 @@ defineOptions({
 });
 </script>
 <template>
-
-
 <whiteFlag>📚<br></whiteFlag>
+
 <br>
 <SplitOneTwoThree>
   <template #one><yellowFlag><hr>⛵</yellowFlag></template>
