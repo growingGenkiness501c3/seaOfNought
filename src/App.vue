@@ -1,15 +1,15 @@
 <script setup lang="ts">
-import HelloWorld from '@/components/HelloWorld.vue'
-import Flag from '@/components/Flag.vue'
-import oO0 from '@/components/oO0.vue'
-import zer0Oo from '@/components/zer0Oo.vue'
+import HelloWorld from "@/components/HelloWorld.vue";
+import Flag from "@/components/Flag.vue";
+import oO0 from "@/components/oO0.vue";
+import zer0Oo from "@/components/zer0Oo.vue";
 
-import skyTop from '@/components/skyTop.vue'
-import skyBottom from '@/components/skyBottom.vue'
-import rainbowDots from '@/components/rainbowDots.vue'
+import skyTop from "@/components/skyTop.vue";
+import skyBottom from "@/components/skyBottom.vue";
+import rainbowDots from "@/components/rainbowDots.vue";
 
-import Clock from '@/components/Clock.vue'
-import { RouterLink, RouterView } from 'vue-router'
+import Clock from "@/components/Clock.vue";
+import { RouterLink, RouterView } from "vue-router";
 </script>
 <style>
 .mea-culpa-regular {
@@ -22,8 +22,7 @@ import { RouterLink, RouterView } from 'vue-router'
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
 }
 .alumni-sans-pinstripe-regular {
   font-family: "Alumni Sans Pinstripe", sans-serif;
@@ -40,45 +39,205 @@ import { RouterLink, RouterView } from 'vue-router'
   font-weight: 400;
   font-style: normal;
 }
+h1 {  color: hsl(270, 050%, 070%, 100%);}
+h2 {  color: hsl(240, 050%, 070%, 100%);}
+h3 {  color: hsl(210, 050%, 070%, 100%);}
+h4 {  color: hsl(180, 050%, 070%, 100%);}
+h5 {  color: hsl(150, 050%, 070%, 100%);}
+h6 {  color: hsl(120, 050%, 070%, 100%);}
+
+.hue090 {
+  color: hsl(90, 050%, 070%, 100%);
+  font-size: 33px;
+}
+.hue060 {
+  color: hsl(60, 050%, 070%, 100%);
+  font-size: 33px;
+}
+.hue030 {
+  color: hsl(030, 050%, 070%, 100%);
+  font-size: 33px;
+}
+.hue000 {
+  color: hsl(000, 050%, 070%, 100%);
+  font-size: 33px;
+}
+.hue330 {
+  color: hsl(330, 050%, 070%, 100%);
+  font-size: 33px;
+}
+.hue300 {
+  color: hsl(300, 050%, 070%, 100%);
+  font-size: 33px;
+}
+.hue270 {
+  color: hsl(270, 050%, 070%, 100%);
+  font-size: 33px;
+}
+.hue240 {
+  color: hsl(240, 050%, 070%, 100%);
+  font-size: 33px;
+}
+.hue210 {
+  color: hsl(210, 050%, 070%, 100%);
+  font-size: 33px;
+}
+.hue180 {
+  color: hsl(180, 050%, 070%, 100%);
+  font-size: 33px;
+}
+.hue150 {
+  color: hsl(150, 050%, 070%, 100%);
+  font-size: 33px;
+}
+.hue120 {
+  font-size: 33px;
+  color: hsl(120, 050%, 070%, 100%);
+}
+.huewhite {
+  color: hsl(0, 0%, 100%, 100%);
+  font-size: 33px;
+}
+.huegræy {
+  color: hsl(0, 0%, 050%, 100%);
+  font-size: 33px;
+}
+.hueblack {
+  color: hsl(0, 0%, 000%, 100%);
+  font-size: 33px;
+}
+
+
 </style>
 <template>
-    <br>
-    <center><pre>https://en.wikipedia.org/wiki/File:Wanna_Work_Together%3F_with_subtitles_-_Creative_Commons.ogv</pre>
-    <dfn>interesting to see oklch being used so much ....&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</dfn>
-    &nbsp;&nbsp;&nbsp;<sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Meleneth: kitemite kudasai!</sub><br>
-    <hr>
-    <br><oO0 /><zer0Oo />
-    <br>
-    <hr>
+  <center>
+<table class="table-auto w-full border border-gray-300">
+<tr>
+  <td>&nbsp;&nbsp;&nbsp;</td>
+<td class="hue090">⬤</td>
+<td class="hue060"><a href="file:///D:/125/html/level_zer0.html"> 🟡⬤</a></td>
+<td class="hue030">⬤</td>
+<td class="hue000">⬤</td>
+<td class="hue330">⬤</td>
+<td class="hue300">⬤</td>
+<td class="hue270">⬤</td>
+<td class="hue240">⬤</td>
+<td class="hue210">🧿⬤</td>
+<td class="hue180">⛵⬤</td>
+<td class="hue150">⬤</td>
+<td class="hue120">⬤</td>
+<td class="hue090">⬤</td>        
+<td></td>
+</tr>
+</table></center>
+  <br>
+<center>
+<table class="table-auto w-full border border-gray-300">
+<tr class="border-b border-gray-300 text-center">
+<td><h1> <a href="file:///D:/125/html/level_zer0.html"> ⬤ 接ぐ tsugu つぐ ⬤</a></h1></td>
+<td><h2><a href="∴ http://localhost:5173/ ∴"> gotta get git !</a></h2></td>
+<td><h3><a href="http://localhost:4090/">∅©</a></h3></td>
+<td><h4><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY">o¡O0O!o</a></h4></td>
+<td><h5><a href="file:///D:/125/html/level_zer0.html">oO0Oo</a></h5></td>
+<td><h6><a href="file:///D:/125/html/level_zer0.html">¿? ؟ ⸮ ẓ ⸮ ⸮  </a></h6></td>
+</tr>
+</table></center>
+<br>
+
+<table class="table-auto w-full border border-gray-300">
+<tr class="border-b border-gray-300 text-center">
+<td><h1 class="text-4xl font-bold">oO0Oo</h1></td>
+<td><h2 class="text-3xl font-semibold">oO0Oo</h2></td>
+<td><h3 class="text-2xl font-semibold">oO0Oo</h3></td>
+<td><h4 class="text-xl font-medium">oO0Oo</h4></td>
+<td><h5 class="text-lg font-medium">oO0Oo</h5></td>
+<td><h6 class="text-base font-normal">oO0Oo</h6></td>
+<td><h5 class="text-lg font-medium">oO0Oo</h5></td>
+<td><h4 class="text-xl font-medium">oO0Oo</h4></td>
+<td><h3 class="text-2xl font-semibold">oO0Oo</h3></td>
+<td><h2 class="text-3xl font-semibold">oO0Oo</h2></td>
+<td><h1 class="text-4xl font-bold">oO0Oo</h1></td>
+</tr>
+</table>
+<table class="table-auto w-full text-center">
+<tr>
+<td><h1>oO0Oo</h1></td>
+<td><h2>oO0Oo</h2></td>
+<td><h3>oO0Oo</h3></td>
+<td><h4>oO0Oo</h4></td>
+<td><h5>oO0Oo</h5></td>
+<td><h6>oO0Oo</h6></td>
+<td><h5>oO0Oo</h5></td>
+<td><h4>oO0Oo</h4></td>
+<td><h3>oO0Oo</h3></td>
+<td><h2>oO0Oo</h2></td>
+<td><h1>oO0Oo</h1></td>
+</tr>
+</table>
+<br />
+
+
+
+
+
+
+
+<br />
+<center>
+    <pre>
+https://en.wikipedia.org/wiki/File:Wanna_Work_Together%3F_with_subtitles_-_Creative_Commons.ogv</pre
+    >
+    <dfn
+      >interesting to see oklch being used so much
+      ....&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</dfn
+    >
+    &nbsp;&nbsp;&nbsp;<sub
+      >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Meleneth: kitemite kudasai!</sub
+    ><br />
+    <hr />
+    <br /><oO0 /><zer0Oo />
+    <br />
+    <hr />
     <span class="font-mea-culpa text-[33px]"> ∅© </span>
-    <span class="mea-culpa-regular" style="font-size: 55px">NaughtSea &nbsp;&nbsp;&nbsp;<br /></span>
+    <span class="mea-culpa-regular" style="font-size: 55px"
+      >NaughtSea &nbsp;&nbsp;&nbsp;<br
+    /></span>
     <span class="mea-culpa-regular" style="font-size: 22px">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with Vite + Vue & tailwindcss &nbsp;
-      </span><br>
-      <skyTop /><skyTop />
-      <nav class="flex flex-wrap items-center justify-center">
-        <RouterLink class="p-2.5; text-sky-100" to="/">| 🐦‍ Crow's Nest 🏠 |</RouterLink>
-        <RouterLink class="p-2.5; text-sky-200" to="/forecastle">| 🏰 Forecastle |</RouterLink>
-        <RouterLink class="p-2.5; text-sky-300" to="/anchor">| ⚓ Anchor |</RouterLink>
-        <RouterLink class="p-2.5; text-sky-200" to="/vocabulary">| 📖 vocabulary |</RouterLink>   
-        <routerLink class="p-2.5; text-sky-100" to="/library">| 🔗📚🗂️📁🧾🧠 Library |</routerLink>
-      </nav>
-    </center>
-    <center><Clock /></center>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⾈&nbsp;with
+      Vite + Vue & tailwindcss &nbsp;⛵ </span
+    ><br />
+    <skyTop /><skyTop />
+    <nav class="flex flex-wrap items-center justify-center">
+      <RouterLink class="p-2.5; text-sky-100" to="/"
+        >| 🐦‍ Crow's Nest 🏠 |</RouterLink
+      >
+      <RouterLink class="p-2.5; text-sky-200" to="/forecastle"
+        >| 🏰 Forecastle |</RouterLink
+      >
+      <RouterLink class="p-2.5; text-sky-300" to="/anchor"
+        >| ⚓ Anchor |</RouterLink
+      >
+      <RouterLink class="p-2.5; text-sky-200" to="/vocabulary"
+        >| 📖 vocabulary |</RouterLink
+      >
+      <routerLink class="p-2.5; text-sky-100" to="/library"
+        >| 🔗📚🗂️📁🧾🧠 Library |</routerLink
+      >
+    </nav>
+  </center>
+  <center><Clock /></center>
 
-    🔹App.vue<br>
-    <RouterView />
-    🔹App.vue
-    
-    <br>
-    🖐️
-    <HelloWorld msg="Vite HelloWorld Vue" />🖐️
+  🔹App.vue<br />
+  <RouterView />
+  🔹App.vue
 
-    <center><Flag>Let's manifest some tests! !! !!!</Flag><br></center>
-    <center><skyBottom /><skyBottom /></center>
-    <center><Flag>ABCDEFGHIJKLM01234567890NOPQRSTUVWXYZ</Flag></center>
-    <center><Flag>abcdefghijklmnopqrstuvwxyz</Flag></center>
-    <center><rainbowDots /></center>
+  <br />
+  🖐️
+  <HelloWorld msg="Vite HelloWorld Vue" />🖐️
 
+  <center><Flag>Let's manifest some tests! !! !!!</Flag><br /></center>
+  <center><skyBottom /><skyBottom /></center>
+  <center><Flag>ABCDEFGHIJKLM01234567890NOPQRSTUVWXYZ</Flag></center>
+  <center><Flag>abcdefghijklmnopqrstuvwxyz</Flag></center>
+  <center><rainbowDots /></center>
 </template>
-
