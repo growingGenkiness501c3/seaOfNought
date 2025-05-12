@@ -115,35 +115,50 @@ h6 {  color: hsl(120, 050%, 070%, 100%);}
 <tr>
   <td>&nbsp;&nbsp;&nbsp;</td>
 <td class="hue090">⬤</td>
-<td class="hue060"><a href="file:///D:/125/html/level_zer0.html"> 🟡⬤</a></td>
+<td class="hue060"><a href="file:///D:/125/html/level_zer0.html" target="_blank">🟡</a></td>
 <td class="hue030">⬤</td>
 <td class="hue000">⬤</td>
 <td class="hue330">⬤</td>
 <td class="hue300">⬤</td>
 <td class="hue270">⬤</td>
 <td class="hue240">⬤</td>
-<td class="hue210">🧿⬤</td>
-<td class="hue180">⛵⬤</td>
+<td class="hue210"><a href="http://localhost:4090/" target="_blank">🧿</a></td>
+<td class="hue180"><a href="http://localhost:5173/" target="_blank">⛵</a></td>
 <td class="hue150">⬤</td>
 <td class="hue120">⬤</td>
 <td class="hue090">⬤</td>        
 <td></td>
 </tr>
 </table></center>
-  <br>
 <center>
 <table class="table-auto w-full border border-gray-300">
-<tr class="border-b border-gray-300 text-center">
-<td><h1> <a href="file:///D:/125/html/level_zer0.html"> ⬤ 接ぐ tsugu つぐ ⬤</a></h1></td>
-<td><h2><a href="∴ http://localhost:5173/ ∴"> gotta get git !</a></h2></td>
-<td><h3><a href="http://localhost:4090/">∅©</a></h3></td>
-<td><h4><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY">o¡O0O!o</a></h4></td>
-<td><h5><a href="file:///D:/125/html/level_zer0.html">oO0Oo</a></h5></td>
-<td><h6><a href="file:///D:/125/html/level_zer0.html">¿? ؟ ⸮ ẓ ⸮ ⸮  </a></h6></td>
+<tr>
+  <td>&nbsp;&nbsp;&nbsp;</td>
+<td class="hue090">⬤</td>
+<td class="hue060">⬤</td>
+<td class="hue030">⬤</td>
+<td class="hue000">⬤</td>
+<td class="hue330">⬤</td>
+<td class="hue300">⬤</td>
+<td class="hue270">⬤</td>
+<td class="hue240">⬤</td>
+<td class="hue210">⬤</td>
+<td class="hue180">⬤</td>
+<td class="hue150">⬤</td>
+<td class="hue120">⬤</td>
+<td class="hue090">⬤</td>        
+<td></td>
 </tr>
 </table></center>
-<br>
-
+<pre class="text-sm p-5">
+You are here: >>> http://localhost:5173/ <<< using vite, vue, tailwinds with 
+.mea-culpa-regular 
+.hubot-sans 
+.alumni-sans-pinstripe-regular 
+.alumni-sans-pinstripe-regular-italic
+.coral-pixels-regular</pre>
+<center><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="text-purple-300 underline hover:text-purple-950">
+  perfection </a></center>
 <table class="table-auto w-full border border-gray-300">
 <tr class="border-b border-gray-300 text-center">
 <td><h1 class="text-4xl font-bold">oO0Oo</h1></td>
@@ -158,8 +173,6 @@ h6 {  color: hsl(120, 050%, 070%, 100%);}
 <td><h2 class="text-3xl font-semibold">oO0Oo</h2></td>
 <td><h1 class="text-4xl font-bold">oO0Oo</h1></td>
 </tr>
-</table>
-<table class="table-auto w-full text-center">
 <tr>
 <td><h1>oO0Oo</h1></td>
 <td><h2>oO0Oo</h2></td>
