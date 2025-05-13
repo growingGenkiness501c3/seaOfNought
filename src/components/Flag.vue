@@ -4,7 +4,7 @@ defineOptions({
 });
 </script>
 <template>
-  <code class="mea-culpa-regular" style="font-size: 33px;">
+  <code class="orbitron" style="font-size: 111px;">
     <slot name="default">
     </slot>
   </code>

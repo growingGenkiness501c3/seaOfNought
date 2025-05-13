@@ -20,9 +20,9 @@ onMounted(() => {
 </script>
 
 <template>
-  <Flag class="hubot-sans">&nbsp;&nbsp;{{ currenttime }}&nbsp;&nbsp;</Flag>
+  <Flag class="orbitron">&nbsp;&nbsp;{{ currenttime }}&nbsp;&nbsp;</Flag>
   <br />
-  <Flag class="hubot-sans" style="font-size: 22px;">&nbsp;&nbsp;&nbsp;{{ currentdate }}&nbsp;&nbsp;&nbsp;</Flag>
-  <br />
-  <code class="lime">&nbsp;&nbsp;&nbsp;⾈ exploring https://tailwindcss.com/ ⛵<br></code>
+  <Flag class="orbitron" style="font-size: 55px;"><center>&nbsp;&nbsp;&nbsp;{{ currentdate }}&nbsp;&nbsp;&nbsp;</center></Flag>
+  
+  <code class="orbitron"><center>&nbsp;&nbsp;&nbsp;⾈ exploring https://tailwindcss.com/ ⛵</center><br></code>
 </template>
