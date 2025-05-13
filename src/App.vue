@@ -11,137 +11,29 @@ import rainbowDots from "@/components/rainbowDots.vue";
 import Clock from "@/components/Clock.vue";
 import { RouterLink, RouterView } from "vue-router";
 </script>
-<style>
-.orbitron {
-font-family: "Orbitron", sans-serif;
-font-optical-sizing: auto;
-font-weight: <weight>;
-font-style: normal;
-}
-.rajdhani-light {
-font-family: "Rajdhani", sans-serif;
-font-weight: 300;
-font-style: normal;
-}
-.rajdhani-regular {
-font-family: "Rajdhani", sans-serif;
-font-weight: 400;
-font-style: normal;
-}
-.rajdhani-medium {
-font-family: "Rajdhani", sans-serif;
-font-weight: 500;
-font-style: normal;
-}
-.rajdhani-semibold {
-font-family: "Rajdhani", sans-serif;
-font-weight: 600;
-font-style: normal;
-}
-.rajdhani-bold {
-font-family: "Rajdhani", sans-serif;
-font-weight: 700;
-font-style: normal;
-}
-.mea-culpa-regular {
-  font-family: "Mea Culpa", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-.hubot-sans {
-  font-family: "Hubot Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
-}
-.alumni-sans-pinstripe-regular {
-  font-family: "Alumni Sans Pinstripe", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-.alumni-sans-pinstripe-regular-italic {
-  font-family: "Alumni Sans Pinstripe", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-.coral-pixels-regular {
-  font-family: "Coral Pixels", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-h1 {  color: hsl(270, 050%, 070%, 100%);}
-h2 {  color: hsl(240, 050%, 070%, 100%);}
-h3 {  color: hsl(210, 050%, 070%, 100%);}
-h4 {  color: hsl(180, 050%, 070%, 100%);}
-h5 {  color: hsl(150, 050%, 070%, 100%);}
-h6 {  color: hsl(120, 050%, 070%, 100%);}
-
-.hue090 {
-  color: hsl(90, 050%, 070%, 100%);
-  font-size: 33px;
-}
-.hue060 {
-  color: hsl(60, 050%, 070%, 100%);
-  font-size: 33px;
-}
-.hue030 {
-  color: hsl(030, 050%, 070%, 100%);
-  font-size: 33px;
-}
-.hue000 {
-  color: hsl(000, 050%, 070%, 100%);
-  font-size: 33px;
-}
-.hue330 {
-  color: hsl(330, 050%, 070%, 100%);
-  font-size: 33px;
-}
-.hue300 {
-  color: hsl(300, 050%, 070%, 100%);
-  font-size: 33px;
-}
-.hue270 {
-  color: hsl(270, 050%, 070%, 100%);
-  font-size: 33px;
-}
-.hue240 {
-  color: hsl(240, 050%, 070%, 100%);
-  font-size: 33px;
-}
-.hue210 {
-  color: hsl(210, 050%, 070%, 100%);
-  font-size: 33px;
-}
-.hue180 {
-  color: hsl(180, 050%, 070%, 100%);
-  font-size: 33px;
-}
-.hue150 {
-  color: hsl(150, 050%, 070%, 100%);
-  font-size: 33px;
-}
-.hue120 {
-  font-size: 33px;
-  color: hsl(120, 050%, 070%, 100%);
-}
-.huewhite {
-  color: hsl(0, 0%, 100%, 100%);
-  font-size: 33px;
-}
-.huegræy {
-  color: hsl(0, 0%, 050%, 100%);
-  font-size: 33px;
-}
-.hueblack {
-  color: hsl(0, 0%, 000%, 100%);
-  font-size: 33px;
-}
-
-
-</style>
 <template>
 <Clock />
+    <nav class="flex flex-wrap items-center justify-center">
+      <RouterLink class="p-2.5; text-sky-100" to="/"
+        >| 🐦‍ Crow's Nest 🏠 |</RouterLink
+      >
+      <RouterLink class="p-2.5; text-sky-300" to="/anchor"
+        >| ⚓ Anchor |</RouterLink
+      >
+      <RouterLink class="p-2.5; text-sky-200" to="/forecastle"
+        >| 🏰 Forecastle |</RouterLink
+      >
+      <routerLink class="p-2.5; text-sky-100" to="/library"
+        >| 📚 Library |</routerLink
+      >
+      <RouterLink class="p-2.5; text-sky-200" to="/vocabulary"
+        >| 📖 vocabulary |</RouterLink
+      >
+      <RouterLink class="p-2.5; text-sky-200" to="/royalwethepeople"
+        >| 👑 royalwethepeople |</RouterLink
+      >
+      
+    </nav>
 <center>
 <table>
 <tr>
@@ -246,27 +138,7 @@ https://en.wikipedia.org/wiki/File:Wanna_Work_Together%3F_with_subtitles_-_Creat
       Vite + Vue & tailwindcss &nbsp;⛵ </span
     ><br />
     <skyTop /><skyTop />
-    <nav class="flex flex-wrap items-center justify-center">
-      <RouterLink class="p-2.5; text-sky-100" to="/"
-        >| 🐦‍ Crow's Nest 🏠 |</RouterLink
-      >
-      <RouterLink class="p-2.5; text-sky-300" to="/anchor"
-        >| ⚓ Anchor |</RouterLink
-      >
-      <RouterLink class="p-2.5; text-sky-200" to="/forecastle"
-        >| 🏰 Forecastle |</RouterLink
-      >
-      <routerLink class="p-2.5; text-sky-100" to="/library"
-        >| 📚 Library |</routerLink
-      >
-      <RouterLink class="p-2.5; text-sky-200" to="/vocabulary"
-        >| 📖 vocabulary |</RouterLink
-      >
-      <RouterLink class="p-2.5; text-sky-200" to="/royalwethepeople"
-        >| 👑 royalwethepeople |</RouterLink
-      >
-      
-    </nav>
+
   </center>
   <Clock />
 
@@ -283,4 +155,92 @@ https://en.wikipedia.org/wiki/File:Wanna_Work_Together%3F_with_subtitles_-_Creat
   <center><Flag>ABCDEFGHIJKLM01234567890NOPQRSTUVWXYZ</Flag></center>
   <center><Flag>abcdefghijklmnopqrstuvwxyz</Flag></center>
   <center><rainbowDots /></center>
+
+
+
 </template>
+
+
+
+
+<style>
+.orbitron {
+font-family: "Orbitron", sans-serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
+}
+.rajdhani-light {
+font-family: "Rajdhani", sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+.rajdhani-regular {
+font-family: "Rajdhani", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.rajdhani-medium {
+font-family: "Rajdhani", sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+.rajdhani-semibold {
+font-family: "Rajdhani", sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+.rajdhani-bold {
+font-family: "Rajdhani", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+.mea-culpa-regular {
+  font-family: "Mea Culpa", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.hubot-sans {
+  font-family: "Hubot Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.alumni-sans-pinstripe-regular {
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.alumni-sans-pinstripe-regular-italic {
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.coral-pixels-regular {
+  font-family: "Coral Pixels", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.hue090 { color: hsl(90, 050%, 070%, 100%); }
+.hue060 { color: hsl(60, 050%, 070%, 100%); }
+.hue030 { color: hsl(030, 050%, 070%, 100%); }
+.hue000 { color: hsl(000, 050%, 070%, 100%); }
+.hue330 { color: hsl(330, 050%, 070%, 100%); }
+.hue300 { color: hsl(300, 050%, 070%, 100%); }
+.hue270 { color: hsl(270, 050%, 070%, 100%); }
+.hue240 { color: hsl(240, 050%, 070%, 100%); }
+.hue210 { color: hsl(210, 050%, 070%, 100%); }
+.hue180 { color: hsl(180, 050%, 070%, 100%); }
+.hue150 { color: hsl(150, 050%, 070%, 100%); }
+.hue120 { color: hsl(120, 050%, 070%, 100%); }
+.huewhite { color: hsl(0, 0%, 100%, 100%); }
+.huegræy { color: hsl(0, 0%, 050%, 100%); }
+.hueblack { color: hsl(0, 0%, 000%, 100%); }
+h1 {  color: hsl(270, 050%, 070%, 100%);}
+h2 {  color: hsl(240, 050%, 070%, 100%);}
+h3 {  color: hsl(210, 050%, 070%, 100%);}
+h4 {  color: hsl(180, 050%, 070%, 100%);}
+h5 {  color: hsl(150, 050%, 070%, 100%);}
+h6 {  color: hsl(120, 050%, 070%, 100%);}
+</style>
