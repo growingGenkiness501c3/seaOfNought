@@ -1,10 +1,10 @@
 <script setup lang="ts">
 defineOptions({
-  name: "Flag"
+  name: "clockFlag"
 });
 </script>
 <template>
-  <code class="orbitron">
+  <code class="orbitron" style="font-size: 111px;">
     <slot name="default">
     </slot>
   </code>

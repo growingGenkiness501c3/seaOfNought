@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import { ref, onMounted } from 'vue';
 import moment from 'moment';
-import Flag from '@/components/Flag.vue'
+import clockFlag from '@/components/clockFlag.vue'
 
 
 const currenttime = ref('none');
@@ -20,9 +20,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <Flag class="orbitron">&nbsp;&nbsp;{{ currenttime }}&nbsp;&nbsp;</Flag>
+  <clockFlag class="orbitron">&nbsp;&nbsp;{{ currenttime }}&nbsp;&nbsp;</clockFlag>
   <br />
-  <Flag class="orbitron" style="font-size: 55px;"><center>&nbsp;&nbsp;&nbsp;{{ currentdate }}&nbsp;&nbsp;&nbsp;</center></Flag>
-  
-  <code class="orbitron"><center>&nbsp;&nbsp;&nbsp;⾈ exploring https://tailwindcss.com/ ⛵</center><br></code>
+  <clockFlag class="orbitron" style="font-size: 55px;"><center>&nbsp;&nbsp;&nbsp;{{ currentdate }}&nbsp;&nbsp;&nbsp;</center></clockFlag>
 </template>

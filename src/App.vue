@@ -13,27 +13,14 @@ import { RouterLink, RouterView } from "vue-router";
 </script>
 <template>
 <Clock />
-    <nav class="flex flex-wrap items-center justify-center">
-      <RouterLink class="p-2.5; text-sky-100" to="/"
-        >| 🐦‍ Crow's Nest 🏠 |</RouterLink
-      >
-      <RouterLink class="p-2.5; text-sky-300" to="/anchor"
-        >| ⚓ Anchor |</RouterLink
-      >
-      <RouterLink class="p-2.5; text-sky-200" to="/forecastle"
-        >| 🏰 Forecastle |</RouterLink
-      >
-      <routerLink class="p-2.5; text-sky-100" to="/library"
-        >| 📚 Library |</routerLink
-      >
-      <RouterLink class="p-2.5; text-sky-200" to="/vocabulary"
-        >| 📖 vocabulary |</RouterLink
-      >
-      <RouterLink class="p-2.5; text-sky-200" to="/royalwethepeople"
-        >| 👑 royalwethepeople |</RouterLink
-      >
-      
-    </nav>
+<nav class="flex flex-wrap items-center justify-center">
+  <RouterLink class="p-2.5; text-sky-700" to="/">&nbsp;| 🏠 Crow's Nest |&nbsp;</RouterLink>
+  <RouterLink class="p-2.5; text-sky-600" to="/anchor">&nbsp;| ⚓ Anchor |&nbsp;</RouterLink>
+  <RouterLink class="p-2.5; text-sky-500" to="/forecastle">&nbsp;| 🏰 Forecastle |&nbsp;</RouterLink>
+  <routerLink class="p-2.5; text-sky-500" to="/library">&nbsp;| 📚 Library |&nbsp;</routerLink>
+  <RouterLink class="p-2.5; text-sky-600" to="/vocabulary">&nbsp;| 📖 vocabulary |&nbsp;</RouterLink>
+  <RouterLink class="p-2.5; text-sky-700" to="/royalwethepeople">&nbsp;| 👑 royalwethepeople |&nbsp;</RouterLink>
+</nav>
 <center>
 <table>
 <tr>
@@ -75,8 +62,6 @@ import { RouterLink, RouterView } from "vue-router";
 </table>
 </center>
 
-<center><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="text-purple-300 underline hover:text-purple-950">
-  perfection </a></center>
 <table class="table-auto w-full border border-gray-300">
 <tr class="border-b border-gray-300 text-center">
 <td><h1 class="text-4xl font-bold">oO0Oo</h1></td>
@@ -106,27 +91,17 @@ import { RouterLink, RouterView } from "vue-router";
 </tr>
 </table>
 <br />
+<center><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="text-purple-300 underline hover:text-purple-950" target="_blank">
+  perfection </a></center>
 
-
-
-
-
-
-
-<br />
-<center>
-    <pre>
-https://en.wikipedia.org/wiki/File:Wanna_Work_Together%3F_with_subtitles_-_Creative_Commons.ogv</pre
-    >
-    <dfn
-      >interesting to see oklch being used so much
-      ....&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</dfn
-    >
-    &nbsp;&nbsp;&nbsp;<sub
-      >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Meleneth: kitemite kudasai!</sub
-    ><br />
-    <hr />
-    <br /><oO0 /><zer0Oo />
+  <center>
+<!--
+     <pre> https://en.wikipedia.org/wiki/File:Wanna_Work_Together%3F_with_subtitles_-_Creative_Commons.ogv</pre>
+    <dfn>interesting to see oklch being used so much
+      ....&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</dfn>
+    &nbsp;&nbsp;&nbsp;<sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Meleneth: kitemite kudasai!</sub><br />
+-->
+    <oO0 /><zer0Oo />
     <br />
     <hr />
     <span class="font-mea-culpa text-[33px]"> ∅© </span>
@@ -140,7 +115,6 @@ https://en.wikipedia.org/wiki/File:Wanna_Work_Together%3F_with_subtitles_-_Creat
     <skyTop /><skyTop />
 
   </center>
-  <Clock />
 
   🔹App.vue<br />
   <RouterView />
@@ -157,7 +131,7 @@ https://en.wikipedia.org/wiki/File:Wanna_Work_Together%3F_with_subtitles_-_Creat
   <center><rainbowDots /></center>
 
 
-
+  <code class="orbitron"><center>&nbsp;&nbsp;&nbsp;⾈ exploring https://tailwindcss.com/ ⛵</center><br></code>
 </template>
 
 
