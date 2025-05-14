@@ -26,37 +26,33 @@ import { RouterLink, RouterView } from "vue-router";
   <RouterLink class="p-2.5; text-sky-700 hover:text-purple-300" to="/royalwethepeople">&nbsp;| royalwethepeople 👑 |&nbsp;</RouterLink>
 </nav>
 <br />
-  <center>
-    <span class="font-mea-culpa text-[33px]"> ∅© </span>
-    <span class="mea-culpa-regular" style="font-size: 55px">NaughtSea &nbsp;&nbsp;&nbsp;<br /></span>
-    <span class="mea-culpa-regular" style="font-size: 22px">
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⾈&nbsp;with
-      Vite + Vue & tailwindcss &nbsp;⛵ </span><br />
-    <skyTop /><skyTop />
-  </center>
-  🔹App.vue<br />
-  <RouterView />
-  🔹App.vue
 <center>
-<table>
-<tr>
-<td>&nbsp;&nbsp;&nbsp;</td>
-<td class="hue090">⬤090⬤</td>
-<td class="hue060">⬤060⬤</td>
-<td class="hue030">⬤030⬤</td>
-<td class="hue000">⬤000⬤</td>
-<td class="hue330">⬤330⬤</td>
-<td class="hue300">⬤330⬤</td>
-<td class="hue270">⬤270⬤</td>
-<td class="hue240">⬤240⬤</td>
-<td class="hue210">⬤210⬤</td>
-<td class="hue180">⬤180⬤</td>
-<td class="hue150">⬤150⬤</td>
-<td class="hue120">⬤120⬤</td>
-<td class="hue090">⬤090⬤</td>        
-<td></td>
-</tr>
-</table>
+<span class="font-mea-culpa text-[33px]"> ∅© </span>
+<span class="mea-culpa-regular" style="font-size: 55px">NaughtSea &nbsp;&nbsp;&nbsp;<br /></span>
+<span class="mea-culpa-regular" style="font-size: 22px">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⾈&nbsp;with
+Vite + Vue & tailwindcss &nbsp;⛵ </span><br />
+<skyTop /><skyTop />
+</center>
+🔹App.vue<br />
+<RouterView />
+🔹App.vue
+<center>
+<div class="grid grid-cols-13 gap-2">
+  <div class="p-2 border hue090">hue090</div>
+  <div class="p-2 border hue060">hue060</div>
+  <div class="p-2 border hue030">hue030</div>
+  <div class="p-2 border hue000">hue000</div>
+  <div class="p-2 border hue330">hue330</div>
+  <div class="p-2 border hue300">hue300</div>
+  <div class="p-2 border hue270">hue270</div>
+  <div class="p-2 border hue240">hue240</div>
+  <div class="p-2 border hue210">hue210</div>
+  <div class="p-2 border hue180">hue180</div>
+  <div class="p-2 border hue150">hue150</div>
+  <div class="p-2 border hue120">hue120</div>
+  <div class="p-2 border hue090">hue090</div>
+</div>
 </center>
 <br />
 🖐️
@@ -66,57 +62,42 @@ import { RouterLink, RouterView } from "vue-router";
 <center><Flag>ABCDEFGHIJKLM01234567890NOPQRSTUVWXYZ</Flag></center>
 <center><Flag>abcdefghijklmnopqrstuvwxyz</Flag></center>
 <center><rainbowDots /></center>
-<table>
-<tr>
-<td>&nbsp;&nbsp;&nbsp;</td>
-<td class="hue090">⬤</td>
-<td class="hue060"><a href="file:///D:/125/html/level_zer0.html" target="_blank">🟡</a></td>
-<td class="hue030"><a href="http://localhost:5173/royalwethepeople" target="_blank">👑</a></td>
-<td class="hue000">⬤</td>
-<td class="hue330">⬤</td>
-<td class="hue300">⬤</td>
-<td class="hue270">⬤</td>
-<td class="hue240">⬤</td>
-<td class="hue210"><a href="http://localhost:4090/" target="_blank">🧿</a></td>
-<td class="hue180"><a href="http://localhost:5173/" target="_blank">⛵</a></td>
-<td class="hue150">⬤</td>
-<td class="hue120">⬤</td>
-<td class="hue090">⬤</td>        
-<td></td>
-</tr>
-</table>
+<center>
+<div class="grid grid-cols-13 gap-2">
+  <div class="p-2 border hue090">⬤</div>
+  <div class="p-2 border hue060"><a href="file:///D:/125/html/level_zer0.html" target="_blank">🟡</a></div>
+  <div class="p-2 border hue030"><a href="http://localhost:5173/royalwethepeople" target="_blank">👑</a></div>
+  <div class="p-2 border hue000">⬤</div>
+  <div class="p-2 border hue330">⬤</div>
+  <div class="p-2 border hue300">⬤</div>
+  <div class="p-2 border hue270">⬤</div>
+  <div class="p-2 border hue240">⬤</div>
+  <div class="p-2 border hue210"><a href="http://localhost:4090/" target="_blank">🧿</a></div>
+  <div class="p-2 border hue180"><a href="http://localhost:5173/" target="_blank">⛵</a></div>
+  <div class="p-2 border hue150">⬤</div>
+  <div class="p-2 border hue120">⬤</div>
+  <div class="p-2 border hue090">⬤</div>
+</div>
+</center>
+
 
 
 <code class="orbitron"><center>&nbsp;&nbsp;&nbsp;⾈ exploring https://tailwindcss.com/ ⛵</center><br></code>
 
-<table class="table-auto w-full border border-gray-300">
-<tr class="border-b border-gray-300 text-center">
-<td><h1 class="text-4xl font-bold">oO0Oo</h1></td>
-<td><h2 class="text-3xl font-semibold">oO0Oo</h2></td>
-<td><h3 class="text-2xl font-semibold">oO0Oo</h3></td>
-<td><h4 class="text-xl font-medium">oO0Oo</h4></td>
-<td><h5 class="text-lg font-medium">oO0Oo</h5></td>
-<td><h6 class="text-base font-normal">oO0Oo</h6></td>
-<td><h5 class="text-lg font-medium">oO0Oo</h5></td>
-<td><h4 class="text-xl font-medium">oO0Oo</h4></td>
-<td><h3 class="text-2xl font-semibold">oO0Oo</h3></td>
-<td><h2 class="text-3xl font-semibold">oO0Oo</h2></td>
-<td><h1 class="text-4xl font-bold">oO0Oo</h1></td>
-</tr>
-<tr>
-<td><h1>oO0Oo</h1></td>
-<td><h2>oO0Oo</h2></td>
-<td><h3>oO0Oo</h3></td>
-<td><h4>oO0Oo</h4></td>
-<td><h5>oO0Oo</h5></td>
-<td><h6>oO0Oo</h6></td>
-<td><h5>oO0Oo</h5></td>
-<td><h4>oO0Oo</h4></td>
-<td><h3>oO0Oo</h3></td>
-<td><h2>oO0Oo</h2></td>
-<td><h1>oO0Oo</h1></td>
-</tr>
-</table>
+<div class="grid grid-cols-11 gap-1 border border-gray-300">
+  <div class="p-2 border border-gray-300 text-center text-4xl font-bold"><h1>oO0Oo</h1></div>
+  <div class="p-2 border border-gray-300 text-center text-3xl font-semibold"><h2>oO0Oo</h2></div>
+  <div class="p-2 border border-gray-300 text-center text-2xl font-semibold"><h3>oO0Oo</h3></div>
+  <div class="p-2 border border-gray-300 text-center text-xl font-medium"><h4>oO0Oo</h4></div>
+  <div class="p-2 border border-gray-300 text-center text-lg font-medium"><h5>oO0Oo</h5></div>
+  <div class="p-2 border border-gray-300 text-center text-base font-normal"><h6>oO0Oo</h6></div>
+  <div class="p-2 border border-gray-300 text-center text-lg font-medium"><h5>oO0Oo</h5></div>
+  <div class="p-2 border border-gray-300 text-center text-xl font-medium"><h4>oO0Oo</h4></div>
+  <div class="p-2 border border-gray-300 text-center text-2xl font-semibold"><h3>oO0Oo</h3></div>
+  <div class="p-2 border border-gray-300 text-center text-3xl font-semibold"><h2>oO0Oo</h2></div>
+  <div class="p-2 border border-gray-300 text-center text-4xl font-bold"><h1>oO0Oo</h1></div>
+</div>
+
 
 
 

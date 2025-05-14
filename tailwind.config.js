@@ -10,4 +10,14 @@ export default {
     plugins: [],
   }
   
+module.exports = {
+  theme: {
+    extend: {
+      gridTemplateColumns: {
+        // Add custom 13-column layout
+        '13': 'repeat(13, minmax(0, 1fr))',
+      },
+    },
+  },
+}
   
