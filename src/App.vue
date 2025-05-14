@@ -12,10 +12,9 @@ import Clock from "@/components/Clock.vue";
 import { RouterLink, RouterView } from "vue-router";
 </script>
 <template>
-<oO0 /><zer0Oo />
+<div style="text-align: right;">
+<oO0 /><zer0Oo /></div>
 <Clock />
-
-
 <nav class="flex flex-wrap items-center justify-center">
   <RouterLink class="p-2.5; text-sky-700 hover:text-purple-300" to="/">&nbsp;| 🏠 Crow's Nest |&nbsp;</RouterLink>
   <RouterLink class="p-2.5; text-sky-600 hover:text-purple-300" to="/anchor">&nbsp;| ⚓ Anchor |&nbsp;</RouterLink>
@@ -24,8 +23,30 @@ import { RouterLink, RouterView } from "vue-router";
   <routerLink class="p-2.5; text-sky-500 hover:text-purple-300" to="/library">&nbsp;| Library 📚 |&nbsp;</routerLink>
   <RouterLink class="p-2.5; text-sky-600 hover:text-purple-300" to="/vocabulary">&nbsp;| vocabulary 📖 |&nbsp;</RouterLink>
   <RouterLink class="p-2.5; text-sky-700 hover:text-purple-300" to="/royalwethepeople">&nbsp;| royalwethepeople 👑 |&nbsp;</RouterLink>
-</nav>
+</nav><br>
+<center>
+<div class="grid grid-cols-13 gap-2">
+  <div class="p-2 border hue090">hue090</div>
+  <div class="p-2 border hue060">hue060</div>
+  <div class="p-2 border hue030">hue030</div>
+  <div class="p-2 border hue000">hue000</div>
+  <div class="p-2 border hue330">hue330</div>
+  <div class="p-2 border hue300">hue300</div>
+  <div class="p-2 border hue270">hue270</div>
+  <div class="p-2 border hue240">hue240</div>
+  <div class="p-2 border hue210">hue210</div>
+  <div class="p-2 border hue180">hue180</div>
+  <div class="p-2 border hue150">hue150</div>
+  <div class="p-2 border hue120">hue120</div>
+  <div class="p-2 border hue090">hue090</div>
+</div>
+</center>
+
+
 <br />
+🔹App.vue<br />
+<RouterView />
+🔹App.vue
 <center>
 <span class="font-mea-culpa text-[33px]"> ∅© </span>
 <span class="mea-culpa-regular" style="font-size: 55px">NaughtSea &nbsp;&nbsp;&nbsp;<br /></span>
@@ -34,9 +55,8 @@ import { RouterLink, RouterView } from "vue-router";
 Vite + Vue & tailwindcss &nbsp;⛵ </span><br />
 <skyTop /><skyTop />
 </center>
-🔹App.vue<br />
-<RouterView />
-🔹App.vue
+
+<code>https://python.plainenglish.io/i-wish-i-knew-these-10-python-libraries-when-i-started-developing-1c819070fd5a</code>
 <center>
 <div class="grid grid-cols-13 gap-2">
   <div class="p-2 border hue090">hue090</div>
