@@ -24,6 +24,21 @@ import { RouterLink, RouterView } from "vue-router";
   <RouterLink class="p-2.5; text-sky-600 hover:text-purple-300" to="/vocabulary">&nbsp;| vocabulary 📖 |&nbsp;</RouterLink>
   <RouterLink class="p-2.5; text-sky-700 hover:text-purple-300" to="/royalwethepeople">&nbsp;| royalwethepeople 👑 |&nbsp;</RouterLink>
 </nav><br>
+
+
+
+<br />
+🔹App.vue<br />
+<RouterView />
+🔹App.vue
+<center>
+<span class="font-mea-culpa text-[33px]"> ∅© </span>
+<span class="mea-culpa-regular" style="font-size: 55px">NaughtSea &nbsp;&nbsp;&nbsp;<br /></span>
+<span class="mea-culpa-regular" style="font-size: 22px">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⾈&nbsp;with
+Vite + Vue & tailwindcss &nbsp;⛵ </span><br />
+<skyTop /><skyTop />
+</center>
 <center>
 <div class="grid grid-cols-13 gap-2">
   <div class="p-2 border hue090">hue090</div>
@@ -41,21 +56,6 @@ import { RouterLink, RouterView } from "vue-router";
   <div class="p-2 border hue090">hue090</div>
 </div>
 </center>
-
-
-<br />
-🔹App.vue<br />
-<RouterView />
-🔹App.vue
-<center>
-<span class="font-mea-culpa text-[33px]"> ∅© </span>
-<span class="mea-culpa-regular" style="font-size: 55px">NaughtSea &nbsp;&nbsp;&nbsp;<br /></span>
-<span class="mea-culpa-regular" style="font-size: 22px">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⾈&nbsp;with
-Vite + Vue & tailwindcss &nbsp;⛵ </span><br />
-<skyTop /><skyTop />
-</center>
-
 <code>https://python.plainenglish.io/i-wish-i-knew-these-10-python-libraries-when-i-started-developing-1c819070fd5a</code>
 <center>
 <div class="grid grid-cols-13 gap-2">
