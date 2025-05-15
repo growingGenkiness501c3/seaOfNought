@@ -5,6 +5,7 @@ import Anchor from '@/views/Anchor.vue'
 import vocabulary from '@/views/vocabulary.vue'
 import Library from '@/views/Library.vue'
 import RoyalWeThePeople from '@/views/royalwethepeople.vue'
+import RoyalWe from '@/views/royalwe.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -28,6 +29,11 @@ const router = createRouter({
       path: '/Library',
       name: 'library',
       component: Library
+    },
+    {
+      path: '/royalwethepeople',
+      name: 'royalwethepeople',
+      component: RoyalWeThePeople
     },
     {
       path: '/royalwethepeople',

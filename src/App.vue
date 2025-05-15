@@ -16,15 +16,35 @@ import { RouterLink, RouterView } from "vue-router";
 <oO0 /><zer0Oo /></div>
 <Clock />
 <nav class="flex flex-wrap items-center justify-center">
-  <RouterLink class="p-2.5; text-sky-700 hover:text-purple-300" to="/">&nbsp;| 🏠 Crow's Nest |&nbsp;</RouterLink>
-  <RouterLink class="p-2.5; text-sky-600 hover:text-purple-300" to="/anchor">&nbsp;| ⚓ Anchor |&nbsp;</RouterLink>
-  <RouterLink class="p-2.5; text-sky-500 hover:text-purple-300" to="/forecastle">&nbsp;| 🏰 Forecastle |&nbsp;</RouterLink>
-  <a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="text-sky-500 hover:text-purple-300" target="_blank">✨ perfection 👌</a>
-  <routerLink class="p-2.5; text-sky-500 hover:text-purple-300" to="/library">&nbsp;| Library 📚 |&nbsp;</routerLink>
-  <RouterLink class="p-2.5; text-sky-600 hover:text-purple-300" to="/vocabulary">&nbsp;| vocabulary 📖 |&nbsp;</RouterLink>
-  <RouterLink class="p-2.5; text-sky-700 hover:text-purple-300" to="/royalwethepeople">&nbsp;| royalwethepeople 👑 |&nbsp;</RouterLink>
+  <RouterLink class="p-2.5; text-sky-400 hover:text-purple-400" to="/">&nbsp;| 🏠 Crow's Nest |&nbsp;</RouterLink>
+  <RouterLink class="p-2.5; text-sky-300 hover:text-purple-300" to="/anchor">&nbsp;| ⚓ Anchor |&nbsp;</RouterLink>
+  <RouterLink class="p-2.5; text-sky-200 hover:text-purple-200" to="/royalwe">&nbsp;| 🤴 RoyalWe |&nbsp;</RouterLink>
+  <RouterLink class="p-2.5; text-sky-100 hover:text-purple-100" to="/forecastle">&nbsp;| 🏰 forecastle |&nbsp;</RouterLink>
+  <a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="text-sky-50 hover:text-purple-300" target="_blank">✨ perfection 👌</a>
+  <RouterLink class="p-2.5; text-sky-100 hover:text-purple-100" to="/library">&nbsp;| library 📚 |&nbsp;</routerLink>
+  <RouterLink class="p-2.5; text-sky-200 hover:text-purple-200" to="/vocabulary">&nbsp;| vocabulary 📖 |&nbsp;</RouterLink>
+  <RouterLink class="p-2.5; text-sky-300 hover:text-purple-300" to="/royalwe">&nbsp;| exhibits 👸|&nbsp;</RouterLink>
+  <RouterLink class="p-2.5; text-sky-400 hover:text-purple-400" to="/royalwethepeople">&nbsp;| RoyalWeThePeople 👑 |&nbsp;</RouterLink>
 </nav><br>
-
+<div class="grid grid-cols-[repeat(17,minmax(0,1fr))] w-full h-6">
+  <div class="bg-yellow-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-amber-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-orange-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+  <div class="bg-red-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
+  <div class="bg-rose-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">5</a></div>
+  <div class="bg-pink-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
+  <div class="bg-fuchsia-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">7</a></div>
+  <div class="bg-purple-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">8</a></div>
+  <div class="bg-violet-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">9</a></div>
+  <div class="bg-indigo-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">+</a></div>
+  <div class="bg-blue-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-sky-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-cyan-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+  <div class="bg-teal-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
+  <div class="bg-emerald-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">5</a></div>
+  <div class="bg-green-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
+  <div class="bg-lime-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">7</a></div>
+</div>
 
 
 <br />
