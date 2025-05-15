@@ -45,7 +45,7 @@ I want to know how to help you help yourself because doing so helps us all.
 <br>
 </p>  
 </div>
-
+<sub>11:44:56 AM [vite] (client) warning: <p> cannot be child of <p>, according to HTML specifications. This can cause hydration errors or potentially disrupt future functionality.</sub>
 <br>
 <br>
 <hr>
