@@ -12,8 +12,25 @@ import Clock from "@/components/Clock.vue";
 import { RouterLink, RouterView } from "vue-router";
 </script>
 <template>
-<div style="text-align: right;">
-<oO0 /><zer0Oo /></div>
+<div class="grid grid-cols-[repeat(17,minmax(0,1fr))] w-full h-6">
+  <div class="bg-yellow-800 cursor-pointer hover:opacity-80 text-violet-400 text-center" ><a href="http://localhost:5173/" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🏠</a></div>
+  <div class="bg-amber-800 cursor-pointer hover:opacity-80 text-violet-400 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-orange-800 cursor-pointer hover:opacity-80 text-violet-400 text-center" ><a href="http://localhost:5173/anchor" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⚓</a></div>
+  <div class="bg-red-800 cursor-pointer hover:opacity-80 text-violet-400 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
+  <div class="bg-rose-800 cursor-pointer hover:opacity-80 text-violet-400 text-center" ><a href="http://localhost:5173/royalwe" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🤴</a></div>
+  <div class="bg-pink-800 cursor-pointer hover:opacity-80 text-violet-400 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
+  <div class="bg-fuchsia-800 cursor-pointer hover:opacity-80 text-violet-400 text-center" ><a href="http://localhost:5173/forecastle" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🏰</a></div>
+  <div class="bg-purple-800 cursor-pointer hover:opacity-80 text-violet-400 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">8</a></div>
+  <div class="bg-violet-800 cursor-pointer hover:opacity-80 text-violet-400 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">✨👌</a></div>
+  <div class="bg-indigo-800 cursor-pointer hover:opacity-80 text-violet-400 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">8</a></div>
+  <div class="bg-blue-800 cursor-pointer hover:opacity-80 text-violet-400 text-center" ><a href="http://localhost:5173/library" class="block w-full h-full" target="_blank" rel="noopener noreferrer">📚</a></div>
+  <div class="bg-sky-800 cursor-pointer hover:opacity-80 text-violet-400 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
+  <div class="bg-cyan-800 cursor-pointer hover:opacity-80 text-violet-400 text-center" ><a href="http://localhost:5173/exhibits" class="block w-full h-full" target="_blank" rel="noopener noreferrer">👸</a></div>
+  <div class="bg-teal-800 cursor-pointer hover:opacity-80 text-violet-400 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
+  <div class="bg-emerald-800 cursor-pointer hover:opacity-80 text-violet-400 text-center" ><a href="http://localhost:5173/vocabulary" class="block w-full h-full" target="_blank" rel="noopener noreferrer">📖</a></div>
+  <div class="bg-green-800 cursor-pointer hover:opacity-80 text-violet-400 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-lime-800 cursor-pointer hover:opacity-80 text-violet-400 text-center" ><a href="http://localhost:5173/royalwethepeople" class="block w-full h-full" target="_blank" rel="noopener noreferrer">👑</a></div>
+</div>
 <Clock />
 <nav class="flex flex-wrap items-center justify-center">
   <RouterLink class="p-2.5; text-sky-400 hover:text-purple-400" to="/">&nbsp;| 🏠 Crow's Nest |&nbsp;</RouterLink>
@@ -26,28 +43,7 @@ import { RouterLink, RouterView } from "vue-router";
   <RouterLink class="p-2.5; text-sky-300 hover:text-purple-300" to="/royalwe">&nbsp;| exhibits 👸|&nbsp;</RouterLink>
   <RouterLink class="p-2.5; text-sky-400 hover:text-purple-400" to="/royalwethepeople">&nbsp;| RoyalWeThePeople 👑 |&nbsp;</RouterLink>
 </nav><br>
-<div class="grid grid-cols-[repeat(17,minmax(0,1fr))] w-full h-6">
-  <div class="bg-yellow-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
-  <div class="bg-amber-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
-  <div class="bg-orange-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
-  <div class="bg-red-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
-  <div class="bg-rose-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">5</a></div>
-  <div class="bg-pink-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
-  <div class="bg-fuchsia-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">7</a></div>
-  <div class="bg-purple-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">8</a></div>
-  <div class="bg-violet-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">9</a></div>
-  <div class="bg-indigo-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">+</a></div>
-  <div class="bg-blue-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
-  <div class="bg-sky-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
-  <div class="bg-cyan-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
-  <div class="bg-teal-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
-  <div class="bg-emerald-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">5</a></div>
-  <div class="bg-green-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
-  <div class="bg-lime-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">7</a></div>
-</div>
 
-
-<br />
 🔹App.vue<br />
 <RouterView />
 🔹App.vue
@@ -148,6 +144,8 @@ Vite + Vue & tailwindcss &nbsp;⛵ </span><br />
       ....&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</dfn>
     &nbsp;&nbsp;&nbsp;<sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Meleneth: kitemite kudasai!</sub><br />
 -->
+<div style="text-align: right;">
+<oO0 /><zer0Oo /></div>
 
 </template>
 
