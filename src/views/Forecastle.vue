@@ -34,17 +34,17 @@ defineOptions({
 </center>
 <center><span class="alumni-sans-pinstripe-regular-italic text-[33px] text-sky-500">Forecastle</span></center>
 <sup>why isn't font class working?</sup>
-<img src="/125-05-15/Slide0.PNG" class="w-full max-w-md rounded-lg shadow-lg mx-auto" />
+<img src="/125-05-15/Slide0.PNG" class="w-full h-auto" />
 <center><span class="mea-culpa text-[33px] text-yellow-200">words</span></center>
 <center><span class="mea-culpa text-[33px] text-rose-400">words</span></center>
 <center><span class="mea-culpa text-[33px] text-indigo-400">words</span></center>
-<img src="/125-05-15/Slide1.PNG" class="w-full max-w-md rounded-lg shadow-lg mx-auto" />
-<img src="/125-05-15/Slide2.PNG" class="w-full max-w-md rounded-lg shadow-lg mx-auto" />
-<img src="/125-05-15/Slide3.PNG" class="w-full max-w-md rounded-lg shadow-lg mx-auto" />
-<img src="/125-05-15/Slide4.PNG" class="w-full max-w-md rounded-lg shadow-lg mx-auto" />
-<img src="/125-05-15/Slide5.PNG" class="w-full max-w-md rounded-lg shadow-lg mx-auto" />
-<img src="/125-05-15/Slide6.PNG" class="w-full max-w-md rounded-lg shadow-lg mx-auto" />
-<img src="/125-05-15/Slide7.PNG" class="w-full max-w-md rounded-lg shadow-lg mx-auto" />
+<img src="/125-05-15/Slide1.PNG" class="w-full h-auto" />
+<img src="/125-05-15/Slide2.PNG" class="w-full h-auto" />
+<img src="/125-05-15/Slide3.PNG" class="w-full h-auto" />
+<img src="/125-05-15/Slide4.PNG" class="w-full h-auto" />
+<img src="/125-05-15/Slide5.PNG" class="w-full h-auto" />
+<img src="/125-05-15/Slide6.PNG" class="w-full h-auto" />
+<img src="/125-05-15/Slide7.PNG" class="w-full h-auto" />
 
 
 <SplitOneTwoThree>

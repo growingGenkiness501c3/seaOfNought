@@ -6,6 +6,8 @@ import vocabulary from '@/views/vocabulary.vue'
 import Library from '@/views/Library.vue'
 import RoyalWeThePeople from '@/views/royalwethepeople.vue'
 import RoyalWe from '@/views/royalwe.vue'
+import Exhibits from '@/views/exhibits.vue'
+
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -21,6 +23,11 @@ const router = createRouter({
       component: Anchor
     },
     {
+      path: '/exhibits',
+      name: 'exhibits',
+      component: Exhibits
+    },
+    {
       path: '/forecastle',
       name: 'forecastle',
       component: Forecastle
@@ -31,9 +38,9 @@ const router = createRouter({
       component: Library
     },
     {
-      path: '/royalwethepeople',
-      name: 'royalwethepeople',
-      component: RoyalWeThePeople
+      path: '/royalwe',
+      name: 'royalwe',
+      component: RoyalWe
     },
     {
       path: '/royalwethepeople',

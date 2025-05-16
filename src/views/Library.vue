@@ -18,7 +18,7 @@ defineOptions({
 <SplitOneTwoThree>
   <template #one><yellowFlag><hr>⛵</yellowFlag></template>
   <template #two><magentaFlag><hr>🐦</magentaFlag></template>
-  <template #four><cyanFlag><hr>🔹🖥️📱🧩📦⚙️🔧🗂️</cyanFlag></template>
+  <template #four><cyanFlag><hr>🔹🖥️📱🧩📦⚙️🔧🗂️https://symbl.cc/en/unicode-table/#khmer-symbols</cyanFlag></template>
 </SplitOneTwoThree>
 
  
@@ -28,12 +28,6 @@ defineOptions({
   
   <h1>{{ msg }} </h1>
 
-<center>
-  <div class="card">
-    <whiteFlag>How many times have I clicked this button?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <cyanFlag><button type="button" @click="count++">count is {{ count }}</button></cyanFlag></whiteFlag>
-  </div>
-</center>
 
   <p>
     Check out

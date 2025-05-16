@@ -7,35 +7,24 @@ defineOptions({
 </script>
 <template>
 ⚓ <br>
-<Flag>&nbsp;&nbsp;&nbsp;gotta get git</Flag><br><br>
-<magentaFlag>git add . <br><br>
- git commit -m "Anchor" <br><br>
- npm run dev <br><br>
-</magentaFlag>
+<Flag>&nbsp;&nbsp;&nbsp;gotta get git</Flag>
+<br><br>
 <Flag>... you can do eet! ! !!! &nbsp;&nbsp;&nbsp;</Flag>
+<br>
+<br>
+<div class="grid grid-cols-[repeat(7,minmax(0,1fr))] w-full h-6" style="background-color: #00000080;">
+  <div class="cursor-pointer hover:opacity-30 text-center" >npm run dev</div>
+  <div class="cursor-pointer hover:opacity-30 text-center" >ctrl c/ctrl x</div>
+  <div class="cursor-pointer hover:opacity-30 text-center" >git add .</div>
+  <div class="cursor-pointer hover:opacity-30 text-center" >git commit -m "comment"</div>
+  <div class="cursor-pointer hover:opacity-30 text-center" >git push</div>
+  <div class="cursor-pointer hover:opacity-30 text-center" >gg (my password for gitLAB)</div>
+  <div class="cursor-pointer hover:opacity-30 text-center" >npm run dev</div>
+</div>
+<br>
 <div class="text-right">
-  <center><sub>"warning: tr cannot be a child of table, according to HTML specifications. This can cause hydration errors or potentially disrupt future functionality"</sub></center>
   <center><sup>what are hydration errors?</sup></center>
-  <div style="background-color: #22220080" class="text-center">
-  <pre>what does this table look like here?</pre>
-  <pre>pre</pre>
-  <dfn>dfn</dfn>
-  <code>code</code>
-  <p>p</p>
-  <span>span</span>
-  <h1>h1</h1>
-  <h2>h2</h2>
-  <h3>h3</h3>
-  <h4>h4</h4>
-  <h5>h5</h5>
-  <h6>h6</h6>
-  <strong>strong</strong>
-  <em>em</em>
-  <blockquote>blockquote</blockquote>
-  <sup>sup</sup>
-  <sub>sub</sub>
-  </div>
-  </div> 
-
-⚓
+</div>
+<br>
+<img src="/125-05-15/Slide3.PNG" class="w-1/2 h-auto" />
 </template>

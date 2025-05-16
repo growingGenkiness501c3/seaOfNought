@@ -12,24 +12,52 @@ import Clock from "@/components/Clock.vue";
 import { RouterLink, RouterView } from "vue-router";
 </script>
 <template>
-<div class="grid grid-cols-[repeat(17,minmax(0,1fr))] w-full h-6">
-  <div class="bg-yellow-800 cursor-pointer hover:opacity-80 text-violet-400 text-center" ><a href="http://localhost:5173/" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🏠</a></div>
-  <div class="bg-amber-800 cursor-pointer hover:opacity-80 text-violet-400 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
-  <div class="bg-orange-800 cursor-pointer hover:opacity-80 text-violet-400 text-center" ><a href="http://localhost:5173/anchor" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⚓</a></div>
-  <div class="bg-red-800 cursor-pointer hover:opacity-80 text-violet-400 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
-  <div class="bg-rose-800 cursor-pointer hover:opacity-80 text-violet-400 text-center" ><a href="http://localhost:5173/royalwe" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🤴</a></div>
-  <div class="bg-pink-800 cursor-pointer hover:opacity-80 text-violet-400 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
-  <div class="bg-fuchsia-800 cursor-pointer hover:opacity-80 text-violet-400 text-center" ><a href="http://localhost:5173/forecastle" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🏰</a></div>
-  <div class="bg-purple-800 cursor-pointer hover:opacity-80 text-violet-400 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">8</a></div>
-  <div class="bg-violet-800 cursor-pointer hover:opacity-80 text-violet-400 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">✨👌</a></div>
-  <div class="bg-indigo-800 cursor-pointer hover:opacity-80 text-violet-400 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">8</a></div>
-  <div class="bg-blue-800 cursor-pointer hover:opacity-80 text-violet-400 text-center" ><a href="http://localhost:5173/library" class="block w-full h-full" target="_blank" rel="noopener noreferrer">📚</a></div>
-  <div class="bg-sky-800 cursor-pointer hover:opacity-80 text-violet-400 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
-  <div class="bg-cyan-800 cursor-pointer hover:opacity-80 text-violet-400 text-center" ><a href="http://localhost:5173/exhibits" class="block w-full h-full" target="_blank" rel="noopener noreferrer">👸</a></div>
-  <div class="bg-teal-800 cursor-pointer hover:opacity-80 text-violet-400 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
-  <div class="bg-emerald-800 cursor-pointer hover:opacity-80 text-violet-400 text-center" ><a href="http://localhost:5173/vocabulary" class="block w-full h-full" target="_blank" rel="noopener noreferrer">📖</a></div>
-  <div class="bg-green-800 cursor-pointer hover:opacity-80 text-violet-400 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
-  <div class="bg-lime-800 cursor-pointer hover:opacity-80 text-violet-400 text-center" ><a href="http://localhost:5173/royalwethepeople" class="block w-full h-full" target="_blank" rel="noopener noreferrer">👑</a></div>
+<center>
+<span class="font-mea-culpa text-[33px]"> ∅© </span>
+<span class="mea-culpa-regular" style="font-size: 55px">NaughtSea &nbsp;&nbsp;&nbsp;<br /></span>
+<skyTop /><skyTop /><br>
+<span class="mea-culpa-regular" style="font-size: 22px">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⾈&nbsp;with
+Vite + Vue & tailwindcss &nbsp;⛵ </span><br />
+
+</center>
+<center>
+<div class="grid grid-cols-13 gap-2">
+  <div class="p-2 border hue090">hue090</div>
+  <div class="p-2 border hue060">hue060</div>
+  <div class="p-2 border hue030">hue030</div>
+  <div class="p-2 border hue000">hue000</div>
+  <div class="p-2 border hue330">hue330</div>
+  <div class="p-2 border hue300">hue300</div>
+  <div class="p-2 border hue270">hue270</div>
+  <div class="p-2 border hue240">hue240</div>
+  <div class="p-2 border hue210">hue210</div>
+  <div class="p-2 border hue180">hue180</div>
+  <div class="p-2 border hue150">hue150</div>
+  <div class="p-2 border hue120">hue120</div>
+  <div class="p-2 border hue090">hue090</div>
+</div>
+</center>
+<br>
+
+<div class="grid grid-cols-[repeat(17,minmax(0,1fr))] w-full h-6 gap-2">
+  <div class="bg-yellow-400 cursor-pointer hover:opacity-30 text-violet-400 text-center" ><a href="http://localhost:5173/" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🏠</a></div>
+  <div class="bg-amber-500 cursor-pointer hover:opacity-30 text-violet-950 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-orange-600 cursor-pointer hover:opacity-30 text-violet-400 text-center" ><a href="http://localhost:5173/anchor" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⚓</a></div>
+  <div class="bg-red-700 cursor-pointer hover:opacity-30 text-violet-800 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
+  <div class="bg-rose-800 cursor-pointer hover:opacity-30 text-violet-400 text-center" ><a href="http://localhost:5173/royalwe" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🤴</a></div>
+  <div class="bg-pink-800 cursor-pointer hover:opacity-30 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
+  <div class="bg-fuchsia-800 cursor-pointer hover:opacity-30 text-violet-400 text-center" ><a href="http://localhost:5173/forecastle" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🏰</a></div>
+  <div class="bg-purple-800 cursor-pointer hover:opacity-30 text-violet-400 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">8</a></div>
+  <div class="bg-violet-800 cursor-pointer hover:opacity-30 text-violet-400 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">✨👌</a></div>
+  <div class="bg-indigo-800 cursor-pointer hover:opacity-30 text-violet-400 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">8</a></div>
+  <div class="bg-blue-800 cursor-pointer hover:opacity-30 text-violet-400 text-center" ><a href="http://localhost:5173/library" class="block w-full h-full" target="_blank" rel="noopener noreferrer">📚</a></div>
+  <div class="bg-sky-800 cursor-pointer hover:opacity-30 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
+  <div class="bg-cyan-800 cursor-pointer hover:opacity-30 text-violet-400 text-center" ><a href="http://localhost:5173/exhibits" class="block w-full h-full" target="_blank" rel="noopener noreferrer">👸</a></div>
+  <div class="bg-teal-700 cursor-pointer hover:opacity-30 text-violet-800 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
+  <div class="bg-emerald-600 cursor-pointer hover:opacity-30 text-violet-400 text-center" ><a href="http://localhost:5173/vocabulary" class="block w-full h-full" target="_blank" rel="noopener noreferrer">📖</a></div>
+  <div class="bg-green-500 cursor-pointer hover:opacity-30 text-violet-950 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-lime-400 cursor-pointer hover:opacity-30 text-violet-400 text-center" ><a href="http://localhost:5173/royalwethepeople" class="block w-full h-full" target="_blank" rel="noopener noreferrer">👑</a></div>
 </div>
 <Clock />
 <nav class="flex flex-wrap items-center justify-center">
@@ -39,22 +67,67 @@ import { RouterLink, RouterView } from "vue-router";
   <RouterLink class="p-2.5; text-sky-100 hover:text-purple-100" to="/forecastle">&nbsp;| 🏰 forecastle |&nbsp;</RouterLink>
   <a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="text-sky-50 hover:text-purple-300" target="_blank">✨ perfection 👌</a>
   <RouterLink class="p-2.5; text-sky-100 hover:text-purple-100" to="/library">&nbsp;| library 📚 |&nbsp;</routerLink>
-  <RouterLink class="p-2.5; text-sky-200 hover:text-purple-200" to="/vocabulary">&nbsp;| vocabulary 📖 |&nbsp;</RouterLink>
-  <RouterLink class="p-2.5; text-sky-300 hover:text-purple-300" to="/royalwe">&nbsp;| exhibits 👸|&nbsp;</RouterLink>
+  <RouterLink class="p-2.5; text-sky-200 hover:text-purple-300" to="/exhibits">&nbsp;| exhibits 👸|&nbsp;</RouterLink>
+  <RouterLink class="p-2.5; text-sky-300 hover:text-purple-200" to="/vocabulary">&nbsp;| vocabulary 📖 |&nbsp;</RouterLink>
   <RouterLink class="p-2.5; text-sky-400 hover:text-purple-400" to="/royalwethepeople">&nbsp;| RoyalWeThePeople 👑 |&nbsp;</RouterLink>
 </nav><br>
 
-🔹App.vue<br />
+🖵 
 <RouterView />
-🔹App.vue
+🖵
+<Clock />
+<nav class="flex flex-wrap items-center justify-center">
+  <RouterLink class="p-2.5; text-sky-400 hover:text-purple-400" to="/">&nbsp;| 🏠 Crow's Nest |&nbsp;</RouterLink>
+  <RouterLink class="p-2.5; text-sky-300 hover:text-purple-300" to="/anchor">&nbsp;| ⚓ Anchor |&nbsp;</RouterLink>
+  <RouterLink class="p-2.5; text-sky-200 hover:text-purple-200" to="/royalwe">&nbsp;| 🤴 RoyalWe |&nbsp;</RouterLink>
+  <RouterLink class="p-2.5; text-sky-100 hover:text-purple-100" to="/forecastle">&nbsp;| 🏰 forecastle |&nbsp;</RouterLink>
+  <a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="text-sky-50 hover:text-purple-300" target="_blank">✨ perfection 👌</a>
+  <RouterLink class="p-2.5; text-sky-100 hover:text-purple-100" to="/library">&nbsp;| library 📚 |&nbsp;</routerLink>
+  <RouterLink class="p-2.5; text-sky-200 hover:text-purple-300" to="/exhibits">&nbsp;| exhibits 👸|&nbsp;</RouterLink>
+  <RouterLink class="p-2.5; text-sky-300 hover:text-purple-200" to="/vocabulary">&nbsp;| vocabulary 📖 |&nbsp;</RouterLink>
+  <RouterLink class="p-2.5; text-sky-400 hover:text-purple-400" to="/royalwethepeople">&nbsp;| RoyalWeThePeople 👑 |&nbsp;</RouterLink>
+</nav><br>
+
 <center>
 <span class="font-mea-culpa text-[33px]"> ∅© </span>
 <span class="mea-culpa-regular" style="font-size: 55px">NaughtSea &nbsp;&nbsp;&nbsp;<br /></span>
+<skyTop /><skyTop /><br>
 <span class="mea-culpa-regular" style="font-size: 22px">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⾈&nbsp;with
-Vite + Vue & tailwindcss &nbsp;⛵ </span><br />
-<skyTop /><skyTop />
+Vite + Vue & tailwindcss &nbsp;⛵ </span><br /><br />
+
 </center>
+
+
+<div class="grid grid-cols-[repeat(17,minmax(0,1fr))] w-full h-6 gap-2">
+  <div class="bg-yellow-400 cursor-pointer hover:opacity-30 text-violet-400 text-center" ><a href="http://localhost:5173/" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🏠</a></div>
+  <div class="bg-amber-500 cursor-pointer hover:opacity-30 text-violet-950 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-orange-600 cursor-pointer hover:opacity-30 text-violet-400 text-center" ><a href="http://localhost:5173/anchor" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⚓</a></div>
+  <div class="bg-red-700 cursor-pointer hover:opacity-30 text-violet-800 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
+  <div class="bg-rose-800 cursor-pointer hover:opacity-30 text-violet-400 text-center" ><a href="http://localhost:5173/royalwe" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🤴</a></div>
+  <div class="bg-pink-800 cursor-pointer hover:opacity-30 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
+  <div class="bg-fuchsia-800 cursor-pointer hover:opacity-30 text-violet-400 text-center" ><a href="http://localhost:5173/forecastle" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🏰</a></div>
+  <div class="bg-purple-800 cursor-pointer hover:opacity-30 text-violet-400 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">8</a></div>
+  <div class="bg-violet-800 cursor-pointer hover:opacity-30 text-violet-400 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">✨👌</a></div>
+  <div class="bg-indigo-800 cursor-pointer hover:opacity-30 text-violet-400 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">8</a></div>
+  <div class="bg-blue-800 cursor-pointer hover:opacity-30 text-violet-400 text-center" ><a href="http://localhost:5173/library" class="block w-full h-full" target="_blank" rel="noopener noreferrer">📚</a></div>
+  <div class="bg-sky-800 cursor-pointer hover:opacity-30 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
+  <div class="bg-cyan-800 cursor-pointer hover:opacity-30 text-violet-400 text-center" ><a href="http://localhost:5173/exhibits" class="block w-full h-full" target="_blank" rel="noopener noreferrer">👸</a></div>
+  <div class="bg-teal-700 cursor-pointer hover:opacity-30 text-violet-800 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
+  <div class="bg-emerald-600 cursor-pointer hover:opacity-30 text-violet-400 text-center" ><a href="http://localhost:5173/vocabulary" class="block w-full h-full" target="_blank" rel="noopener noreferrer">📖</a></div>
+  <div class="bg-green-500 cursor-pointer hover:opacity-30 text-violet-950 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-lime-400 cursor-pointer hover:opacity-30 text-violet-400 text-center" ><a href="http://localhost:5173/royalwethepeople" class="block w-full h-full" target="_blank" rel="noopener noreferrer">👑</a></div>
+</div>
+<br>
+
+
+
+
+
+
+
+
+
 <center>
 <div class="grid grid-cols-13 gap-2">
   <div class="p-2 border hue090">hue090</div>
@@ -72,80 +145,6 @@ Vite + Vue & tailwindcss &nbsp;⛵ </span><br />
   <div class="p-2 border hue090">hue090</div>
 </div>
 </center>
-<code>https://python.plainenglish.io/i-wish-i-knew-these-10-python-libraries-when-i-started-developing-1c819070fd5a</code>
-<center>
-<div class="grid grid-cols-13 gap-2">
-  <div class="p-2 border hue090">hue090</div>
-  <div class="p-2 border hue060">hue060</div>
-  <div class="p-2 border hue030">hue030</div>
-  <div class="p-2 border hue000">hue000</div>
-  <div class="p-2 border hue330">hue330</div>
-  <div class="p-2 border hue300">hue300</div>
-  <div class="p-2 border hue270">hue270</div>
-  <div class="p-2 border hue240">hue240</div>
-  <div class="p-2 border hue210">hue210</div>
-  <div class="p-2 border hue180">hue180</div>
-  <div class="p-2 border hue150">hue150</div>
-  <div class="p-2 border hue120">hue120</div>
-  <div class="p-2 border hue090">hue090</div>
-</div>
-</center>
-<br />
-🖐️
-<HelloWorld msg="Vite HelloWorld Vue" />🖐️
-<center><Flag>Let's manifest some tests! !! !!!</Flag><br /></center>
-<center><skyBottom /><skyBottom /></center>
-<center><Flag>ABCDEFGHIJKLM01234567890NOPQRSTUVWXYZ</Flag></center>
-<center><Flag>abcdefghijklmnopqrstuvwxyz</Flag></center>
-<center><rainbowDots /></center>
-<center>
-<div class="grid grid-cols-13 gap-2">
-  <div class="p-2 border hue090">⬤</div>
-  <div class="p-2 border hue060"><a href="file:///D:/125/html/level_zer0.html" target="_blank">🟡</a></div>
-  <div class="p-2 border hue030"><a href="http://localhost:5173/royalwethepeople" target="_blank">👑</a></div>
-  <div class="p-2 border hue000">⬤</div>
-  <div class="p-2 border hue330">⬤</div>
-  <div class="p-2 border hue300">⬤</div>
-  <div class="p-2 border hue270">⬤</div>
-  <div class="p-2 border hue240">⬤</div>
-  <div class="p-2 border hue210"><a href="http://localhost:4090/" target="_blank">🧿</a></div>
-  <div class="p-2 border hue180"><a href="http://localhost:5173/" target="_blank">⛵</a></div>
-  <div class="p-2 border hue150">⬤</div>
-  <div class="p-2 border hue120">⬤</div>
-  <div class="p-2 border hue090">⬤</div>
-</div>
-</center>
-
-
-
-<code class="orbitron"><center>&nbsp;&nbsp;&nbsp;⾈ exploring https://tailwindcss.com/ ⛵</center><br></code>
-
-<div class="grid grid-cols-11 gap-1 border border-gray-300">
-  <div class="p-2 border border-gray-300 text-center text-4xl font-bold"><h1>oO0Oo</h1></div>
-  <div class="p-2 border border-gray-300 text-center text-3xl font-semibold"><h2>oO0Oo</h2></div>
-  <div class="p-2 border border-gray-300 text-center text-2xl font-semibold"><h3>oO0Oo</h3></div>
-  <div class="p-2 border border-gray-300 text-center text-xl font-medium"><h4>oO0Oo</h4></div>
-  <div class="p-2 border border-gray-300 text-center text-lg font-medium"><h5>oO0Oo</h5></div>
-  <div class="p-2 border border-gray-300 text-center text-base font-normal"><h6>oO0Oo</h6></div>
-  <div class="p-2 border border-gray-300 text-center text-lg font-medium"><h5>oO0Oo</h5></div>
-  <div class="p-2 border border-gray-300 text-center text-xl font-medium"><h4>oO0Oo</h4></div>
-  <div class="p-2 border border-gray-300 text-center text-2xl font-semibold"><h3>oO0Oo</h3></div>
-  <div class="p-2 border border-gray-300 text-center text-3xl font-semibold"><h2>oO0Oo</h2></div>
-  <div class="p-2 border border-gray-300 text-center text-4xl font-bold"><h1>oO0Oo</h1></div>
-</div>
-
-
-
-
-
-<!--
-     <pre> https://en.wikipedia.org/wiki/File:Wanna_Work_Together%3F_with_subtitles_-_Creative_Commons.ogv</pre>
-    <dfn>interesting to see oklch being used so much
-      ....&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</dfn>
-    &nbsp;&nbsp;&nbsp;<sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Meleneth: kitemite kudasai!</sub><br />
--->
-<div style="text-align: right;">
-<oO0 /><zer0Oo /></div>
 
 </template>
 
