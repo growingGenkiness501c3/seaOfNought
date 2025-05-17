@@ -25,5 +25,4 @@ defineOptions({
 <span class="text-sky-200">&nbsp;⬤&nbsp;</span>
 <span class="text-sky-100">&nbsp;⬤&nbsp;</span>
 <span class="text-sky-50">&nbsp;⬤&nbsp;</span>
-
 </template>
