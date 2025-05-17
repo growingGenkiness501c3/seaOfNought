@@ -4,7 +4,7 @@ defineOptions({
 });
 </script>
 <template>
-<div class="grid grid-cols-13 gap-4 p-3">
+<center><div class="grid grid-cols-13 gap-10 p-5">
   <div class="p-2 border hue090">hue090</div>
   <div class="p-2 border hue060">hue060</div>
   <div class="p-2 border hue030">hue030</div>
@@ -18,5 +18,5 @@ defineOptions({
   <div class="p-2 border hue150">hue150</div>
   <div class="p-2 border hue120">hue120</div>
   <div class="p-2 border hue090">hue090</div>
-</div>
+</div></center>
 </template>
