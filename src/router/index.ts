@@ -4,8 +4,8 @@ import Forecastle from '@/views/Forecastle.vue'
 import Anchor from '@/views/Anchor.vue'
 import vocabulary from '@/views/vocabulary.vue'
 import Library from '@/views/Library.vue'
-import RoyalWeThePeople from '@/views/royalwethepeople.vue'
-import RoyalWe from '@/views/royalwe.vue'
+import RoyalWeThePeople from '@/views/RoyalWeThePeople.vue'
+import RoyalWe from '@/views/RoyalWe.vue'
 import Exhibits from '@/views/exhibits.vue'
 
 
