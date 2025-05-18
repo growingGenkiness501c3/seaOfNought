@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import shipsLogHeader from "@/components/shipsLogHeader.vue";
 import skyMini from "@/components/skyMini.vue";
 import skyTop from "@/components/skyTop.vue";
 import skyBottom from "@/components/skyBottom.vue";
@@ -10,11 +11,14 @@ import Clock from "@/components/Clock.vue";
 import { RouterLink, RouterView } from "vue-router";
 </script>
 <template>
+<div><center><seaOfNoughtShipsLog /></center></div>
+<center><shipsLogHeader /></center>
 <center><skyMini /></center>
+<div><center><seaOfNoughtBar /></center></div>
 <div class="p-5"><seaOfNoughtNavigationBar />
   <Clock />
 <center class="text-2xl opacity-50"><skyBottom /><skyBottom /></center></div>
-<div><center><seaOfNoughtShipsLog /></center></div>
+<div><center><seaOfNoughtShipsLog /></center></div><br><br><br><br><br>
 <div><center><seaOfNoughtBar /></center></div>
 <div class="p-5"><seaOfNoughtNavigationBar />
 </div>

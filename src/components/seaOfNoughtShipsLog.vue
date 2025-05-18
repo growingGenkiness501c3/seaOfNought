@@ -4,9 +4,6 @@ defineOptions({
 });
 </script>
 <template>
-<div class="mea-culpa-regular text-4xl">
-🧭 <div class="mea-culpa-regular text-9xl">Ship's Log</div> ⏰📆📅㏒📖
-</div>
 <div class="grid grid-cols-[repeat(17,minmax(0,1fr))] w-full h-6 gap-2 p-5">
   <div class="border border-yellow-400 cursor-pointer hover:opacity-30 text-center">
    🏠<br>
@@ -19,8 +16,23 @@ defineOptions({
    ∅©⾈<br>
    ⛵
   </div>
-  <div class="border border-amber-500 cursor-pointer hover:opacity-30 text-center" >
-    🧭</div>
+  <div class="border border-amber-500 cursor-pointer hover:opacity-30 text-center text-xs" >
+    🧭
+  <pre>ShipsLogHeader</pre>
+  <pre>ShipsLogHeader</pre>
+  <pre>ShipsLogHeader</pre>
+  <pre>ShipsLogHeader</pre>
+  <pre>ShipsLogHeader</pre>
+  <pre>ShipsLogHeader</pre>
+  <pre>ShipsLogHeader</pre>
+  <pre>ShipsLogHeader</pre>
+  <pre>ShipsLogHeader</pre>
+  <pre>ShipsLogHeader</pre>
+  <pre>ShipsLogHeader</pre>
+  <pre>ShipsLogHeader</pre>
+  <pre>ShipsLogHeader</pre>
+  <pre>ShipsLogHeader</pre>
+  </div>
   <div class="border border-orange-600 cursor-pointer hover:opacity-30 text-center" >
     ⚓<br>anchor<br> git </div>
   <div class="border border-red-600 cursor-pointer hover:opacity-30 text-center" >
@@ -61,7 +73,7 @@ U+329x	㊐</div>
   <div class="border border-lime-400 cursor-pointer hover:opacity-30 text-center" >
     👑<br>RoyalWeThePeople</div>
 </div>
-<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br>
 <div class="alumni-sans-pinstripe-regular text-2xl">
 It is a record-keeping 🕮 maintained by the captain or officer of the watch.
 Contains entries about:

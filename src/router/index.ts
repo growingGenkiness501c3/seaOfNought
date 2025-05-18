@@ -6,7 +6,7 @@ import vocabulary from '@/views/vocabulary.vue'
 import Library from '@/views/Library.vue'
 import RoyalWeThePeople from '@/views/RoyalWeThePeople.vue'
 import RoyalWe from '@/views/RoyalWe.vue'
-import Exhibits from '@/views/exhibits.vue'
+import Exhibits from '@/views/Exhibits.vue'
 
 
 const router = createRouter({
