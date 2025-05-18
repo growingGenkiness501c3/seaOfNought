@@ -4,7 +4,7 @@ defineOptions({
 });
 </script>
 <template>
-<div class="grid grid-cols-[repeat(17,minmax(0,1fr))] w-full h-6 gap-20 p-5">
+<div class="grid grid-cols-[repeat(17,minmax(0,1fr))] w-full h-6 gap-10 p-5 ">
   <div class="border border-yellow-400 cursor-pointer hover:opacity-30 text-center">
     <a href="http://localhost:5173/" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🏠</a></div>
   <div class="border border-amber-500 cursor-pointer hover:opacity-30" >
@@ -22,7 +22,7 @@ defineOptions({
   <div class="border border-purple-400 cursor-pointer hover:opacity-30" >
     <a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">8</a></div>
   <div class="border border-violet-400 cursor-pointer hover:opacity-30" >
-    <a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">✨👌</a></div>
+    <a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">✨</a></div>
   <div class="border border-indigo-400 cursor-pointer hover:opacity-30" >
     <a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">8</a></div>
   <div class="border border-blue-400 cursor-pointer hover:opacity-30" >

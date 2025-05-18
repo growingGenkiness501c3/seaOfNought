@@ -2,6 +2,7 @@
 defineOptions({
   name: "exhibits"
 });
+import skyMini from "@/components/skyMini.vue";
 import skyTop from "@/components/skyTop.vue";
 import skyBottom from "@/components/skyBottom.vue";
 import hueBar from "@/components/hueBar.vue";
@@ -22,6 +23,110 @@ import seaOfNoughtNavigationBar from "@/components/seaOfNoughtNavigationBar.vue"
 <sup>growingGenkiness</sup>
 <sub> Mastering Weak to Master Meek</sub>
 </center>
+
+<div class="grid grid-cols-[repeat(3,minmax(0,1fr))] w-full h-6">
+  <div>
+    <div class="grid grid-cols-[repeat(3,minmax(0,1fr))] w-full h-6">
+      <div class="bg-yellow-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🧬</a></div>
+      <div class="bg-rose-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">💉</a></div>
+      <div class="bg-indigo-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🔵</a></div>
+    </div>
+  </div>
+  <div>
+      <h1>rinse and repeat</h1>
+      <div class="grid grid-cols-[repeat(6,minmax(0,1fr))] w-full h-6">
+        <div class="bg-yellow-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🧬</a></div>
+        <div class="bg-rose-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">💉</a></div>
+        <div class="bg-indigo-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🔵</a></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;123123123123</h2>
+      <div class="grid grid-cols-[repeat(6,minmax(0,1fr))] w-full h-6">
+        <div></div>
+        <div class="bg-yellow-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🧬</a></div>
+        <div class="bg-rose-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">💉</a></div>
+        <div class="bg-indigo-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🔵</a></div>
+        <div></div>
+        <div></div>
+      </div>
+      <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RoyalWeThePeople: Patreon</h3>
+      <div class="grid grid-cols-[repeat(6,minmax(0,1fr))] w-full h-6">
+        <div></div><div></div>
+        <div class="bg-yellow-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🧬</a></div>
+        <div class="bg-rose-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">💉</a></div>
+        <div class="bg-indigo-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🔵</a></div>
+        <div></div>
+      </div>
+      <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RoyalWeThePeople: Instagram</h4>
+      <div class="grid grid-cols-[repeat(6,minmax(0,1fr))] w-full h-6">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="bg-yellow-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🧬</a></div>
+        <div class="bg-rose-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">💉</a></div>
+        <div class="bg-indigo-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🔵</a></div>
+      </div>
+      <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RoyalWeThePeople: Waltzing Matilda</h5>
+      <div class="grid grid-cols-[repeat(12,minmax(0,1fr))] w-full h-6">
+        <div class="bg-yellow-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🧬</a></div>
+        <div class="bg-rose-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">💉</a></div>
+        <div class="bg-indigo-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🔵</a></div>
+        <div class="bg-yellow-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🧬</a></div>
+        <div class="bg-rose-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">💉</a></div>
+        <div class="bg-indigo-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🔵</a></div>
+        <div class="bg-yellow-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🧬</a></div>
+        <div class="bg-rose-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">💉</a></div>
+        <div class="bg-indigo-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🔵</a></div>
+        <div class="bg-yellow-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🧬</a></div>
+        <div class="bg-rose-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">💉</a></div>
+        <div class="bg-indigo-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🔵</a></div>
+      </div>
+  </div>
+  <div>
+      🔵 diabeties (misspelled on porpoise🐬) 💉🧬🧪 🩸
+      Nutrition 
+      
+      stuff we eat for breakfast
+      
+      oatmeal
+      mixed frozen berries
+      yogurt
+      milk
+      
+      stuff we eat for lunch
+      
+      Prego Meat Sauce
+      pasta
+
+  </div>
+</div>
+<center class="text-xs"><skyMini /></center><br>
+<center class="text-sm"><skyMini /></center><br>
+<center class="text-base"><skyMini /></center><br>
+<center class="text-lg"><skyMini /></center><br>
+<center class="text-xl"><skyMini /></center><br>
+<center class="text-2xl"><skyMini /></center><br>
+<center class="text-3xl"><skyMini /></center><br>
+<center class="text-4xl"><skyMini /></center><br>
+<center class="text-5xl"><skyMini /></center><br>
+<center class="text-6xl"><skyMini /></center><br>
+<center class="text-7xl"><skyMini /></center><br>
+<center class="text-8xl"><skyMini /></center><br>
+<center class="text-9xl"><skyMini /></center><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
 <div><center class="text-2xl"><seaOfNoughtBar /></center></div>
 <hueBar />
 <yearsBar /><br>

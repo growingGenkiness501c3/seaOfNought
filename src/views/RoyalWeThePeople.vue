@@ -6,8 +6,64 @@ defineOptions({
 </script>
 <template>
   👑
-
+  <div class="mea-culpa-regular text-4xl">
+<center> <div class="mea-culpa-regular text-9xl">🧭RoyalWeThePeople⏰📆📅㏒📖</div></center>
+</div>
 <br>
+<div class="grid grid-cols-[repeat(3,minmax(0,1fr))] w-full h-6 gap-2 p-5">
+  <div class="bg-yellow-200 cursor-pointer hover:opacity-50 text-violet-800 text-center flex items-center justify-center text-5xl" ><br>🧬<br>blood sugar<br><br></div>
+  <div class="bg-rose-200 cursor-pointer hover:opacity-50 text-violet-800 text-center flex items-center justify-center text-5xl" >💉<br>insulin</div>
+  <div class="bg-indigo-200 cursor-pointer hover:opacity-50 text-violet-800 text-center flex items-center justify-center text-5xl" >🔵<br>㏒</div>
+</div>
+<br><br><br><br><br><br><br>
+<div class="grid grid-cols-[repeat(3,minmax(0,1fr))] w-full h-6 gap-2 p-5">
+  <div class="border border-yellow-200 cursor-pointer hover:opacity-50 text-violet-300 text-center flex items-center justify-center text-5xl" >
+    <div class="bg-yellow-50 cursor-pointer hover:opacity-50 text-violet-800 text-center flex items-center justify-center text-2xl" >🧬</div>
+    <div class="bg-rose-50 cursor-pointer hover:opacity-50 text-violet-800 text-center flex items-center justify-center text-2xl" >💉</div>
+    <div class="bg-indigo-50 cursor-pointer hover:opacity-50 text-violet-800 text-center flex items-center justify-center text-2xl" >🔵</div>
+    <div class="bg-yellow-100 cursor-pointer hover:opacity-50 text-violet-800 text-center flex items-center justify-center text-2xl" >🧬</div>
+    <div class="bg-rose-100 cursor-pointer hover:opacity-50 text-violet-800 text-center flex items-center justify-center text-2xl" >💉</div>
+    <div class="bg-indigo-100 cursor-pointer hover:opacity-50 text-violet-800 text-center flex items-center justify-center text-2xl" >🔵</div>
+    <div class="bg-yellow-200 cursor-pointer hover:opacity-50 text-violet-800 text-center flex items-center justify-center text-2xl" >🧬</div>
+    <div class="bg-rose-200 cursor-pointer hover:opacity-50 text-violet-800 text-center flex items-center justify-center text-2xl" >💉</div>
+    <div class="bg-indigo-200 cursor-pointer hover:opacity-50 text-violet-800 text-center flex items-center justify-center text-2xl" >🔵</div>
+    <div class="bg-yellow-300 cursor-pointer hover:opacity-50 text-violet-800 text-center flex items-center justify-center text-2xl" >🧬</div>
+    <div class="bg-rose-300 cursor-pointer hover:opacity-50 text-violet-800 text-center flex items-center justify-center text-2xl" >💉</div>
+    <div class="bg-indigo-300 cursor-pointer hover:opacity-50 text-violet-800 text-center flex items-center justify-center text-2xl" >🔵</div>
+    <div class="bg-yellow-400 cursor-pointer hover:opacity-50 text-violet-800 text-center flex items-center justify-center text-2xl" >🧬</div>
+    <div class="bg-rose-400 cursor-pointer hover:opacity-50 text-violet-800 text-center flex items-center justify-center text-2xl" >💉</div>
+    <div class="bg-indigo-400 cursor-pointer hover:opacity-50 text-violet-800 text-center flex items-center justify-center text-2xl" >🔵</div>
+    <div class="bg-yellow-500 cursor-pointer hover:opacity-50 text-violet-800 text-center flex items-center justify-center text-2xl" >🧬</div>
+    <div class="bg-rose-500 cursor-pointer hover:opacity-50 text-violet-800 text-center flex items-center justify-center text-2xl" >💉</div>
+    <div class="bg-indigo-500 cursor-pointer hover:opacity-50 text-violet-800 text-center flex items-center justify-center text-2xl" >🔵</div>
+    <div class="bg-yellow-600 cursor-pointer hover:opacity-50 text-violet-800 text-center flex items-center justify-center text-2xl" >🧬</div>
+    <div class="bg-rose-600 cursor-pointer hover:opacity-50 text-violet-800 text-center flex items-center justify-center text-2xl" >💉</div>
+    <div class="bg-indigo-600 cursor-pointer hover:opacity-50 text-violet-800 text-center flex items-center justify-center text-2xl" >🔵</div>
+    <div class="bg-yellow-700 cursor-pointer hover:opacity-50 text-violet-800 text-center flex items-center justify-center text-2xl" >🧬</div>
+    <div class="bg-rose-700 cursor-pointer hover:opacity-50 text-violet-800 text-center flex items-center justify-center text-2xl" >💉</div>
+    <div class="bg-indigo-700 cursor-pointer hover:opacity-50 text-violet-800 text-center flex items-center justify-center text-2xl" >🔵</div>
+
+
+  </div>
+  <div class="border border-rose-200 cursor-pointer hover:opacity-50 text-violet-300 text-center flex items-center justify-center text-5xl" >
+
+  </div>
+  <div class="border border-indigo-200 cursor-pointer hover:opacity-50 text-violet-300 text-center flex items-center justify-center text-5xl" >
+
+  </div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><hr><br>
+
+<div class="grid grid-cols-[repeat(6,minmax(0,1fr))] w-full h-6 gap-2 p-5">
+  <div class="border border-yellow-200 cursor-pointer hover:opacity-80 text-violet-400 text-center flex items-center justify-center text-4xl">🧬<br>blood sugar</div>
+  <div class="border border-rose-200 cursor-pointer hover:opacity-80 text-violet-400 text-center flex items-center justify-center text-4xl" >💉<br>insulin</div>
+  <div class="border border-indigo-200 cursor-pointer hover:opacity-80 text-violet-400 text-center flex items-center justify-center text-4xl" >🔵<br>㏒</div>
+  
+  <div class="bg-yellow-200 cursor-pointer hover:opacity-80 text-violet-600 text-center flex items-center justify-center text-2xl">🧬</div>
+  <div class="bg-rose-200 cursor-pointer hover:opacity-80 text-violet-600 text-center flex items-center justify-center text-2xl" >💉</div>
+  <div class="bg-indigo-200 cursor-pointer hover:opacity-80 text-violet-600 text-center flex items-center justify-center text-2xl" >🔵</div>
+</div>
+<br><br><br><br><br><br><br><br>
 <br>
 <hr>
 <hr>
