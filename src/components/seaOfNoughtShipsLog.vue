@@ -49,7 +49,15 @@ U+329x	㊐</div>
   <div class="border border-emerald-400 cursor-pointer hover:opacity-30 text-center" >
     📖<br>vocabulary<br>words from K to LSATs</div>
   <div class="border border-green-400 cursor-pointer hover:opacity-30 text-center" >
-    ✅<br></div>
+    Oregon Medical Board<br>
+    M&M<br>
+    TPF<br>
+    RWTP<br>
+    RW<br>
+    bolterklik<br>
+    ✅<br>
+    
+</div>
   <div class="border border-lime-400 cursor-pointer hover:opacity-30 text-center" >
     👑<br>RoyalWeThePeople</div>
 </div>

@@ -10,11 +10,14 @@ import Clock from "@/components/Clock.vue";
 import { RouterLink, RouterView } from "vue-router";
 </script>
 <template>
-<div><center><seaOfNoughtBar /></center></div>
+<center><skyMini /></center>
 <div class="p-5"><seaOfNoughtNavigationBar />
   <Clock />
 <center class="text-2xl opacity-50"><skyBottom /><skyBottom /></center></div>
 <div><center><seaOfNoughtShipsLog /></center></div>
+<div><center><seaOfNoughtBar /></center></div>
+<div class="p-5"><seaOfNoughtNavigationBar />
+</div>
 🖵 
 <RouterView />
 🖵
