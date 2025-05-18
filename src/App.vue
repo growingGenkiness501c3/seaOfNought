@@ -13,7 +13,7 @@ import { RouterLink, RouterView } from "vue-router";
 </script>
 <template>
 <center>
-  <a href="http://localhost:5173/" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🏠</a>
+  <a href="http://localhost:5173/aardvarkVue" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🐗🦡🦔</a>
   <aardvarkComponent /><br><br><br><br><br><br>
   <skyMini /><br><br><br><br><br>
   <div class="border border-yellow-200 cursor-pointer hover:opacity-80 text-center" >
