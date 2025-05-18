@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import aardvarkComponent from "@/components/aardvarkComponent.vue";
 import shipsLogHeader from "@/components/shipsLogHeader.vue";
 import skyMini from "@/components/skyMini.vue";
 import skyTop from "@/components/skyTop.vue";
@@ -11,73 +12,35 @@ import Clock from "@/components/Clock.vue";
 import { RouterLink, RouterView } from "vue-router";
 </script>
 <template>
-<div><center><seaOfNoughtShipsLog /></center></div>
-<center><shipsLogHeader /></center>
-<center><skyMini /></center>
-<div><center><seaOfNoughtBar /></center></div>
-<div class="p-5"><seaOfNoughtNavigationBar />
+<center>
+  <a href="http://localhost:5173/" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🏠</a>
+  <aardvarkComponent /><br><br><br><br><br><br>
+  <skyMini /><br><br><br><br><br>
+  <div class="border border-yellow-200 cursor-pointer hover:opacity-80 text-center" >
+    <a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">
+      🐗🦡🦔<br>aardvark
+    </a>
+  </div>
+  <seaOfNoughtBar /><br>
+  <seaOfNoughtNavigationBar />
+  <seaOfNoughtShipsLog />
+  <shipsLogHeader />
+  <skyMini />
+  <seaOfNoughtBar />
+  <span class="p-5"><seaOfNoughtNavigationBar /></span>
   <Clock />
-<center class="text-2xl opacity-50"><skyBottom /><skyBottom /></center></div>
-<div><center><seaOfNoughtShipsLog /></center></div><br><br><br><br><br>
-<div><center><seaOfNoughtBar /></center></div>
-<div class="p-5"><seaOfNoughtNavigationBar />
-</div>
+  <span class="text-2xl opacity-50"><skyBottom /><skyBottom /></span>
+  <seaOfNoughtBar />
+  <span class="p-5"><seaOfNoughtNavigationBar /></span>
+</center>
 🖵 
 <RouterView />
 🖵
 <center class="text-xl"><skyTop /><skyTop /></center>
 <div class="p-5"><seaOfNoughtNavigationBar /></div>
 <center class="text-2xl"><skyBottom /><skyBottom /></center>
-
 </template>
-
-
-
-
 <style>
-.orbitron {
-font-family: "Orbitron", sans-serif;
-font-optical-sizing: auto;
-font-weight: <weight>;
-font-style: normal;
-}
-.rajdhani-light {
-font-family: "Rajdhani", sans-serif;
-font-weight: 300;
-font-style: normal;
-}
-.rajdhani-regular {
-font-family: "Rajdhani", sans-serif;
-font-weight: 400;
-font-style: normal;
-}
-.rajdhani-medium {
-font-family: "Rajdhani", sans-serif;
-font-weight: 500;
-font-style: normal;
-}
-.rajdhani-semibold {
-font-family: "Rajdhani", sans-serif;
-font-weight: 600;
-font-style: normal;
-}
-.rajdhani-bold {
-font-family: "Rajdhani", sans-serif;
-font-weight: 700;
-font-style: normal;
-}
-.mea-culpa-regular {
-  font-family: "Mea Culpa", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-.hubot-sans {
-  font-family: "Hubot Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
-}
 .alumni-sans-pinstripe-regular {
   font-family: "Alumni Sans Pinstripe", sans-serif;
   font-weight: 400;
@@ -93,6 +56,50 @@ font-style: normal;
   font-weight: 400;
   font-style: normal;
 }
+.hubot-sans {
+  font-family: "Hubot Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.mea-culpa-regular {
+  font-family: "Mea Culpa", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.orbitron {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.rajdhani-light {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.rajdhani-regular {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.rajdhani-medium {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.rajdhani-semibold {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.rajdhani-bold {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
 .hue090 { color: hsl(90, 050%, 070%, 100%); }
 .hue060 { color: hsl(60, 050%, 070%, 100%); }
 .hue030 { color: hsl(030, 050%, 070%, 100%); }

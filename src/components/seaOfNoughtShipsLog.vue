@@ -16,40 +16,45 @@ defineOptions({
    ∅©⾈<br>
    ⛵
   </div>
-  <div class="border border-amber-500 cursor-pointer hover:opacity-30 text-center text-xs" >
-    🧭
-  <pre>ShipsLogHeader</pre>
-  <pre>ShipsLogHeader</pre>
-  <pre>ShipsLogHeader</pre>
-  <pre>ShipsLogHeader</pre>
-  <pre>ShipsLogHeader</pre>
-  <pre>ShipsLogHeader</pre>
-  <pre>ShipsLogHeader</pre>
-  <pre>ShipsLogHeader</pre>
-  <pre>ShipsLogHeader</pre>
-  <pre>ShipsLogHeader</pre>
-  <pre>ShipsLogHeader</pre>
-  <pre>ShipsLogHeader</pre>
-  <pre>ShipsLogHeader</pre>
-  <pre>ShipsLogHeader</pre>
+  <div class="border border-amber-500 cursor-pointer hover:opacity-30 text-left text-xs" >
+    <pre>🏠home</pre>
+    <pre>🧭orientation+navigation</pre>
+    <pre>⚓anchor+git</pre>
+    <pre>⏰dailies</pre>
+    <pre>🤴royalwe</pre>
+    <pre>📆monthlies</pre>
+    <pre>🏰forecastle</pre>
+    <pre>📅yearlies</pre>
+    <pre>✨perfection</pre>
+    <pre>㏒</pre>
+    <pre>📚library</pre>
+    <pre>🗃️</pre>
+    <pre>👸exhibits</pre>
+    <pre>📁</pre>
+    <pre>📖vocablulary</pre>
+    <pre>✅check</pre>
+    <pre>👑royalwethepeople</pre>
+  
   </div>
   <div class="border border-orange-600 cursor-pointer hover:opacity-30 text-center" >
-    ⚓<br>anchor<br> git </div>
+    ⚓<br>anchor<br> git <br> <sub>EVERY</sub><br><sup>component</sup></div>
   <div class="border border-red-600 cursor-pointer hover:opacity-30 text-center" >
     ⏰</div>
   <div class="border border-rose-500 cursor-pointer hover:opacity-30 text-center" >
     🤴<br>RoyalWe<br>Patreon<br> art starts conversations</div>
   <div class="border border-pink-500 cursor-pointer hover:opacity-30 text-center" >
-    📆</div>
+    📆<br>
+    ㈪㈫㈬㈭㈮㈯㈰<br>
+    ㊊㊋㊌㊍㊎㊏㊐<br>
+  </div>
   <div class="border border-fuchsia-400 cursor-pointer hover:opacity-30 text-center" >
-    🏰<br>castle<br>㋀	㋁	㋂	㋃	㋄	㋅	㋆	㋇	㋈	㋉	㋊	㋋ <br> large slides</div>
+    🏰<br>castle<br>㋀<br>㋁<br>㋂<br>㋃<br>㋄<br>㋅<br>㋆<br>㋇<br>㋈<br>㋉<br>㋊<br>㋋ <br> large slides</div>
   <div class="border border-purple-400 cursor-pointer hover:opacity-30 text-center" >
     📅</div>
   <div class="border border-violet-400 cursor-pointer hover:opacity-30 text-center" >
     ✨<br>perfection<br>encouragement</div>
   <div class="border border-indigo-400 cursor-pointer hover:opacity-30 text-center" >
-    ㏒<br>㈪	㈫	㈬	㈭	㈮	㈯ ㈰ ㊊	㊋	㊌	㊍	㊎	㊏
-U+329x	㊐</div>
+    ㏒<br>㈪㈫㈬㈭㈮㈯㈰㊊㊋㊌㊍㊎㊏㊐</div>
   <div class="border border-blue-400 cursor-pointer hover:opacity-30 text-center" >
     📚<br>library of links</div>
   <div class="border border-sky-400 cursor-pointer hover:opacity-30 text-center" >
@@ -57,9 +62,38 @@ U+329x	㊐</div>
   <div class="border border-cyan-400 cursor-pointer hover:opacity-30 text-center" >
     👸<br>exhibits<br>WIPs</div>
   <div class="border border-teal-500 cursor-pointer hover:opacity-30 text-center" >
-    📁⓪ ① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨ ⑩ ⑪ ⑫ ⑬ ⑭ ⑮ ⑯ ⑰ ⑱ ⑲ ⑳ ㉑ ㉒ ㉓ ㉔ ㉕ ㉖ ㉗ ㉘ ㉙ ㉚ ㉛ ㉜ ㉝ ㉞ ㉟ ㊱ ㊲ ㊳ ㊴ ㊵ ㊶ ㊷ ㊸ ㊹ ㊺ ㊻ ㊼ ㊽ ㊾ ㊿<br></div>
+    📁<br>
+    ⓪<br>
+    ① ② ③ ④ ⑤<br>
+    ⑥ ⑦ ⑧ ⑨ ⑩<br>
+    ⑪ ⑫ ⑬ ⑭ ⑮<br>
+    ⑯ ⑰ ⑱ ⑲ ⑳ <br>
+    ㉑ ㉒ ㉓ ㉔ ㉕ ㉖ ㉗ ㉘ ㉙ ㉚ <br>
+    ㉛ ㉜ ㉝ ㉞ ㉟ ㊱ ㊲ ㊳ ㊴ ㊵ <br>
+    ㊶ ㊷ ㊸ ㊹ ㊺ ㊻ ㊼ ㊽ ㊾ ㊿<br></div>
   <div class="border border-emerald-400 cursor-pointer hover:opacity-30 text-center" >
-    📖<br>vocabulary<br>words from K to LSATs</div>
+    <pre>📖vocabulary</pre>
+    <pre>K</pre>
+    <pre>1</pre>
+    <pre>2</pre>
+    <pre>3</pre>
+    <pre>4</pre>
+    <pre>5</pre>
+    <pre>6</pre>
+    <pre>7</pre>
+    <pre>8</pre>
+    <pre>hs-frosh</pre>
+    <pre>hs-soph</pre>
+    <pre>hs-jr</pre>
+    <pre>hs-sr</pre>
+    <pre>SATs</pre>
+    <pre>frosh</pre>
+    <pre>soph</pre>
+    <pre>jr</pre>
+    <pre>sr</pre>
+    <pre>LSATs</pre>
+    <pre>MCATs</pre>
+  </div>
   <div class="border border-green-400 cursor-pointer hover:opacity-30 text-center" >
     Oregon Medical Board<br>
     M&M<br>
@@ -73,7 +107,7 @@ U+329x	㊐</div>
   <div class="border border-lime-400 cursor-pointer hover:opacity-30 text-center" >
     👑<br>RoyalWeThePeople</div>
 </div>
-<br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <div class="alumni-sans-pinstripe-regular text-2xl">
 It is a record-keeping 🕮 maintained by the captain or officer of the watch.
 Contains entries about:

@@ -7,7 +7,7 @@ import Library from '@/views/Library.vue'
 import RoyalWeThePeople from '@/views/RoyalWeThePeople.vue'
 import RoyalWe from '@/views/RoyalWe.vue'
 import Exhibits from '@/views/Exhibits.vue'
-
+import AardvarkVue from '@/views/AardvarkVue.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -16,6 +16,11 @@ const router = createRouter({
       path: '/',
       name: 'crowsnest',
       component: CrowsNest
+    },
+    {
+      path: '/aardvarkVue',
+      name: 'aardvarkVue',
+      component: AardvarkVue
     },
     {
       path: '/anchor',
