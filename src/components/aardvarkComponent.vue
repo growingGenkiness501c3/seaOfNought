@@ -38,6 +38,7 @@ defineOptions({
 <span class="text-6xl">🦔</span>
 <span class="text-7xl">🦔</span>
 <span class="text-8xl">🦔</span>
-<span class="text-9xl">🦔</span>
+<span class="text-9xl">🦔</span><br><br>
+<pre>add alignments to this component</pre
 <br>🦡
 </template>

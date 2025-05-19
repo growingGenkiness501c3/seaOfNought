@@ -3,10 +3,10 @@ import Clock from "@/components/Clock.vue";
 import seaOfNoughtBar from "@/components/seaOfNoughtBar.vue";
 import seaOfNoughtNavigationBar from "@/components/seaOfNoughtNavigationBar.vue";
 import seaOfNoughtShipsLog from "@/components/seaOfNoughtShipsLog.vue";
-import shipsLogHeader from "@/components/shipsLogHeader.vue";
 import skyMini from "@/components/skyMini.vue";
 import skyTop from "@/components/skyTop.vue";
 import skyBottom from "@/components/skyBottom.vue";
+import wordBar from "@/components/wordBar.vue";
 
 import { RouterLink, RouterView } from "vue-router";
 </script>
@@ -14,19 +14,19 @@ import { RouterLink, RouterView } from "vue-router";
 <center>
   <a href="http://localhost:5173/aardvarkVue" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🐗🦡🦔</a>
   <skyMini /><br>
-  <seaOfNoughtBar /><br>
+  <wordBar /><br>
   <seaOfNoughtNavigationBar />
-  <seaOfNoughtShipsLog />
-  <skyTop /><br>
-  <Clock />
-  <span class="text-2xl opacity-50"><skyBottom /><skyBottom /></span>
+  <br><br><br>
 </center>
-🖵 
-<RouterView />
-🖵
-<center class="text-xl"><skyTop /><skyTop /></center>
-<div class="p-5"><seaOfNoughtNavigationBar /></div>
-<center class="text-2xl"><skyBottom /><skyBottom /></center>
+<Clock />
+
+
+<center class="text-xl"><skyTop /><skyTop /><br>
+<span  class="text-4xl">🖵 </span><br>
+<RouterView /><br>
+<span  class="text-4xl">🖵 </span><br>
+<span class="text-2xl"><skyBottom /><skyBottom /></span>
+</center>
 </template>
 <style>
 .alumni-sans-pinstripe-regular {

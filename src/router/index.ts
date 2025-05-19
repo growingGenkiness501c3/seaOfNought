@@ -8,14 +8,15 @@ import RoyalWeThePeople from '@/views/RoyalWeThePeople.vue'
 import RoyalWe from '@/views/RoyalWe.vue'
 import Exhibits from '@/views/Exhibits.vue'
 import AardvarkVue from '@/views/AardvarkVue.vue'
+import SeaOfNought from '@/views/NaughtSea.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
-      name: 'crowsnest',
-      component: CrowsNest
+      name: 'seaOfNought',
+      component: SeaOfNought
     },
     {
       path: '/aardvarkVue',
@@ -26,6 +27,11 @@ const router = createRouter({
       path: '/anchor',
       name: 'anchor',
       component: Anchor
+    },
+    {
+      path: '/crowsNest',
+      name: 'crowsNest',
+      component: CrowsNest
     },
     {
       path: '/exhibits',
