@@ -9,6 +9,7 @@ import RoyalWe from '@/views/RoyalWe.vue'
 import Exhibits from '@/views/Exhibits.vue'
 import AardvarkVue from '@/views/AardvarkVue.vue'
 import SeaOfNought from '@/views/NaughtSea.vue'
+import Orientation from '@/views/Orientation.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -47,6 +48,11 @@ const router = createRouter({
       path: '/Library',
       name: 'library',
       component: Library
+    },
+    {
+      path: '/orientation',
+      name: 'orientation',
+      component: Orientation
     },
     {
       path: '/royalwe',

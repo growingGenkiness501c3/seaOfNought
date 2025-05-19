@@ -1,8 +1,6 @@
 <script setup lang="ts">
 import Clock from "@/components/Clock.vue";
-import seaOfNoughtBar from "@/components/seaOfNoughtBar.vue";
 import seaOfNoughtNavigationBar from "@/components/seaOfNoughtNavigationBar.vue";
-import seaOfNoughtShipsLog from "@/components/seaOfNoughtShipsLog.vue";
 import skyMini from "@/components/skyMini.vue";
 import skyTop from "@/components/skyTop.vue";
 import skyBottom from "@/components/skyBottom.vue";
