@@ -7,6 +7,7 @@ import skyMini from "@/components/skyMini.vue";
 import skyTop from "@/components/skyTop.vue";
 import skyBottom from "@/components/skyBottom.vue";
 import wordBar from "@/components/wordBar.vue";
+import yearsBar from "@/components/yearsBar.vue";
 
 import { RouterLink, RouterView } from "vue-router";
 </script>
@@ -19,6 +20,7 @@ import { RouterLink, RouterView } from "vue-router";
   <br><br><br>
 </center>
 <Clock />
+  <yearsBar /><br><br>
 
 
 <center class="text-xl"><skyTop /><skyTop /><br>
