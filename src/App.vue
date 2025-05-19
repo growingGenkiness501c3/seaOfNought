@@ -1,37 +1,25 @@
 <script setup lang="ts">
-import aardvarkComponent from "@/components/aardvarkComponent.vue";
+import Clock from "@/components/Clock.vue";
+import seaOfNoughtBar from "@/components/seaOfNoughtBar.vue";
+import seaOfNoughtNavigationBar from "@/components/seaOfNoughtNavigationBar.vue";
+import seaOfNoughtShipsLog from "@/components/seaOfNoughtShipsLog.vue";
 import shipsLogHeader from "@/components/shipsLogHeader.vue";
 import skyMini from "@/components/skyMini.vue";
 import skyTop from "@/components/skyTop.vue";
 import skyBottom from "@/components/skyBottom.vue";
-import seaOfNoughtShipsLog from "@/components/seaOfNoughtShipsLog.vue";
-import seaOfNoughtBar from "@/components/seaOfNoughtBar.vue";
-import seaOfNoughtNavigationBar from "@/components/seaOfNoughtNavigationBar.vue";
 
-import Clock from "@/components/Clock.vue";
 import { RouterLink, RouterView } from "vue-router";
 </script>
 <template>
 <center>
   <a href="http://localhost:5173/aardvarkVue" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🐗🦡🦔</a>
-  <aardvarkComponent /><br><br><br><br><br><br>
-  <skyMini /><br><br><br><br><br>
-  <div class="border border-yellow-200 cursor-pointer hover:opacity-80 text-center" >
-    <a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">
-      🐗🦡🦔<br>aardvark
-    </a>
-  </div>
+  <skyMini /><br>
   <seaOfNoughtBar /><br>
   <seaOfNoughtNavigationBar />
   <seaOfNoughtShipsLog />
-  <shipsLogHeader />
-  <skyMini />
-  <seaOfNoughtBar />
-  <span class="p-5"><seaOfNoughtNavigationBar /></span>
+  <skyTop /><br>
   <Clock />
   <span class="text-2xl opacity-50"><skyBottom /><skyBottom /></span>
-  <seaOfNoughtBar />
-  <span class="p-5"><seaOfNoughtNavigationBar /></span>
 </center>
 🖵 
 <RouterView />

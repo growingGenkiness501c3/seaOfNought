@@ -4,6 +4,7 @@ defineOptions({
 });
 </script>
 <template>
+  <pre>NEXT: orientation Bar</pre>
 <div class="grid grid-cols-[repeat(17,minmax(0,1fr))] w-full h-6 gap-2 p-5">
   <div class="border border-yellow-400 cursor-pointer hover:opacity-30 text-center">
    🏠<br>
@@ -18,7 +19,7 @@ defineOptions({
   </div>
   <div class="border border-amber-500 cursor-pointer hover:opacity-30 text-left text-xs" >
     <pre>🏠home</pre>
-    <pre>🧭orientation+navigation</pre>
+    <pre>🧭orientation</pre>
     <pre>⚓anchor+git</pre>
     <pre>⏰dailies</pre>
     <pre>🤴royalwe</pre>
