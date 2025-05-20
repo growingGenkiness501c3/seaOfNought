@@ -7,18 +7,36 @@ import skyBottom from "@/components/skyBottom.vue";
 import wordBar from "@/components/wordBar.vue";
 import NaughtSeaHeader from "@/components/NaughtSeaHeader.vue";
 import SplitOneTwoThree from "@/components/SplitOneTwoThree.vue";
-
+import NavigationBar from "@/components/NavigationBar.vue";
+import NavigationButtonBar from "@/components/NavigationButtonBar.vue";
+import NavigationBars from "@/components/NavigationBars.vue";
 
 import { RouterLink, RouterView } from "vue-router";
 </script>
 <template>
+<wordBar /><br>
+<center><NavigationBars /></center>
+
 
 
 <center>
+  
   <NaughtSeaHeader />
   <skyTop /><skyTop /><skyTop /><skyTop /><br>
 </center>
 <Clock />
+  <SplitOneTwoThree>
+    <template #one><br><br>
+
+    </template>
+    <template #two><br>
+
+    </template>
+    <template #four>
+
+    </template>
+  </SplitOneTwoThree>
+
 <center>
   <wordBar /><br>
   <seaOfNoughtNavigationBar />
