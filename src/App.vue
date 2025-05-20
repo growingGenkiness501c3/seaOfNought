@@ -5,20 +5,27 @@ import skyMini from "@/components/skyMini.vue";
 import skyTop from "@/components/skyTop.vue";
 import skyBottom from "@/components/skyBottom.vue";
 import wordBar from "@/components/wordBar.vue";
-import yearsBar from "@/components/yearsBar.vue";
+import NaughtSeaHeader from "@/components/NaughtSeaHeader.vue";
+import SplitOneTwoThree from "@/components/SplitOneTwoThree.vue";
+
 
 import { RouterLink, RouterView } from "vue-router";
 </script>
 <template>
+
+
 <center>
-  <a href="http://localhost:5173/aardvarkVue" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🐗🦡🦔</a>
-  <skyMini /><br>
+  <NaughtSeaHeader />
+  <skyTop /><skyTop /><skyTop /><skyTop /><br>
+</center>
+<Clock />
+<center>
   <wordBar /><br>
   <seaOfNoughtNavigationBar />
   <br><br><br>
 </center>
-<Clock />
-  <yearsBar /><br><br>
+
+
 
 
 <center class="text-xl"><skyTop /><skyTop /><br>

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-
+import yearsBar from "@/components/yearsBar.vue";
 
 
 defineOptions({
@@ -7,27 +7,8 @@ defineOptions({
 });
 </script>
 <template>
-<h1>Orientation</h1>
-<ol>
-  <li>0- keep empty with elephant</li>
-  <li>1- todo for NaughtSea</li>
-  <li>2- git direcions </li>
-  <li>3- dailies</li>
-  <li>4- royalWe Patreon</li>
-  <li>5- monthlies Cindy's Kids Patreon</li>
-  <li>6- Forecasting </li>
-  <li>7- Yearlies</li>
-  <li>8- Perfection</li>
-  <li>9- logging</li>
-  <li>10- library of libraries</li>
-  <li>11- growingGenkiness</li>
-  <li>12- xhibitions</li>
-  <li>13- sorting hat</li>
-  <li>14- vocabulary K-LSATs</li>
-  <li>15- czech</li>
-  <li>16- RoyalWeThePeople Patreon - legal stuff</li>
-</ol>
-
+  <div class="bg-[hsl(0,0%,0%,0%)]">
+📐
 
 <div class="grid grid-cols-[repeat(51,minmax(0,1fr))] w-full h-6 hubot-sans text-[33px] gap-1 p-1">
   <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
@@ -186,5 +167,162 @@ defineOptions({
   <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
   <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
 </div>
+<br><br><br><hr><br><br><br><br>
+<span class="mea-culpa text-[44px]"> 🧭</span><span class="mea-culpa text-[55px]">© &nbsp;&nbsp;&nbsp;</span>
+<span class="mea-culpa-regular" style="font-size: 55px">NaughtSea &nbsp;&nbsp;&nbsp;</span>
+<span class="mea-culpa-regular" style="font-size: 55px">∅⛵<br /></span>
+<br>
+<span class="mea-culpa text-[44px]"> ∅</span><span class="mea-culpa text-[55px]">⛵ &nbsp;&nbsp;&nbsp;</span>
+<span class="mea-culpa-regular" style="font-size: 55px">NaughtSea &nbsp;&nbsp;&nbsp;</span>
+<span class="mea-culpa-regular" style="font-size: 55px">🧭© <br /></span>
+<br>
 
+<span class="mea-culpa text-[33px]"> ∅© </span>
+<span class="mea-culpa-regular" style="font-size: 55px">NaughtSea</span>
+<span class="mea-culpa-regular" style="font-size: 55px">🧭⛵<br /></span>
+
+
+<span class="alumni-sans-pinstripe-regular">🧭 (Naught)Sea ✨ Sea of Nought 🗽 </span>
+<br>
+<span class="alumni-sans-pinstripe-regular">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
+<br>
+
+<span class="alumni-sans-pinstripe-regular-italic">🧭 (Naught)Sea ✨ Sea of Nought 🗽 </span>
+<br>
+<span class="alumni-sans-pinstripe-regular-italic">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
+<br>
+<span class="coral-pixels-regular">🧭 (Naught)Sea ✨ Sea of Nought 🗽 </span>
+<br>
+<span class="coral-pixels-regular">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
+<br>
+<span class="hubot-sans">🧭 (Naught)Sea ✨ Sea of Nought 🗽 </span>
+<br>
+<span class="hubot-sans">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
+<br>
+<span class="mea-culpa-regular">🧭 (Naught)Sea ✨ Sea of Nought 🗽 </span>
+<br>
+<span class="mea-culpa-regular">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
+<br>
+<span class="orbitron">🧭 (Naught)Sea ✨ Sea of Nought 🗽 </span>
+<br>
+<span class="orbitron">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
+<br>
+<span class="rajdhani-light">🧭 (Naught)Sea ✨ Sea of Nought 🗽 </span>
+<br>
+<span class="rajdhani-light">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
+<br>
+<span class="rajdhani-regular">🧭 (Naught)Sea ✨ Sea of Nought 🗽 </span>
+<br>
+<span class="rajdhani-regular">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
+<br>
+<span class="rajdhani-medium">🧭 (Naught)Sea ✨ Sea of Nought 🗽 </span>
+<br>
+<span class="rajdhani-medium">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
+<br>
+<span class="rajdhani-semibold">🧭 (Naught)Sea ✨ Sea of Nought 🗽 </span>
+<br>
+<span class="rajdhani-semibold">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
+<br>
+<span class="rajdhani-bold">🧭 (Naught)Sea ✨ Sea of Nought 🗽 </span>
+<br>
+<span class="rajdhani-bold">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
+<br>
+<hr>
+
+
+
+<ol>
+  <li>0- keep empty with elephant</li>
+  <li>1- todo for NaughtSea</li>
+  <li>2- git direcions </li>
+  <li>3- dailies</li>
+  <li>4- royalWe Patreon</li>
+  <li>5- monthlies Cindy's Kids Patreon</li>
+  <li>6- Forecasting </li>
+  <li>7- Yearlies</li>
+  <li>8- Perfection</li>
+  <li>9- logging</li>
+  <li>10- library of libraries</li>
+  <li>11- growingGenkiness</li>
+  <li>12- xhibitions</li>
+  <li>13- sorting hat</li>
+  <li>14- vocabulary K-LSATs</li>
+  <li>15- czech</li>
+  <li>16- RoyalWeThePeople Patreon - legal stuff</li>
+</ol>
+  🐗
+<span class="alumni-sans-pinstripe-regular">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
+<br>
+<span class="alumni-sans-pinstripe-regular-italic">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
+<br>
+<span class="coral-pixels-regular">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
+<br>
+<span class="hubot-sans">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
+<br>
+<span class="mea-culpa-regular">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
+<br>
+<span class="orbitron">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
+<br>
+<span class="rajdhani-light">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
+<br>
+<span class="rajdhani-regular">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
+<br>
+<span class="rajdhani-medium">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
+<br>
+<span class="rajdhani-semibold">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
+<br>
+<span class="rajdhani-bold">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
+<br>
+<span class="text-xs">🦔</span>
+<span class="text-sm">🦔</span>
+<span class="text-base">🦔</span>
+<span class="text-lg">🦔</span>
+<span class="text-2xl">🦔</span>
+<span class="text-3xl">🦔</span>
+<span class="text-4xl">🦔</span>
+<span class="text-5xl">🦔</span>
+<span class="text-6xl">🦔</span>
+<span class="text-7xl">🦔</span>
+<span class="text-8xl">🦔</span>
+<span class="text-9xl">🦔</span><br><br>
+<br>🦡
+<pre>pre-ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</pre>
+
+<p>p-ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</p>
+
+<sup>sup-ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</sup>
+
+<sub>sub-ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</sub>
+<br>
+<s>s-ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</s>
+<br>
+<dfn>s-ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</dfn>
+<br>
+<code>code Orientation Orientation Orientation</code>
+<code class="block">code class="block" Orientation Orientation Orientation</code>
+<h1 class="text-center">h1 class="text-center" Orientation</h1>
+<hr>
+<h2 class="text-left">h2 class="text-left" Orientation</h2>
+<hr>
+<h3 class="text-right">h3 class="text-right" Orientation</h3>
+<hr>
+<h4 class="text-justify">h4 class="text-justify" Orientation Orientation Orientation</h4>
+<h5 class="flex justify-between">h5 class="flex justify-between" Orientation</h5> 
+<code class="block">Orientation Orientation Orientation</code>
+<center class="text-xs">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</center><br>
+<center class="text-sm">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</center><br>
+<center class="text-base">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</center><br>
+<center class="text-lg">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</center><br>
+<center class="text-xl">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</center><br>
+<center class="text-2xl">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</center><br>
+<center class="text-3xl">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</center><br>
+<center class="text-4xl">`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?</center><br>
+<center class="text-5xl">`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?</center><br>
+<center class="text-6xl">`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?</center><br>
+<center class="text-7xl">`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?</center><br>
+<center class="text-8xl">`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?</center><br>
+<center class="text-9xl">`-=~!@#$%^&*()_+[]\{}|;':",./<>?</center><br>
+<yearsBar /><br><br>
+<center class="text-9xl">📐</center><br>
+</div>
 </template>

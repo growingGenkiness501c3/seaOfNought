@@ -35,7 +35,7 @@ defineOptions({
   <div class="border border-purple-400 cursor-pointer hover:opacity-30" >
     <br><a href="http://localhost:5173/" class="block w-full h-full text-4xl" target="_blank" rel="noopener noreferrer">📅</a></div>
   <div class="border border-violet-400 cursor-pointer hover:opacity-30" >
-    <br><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full text-4xl" target="_blank" rel="noopener noreferrer">✨👌</a></div>
+    <br><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full text-4xl" target="_blank" rel="noopener noreferrer">👌</a></div>
   <div class="border border-indigo-400 cursor-pointer hover:opacity-30" >
     <br><a href="http://localhost:5173/" class="block w-full h-full text-4xl" target="_blank" rel="noopener noreferrer">📓</a></div>
   <div class="border border-blue-400 cursor-pointer hover:opacity-30" >
