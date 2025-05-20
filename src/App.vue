@@ -10,14 +10,21 @@ import SplitOneTwoThree from "@/components/SplitOneTwoThree.vue";
 import NavigationBar from "@/components/NavigationBar.vue";
 import NavigationButtonBar from "@/components/NavigationButtonBar.vue";
 import NavigationBars from "@/components/NavigationBars.vue";
+import NavigationRouterBar from "@/components/NavigationRouterBar.vue";
 
 import { RouterLink, RouterView } from "vue-router";
 </script>
 <template>
+<center class="text-9xl"><NavigationButtonBar /></center>
+<br><br>
+<center class=" text-4xl"><NavigationBar /></center>
+<br><br><br>
 <wordBar /><br>
+<center class="text-3xl"><NavigationRouterBar /></center>
+<br><br><br>
 <center><NavigationBars /></center>
-
-
+<br><br>
+<hr>
 
 <center>
   
@@ -50,7 +57,7 @@ import { RouterLink, RouterView } from "vue-router";
 <span  class="text-4xl">🖵 </span><br>
 <RouterView /><br>
 <span  class="text-4xl">🖵 </span><br>
-<span class="text-2xl"><skyBottom /><skyBottom /></span>
+<span class="text-2xl"><skyBottom /><skyBottom /></span>無 
 </center>
 </template>
 <style>
