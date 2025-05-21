@@ -3,6 +3,8 @@ import SplitOneTwoThree from "@/components/SplitOneTwoThree.vue";
 import NavigationBar from "@/components/NavigationBar.vue";
 import NavigationButtonBar from "@/components/NavigationButtonBar.vue";
 import NavigationRouterBar from "@/components/NavigationRouterBar.vue";
+import WordBar from "@/components/WordBar.vue";
+import Clock from "@/components/Clock.vue";
 
 defineOptions({
   name: "NavigationBars"
@@ -18,7 +20,7 @@ defineOptions({
       <NavigationRouterBar />
     </template>
     <template #four>
-      <NavigationBar />     
+      <clock />
     </template>
   </SplitOneTwoThree>
 </template>
