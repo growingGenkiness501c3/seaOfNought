@@ -1,28 +1,40 @@
 <script setup lang="ts">
 import aardvarkComponent from '@/components/aardvarkComponent.vue'
-import blackFlag from '@/components/blackFlag.vue'
 import Clock from '@/components/Clock.vue'
 import clockFlag from '@/components/clockFlag.vue'
-import cyanFlag from '@/components/cyanFlag.vue'
 import Flag from '@/components/Flag.vue'
 import helloWorld from '@/components/helloWorld.vue'
-import hueBar from '@/components/hueBar.vue'
-import magentaFlag from '@/components/magentaFlag.vue'
+import NaughtSeaHeader from '@/components/NaughtSeaHeader.vue'
+import NavigationBar from '@/components/NavigationBar.vue'
+import NavigationBars from '@/components/NavigationBars.vue'
+import NavigationButtonBar from '@/components/NavigationButtonBar.vue'
+import NavigationRouterBar from '@/components/NavigationRouterBar.vue'
 import oO0 from '@/components/oO0.vue'
-import rainbowDots from '@/components/color/rainbowDots.vue'
+
 import seaOfNoughtBar from '@/components/seaOfNoughtBar.vue'
-import seaOfNoughtShipsLog from '@/components/seaOfNoughtShipsLog.vue'
 import seaOfNoughtNavigationBar from '@/components/seaOfNoughtNavigationBar.vue'
+import seaOfNoughtShipsLog from '@/components/seaOfNoughtShipsLog.vue'
 import shipsLogHeader from '@/components/shipsLogHeader.vue'
+import SplitOneTwoThree from '@/components/SplitOneTwoThree.vue'
+import wordBar from '@/components/wordBar.vue'
+import yearsBar from '@/components/yearsBar.vue'
+import zer0Oo from '@/components/zer0Oo.vue'
+
+
+
+import blackFlag from '@/components/color/blackFlag.vue'
+import cyanFlag from '@/components/color/cyanFlag.vue'
+import hueBar from '@/components/color/hueBar.vue'
+import magentaFlag from '@/components/color/magentaFlag.vue'
+import whiteFlag from '@/components/color/whiteFlag.vue'
+import yellowFlag from '@/components/color/yellowFlag.vue'
+
+
+
+import rainbowDots from '@/components/color/rainbowDots.vue'
 import skyBottom from '@/components/color/skyBottom.vue'
 import skyMini from '@/components/color/skyMini.vue'
 import skyTop from '@/components/color/skyTop.vue'
-import SplitOneTwoThree from '@/components/SplitOneTwoThree.vue'
-import whiteFlag from '@/components/whiteFlag.vue'
-import wordBar from '@/components/wordBar.vue'
-import yearsBar from '@/components/yearsBar.vue'
-import yellowFlag from '@/components/yellowFlag.vue'
-import zer0Oo from '@/components/zer0Oo.vue'
 
 
 defineOptions({
