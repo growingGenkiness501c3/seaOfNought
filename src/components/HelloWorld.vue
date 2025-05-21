@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import cyanFlag from '@/components/cyanFlag.vue'
-import whiteFlag from '@/components/whiteFlag.vue'
+import cyanFlag from '@/components/color/cyanFlag.vue'
+import whiteFlag from '@/components/color/whiteFlag.vue'
 
 
 defineProps<{ msg: string }>()

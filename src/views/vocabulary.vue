@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import Flag from '@/components/Flag.vue'
 
-import blackFlag from '@/components/blackFlag.vue'
-import whiteFlag from '@/components/whiteFlag.vue'
-import yellowFlag from '@/components/yellowFlag.vue'
-import magentaFlag from '@/components/magentaFlag.vue'
-import cyanFlag from '@/components/cyanFlag.vue'
+import blackFlag from '@/components/color/blackFlag.vue'
+import whiteFlag from '@/components/color/whiteFlag.vue'
+import yellowFlag from '@/components/color/yellowFlag.vue'
+import magentaFlag from '@/components/color/magentaFlag.vue'
+import cyanFlag from '@/components/color/cyanFlag.vue'
 import SplitOneTwoThree from '@/components/SplitOneTwoThree.vue'
 defineOptions({
   name: "vocabulary"

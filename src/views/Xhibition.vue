@@ -5,7 +5,7 @@ defineOptions({
 import skyMini from "@/components/color/skyMini.vue";
 import skyTop from "@/components/color/skyTop.vue";
 import skyBottom from "@/components/color/skyBottom.vue";
-import hueBar from "@/components/hueBar.vue";
+import hueBar from "@/components/color/hueBar.vue";
 import yearsBar from "@/components/yearsBar.vue";
 import seaOfNoughtBar from "@/components/seaOfNoughtBar.vue";
 import seaOfNoughtNavigationBar from "@/components/seaOfNoughtNavigationBar.vue";
