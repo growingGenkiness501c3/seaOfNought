@@ -13,7 +13,6 @@ import { RouterLink, RouterView } from "vue-router";
 </script>
 <template>
 <wordBar />
-
 <center><NaughtSeaHeader /></center>
 <center><NavigationBars /></center>
 <br>
@@ -21,9 +20,9 @@ import { RouterLink, RouterView } from "vue-router";
 <skyTop /><skyTop /><skyTop /><skyTop /><br>
 </center>
 <center class="text-xl"><skyTop /><skyTop /><br>
-<span  class="text-4xl">🖵無 </span><br>
-<RouterView /><br>
-<span  class="text-4xl">無🖵 </span><br>
+<span  class="text-4xl">ن🖵無 </span><br>
+<RouterView />
+<span  class="text-4xl">無🖵ن </span><br>
 <span class="text-2xl"><skyBottom /><skyBottom /></span> 
 </center>
 <br><br>

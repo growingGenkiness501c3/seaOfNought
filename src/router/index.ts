@@ -10,6 +10,7 @@ import Exhibits from '@/views/Exhibits.vue'
 import AardvarkVue from '@/views/AardvarkVue.vue'
 import SeaOfNought from '@/views/NaughtSea.vue'
 import Orientation from '@/views/Orientation.vue'
+import Dailies from '@/views/Dailies.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -33,6 +34,11 @@ const router = createRouter({
       path: '/crowsNest',
       name: 'crowsNest',
       component: CrowsNest
+    },
+    {
+      path: '/dailies',
+      name: 'dailies',
+      component: Dailies
     },
     {
       path: '/exhibits',
