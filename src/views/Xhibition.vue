@@ -2,9 +2,9 @@
 defineOptions({
   name: "exhibits"
 });
-import skyMini from "@/components/skyMini.vue";
-import skyTop from "@/components/skyTop.vue";
-import skyBottom from "@/components/skyBottom.vue";
+import skyMini from "@/components/color/skyMini.vue";
+import skyTop from "@/components/color/skyTop.vue";
+import skyBottom from "@/components/color/skyBottom.vue";
 import hueBar from "@/components/hueBar.vue";
 import yearsBar from "@/components/yearsBar.vue";
 import seaOfNoughtBar from "@/components/seaOfNoughtBar.vue";
