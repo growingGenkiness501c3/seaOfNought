@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import Clock from "@/components/Clock.vue";
 import seaOfNoughtNavigationBar from "@/components/seaOfNoughtNavigationBar.vue";
-import skyMini from "@/components/skyMini.vue";
-import skyTop from "@/components/skyTop.vue";
-import skyBottom from "@/components/skyBottom.vue";
+import skyMini from "@/components/color/skyMini.vue";
+import skyTop from "@/components/color/skyTop.vue";
+import skyBottom from "@/components/color/skyBottom.vue";
 import wordBar from "@/components/wordBar.vue";
 import NaughtSeaHeader from "@/components/NaughtSeaHeader.vue";
 import SplitOneTwoThree from "@/components/SplitOneTwoThree.vue";
@@ -12,6 +12,7 @@ import NavigationBar from "@/components/NavigationBar.vue";
 import { RouterLink, RouterView } from "vue-router";
 </script>
 <template>
+
 <wordBar />
 <center><NaughtSeaHeader /></center>
 <center><NavigationBars /></center>

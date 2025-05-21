@@ -6,7 +6,7 @@ import vocabulary from '@/views/vocabulary.vue'
 import Library from '@/views/Library.vue'
 import RoyalWeThePeople from '@/views/RoyalWeThePeople.vue'
 import RoyalWe from '@/views/RoyalWe.vue'
-import Exhibits from '@/views/Exhibits.vue'
+import Xhibition from '@/views/Xhibition.vue'
 import AardvarkVue from '@/views/AardvarkVue.vue'
 import SeaOfNought from '@/views/NaughtSea.vue'
 import Orientation from '@/views/Orientation.vue'
@@ -41,9 +41,9 @@ const router = createRouter({
       component: Dailies
     },
     {
-      path: '/exhibits',
-      name: 'exhibits',
-      component: Exhibits
+      path: '/xhibition',
+      name: 'xhibition',
+      component: Xhibition
     },
     {
       path: '/forecastle',
