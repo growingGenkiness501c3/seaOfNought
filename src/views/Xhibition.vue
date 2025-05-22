@@ -1,6 +1,6 @@
 <script setup lang="ts">
 defineOptions({
-  name: "exhibits"
+  name: "xhibition"
 });
 import skyMini from "@/components/color/skyMini.vue";
 import skyTop from "@/components/color/skyTop.vue";
@@ -199,52 +199,6 @@ import seaOfNoughtNavigationBar from "@/components/seaOfNoughtNavigationBar.vue"
 <span class="mea-culpa-regular" style="font-size: 55px">🧭⛵<br /></span>
 
 
-<span class="alumni-sans-pinstripe-regular">🧭 (Naught)Sea ✨ Sea of Nought 🗽 </span>
-<br>
-<span class="alumni-sans-pinstripe-regular">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
-<br>
-
-<span class="alumni-sans-pinstripe-regular-italic">🧭 (Naught)Sea ✨ Sea of Nought 🗽 </span>
-<br>
-<span class="alumni-sans-pinstripe-regular-italic">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
-<br>
-<span class="coral-pixels-regular">🧭 (Naught)Sea ✨ Sea of Nought 🗽 </span>
-<br>
-<span class="coral-pixels-regular">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
-<br>
-<span class="hubot-sans">🧭 (Naught)Sea ✨ Sea of Nought 🗽 </span>
-<br>
-<span class="hubot-sans">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
-<br>
-<span class="mea-culpa-regular">🧭 (Naught)Sea ✨ Sea of Nought 🗽 </span>
-<br>
-<span class="mea-culpa-regular">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
-<br>
-<span class="orbitron">🧭 (Naught)Sea ✨ Sea of Nought 🗽 </span>
-<br>
-<span class="orbitron">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
-<br>
-<span class="rajdhani-light">🧭 (Naught)Sea ✨ Sea of Nought 🗽 </span>
-<br>
-<span class="rajdhani-light">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
-<br>
-<span class="rajdhani-regular">🧭 (Naught)Sea ✨ Sea of Nought 🗽 </span>
-<br>
-<span class="rajdhani-regular">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
-<br>
-<span class="rajdhani-medium">🧭 (Naught)Sea ✨ Sea of Nought 🗽 </span>
-<br>
-<span class="rajdhani-medium">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
-<br>
-<span class="rajdhani-semibold">🧭 (Naught)Sea ✨ Sea of Nought 🗽 </span>
-<br>
-<span class="rajdhani-semibold">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
-<br>
-<span class="rajdhani-bold">🧭 (Naught)Sea ✨ Sea of Nought 🗽 </span>
-<br>
-<span class="rajdhani-bold">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
-<br>
-<hr>
 
 
 

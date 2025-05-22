@@ -40,7 +40,7 @@ defineOptions({
   <div class="border border-lime-400 cursor-pointer hover:opacity-30" >
     🗽</div>
 </div>
-
+<br>
 <div class="grid grid-cols-[repeat(17,minmax(0,1fr))] w-full h-6 gap-10 p-5 ">
   <div class="border border-yellow-400 cursor-pointer hover:opacity-30 text-center">
     NaughtSea</div>
