@@ -12,8 +12,11 @@ import NavigationBar from "@/components/NavigationBar.vue";
 import { RouterLink, RouterView } from "vue-router";
 </script>
 <template>
-<center><NavigationBar />  </center>
-<br><br><hr><a href="http://localhost:5173/aardvarkVue" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🐗🦡🦔</a>
+<center>
+  <a href="http://localhost:5173/aardvarkVue" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🐗🦡🦔</a>
+  <NavigationBar />  
+</center>
+
 <br><br><hr><br><hr><br>
 <center>
 <skyTop /><skyTop /><skyTop /><skyTop /><br>
