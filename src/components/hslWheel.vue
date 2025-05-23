@@ -5,18 +5,18 @@ defineOptions({
 </script>
 <style scoped>
   .bg-layered-background {
-    background-image: url('/NaughtSea.png'), url('/color/30 hsl wheel-0red 10k opacity 30.png');
-    background-position: center, top right;
-    background-repeat: repeat, no-repeat;
-    background-size: cover, contain;
+    background-image: url('/color/30 hsl wheel-0red 10k opacity 10.png'), url('/color/30 hsl wheel-0red 10k opacity 10.png'), url('/NaughtSea.png');
+    background-position: 1 11 0, 33px 11px 0px;
+    background-repeat: repeat, repeat, repeat;
+    background-size: 333px, 1111px, auto;
   }
 </style>
 <template>
-<div class="bg-layered-background w-full h-screen">
+<div class="bg-layered-background w-full h-full">
   <slot name="default">
 
 
-    
+
   </slot>
 </div>
 

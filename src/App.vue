@@ -8,7 +8,7 @@ import { RouterLink, RouterView } from "vue-router";
 <template>
 <hslWheel>
             <center>
-            <img src="/color/30 hsl wheel-0red 100.png" alt="Example" class="w-100 object-cover rounded-md" />
+            <img src="/color/30 hsl wheel-0red 100.png" alt="Example" class="w-25 object-cover rounded-md" />
               <a href="http://localhost:5173/aardvarkVue" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🐗🦡🦔</a>
               <NavigationBar />  
             </center>
@@ -19,7 +19,7 @@ import { RouterLink, RouterView } from "vue-router";
             </center>
             <center class="text-xl"><skyTop /><skyTop /><br>
 
-            <img src="/color/30 hsl wheel-0red 1k.png" alt="Example" class="w-1000 object-cover rounded-md" />
+            <!--<img src="/color/30 hsl wheel-0red 1k.png" alt="Example" class="w-1000 object-cover rounded-md" />-->
             <!--<img src="/color/30 hsl wheel-0red 10k.png" alt="Example" class="w-10000 object-cover rounded-md" />
             -->
               <span  class="text-4xl">ن🖵無 </span><br>
@@ -69,7 +69,7 @@ import { RouterLink, RouterView } from "vue-router";
               <RouterLink class="p-2.5; text-sky-200 hover:text-lime-200 border border-lime-200 cursor-pointer" to="/royalwethepeople">🗽<br>RWTP</RouterLink>            
             </nav> <br><br>
             </center>
-
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </hslWheel>
 
 
