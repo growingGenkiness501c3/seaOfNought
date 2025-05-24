@@ -15,6 +15,6 @@ onMounted(() => {
 });
 </script>
 <template>
-  <clockFlag class="orbitron text-sky-500" style="font-size: 77px;">&nbsp;&nbsp;{{ currenttime }}&nbsp;&nbsp;</clockFlag><hr>
-  <clockFlag class="orbitron text-sky-200" style="font-size: 22px;"><center>&nbsp;&nbsp;&nbsp;{{ currentdate }}&nbsp;&nbsp;&nbsp;</center></clockFlag>
+  <clockFlag class="orbitron text-sky-300" style="font-size: 77px;">&nbsp;&nbsp;{{ currenttime }}&nbsp;&nbsp;</clockFlag><hr>
+  <clockFlag class="orbitron text-sky-400" style="font-size: 22px;"><center>&nbsp;&nbsp;&nbsp;{{ currentdate }}&nbsp;&nbsp;&nbsp;</center></clockFlag>
 </template>
