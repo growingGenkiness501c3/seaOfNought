@@ -12,11 +12,18 @@ import TailwindColorNameBar from "./components/color/tailwindColorNameBar.vue";
 <template>
 <backgroundImages>
 <div class="grid grid-cols-[repeat(3,minmax(0,1fr))] w-full h-6 gap-2 p-5">
-  <div class="border border-sky-300" ><br><br><br><br><br><br><br><br></div>
-  <div class="border border-sky-300"></div>
+  <div class="border border-sky-300" >
+    <img src="/color/60 hsl wheel colors 1k2 opacity 100.png" class="w-100 object-cover rounded-md" />
+  </div>
+  <div class="border border-sky-300">
+    <img src="/color/30 hsl wheel-0red 1k.png" class="w-100 object-cover rounded-md" />
+  </div>
+  <div class="border border-sky-300">
+    <img src="/color/30 hsl wheel-0red 100.png" class="w-100 object-cover rounded-md" />
+  </div>
   <div class="border border-sky-300"><clock /></div>
 </div>
-<br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 <hsl60Bar />
