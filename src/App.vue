@@ -2,87 +2,17 @@
 import skyTop from "@/components/color/skyTop.vue";
 import skyBottom from "@/components/color/skyBottom.vue";
 import NavigationBar from "@/components/NavigationBar.vue";
-import backgroundImages from "@/components/backgroundImages.vue";
+import backgroundImages from "@/components/color/backgroundImages.vue";
 import clock from "@/components/Clock.vue";
 import routerBar from "@/components/routerBar.vue";
 import { RouterLink, RouterView } from "vue-router";
 import TailwindColorNameBar from "./components/color/tailwindColorNameBar.vue";
 </script>
 <template>
-<hslWheel>
-  <center><!--
-    <div class="grid grid-cols-6 gap-1 p-1 text-[22px] text-center">
-      <img src="/color/30 hsl wheel-0red 10k.png" alt="Example" class="w-100 object-cover rounded-md" />
-      <div><br><br><br><clock /><a href="http://localhost:5173/aardvarkVue" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🐗🦡🦔</a></div>
-      <img src="/color/30 hsl wheel-0red 10k opacity 100 - yellow.png" alt="Example" class="w-100 object-cover rounded-md" />
-      <img src="/color/30 hsl wheel-0red 10k opacity 100 - magenta.png" alt="Example" class="w-100 object-cover rounded-md" />
-      <img src="/color/30 hsl wheel-0red 10k opacity 100 - cyan.png" alt="Example" class="w-100 object-cover rounded-md" />
-      <img src="/color/wizardHat.png" alt="Example" class="h-120 object-cover rounded-md" />
-    </div>
-    <div class="grid grid-cols-60 gap-1 p-1 text-[22px] text-center">
-      <div>1</div>
-      <div>2</div>
-      <div>3</div>
-      <div>4</div>
-      <div>5</div>
-      <div>6</div>
-      <div>7</div>
-      <div>8</div>
-      <div>9</div>
-      <div>10</div>
-      <div>11</div>
-      <div>12</div>
-      <div>13</div>
-      <div>14</div>
-      <div>15</div>
-      <div>16</div>
-      <div>17</div>
-      <div>18</div>
-      <div>19</div>
-      <div>20</div>
-      <div>21</div>
-      <div>22</div>
-      <div>23</div>
-      <div>24</div>
-      <div>25</div>
-      <div>26</div>
-      <div>27</div>
-      <div>28</div>
-      <div>29</div>
-      <div>30</div>
-      <div>31</div>
-      <div>32</div>
-      <div>33</div>
-      <div>34</div>
-      <div>35</div>
-      <div>36</div>
-      <div>37</div>
-      <div>38</div>
-      <div>39</div>
-      <div>40</div>
-      <div>41</div>
-      <div>42</div>
-      <div>43</div>
-      <div>44</div>
-      <div>45</div>
-      <div>46</div>
-      <div>47</div>
-      <div>48</div>
-      <div>49</div>
-      <div>50</div>
-      <div>51</div>
-      <div>52</div>
-      <div>53</div>
-      <div>54</div>
-      <div>55</div>
-      <div>56</div>
-      <div>57</div>
-      <div>58</div>
-      <div>59</div>
-      <div>60</div>
+<backgroundImages>
 
-    </div>
-    <div class="grid grid-cols-60 gap-1 p-1 text-[33px] text-center alumni-sans-pinstripe-regular";>
+
+    <div class="grid grid-cols-60 gap-1 p-1 text-[33px] text-center alumni-sans-pinstripe-regular">
       <div class="rounded-full border-3 border-[hsl(60,50%,50%,100%)] bg-[hsl(60,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">60</div>
       <div class="rounded-full border-3 border-[hsl(54,50%,50%,100%)] bg-[hsl(54,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">54</div>
       <div class="rounded-full border-3 border-[hsl(48,50%,50%,100%)] bg-[hsl(48,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">48</div>
@@ -144,15 +74,55 @@ import TailwindColorNameBar from "./components/color/tailwindColorNameBar.vue";
       <div class="rounded-full border-3 border-[hsl(72,50%,50%,100%)] bg-[hsl(72,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">72</div>
       <div class="rounded-full border-3 border-[hsl(66,50%,50%,100%)] bg-[hsl(66,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">66</div>
     </div>
-    <div class="grid grid-cols-6 gap-1 p-1 text-[22px] text-center">
-      <img src="/color/30 hsl wheel-0red 10k.png" alt="Example" class="w-100 object-cover rounded-md" />
-      <div><br><br><br><clock /><a href="http://localhost:5173/aardvarkVue" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🐗🦡🦔</a></div>
-      <img src="/color/30 hsl wheel-0red 10k opacity 100 - yellow.png" alt="Example" class="w-100 object-cover rounded-md" />
-      <img src="/color/30 hsl wheel-0red 10k opacity 100 - magenta.png" alt="Example" class="w-100 object-cover rounded-md" />
-      <img src="/color/30 hsl wheel-0red 10k opacity 100 - cyan.png" alt="Example" class="w-100 object-cover rounded-md" />
-      <img src="/color/wizardHat.png" alt="Example" class="h-120 object-cover rounded-md" />
-    </div>
--->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <center>
     
               <NavigationBar />  
   </center>
@@ -181,7 +151,7 @@ import TailwindColorNameBar from "./components/color/tailwindColorNameBar.vue";
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-</hslWheel>
+</backgroundImages>
 
 
 
