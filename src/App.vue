@@ -2,7 +2,7 @@
 import skyTop from "@/components/color/skyTop.vue";
 import skyBottom from "@/components/color/skyBottom.vue";
 import NavigationBar from "@/components/NavigationBar.vue";
-import hslWheel from "@/components/hslWheel.vue";
+import backgroundImages from "@/components/backgroundImages.vue";
 import clock from "@/components/Clock.vue";
 import routerBar from "@/components/routerBar.vue";
 import { RouterLink, RouterView } from "vue-router";
@@ -10,8 +10,7 @@ import TailwindColorNameBar from "./components/color/tailwindColorNameBar.vue";
 </script>
 <template>
 <hslWheel>
-  <center>
-    <!--
+  <center><!--
     <div class="grid grid-cols-6 gap-1 p-1 text-[22px] text-center">
       <img src="/color/30 hsl wheel-0red 10k.png" alt="Example" class="w-100 object-cover rounded-md" />
       <div><br><br><br><clock /><a href="http://localhost:5173/aardvarkVue" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🐗🦡🦔</a></div>
@@ -20,7 +19,6 @@ import TailwindColorNameBar from "./components/color/tailwindColorNameBar.vue";
       <img src="/color/30 hsl wheel-0red 10k opacity 100 - cyan.png" alt="Example" class="w-100 object-cover rounded-md" />
       <img src="/color/wizardHat.png" alt="Example" class="h-120 object-cover rounded-md" />
     </div>
-    -->
     <div class="grid grid-cols-60 gap-1 p-1 text-[22px] text-center">
       <div>1</div>
       <div>2</div>
@@ -146,7 +144,6 @@ import TailwindColorNameBar from "./components/color/tailwindColorNameBar.vue";
       <div class="rounded-full border-3 border-[hsl(72,50%,50%,100%)] bg-[hsl(72,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">72</div>
       <div class="rounded-full border-3 border-[hsl(66,50%,50%,100%)] bg-[hsl(66,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">66</div>
     </div>
-<!-- 
     <div class="grid grid-cols-6 gap-1 p-1 text-[22px] text-center">
       <img src="/color/30 hsl wheel-0red 10k.png" alt="Example" class="w-100 object-cover rounded-md" />
       <div><br><br><br><clock /><a href="http://localhost:5173/aardvarkVue" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🐗🦡🦔</a></div>
@@ -154,9 +151,9 @@ import TailwindColorNameBar from "./components/color/tailwindColorNameBar.vue";
       <img src="/color/30 hsl wheel-0red 10k opacity 100 - magenta.png" alt="Example" class="w-100 object-cover rounded-md" />
       <img src="/color/30 hsl wheel-0red 10k opacity 100 - cyan.png" alt="Example" class="w-100 object-cover rounded-md" />
       <img src="/color/wizardHat.png" alt="Example" class="h-120 object-cover rounded-md" />
-    
     </div>
 -->
+    
               <NavigationBar />  
   </center>
 
