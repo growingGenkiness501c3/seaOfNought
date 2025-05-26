@@ -26,5 +26,5 @@ defineOptions({
   <center><sup>what are hydration errors?</sup></center>
 </div>
 <br>
-<img src="/125-05-15/Slide3.PNG" class="w-1/2 h-auto" />
+<img src="/herstory/125-05-15/Slide3.PNG" class="w-1/2 h-auto" />
 </template>

@@ -5,7 +5,7 @@ defineOptions({
 </script>
 <style scoped>
   .bg-layered-background {
-    background-image: url('/NaughtSea.png');
+    background-image: url('/backgrounds/NaughtSea.png');
     background-position: 0, 0px;
     background-repeat: repeat;
     background-size: auto;

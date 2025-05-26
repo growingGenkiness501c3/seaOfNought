@@ -14,56 +14,56 @@ import TailwindColorNameBar from "./components/color/tailwindColorNameBar.vue";
 
 <div class="grid grid-cols-[repeat(6,minmax(0,1fr))] w-full h-6 gap-2 p-5">
   <div class="border border-sky-700" >
-    <img src="/color/YMC hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
+    <img src="/color/hsl/YMC hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
   </div>
   <div class="border border-sky-700" >
-    <img src="/color/RGB hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
+    <img src="/color/hsl/RGB hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
   </div>
   <div class="border border-sky-700" >
-    <img src="/color/6 hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
+    <img src="/color/hsl/6 hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
   </div>
   <div class="border border-sky-700" >
-    <img src="/color/12 hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
+    <img src="/color/hsl/12 hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
   </div>
   <div class="border border-sky-700" >
-    <img src="/color/30 hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
+    <img src="/color/hsl/30 hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
   </div>
   <div class="border border-sky-700" >
-    <img src="/color/60 hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
+    <img src="/color/hsl/60 hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
   </div>
 </div>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <div class="grid grid-cols-[repeat(6,minmax(0,1fr))] w-full h-6 gap-2 p-5">
   <div class="border border-sky-700" >
-    <img src="/color/60 hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
+    <img src="/color/hsl/60 hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
   </div>
   <div class="border border-sky-700" >
-    <img src="/color/30 hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
+    <img src="/color/hsl/30 hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
   </div>
   <div class="border border-sky-700" >
-    <img src="/color/12 hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
+    <img src="/color/hsl/12 hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
   </div>
   <div class="border border-sky-700" >
-    <img src="/color/6 hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
+    <img src="/color/hsl/6 hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
   </div>
   <div class="border border-sky-700" >
-    <img src="/color/RGB hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
+    <img src="/color/hsl/RGB hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
   </div>
   <div class="border border-sky-700" >
-    <img src="/color/YMC hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
+    <img src="/color/hsl/YMC hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
   </div>
 </div>
 <br><br><br><br><br><br><br><br><br><br><br><br>
 
 <div class="grid grid-cols-[repeat(3,minmax(0,1fr))] w-full h-6 gap-2 p-5">
   <div class="border border-sky-700" >
-    <img src="/color/art 1.png" class="w-100 object-cover rounded-md" />
+    <img src="/color/hsl/art 1.png" class="w-100 object-cover rounded-md" />
   </div>
   <div class="border border-sky-700" >
-    <img src="/color/art 2.PNG" class="w-100 object-cover rounded-md" />
+    <img src="/color/hsl/art 2.PNG" class="w-100 object-cover rounded-md" />
   </div>
   <div class="border border-sky-700" >
-    <img src="/color/art 3.PNG" class="w-100 object-cover rounded-md" />
+    <img src="/color/hsl/art 3.PNG" class="w-100 object-cover rounded-md" />
   </div>
 </div>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -229,7 +229,7 @@ import TailwindColorNameBar from "./components/color/tailwindColorNameBar.vue";
     <pre class="text-9xl">30</pre>
   </div>
   <div class="border border-sky-300" >
-    <img src="/color/30 hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
+    <img src="/color/hsl/30 hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
   </div>
   <div class="border border-sky-300" >
   </div>
@@ -258,7 +258,7 @@ import TailwindColorNameBar from "./components/color/tailwindColorNameBar.vue";
     <pre class="text-9xl">12</pre>
   </div>
   <div class="border border-sky-300" >
-    <img src="/color/12 hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
+    <img src="/color/hsl/12 hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
   </div>
   <div class="border border-sky-300" >
   </div>
@@ -281,7 +281,7 @@ import TailwindColorNameBar from "./components/color/tailwindColorNameBar.vue";
     <pre class="text-9xl">6</pre>
   </div>
   <div class="border border-sky-300" >
-    <img src="/color/6 hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
+    <img src="/color/hsl/6 hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
   </div>
   <div class="border border-sky-300" >
   </div>
@@ -296,7 +296,7 @@ import TailwindColorNameBar from "./components/color/tailwindColorNameBar.vue";
     <pre class="text-9xl">RGB</pre>
   </div>
   <div class="border border-sky-300" >
-    <img src="/color/RGB hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
+    <img src="/color/hsl/RGB hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
   </div>
   <div class="border border-sky-300" >
     
@@ -315,7 +315,7 @@ import TailwindColorNameBar from "./components/color/tailwindColorNameBar.vue";
     <pre class="text-9xl">YMC</pre>
   </div>
   <div class="border border-sky-300" >
-    <img src="/color/YMC hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
+    <img src="/color/hsl/YMC hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
   </div>
   <div class="border border-sky-300" >
     
