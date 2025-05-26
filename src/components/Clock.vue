@@ -1,7 +1,6 @@
 <script lang="ts" setup>
 import { ref, onMounted } from 'vue';
 import moment from 'moment';
-import clockFlag from '@/components/clockFlag.vue'
 const currenttime = ref('none');
 const currentdate = ref('none');
 function updateTime() {
@@ -15,6 +14,6 @@ onMounted(() => {
 });
 </script>
 <template>
-  <clockFlag class="orbitron text-sky-300" style="font-size: 77px;">&nbsp;&nbsp;{{ currenttime }}&nbsp;&nbsp;</clockFlag><hr>
-  <clockFlag class="orbitron text-sky-400" style="font-size: 22px;"><center>&nbsp;&nbsp;&nbsp;{{ currentdate }}&nbsp;&nbsp;&nbsp;</center></clockFlag>
+  <span class="orbitron text-sky-300" style="font-size: 66px;">&nbsp;&nbsp;{{ currenttime }}&nbsp;&nbsp;</span><hr>
+  <span class="orbitron text-sky-400" style="font-size: 22px;"><center>&nbsp;&nbsp;&nbsp;{{ currentdate }}&nbsp;&nbsp;&nbsp;</center></span>
 </template>
