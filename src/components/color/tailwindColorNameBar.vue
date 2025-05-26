@@ -5,7 +5,14 @@ defineOptions({
 </script>
 <template>
   <center>
-    <div class="grid grid-cols-18 gap-1 p-1 text-[11px] text-center">
+    <div class="grid grid-cols-5 gap-1 p-1 text-[9px] text-center">
+      <span class="text-slate-500">slate-900</span>
+      <span class="text-gray-500">gray-900</span>
+      <span class="text-zinc-500">zinc-900</span>
+      <span class="text-neutral-500">neutral-900</span>
+      <span class="text-stone-500">stone-900</span>
+    </div>
+    <div class="grid grid-cols-18 gap-1 p-1 text-[9px] text-center">
       <span class="text-lime-300">lime-300</span>
       <span class="text-yellow-300">yellow-300</span>
       <span class="text-amber-300">amber-300</span>
@@ -24,13 +31,6 @@ defineOptions({
       <span class="text-emerald-300">emerald-300</span>
       <span class="text-green-300">green-300</span>
       <span class="text-lime-300">lime-300</span>
-    </div>
-    <div class="grid grid-cols-5 gap-1 p-1 text-[22px] text-center">
-      <span class="text-slate-900">slate-900</span>
-      <span class="text-gray-900">gray-900</span>
-      <span class="text-zinc-900">zinc-900</span>
-      <span class="text-neutral-900">neutral-900</span>
-      <span class="text-stone-900">stone-900</span>
     </div>
   </center>
 </template>
