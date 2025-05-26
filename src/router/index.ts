@@ -11,6 +11,7 @@ import AardvarkVue from '@/views/AardvarkVue.vue'
 import SeaOfNought from '@/views/NaughtSea.vue'
 import Orientation from '@/views/Orientation.vue'
 import Dailies from '@/views/Dailies.vue'
+import GrowingGenkiness from '@/views/GrowingGenkiness.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -41,14 +42,14 @@ const router = createRouter({
       component: Dailies
     },
     {
-      path: '/xhibition',
-      name: 'xhibition',
-      component: Xhibition
-    },
-    {
       path: '/forecastle',
       name: 'forecastle',
       component: Forecastle
+    },
+    {
+      path: '/GrowingGenkiness',
+      name: 'GrowingGenkiness',
+      component: GrowingGenkiness
     },
     {
       path: '/Library',
@@ -75,7 +76,12 @@ const router = createRouter({
       name: 'vocabulary',
       component: vocabulary
     },
-  ]
+    {
+      path: '/xhibition',
+      name: 'xhibition',
+      component: Xhibition
+    },
+]
 })
 
 export default router

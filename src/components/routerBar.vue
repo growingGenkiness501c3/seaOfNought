@@ -18,7 +18,7 @@ defineOptions({
     <a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-2.5; text-sky-200 hover:text-violet-200 border border-violet-400 cursor-pointer" target="_blank" rel="noopener noreferrer">👌<br>Perfection</a>          
     <RouterLink class="p-2.5; text-sky-200 hover:text-indigo-200 border border-indigo-400 cursor-pointer" to="/">📓<br>㏒</RouterLink>            
     <RouterLink class="p-2.5; text-sky-200 hover:text-blue-200 border border-blue-400 cursor-pointer" to="/library">🏛️<br>libraries</RouterLink>            
-    <RouterLink class="p-2.5; text-sky-200 hover:text-sky-200 border border-sky-400 cursor-pointer" to="/">💬<br>gG</RouterLink>            
+    <RouterLink class="p-2.5; text-sky-200 hover:text-sky-200 border border-sky-400 cursor-pointer" to="/GrowingGenkiness">💬<br>gG</RouterLink>            
     <RouterLink class="p-2.5; text-sky-200 hover:text-cyan-200 border border-cyan-400 cursor-pointer" to="/Xhibition">🎪<br>Xhibition</RouterLink>            
     <RouterLink class="p-2.5; text-sky-200 hover:text-teal-200 border border-teal-400 cursor-pointer" to="/">📁<br>Sorting</RouterLink>            
     <RouterLink class="p-2.5; text-sky-200 hover:text-emerald-200 border border-emerald-400 cursor-pointer" to="/vocabulary">📖<br>Vocabulary</RouterLink>            

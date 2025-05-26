@@ -21,7 +21,6 @@ import TailwindColorNameBar from "./components/color/tailwindColorNameBar.vue";
 <span  class="text-4xl">無🖵ن </span><br>
 <span class="text-2xl"><skyBottom /><skyBottom /></span> 
 
-
 <br><br><br><br><br><br><br><br><br><br><br><br>
 <div class="text-xl"><skyTop /><skyTop /><br></div>
 <skyTop /><skyTop /><br>

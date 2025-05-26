@@ -5,7 +5,6 @@ defineOptions({
 });
 import aardvarkComponent from '@/components/aardvarkComponent.vue'
 import Clock from '@/components/Clock.vue'
-import clockFlag from '@/components/clockFlag.vue'
 import Flag from '@/components/Flag.vue'
 import helloWorld from '@/components/helloWorld.vue'
 import NaughtSeaHeader from '@/components/NaughtSeaHeader.vue'

@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import aardvarkComponent from '@/components/aardvarkComponent.vue'
 import Clock from '@/components/Clock.vue'
-import clockFlag from '@/components/clockFlag.vue'
 import Flag from '@/components/Flag.vue'
 import helloWorld from '@/components/helloWorld.vue'
 import NaughtSeaHeader from '@/components/NaughtSeaHeader.vue'
@@ -217,7 +216,6 @@ defineOptions({
 <sub>aardvarkComponent</sub><br><aardvarkComponent />
 <br>
 <sub>blackFlag</sub><br><blackFlag>blackFlag</blackFlag><br>
-<sub>clockFlag</sub><br><clockFlag>clockFlag</clockFlag><br>
 <sub>cyanFlag</sub><br><cyanFlag>cyanFlag</cyanFlag><br>
 <sub>Flag</sub><br><Flag>Flag</Flag><br><br>
 <sub>helloWorld</sub><br><helloWorld /><br>

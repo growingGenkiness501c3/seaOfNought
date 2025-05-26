@@ -1,256 +1,556 @@
 <script setup lang="ts">
-import aardvarkComponent from '@/components/aardvarkComponent.vue'
-import Clock from '@/components/Clock.vue'
-import clockFlag from '@/components/clockFlag.vue'
-import Flag from '@/components/Flag.vue'
-import helloWorld from '@/components/helloWorld.vue'
-import NaughtSeaHeader from '@/components/NaughtSeaHeader.vue'
-import NavigationBar from '@/components/NavigationBar.vue'
-import NavigationBars from '@/components/NavigationBars.vue'
-import NavigationButtonBar from '@/components/NavigationButtonBar.vue'
-import NavigationRouterBar from '@/components/NavigationRouterBar.vue'
-import oO0 from '@/components/oO0.vue'
-import seaOfNoughtBar from '@/components/seaOfNoughtBar.vue'
-import seaOfNoughtNavigationBar from '@/components/seaOfNoughtNavigationBar.vue'
-import seaOfNoughtShipsLog from '@/components/seaOfNoughtShipsLog.vue'
-import shipsLogHeader from '@/components/shipsLogHeader.vue'
-import SplitOneTwoThree from '@/components/SplitOneTwoThree.vue'
-import wordBar from '@/components/wordBar.vue'
-import yearsBar from '@/components/yearsBar.vue'
-import zer0Oo from '@/components/zer0Oo.vue'
-
-import blackFlag from '@/components/color/blackFlag.vue'
-import cyanFlag from '@/components/color/cyanFlag.vue'
-import hueBar from '@/components/color/hueBar.vue'
-import magentaFlag from '@/components/color/magentaFlag.vue'
-import rainbowDots from '@/components/color/rainbowDots.vue'
-import skyBottom from '@/components/color/skyBottom.vue'
-import skyMini from '@/components/color/skyMini.vue'
-import skyTop from '@/components/color/skyTop.vue'
-import whiteFlag from '@/components/color/whiteFlag.vue'
-import yellowFlag from '@/components/color/yellowFlag.vue'
-
 defineOptions({
-  name: "GrowingGenkiness"
+  name: "growingGenkiness"
 });
 </script>
 <template>
+  <center>
+  <span  class="text-[99px]">💬無🖵ن</span>
 
-    <!--
-    <div class="grid grid-cols-6 gap-1 p-1 text-[22px] text-center">
-      <img src="/color/30 hsl wheel-0red 10k.png" alt="Example" class="w-100 object-cover rounded-md" />
-      <div><br><br><br><clock /><a href="http://localhost:5173/aardvarkVue" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🐗🦡🦔</a></div>
-      <img src="/color/30 hsl wheel-0red 10k opacity 100 - yellow.png" alt="Example" class="w-100 object-cover rounded-md" />
-      <img src="/color/30 hsl wheel-0red 10k opacity 100 - magenta.png" alt="Example" class="w-100 object-cover rounded-md" />
-      <img src="/color/30 hsl wheel-0red 10k opacity 100 - cyan.png" alt="Example" class="w-100 object-cover rounded-md" />
-      <img src="/color/wizardHat.png" alt="Example" class="h-120 object-cover rounded-md" />
-    </div>
-    -->
+<div class="overflow-x-auto p-4">
+  <table class="table-auto border-collapse w-full text-left">
+    <thead>
+      <tr>
+        <th class="w-32 p-4 border border-gray-300 bg-gray-500 opacity-100 text-[22px]">
+          <span class="text-gray-50 ">⬤</span>
+          <span class="text-gray-100">⬤</span>
+          <span class="text-gray-200">⬤</span>
+          <span class="text-gray-300">⬤</span>
+          <span class="text-gray-400">⬤</span>
+          <span class="text-gray-500">⬤</span>
+          <span class="text-gray-600">⬤</span>
+          <span class="text-gray-700">⬤</span>
+          <span class="text-gray-800">⬤</span>
+          <span class="text-gray-900">⬤</span>
+          <span class="text-gray-950">⬤</span>
+        </th>
+        <th class="w-12 p-4 border border-gray-500 text-[27px] text-gray-50 align-middle text-center">∅©</th>
+        <th class="w-12 p-4 border border-gray-50 text-[16px] text-gray-50 align-middle text-center ">⬤</th>
+        <th class="w-12 p-4 border border-gray-100 text-[16px] text-gray-100 align-middle text-center ">⬤</th>
+        <th class="w-12 p-4 border border-gray-200 text-[16px] text-gray-200 align-middle text-center ">⬤</th>
+        <th class="w-12 p-4 border border-gray-300 text-[16px] text-gray-300 align-middle text-center ">/localhost:5173/</th>
+        <th class="p-4 border border-gray-400 text-[16px] text-gray-400 align-middle text-center ">⬤</th>
+        <th class="p-4 border border-gray-500 text-[16px] text-gray-500 align-middle text-center ">⬤</th>
+        <th class="p-4 border border-gray-600 text-[16px] text-gray-600 align-middle text-center ">⬤</th>
+        <th class="p-4 border border-gray-700 text-[16px] text-gray-700 align-middle text-center ">⬤</th>
+        <th class="p-4 border border-gray-800 text-[16px] text-gray-800 align-middle text-center ">⬤</th>
+        <th class="p-4 border border-gray-900 text-[16px] text-gray-900 align-middle text-center ">⬤</th>
+        <th class="p-4 border border-gray-950 text-[16px] text-gray-950 align-middle text-center ">⬤</th>  
+        <th class="p-4 border border-gray-500 text-[16px] align-middle text-center ">☁️</th>              
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th class="w-32 p-4 border border-yellow-300 bg-yellow-500 opacity-100 text-[22px]">
+          <span class="text-yellow-50 ">⬤</span>
+          <span class="text-yellow-100">⬤</span>
+          <span class="text-yellow-200">⬤</span>
+          <span class="text-yellow-300">⬤</span>
+          <span class="text-yellow-400">⬤</span>
+          <span class="text-yellow-500">⬤</span>
+          <span class="text-yellow-600">⬤</span>
+          <span class="text-yellow-700">⬤</span>
+          <span class="text-yellow-800">⬤</span>
+          <span class="text-yellow-900">⬤</span>
+          <span class="text-yellow-950">⬤</span>
+        </th>
+        <td class="w-12 p-4 border border-yellow-500 text-[27px] text-yellow-50 align-middle text-center ">🍋</td>
+        <td class="w-12 p-4 border border-yellow-50 text-[16px] text-yellow-50 align-middle text-center ">⬤</td>
+        <td class="w-12 p-4 border border-yellow-100 text-[16px] text-yellow-100 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-yellow-200 text-[16px] text-yellow-200 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-yellow-300 text-[16px] text-yellow-300 align-middle text-center ">/orientation</td>
+        <td class="p-4 border border-yellow-400 text-[16px] text-yellow-400 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-yellow-500 text-[16px] text-yellow-500 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-yellow-600 text-[16px] text-yellow-600 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-yellow-700 text-[16px] text-yellow-700 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-yellow-800 text-[16px] text-yellow-800 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-yellow-900 text-[16px] text-yellow-900 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-yellow-950 text-[16px] text-yellow-950 align-middle text-center ">⬤</td>  
+        <td class="w-66 border border-yellow-500 text-[11px] align-middle text-center">🟨🟡🌻💛✨🌼💫</td>
+      </tr>
+      <tr>
+        <th class="w-32 p-4 border border-amber-300 bg-amber-500 opacity-100 text-[22px]">
+          <span class="text-amber-50 ">⬤</span>
+          <span class="text-amber-100">⬤</span>
+          <span class="text-amber-200">⬤</span>
+          <span class="text-amber-300">⬤</span>
+          <span class="text-amber-400">⬤</span>
+          <span class="text-amber-500">⬤</span>
+          <span class="text-amber-600">⬤</span>
+          <span class="text-amber-700">⬤</span>
+          <span class="text-amber-800">⬤</span>
+          <span class="text-amber-900">⬤</span>
+          <span class="text-amber-950">⬤</span>
+        </th>
+        <td class="w-12 p-4 border border-amber-500 text-[27px] text-amber-50 align-middle text-center">🌙</td>
+        <td class="w-12 p-4 border border-amber-50 text-[16px] text-amber-100 align-middle text-center ">⬤</td>
+        <td class="w-12 p-4 border border-amber-100 text-[16px] text-amber-100 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-amber-200 text-[16px] text-amber-200 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-amber-300 text-[16px] text-amber-300 align-middle text-center ">/orientation</td>
+        <td class="p-4 border border-amber-400 text-[16px] text-amber-400 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-amber-500 text-[16px] text-amber-500 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-amber-600 text-[16px] text-amber-600 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-amber-700 text-[16px] text-amber-700 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-amber-800 text-[16px] text-amber-800 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-amber-900 text-[16px] text-amber-900 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-amber-950 text-[16px] text-amber-950 align-middle text-center ">⬤</td>  
+        <td class="p-4 border border-amber-500 text-[16px] align-middle text-center ">📐</td>  
+      </tr>
+      <tr>
+        <th class="w-32 p-4 border border-orange-300 bg-orange-500 opacity-100 text-[22px]">
+          <span class="text-orange-50 ">⬤</span>
+          <span class="text-orange-100">⬤</span>
+          <span class="text-orange-200">⬤</span>
+          <span class="text-orange-300">⬤</span>
+          <span class="text-orange-400">⬤</span>
+          <span class="text-orange-500">⬤</span>
+          <span class="text-orange-600">⬤</span>
+          <span class="text-orange-700">⬤</span>
+          <span class="text-orange-800">⬤</span>
+          <span class="text-orange-900">⬤</span>
+          <span class="text-orange-950">⬤</span>
+        </th>
+        <td class="w-12 p-4 border border-orange-500 text-[27px] text-orange-50 align-middle text-center">🛠</td>
+        <td class="w-12 p-4 border border-orange-50 text-[16px] text-orange-100 align-middle text-center ">⬤</td>
+        <td class="w-12 p-4 border border-orange-100 text-[16px] text-orange-100 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-orange-200 text-[16px] text-orange-200 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-orange-300 text-[16px] text-orange-300 align-middle text-center ">/anchor</td>
+        <td class="p-4 border border-orange-400 text-[16px] text-orange-400 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-orange-500 text-[16px] text-orange-500 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-orange-600 text-[16px] text-orange-600 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-orange-700 text-[16px] text-orange-700 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-orange-800 text-[16px] text-orange-800 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-orange-900 text-[16px] text-orange-900 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-orange-950 text-[16px] text-orange-950 align-middle text-center ">⬤</td>  
+        <td class="p-4 border border-orange-500 text-[16px] align-middle text-center ">🟧🧡🍊</td>  
+      </tr>
 
+      <tr>
+        <th class="w-32 p-4 border border-red-300 bg-red-500 opacity-100 text-[22px]">
+          <span class="text-red-50 ">⬤</span>
+          <span class="text-red-100">⬤</span>
+          <span class="text-red-200">⬤</span>
+          <span class="text-red-300">⬤</span>
+          <span class="text-red-400">⬤</span>
+          <span class="text-red-500">⬤</span>
+          <span class="text-red-600">⬤</span>
+          <span class="text-red-700">⬤</span>
+          <span class="text-red-800">⬤</span>
+          <span class="text-red-900">⬤</span>
+          <span class="text-red-950">⬤</span>
+        </th>
+        <td class="w-12 p-4 border border-red-500 text-[27px] text-red-50 align-middle text-center">🎬</td>
+        <td class="w-12 p-4 border border-red-50 text-[16px] text-red-100 align-middle text-center ">⬤</td>
+        <td class="w-12 p-4 border border-red-100 text-[16px] text-red-100 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-red-200 text-[16px] text-red-200 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-red-300 text-[16px] text-red-300 align-middle text-center ">/dailies</td>
+        <td class="p-4 border border-red-400 text-[16px] text-red-400 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-red-500 text-[16px] text-red-500 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-red-600 text-[16px] text-red-600 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-red-700 text-[16px] text-red-700 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-red-800 text-[16px] text-red-800 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-red-900 text-[16px] text-red-900 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-red-950 text-[16px] text-red-950 align-middle text-center ">⬤</td>  
+        <td class="p-4 border border-red-500 text-[16px] align-middle text-center ">🎬</td>  
+      </tr>
 
-        <!--
-    <div class="grid grid-cols-6 gap-1 p-1 text-[22px] text-center">
-      <img src="/color/30 hsl wheel-0red 10k.png" alt="Example" class="w-100 object-cover rounded-md" />
-      <div><br><br><br><clock /><a href="http://localhost:5173/aardvarkVue" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🐗🦡🦔</a></div>
-      <img src="/color/30 hsl wheel-0red 10k opacity 100 - yellow.png" alt="Example" class="w-100 object-cover rounded-md" />
-      <img src="/color/30 hsl wheel-0red 10k opacity 100 - magenta.png" alt="Example" class="w-100 object-cover rounded-md" />
-      <img src="/color/30 hsl wheel-0red 10k opacity 100 - cyan.png" alt="Example" class="w-100 object-cover rounded-md" />
-      <img src="/color/wizardHat.png" alt="Example" class="h-120 object-cover rounded-md" />
-    </div>
-    
-    <div class="grid grid-cols-60 gap-1 p-1 text-[22px] text-center">
-      <div>1</div>
-      <div>2</div>
-      <div>3</div>
-      <div>4</div>
-      <div>5</div>
-      <div>6</div>
-      <div>7</div>
-      <div>8</div>
-      <div>9</div>
-      <div>10</div>
-      <div>11</div>
-      <div>12</div>
-      <div>13</div>
-      <div>14</div>
-      <div>15</div>
-      <div>16</div>
-      <div>17</div>
-      <div>18</div>
-      <div>19</div>
-      <div>20</div>
-      <div>21</div>
-      <div>22</div>
-      <div>23</div>
-      <div>24</div>
-      <div>25</div>
-      <div>26</div>
-      <div>27</div>
-      <div>28</div>
-      <div>29</div>
-      <div>30</div>
-      <div>31</div>
-      <div>32</div>
-      <div>33</div>
-      <div>34</div>
-      <div>35</div>
-      <div>36</div>
-      <div>37</div>
-      <div>38</div>
-      <div>39</div>
-      <div>40</div>
-      <div>41</div>
-      <div>42</div>
-      <div>43</div>
-      <div>44</div>
-      <div>45</div>
-      <div>46</div>
-      <div>47</div>
-      <div>48</div>
-      <div>49</div>
-      <div>50</div>
-      <div>51</div>
-      <div>52</div>
-      <div>53</div>
-      <div>54</div>
-      <div>55</div>
-      <div>56</div>
-      <div>57</div>
-      <div>58</div>
-      <div>59</div>
-      <div>60</div>
+      <tr>
+        <th class="w-32 p-4 border border-rose-300 bg-rose-500 opacity-100 text-[22px]">
+          <span class="text-rose-50 ">⬤</span>
+          <span class="text-rose-100">⬤</span>
+          <span class="text-rose-200">⬤</span>
+          <span class="text-rose-300">⬤</span>
+          <span class="text-rose-400">⬤</span>
+          <span class="text-rose-500">⬤</span>
+          <span class="text-rose-600">⬤</span>
+          <span class="text-rose-700">⬤</span>
+          <span class="text-rose-800">⬤</span>
+          <span class="text-rose-900">⬤</span>
+          <span class="text-rose-950">⬤</span>
+        </th>
+        <td class="w-12 p-4 border border-rose-500 text-[27px] text-rose-50 align-middle text-center">👑</td>
+        <td class="w-12 p-4 border border-rose-50 text-[16px] text-rose-100 align-middle text-center ">⬤</td>
+        <td class="w-12 p-4 border border-rose-100 text-[16px] text-rose-100 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-rose-200 text-[16px] text-rose-200 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-rose-300 text-[16px] text-rose-300 align-middle text-center ">/royalwe</td>
+        <td class="p-4 border border-rose-400 text-[16px] text-rose-400 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-rose-500 text-[16px] text-rose-500 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-rose-600 text-[16px] text-rose-600 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-rose-700 text-[16px] text-orrosenge-700 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-rose-800 text-[16px] text-rose-800 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-rose-900 text-[16px] text-rose-900 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-rose-950 text-[16px] text-rose-950 align-middle text-center ">⬤</td>  
+        <td class="p-4 border border-rose-500 text-[16px] align-middle text-center ">👑</td>  
+      </tr>
+      <tr>
+        <th class="w-32 p-4 border border-pink-300 bg-pink-500 opacity-100 text-[22px]">
+          <span class="text-pink-50 ">⬤</span>
+          <span class="text-pink-100">⬤</span>
+          <span class="text-pink-200">⬤</span>
+          <span class="text-pink-300">⬤</span>
+          <span class="text-pink-400">⬤</span>
+          <span class="text-pink-500">⬤</span>
+          <span class="text-pink-600">⬤</span>
+          <span class="text-pink-700">⬤</span>
+          <span class="text-pink-800">⬤</span>
+          <span class="text-pink-900">⬤</span>
+          <span class="text-pink-950">⬤</span>
+        </th>
+        <td class="w-12 p-4 border border-pink-500 text-[27px] text-pink-50 align-middle text-center">📆</td>
+        <td class="w-12 p-4 border border-pink-50 text-[16px] text-pink-100 align-middle text-center ">⬤</td>
+        <td class="w-12 p-4 border border-pink-100 text-[16px] text-pink-100 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-pink-200 text-[16px] text-pink-200 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-pink-300 text-[16px] text-pink-300 align-middle text-center ">/monthlies</td>
+        <td class="p-4 border border-pink-400 text-[16px] text-pink-400 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-pink-500 text-[16px] text-pink-500 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-pink-600 text-[16px] text-pink-600 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-pink-700 text-[16px] text-pink-700 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-pink-800 text-[16px] text-pink-800 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-pink-900 text-[16px] text-pink-900 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-pink-950 text-[16px] text-pink-950 align-middle text-center ">⬤</td>  
+        <td class="p-4 border border-pink-500 text-[16px] align-middle text-center ">📆</td>  
+      </tr>
+      <tr>
+        <th class="w-32 p-4 border border-fuchsia-300 bg-fuchsia-500 opacity-100 text-[22px]">
+          <span class="text-fuchsia-50 ">⬤</span>
+          <span class="text-fuchsia-100">⬤</span>
+          <span class="text-fuchsia-200">⬤</span>
+          <span class="text-fuchsia-300">⬤</span>
+          <span class="text-fuchsia-400">⬤</span>
+          <span class="text-fuchsia-500">⬤</span>
+          <span class="text-fuchsia-600">⬤</span>
+          <span class="text-fuchsia-700">⬤</span>
+          <span class="text-fuchsia-800">⬤</span>
+          <span class="text-fuchsia-900">⬤</span>
+          <span class="text-fuchsia-950">⬤</span>
+        </th>
+        <td class="w-12 p-4 border border-fuchsia-500 text-[27px] text-fuchsia-50 align-middle text-center">📊</td>
+        <td class="w-12 p-4 border border-fuchsia-50 text-[16px] text-fuchsia-100 align-middle text-center ">⬤</td>
+        <td class="w-12 p-4 border border-fuchsia-100 text-[16px] text-fuchsia-100 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-fuchsia-200 text-[16px] text-fuchsia-200 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-fuchsia-300 text-[16px] text-fuchsia-300 align-middle text-center ">/forecastling</td>
+        <td class="p-4 border border-fuchsia-400 text-[16px] text-fuchsia-400 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-fuchsia-500 text-[16px] text-fuchsia-500 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-fuchsia-600 text-[16px] text-fuchsia-600 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-fuchsia-700 text-[16px] text-fuchsia-700 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-fuchsia-800 text-[16px] text-fuchsia-800 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-fuchsia-900 text-[16px] text-fuchsia-900 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-fuchsia-950 text-[16px] text-fuchsia-950 align-middle text-center ">⬤</td>  
+        <td class="p-4 border border-fuchsia-500 text-[16px] align-middle text-center ">📊</td>  
+      </tr>
+      <tr>
+        <th class="w-32 p-4 border border-purple-300 bg-purple-500 opacity-100 text-[22px]">
+          <span class="text-purple-50 ">⬤</span>
+          <span class="text-purple-100">⬤</span>
+          <span class="text-purple-200">⬤</span>
+          <span class="text-purple-300">⬤</span>
+          <span class="text-purple-400">⬤</span>
+          <span class="text-purple-500">⬤</span>
+          <span class="text-purple-600">⬤</span>
+          <span class="text-purple-700">⬤</span>
+          <span class="text-purple-800">⬤</span>
+          <span class="text-purple-900">⬤</span>
+          <span class="text-purple-950">⬤</span>
+        </th>
+        <td class="w-12 p-4 border border-purple-500 text-[27px] text-purple-50 align-middle text-center">📅</td>
+        <td class="w-12 p-4 border border-purple-50 text-[16px] text-purple-100 align-middle text-center ">⬤</td>
+        <td class="w-12 p-4 border border-purple-100 text-[16px] text-purple-100 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-purple-200 text-[16px] text-purple-200 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-purple-300 text-[16px] text-purple-300 align-middle text-center ">/yearlies</td>
+        <td class="p-4 border border-purple-400 text-[16px] text-purple-400 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-purple-500 text-[16px] text-purple-500 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-purple-600 text-[16px] text-purple-600 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-purple-700 text-[16px] text-purple-700 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-purple-800 text-[16px] text-purple-800 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-purple-900 text-[16px] text-purple-900 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-purple-950 text-[16px] text-purple-950 align-middle text-center ">⬤</td>  
+        <td class="p-4 border border-purple-500 text-[16px] align-middle text-center ">📅</td>  
+      </tr>
+      <tr>
+        <th class="w-32 p-4 border border-violet-300 bg-violet-500 opacity-100 text-[22px]">
+          <span class="text-violet-50 ">⬤</span>
+          <span class="text-violet-100">⬤</span>
+          <span class="text-violet-200">⬤</span>
+          <span class="text-violet-300">⬤</span>
+          <span class="text-violet-400">⬤</span>
+          <span class="text-violet-500">⬤</span>
+          <span class="text-violet-600">⬤</span>
+          <span class="text-violet-700">⬤</span>
+          <span class="text-violet-800">⬤</span>
+          <span class="text-violet-900">⬤</span>
+          <span class="text-violet-950">⬤</span>
+        </th>
+        <td class="w-12 p-4 border border-violet-500 text-[27px] text-violet-50 align-middle text-center">👌</td>
+        <td class="w-12 p-4 border border-violet-50 text-[16px] text-violet-100 align-middle text-center ">⬤</td>
+        <td class="w-12 p-4 border border-violet-100 text-[16px] text-violet-100 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-violet-200 text-[16px] text-violet-200 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-violet-300 text-[16px] text-violet-300 align-middle text-center ">perfection👌</td>
+        <td class="p-4 border border-violet-400 text-[16px] text-violet-400 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-violet-500 text-[16px] text-violet-500 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-violet-600 text-[16px] text-violet-600 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-violet-700 text-[16px] text-violet-700 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-violet-800 text-[16px] text-violet-800 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-violet-900 text-[16px] text-violet-900 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-violet-950 text-[16px] text-violet-950 align-middle text-center ">⬤</td>  
+        <td class="p-4 border border-violet-500 text-[16px] align-middle text-center ">👌</td>  
+      </tr>
+      <tr>
+        <th class="w-32 p-4 border border-indigo-300 bg-indigo-500 opacity-100 text-[22px]">
+          <span class="text-indigo-50 ">⬤</span>
+          <span class="text-indigo-100">⬤</span>
+          <span class="text-indigo-200">⬤</span>
+          <span class="text-indigo-300">⬤</span>
+          <span class="text-indigo-400">⬤</span>
+          <span class="text-indigo-500">⬤</span>
+          <span class="text-indigo-600">⬤</span>
+          <span class="text-indigo-700">⬤</span>
+          <span class="text-indigo-800">⬤</span>
+          <span class="text-indigo-900">⬤</span>
+          <span class="text-indigo-950">⬤</span>
+        </th>
+        <td class="w-12 p-4 border border-indigo-500 text-[27px] text-indigo-50 align-middle text-center">📓</td>
+        <td class="w-12 p-4 border border-indigo-50 text-[16px] text-indigo-100 align-middle text-center ">⬤</td>
+        <td class="w-12 p-4 border border-indigo-100 text-[16px] text-indigo-100 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-indigo-200 text-[16px] text-indigo-200 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-indigo-300 text-[16px] text-indigo-300 align-middle text-center ">/log</td>
+        <td class="p-4 border border-indigo-400 text-[16px] text-indigo-400 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-indigo-500 text-[16px] text-indigo-500 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-indigo-600 text-[16px] text-indigo-600 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-indigo-700 text-[16px] text-indigo-700 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-indigo-800 text-[16px] text-indigo-800 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-indigo-900 text-[16px] text-indigo-900 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-indigo-950 text-[16px] text-indigo-950 align-middle text-center ">⬤</td>  
+        <td class="p-4 border border-indigo-500 text-[16px] align-middle text-center ">📓</td>  
+      </tr>
+      <tr>
+        <th class="w-32 p-4 border border-blue-300 bg-blue-500 opacity-100 text-[22px]">
+          <span class="text-blue-50 ">⬤</span>
+          <span class="text-blue-100">⬤</span>
+          <span class="text-blue-200">⬤</span>
+          <span class="text-blue-300">⬤</span>
+          <span class="text-blue-400">⬤</span>
+          <span class="text-blue-500">⬤</span>
+          <span class="text-blue-600">⬤</span>
+          <span class="text-blue-700">⬤</span>
+          <span class="text-blue-800">⬤</span>
+          <span class="text-blue-900">⬤</span>
+          <span class="text-blue-950">⬤</span>
+        </th>
+        <td class="w-12 p-4 border border-blue-500 text-[27px] text-blue-50 align-middle text-center">🏛️</td>
+        <td class="w-12 p-4 border border-blue-50 text-[16px] text-blue-100 align-middle text-center ">⬤</td>
+        <td class="w-12 p-4 border border-blue-100 text-[16px] text-blue-100 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-blue-200 text-[16px] text-blue-200 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-blue-300 text-[16px] text-blue-300 align-middle text-center ">/libraries</td>
+        <td class="p-4 border border-blue-400 text-[16px] text-blue-400 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-blue-500 text-[16px] text-blue-500 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-blue-600 text-[16px] text-blue-600 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-blue-700 text-[16px] text-blue-700 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-blue-800 text-[16px] text-blue-800 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-blue-900 text-[16px] text-blue-900 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-blue-950 text-[16px] text-blue-950 align-middle text-center ">⬤</td>  
+        <td class="p-4 border border-blue-500 text-[16px] align-middle text-center ">🏛️</td>  
+      </tr>
+      <tr>
+        <th class="w-32 p-4 border border-sky-300 bg-sky-500 opacity-100 text-[22px]">
+          <span class="text-sky-50 ">⬤</span>
+          <span class="text-sky-100">⬤</span>
+          <span class="text-sky-200">⬤</span>
+          <span class="text-sky-300">⬤</span>
+          <span class="text-sky-400">⬤</span>
+          <span class="text-sky-500">⬤</span>
+          <span class="text-sky-600">⬤</span>
+          <span class="text-sky-700">⬤</span>
+          <span class="text-sky-800">⬤</span>
+          <span class="text-sky-900">⬤</span>
+          <span class="text-sky-950">⬤</span>
+        </th>
+        <td class="w-12 p-4 border border-sky-500 text-[27px] text-sky-50 align-middle text-center">💬</td>
+        <td class="w-12 p-4 border border-sky-50 text-[16px] text-sky-100 align-middle text-center ">⬤</td>
+        <td class="w-12 p-4 border border-sky-100 text-[16px] text-sky-100 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-sky-200 text-[16px] text-sky-200 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-sky-300 text-[16px] text-sky-300 align-middle text-center ">/growingGenkiness</td>
+        <td class="p-4 border border-sky-400 text-[16px] text-sky-400 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-sky-500 text-[16px] text-sky-500 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-sky-600 text-[16px] text-sky-600 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-sky-700 text-[16px] text-sky-700 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-sky-800 text-[16px] text-sky-800 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-sky-900 text-[16px] text-sky-900 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-sky-950 text-[16px] text-sky-950 align-middle text-center ">⬤</td>  
+        <td class="p-4 border border-sky-500 text-[16px] align-middle text-center ">💬</td>  
+      </tr>
+      <tr>
+        <th class="w-32 p-4 border border-cyan-300 bg-cyan-500 opacity-100 text-[22px]">
+          <span class="text-cyan-50 ">⬤</span>
+          <span class="text-cyan-100">⬤</span>
+          <span class="text-cyan-200">⬤</span>
+          <span class="text-cyan-300">⬤</span>
+          <span class="text-cyan-400">⬤</span>
+          <span class="text-cyan-500">⬤</span>
+          <span class="text-cyan-600">⬤</span>
+          <span class="text-cyan-700">⬤</span>
+          <span class="text-cyan-800">⬤</span>
+          <span class="text-cyan-900">⬤</span>
+          <span class="text-cyan-950">⬤</span>
+        </th>
+        <td class="w-12 p-4 border border-cyan-500 text-[27px] text-cyan-50 align-middle text-center">🎪</td>
+        <td class="w-12 p-4 border border-cyan-50 text-[16px] text-cyan-100 align-middle text-center ">⬤</td>
+        <td class="w-12 p-4 border border-cyan-100 text-[16px] text-cyan-100 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-cyan-200 text-[16px] text-cyan-200 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-cyan-300 text-[16px] text-cyan-300 align-middle text-center ">/Xhibition</td>
+        <td class="p-4 border border-cyan-400 text-[16px] text-cyan-400 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-cyan-500 text-[16px] text-cyan-500 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-cyan-600 text-[16px] text-cyan-600 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-cyan-700 text-[16px] text-cyan-700 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-cyan-800 text-[16px] text-cyan-800 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-cyan-900 text-[16px] text-cyan-900 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-cyan-950 text-[16px] text-cyan-950 align-middle text-center ">⬤</td>  
+        <td class="p-4 border border-cyan-500 text-[16px] align-middle text-center ">🎪</td>  
+      </tr>
+      <tr>
+        <th class="w-32 p-4 border border-teal-300 bg-teal-500 opacity-100 text-[22px]">
+          <span class="text-teal-50 ">⬤</span>
+          <span class="text-teal-100">⬤</span>
+          <span class="text-teal-200">⬤</span>
+          <span class="text-teal-300">⬤</span>
+          <span class="text-teal-400">⬤</span>
+          <span class="text-teal-500">⬤</span>
+          <span class="text-teal-600">⬤</span>
+          <span class="text-teal-700">⬤</span>
+          <span class="text-teal-800">⬤</span>
+          <span class="text-teal-900">⬤</span>
+          <span class="text-teal-950">⬤</span>
+        </th>
+        <td class="w-12 p-4 border border-teal-500 text-[27px] text-teal-50 align-middle text-center">📁</td>
+        <td class="w-12 p-4 border border-teal-50 text-[16px] text-teal-100 align-middle text-center ">⬤</td>
+        <td class="w-12 p-4 border border-teal-100 text-[16px] text-teal-100 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-teal-200 text-[16px] text-teal-200 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-teal-300 text-[16px] text-teal-300 align-middle text-center ">/sorting</td>
+        <td class="p-4 border border-teal-400 text-[16px] text-teal-400 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-teal-500 text-[16px] text-teal-500 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-teal-600 text-[16px] text-teal-600 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-teal-700 text-[16px] text-teal-700 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-teal-800 text-[16px] text-teal-800 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-teal-900 text-[16px] text-teal-900 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-teal-950 text-[16px] text-teal-950 align-middle text-center ">⬤</td>  
+        <td class="p-4 border border-teal-500 text-[16px] align-middle text-center ">📁</td>  
+      </tr>
+      <tr>
+        <th class="w-32 p-4 border emerald-300 bg-emerald-500 opacity-100 text-[22px]">
+          <span class="text-emerald-50 ">⬤</span>
+          <span class="text-emerald-100">⬤</span>
+          <span class="text-emerald-200">⬤</span>
+          <span class="text-emerald-300">⬤</span>
+          <span class="text-emerald-400">⬤</span>
+          <span class="text-emerald-500">⬤</span>
+          <span class="text-emerald-600">⬤</span>
+          <span class="text-emerald-700">⬤</span>
+          <span class="text-emerald-800">⬤</span>
+          <span class="text-emerald-900">⬤</span>
+          <span class="text-emerald-950">⬤</span>
+        </th>
+        <td class="w-12 p-4 border border-emerald-500 text-[27px] text-emerald-50 align-middle text-center">📖</td>
+        <td class="w-12 p-4 border border-emerald-50 text-[16px] text-emerald-100 align-middle text-center ">⬤</td>
+        <td class="w-12 p-4 border border-emerald-100 text-[16px] text-emerald-100 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-emerald-200 text-[16px] text-emerald-200 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-emerald-300 text-[16px] text-emerald-300 align-middle text-center ">/vocabulary</td>
+        <td class="p-4 border border-emerald-400 text-[16px] text-emerald-400 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-emerald-500 text-[16px] text-emerald-500 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-emerald-600 text-[16px] text-emerald-600 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-emerald-700 text-[16px] text-emerald-700 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-emerald-800 text-[16px] text-emerald-800 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-emerald-900 text-[16px] text-emerald-900 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-emerald-950 text-[16px] text-emerald-950 align-middle text-center ">⬤</td>  
+        <td class="p-4 border border-emerald-500 text-[16px] align-middle text-center ">📖</td>  
+      </tr>
+      <tr>
+        <th class="w-32 p-4 border border-green-300 bg-green-500 opacity-100 text-[22px]">
+          <span class="text-green-50 ">⬤</span>
+          <span class="text-green-100">⬤</span>
+          <span class="text-green-200">⬤</span>
+          <span class="text-green-300">⬤</span>
+          <span class="text-green-400">⬤</span>
+          <span class="text-green-500">⬤</span>
+          <span class="text-green-600">⬤</span>
+          <span class="text-green-700">⬤</span>
+          <span class="text-green-800">⬤</span>
+          <span class="text-green-900">⬤</span>
+          <span class="text-green-950">⬤</span>
+        </th>
+        <td class="w-12 p-4 border border-green-500 text-[27px] text-green-50 align-middle text-center">✅</td>
+        <td class="w-12 p-4 border border-green-50 text-[16px] text-green-100 align-middle text-center ">⬤</td>
+        <td class="w-12 p-4 border border-green-100 text-[16px] text-green-100 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-green-200 text-[16px] text-green-200 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-green-300 text-[16px] text-green-300 align-middle text-center ">/check</td>
+        <td class="p-4 border border-green-400 text-[16px] text-green-400 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-green-500 text-[16px] text-green-500 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-green-600 text-[16px] text-green-600 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-green-700 text-[16px] text-green-700 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-green-800 text-[16px] text-green-800 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-green-900 text-[16px] text-green-900 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-green-950 text-[16px] text-green-950 align-middle text-center ">⬤</td>  
+        <td class="p-4 border border-green-500 text-[16px] align-middle text-center ">✅</td>  
+      </tr>
 
-    </div>
-    <div class="grid grid-cols-60 gap-1 p-1 text-[33px] text-center alumni-sans-pinstripe-regular";>
-      <div class="rounded-full border-3 border-[hsl(60,50%,50%,100%)] bg-[hsl(60,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">60</div>
-      <div class="rounded-full border-3 border-[hsl(54,50%,50%,100%)] bg-[hsl(54,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">54</div>
-      <div class="rounded-full border-3 border-[hsl(48,50%,50%,100%)] bg-[hsl(48,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">48</div>
-      <div class="rounded-full border-3 border-[hsl(42,50%,50%,100%)] bg-[hsl(42,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">42</div>
-      <div class="rounded-full border-3 border-[hsl(36,50%,50%,100%)] bg-[hsl(36,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">36</div>
-      <div class="rounded-full border-3 border-[hsl(30,50%,50%,100%)] bg-[hsl(30,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">30</div>
-      <div class="rounded-full border-3 border-[hsl(24,50%,50%,100%)] bg-[hsl(24,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">24</div>
-      <div class="rounded-full border-3 border-[hsl(18,50%,50%,100%)] bg-[hsl(18,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">18</div>
-      <div class="rounded-full border-3 border-[hsl(12,50%,50%,100%)] bg-[hsl(12,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">12</div>
-      <div class="rounded-full border-3 border-[hsl(6,50%,50%,100%)] bg-[hsl(6,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">6</div>
-      <div class="rounded-full border-3 border-[hsl(360,50%,50%,100%)] bg-[hsl(360,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">360</div>
-      <div class="rounded-full border-3 border-[hsl(354,50%,50%,100%)] bg-[hsl(354,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">354</div>
-      <div class="rounded-full border-3 border-[hsl(348,50%,50%,100%)] bg-[hsl(348,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">348</div>
-      <div class="rounded-full border-3 border-[hsl(342,50%,50%,100%)] bg-[hsl(342,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">342</div>
-      <div class="rounded-full border-3 border-[hsl(336,50%,50%,100%)] bg-[hsl(336,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">336</div>
-      <div class="rounded-full border-3 border-[hsl(330,50%,50%,100%)] bg-[hsl(330,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">330</div>
-      <div class="rounded-full border-3 border-[hsl(324,50%,50%,100%)] bg-[hsl(324,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">324</div>
-      <div class="rounded-full border-3 border-[hsl(318,50%,50%,100%)] bg-[hsl(318,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">318</div>
-      <div class="rounded-full border-3 border-[hsl(312,50%,50%,100%)] bg-[hsl(312,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">312</div>
-      <div class="rounded-full border-3 border-[hsl(306,50%,50%,100%)] bg-[hsl(306,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">306</div>
-      <div class="rounded-full border-3 border-[hsl(300,50%,50%,100%)] bg-[hsl(300,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">300</div>
-      <div class="rounded-full border-3 border-[hsl(294,50%,50%,100%)] bg-[hsl(294,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">294</div>
-      <div class="rounded-full border-3 border-[hsl(288,50%,50%,100%)] bg-[hsl(288,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">288</div>
-      <div class="rounded-full border-3 border-[hsl(282,50%,50%,100%)] bg-[hsl(282,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">282</div>
-      <div class="rounded-full border-3 border-[hsl(276,50%,50%,100%)] bg-[hsl(276,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">276</div>
-      <div class="rounded-full border-3 border-[hsl(270,50%,50%,100%)] bg-[hsl(270,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">270</div>
-      <div class="rounded-full border-3 border-[hsl(264,50%,50%,100%)] bg-[hsl(264,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">264</div>
-      <div class="rounded-full border-3 border-[hsl(258,50%,50%,100%)] bg-[hsl(258,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">258</div>
-      <div class="rounded-full border-3 border-[hsl(252,50%,50%,100%)] bg-[hsl(252,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">252</div>
-      <div class="rounded-full border-3 border-[hsl(246,50%,50%,100%)] bg-[hsl(246,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">246</div>
-      <div class="rounded-full border-3 border-[hsl(240,50%,50%,100%)] bg-[hsl(240,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">240</div>
-      <div class="rounded-full border-3 border-[hsl(234,50%,50%,100%)] bg-[hsl(234,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">234</div>
-      <div class="rounded-full border-3 border-[hsl(228,50%,50%,100%)] bg-[hsl(228,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">228</div>
-      <div class="rounded-full border-3 border-[hsl(222,50%,50%,100%)] bg-[hsl(222,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">222</div>
-      <div class="rounded-full border-3 border-[hsl(216,50%,50%,100%)] bg-[hsl(216,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">216</div>
-      <div class="rounded-full border-3 border-[hsl(210,50%,50%,100%)] bg-[hsl(210,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">210</div>
-      <div class="rounded-full border-3 border-[hsl(204,50%,50%,100%)] bg-[hsl(204,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">204</div>
-      <div class="rounded-full border-3 border-[hsl(198,50%,50%,100%)] bg-[hsl(198,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">198</div>
-      <div class="rounded-full border-3 border-[hsl(192,50%,50%,100%)] bg-[hsl(192,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">192</div>
-      <div class="rounded-full border-3 border-[hsl(186,50%,50%,100%)] bg-[hsl(186,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">186</div>
-      <div class="rounded-full border-3 border-[hsl(180,50%,50%,100%)] bg-[hsl(180,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">180</div>
-      <div class="rounded-full border-3 border-[hsl(174,50%,50%,100%)] bg-[hsl(174,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">174</div>
-      <div class="rounded-full border-3 border-[hsl(168,50%,50%,100%)] bg-[hsl(168,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">168</div>
-      <div class="rounded-full border-3 border-[hsl(162,50%,50%,100%)] bg-[hsl(162,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">162</div>
-      <div class="rounded-full border-3 border-[hsl(156,50%,50%,100%)] bg-[hsl(156,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">156</div>
-      <div class="rounded-full border-3 border-[hsl(150,50%,50%,100%)] bg-[hsl(150,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">150</div>
-      <div class="rounded-full border-3 border-[hsl(144,50%,50%,100%)] bg-[hsl(144,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">144</div>
-      <div class="rounded-full border-3 border-[hsl(138,50%,50%,100%)] bg-[hsl(138,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">138</div>
-      <div class="rounded-full border-3 border-[hsl(132,50%,50%,100%)] bg-[hsl(132,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">132</div>
-      <div class="rounded-full border-3 border-[hsl(126,50%,50%,100%)] bg-[hsl(126,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">126</div>
-      <div class="rounded-full border-3 border-[hsl(120,50%,50%,100%)] bg-[hsl(120,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">120</div>
-      <div class="rounded-full border-3 border-[hsl(114,50%,50%,100%)] bg-[hsl(114,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">114</div>
-      <div class="rounded-full border-3 border-[hsl(108,50%,50%,100%)] bg-[hsl(108,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">108</div>
-      <div class="rounded-full border-3 border-[hsl(102,50%,50%,100%)] bg-[hsl(102,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">102</div>
-      <div class="rounded-full border-3 border-[hsl(96,50%,50%,100%)] bg-[hsl(96,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">96</div>
-      <div class="rounded-full border-3 border-[hsl(90,50%,50%,100%)] bg-[hsl(90,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">90</div>
-      <div class="rounded-full border-3 border-[hsl(84,50%,50%,100%)] bg-[hsl(84,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">84</div>
-      <div class="rounded-full border-3 border-[hsl(78,50%,50%,100%)] bg-[hsl(78,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">78</div>
-      <div class="rounded-full border-3 border-[hsl(72,50%,50%,100%)] bg-[hsl(72,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">72</div>
-      <div class="rounded-full border-3 border-[hsl(66,50%,50%,100%)] bg-[hsl(66,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">66</div>
-    </div>
-    <!--
-    <div class="grid grid-cols-6 gap-1 p-1 text-[22px] text-center">
-      <img src="/color/30 hsl wheel-0red 10k.png" alt="Example" class="w-100 object-cover rounded-md" />
-      <div><br><br><br><clock /><a href="http://localhost:5173/aardvarkVue" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🐗🦡🦔</a></div>
-      <img src="/color/30 hsl wheel-0red 10k opacity 100 - yellow.png" alt="Example" class="w-100 object-cover rounded-md" />
-      <img src="/color/30 hsl wheel-0red 10k opacity 100 - magenta.png" alt="Example" class="w-100 object-cover rounded-md" />
-      <img src="/color/30 hsl wheel-0red 10k opacity 100 - cyan.png" alt="Example" class="w-100 object-cover rounded-md" />
-      <img src="/color/wizardHat.png" alt="Example" class="h-120 object-cover rounded-md" />
-    </div>
-    -->
+      <tr>
+        <th class="w-32 p-4 border border-lime-300 bg-lime-500 opacity-100 text-[22px] text-sky-50">
+          <span class="text-lime-50 ">⬤</span>
+          <span class="text-lime-100">⬤</span>
+          <span class="text-lime-200">⬤</span>
+          <span class="text-lime-300">⬤</span>
+          <span class="text-lime-400">⬤</span>
+          <span class="text-lime-500">⬤</span>
+          <span class="text-lime-600">⬤</span>
+          <span class="text-lime-700">⬤</span>
+          <span class="text-lime-800">⬤</span>
+          <span class="text-lime-900">⬤</span>
+          <span class="text-lime-950">⬤</span>
+        </th>
+        <td class="p-4 border border-lime-500 text-[27px] text-lime-50 align-middle text-center ">🗽</td>
+        <td class="p-4 border border-lime-50 text-[16px] text-lime-50 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-lime-100 text-[16px] text-lime-100 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-lime-200 text-[16px] text-lime-200 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-lime-300 text-[16px] text-lime-300 align-middle text-center ">/royalwethepeople</td>
+        <td class="p-4 border border-lime-400 text-[16px] text-lime-400 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-lime-500 text-[16px] text-lime-500 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-lime-600 text-[16px] text-lime-600 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-lime-700 text-[16px] text-lime-700 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-lime-800 text-[16px] text-lime-800 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-lime-900 text-[16px] text-lime-900 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-lime-950 text-[16px] text-lime-950 align-middle text-center ">⬤</td>  
+        <td class="p-4 border border-lime-500 text-[16px] align-middle text-center">🟩</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br>
+  
+  <div class="overflow-x-auto p-4">
+  <table class="table-auto border-collapse w-full text-left">
+    <thead>
+      <tr>
+        <th class="w-32 p-4 border border-gray-300 bg-gray-100"></th>
+        <th class="p-4 border border-gray-300 bg-gray-100">Header 1</th>
+        <th class="p-4 border border-gray-300 bg-gray-100">Header 2</th>
+        <th class="p-4 border border-gray-300 bg-gray-100">Header 3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th class="p-4 border border-gray-300 bg-gray-100">Row A</th>
+        <td class="p-6 border border-gray-300 align-top">Long text or notes go here. You can write paragraphs or include form fields.</td>
+        <td class="p-6 border border-gray-300 align-top">More descriptive content fits easily here too.</td>
+        <td class="p-6 border border-gray-300 align-top">Even more text here, all properly spaced.</td>
+      </tr>
+      <tr>
+        <th class="p-4 border border-gray-300 bg-gray-100">Row B</th>
+        <td class="p-6 border border-gray-300 align-top">Additional content here.</td>
+        <td class="p-6 border border-gray-300 align-top">Optional comments or data.</td>
+        <td class="p-6 border border-gray-300 align-top">Large text area simulated.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<hr><br><hr><br><hr><br><hr><br><hr><br><hr><br><hr><br><hr><br><hr><br><hr><br><hr><br><hr><br><hr><br><hr><br><hr><br><hr><br>
-<sub>Clock</sub><br><Clock />
-<sub>aardvarkComponent</sub><br><aardvarkComponent />
-<br>
-<sub>blackFlag</sub><br><blackFlag>blackFlag</blackFlag><br>
-<sub>clockFlag</sub><br><clockFlag>clockFlag</clockFlag><br>
-<sub>cyanFlag</sub><br><cyanFlag>cyanFlag</cyanFlag><br>
-<sub>Flag</sub><br><Flag>Flag</Flag><br><br>
-<sub>helloWorld</sub><br><helloWorld /><br>
-<sub>hueBar</sub><br><hueBar />
-<sub>magentaFlag</sub><br><magentaFlag>magentaFlag</magentaFlag><br><br><br>
-<sub>oO0</sub><br><oO0 /><br>
-<sub>rainbowDots</sub><br><rainbowDots /><br>
-<sub>seaOfNoughtBar</sub><br><seaOfNoughtBar />
-<sub>seaOfNoughtNavigationBar</sub><br><seaOfNoughtNavigationBar /><br><br><br>
-<sub>seaOfNoughtShipsLog</sub><br><seaOfNoughtShipsLog />
-<sub>shipsLogHeader</sub><br><shipsLogHeader />
-<sub>skyBottom</sub><br><skyBottom /><br>
-<sub>skyMini</sub><br><skyMini /><br>
-<sub>skyTop</sub><br><skyTop />
-<hr>
-  <sub>SplitOneTwoThree</sub><br><SplitOneTwoThree>
-    <template #one>
-      template #one
-    </template>
-    <template #two>
-      template #two
-    </template>
-    <template #four>
-      template #four
-    </template>
-  </SplitOneTwoThree>
-<hr>
-<br>
-<sub>zer0Oo</sub><br><whiteFlag>whiteFlag</whiteFlag><br><br>
-<sub>zer0Oo</sub><br><wordBar /><br>
-<sub>zer0Oo</sub><br><yearsBar /><br><br>
-<sub>zer0Oo</sub><br><yellowFlag>yellowFlag</yellowFlag><br><br><br>
-<sub>zer0Oo</sub><br>
-<zer0Oo />
-<br>
+  
+  </center>
 </template>
