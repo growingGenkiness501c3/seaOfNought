@@ -53,7 +53,20 @@ import TailwindColorNameBar from "./components/color/tailwindColorNameBar.vue";
     <img src="/color/YMC hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
   </div>
 </div>
-<br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+<div class="grid grid-cols-[repeat(3,minmax(0,1fr))] w-full h-6 gap-2 p-5">
+  <div class="border border-sky-700" >
+    <img src="/color/art 1.png" class="w-100 object-cover rounded-md" />
+  </div>
+  <div class="border border-sky-700" >
+    <img src="/color/art 2.PNG" class="w-100 object-cover rounded-md" />
+  </div>
+  <div class="border border-sky-700" >
+    <img src="/color/art 3.PNG" class="w-100 object-cover rounded-md" />
+  </div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <div class="grid grid-cols-[repeat(3,minmax(0,1fr))] w-full h-6 gap-2 p-5">
   <div></div>
   <div><clock />  </div>
