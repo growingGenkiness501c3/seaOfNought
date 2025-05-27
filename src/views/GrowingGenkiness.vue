@@ -6,103 +6,17 @@ defineOptions({
 <template>
   <center>
   <span  class="text-[99px]">💬</span>
- 
+
 <div class="overflow-x-auto p-4">
   <table class="table-auto border-collapse w-full text-left">
     <thead>
       <tr>
-        <th class="w-32 p-4 border border-gray-300 bg-gray-500 opacity-100 text-[22px] " rowspan="2">
-          <span class="text-gray-50 ">⬤</span>
-          <span class="text-gray-100">⬤</span>
-          <span class="text-gray-200">⬤</span>
-          <span class="text-gray-300">⬤</span>
-          <span class="text-gray-400">⬤</span>
-          <span class="text-gray-500">⬤</span>
-          <span class="text-gray-600">⬤</span>
-          <span class="text-gray-700">⬤</span>
-          <span class="text-gray-800">⬤</span>
-          <span class="text-gray-900">⬤</span>
-          <span class="text-gray-950">⬤</span>
-        </th>
-        <th class="w-12 p-4 border border-gray-500 text-[27px] text-gray-50 align-middle text-center">∅©</th>
-        <th class="w-12 p-4 border border-gray-50 text-[16px] text-gray-50 align-middle text-center ">gray</th>
-        <th class="w-12 p-4 border border-gray-100 text-[16px] text-gray-100 align-middle text-center ">⬤</th>
-        <th class="w-12 p-4 border border-gray-200 text-[16px] text-gray-200 align-middle text-center ">⬤</th>
-        <th class="w-12 p-4 border border-gray-300 text-[16px] text-gray-300 align-middle text-center ">/localhost:5173/</th>
-        <th class="p-4 border border-gray-400 text-[16px] text-gray-400 align-middle text-center ">⬤</th>
-        <th class="p-4 border border-gray-500 text-[16px] text-gray-500 align-middle text-center ">⬤</th>
-        <th class="p-4 border border-gray-600 text-[16px] text-gray-600 align-middle text-center ">⬤</th>
-        <th class="p-4 border border-gray-700 text-[16px] text-gray-700 align-middle text-center ">⬤</th>
-        <th class="p-4 border border-gray-800 text-[16px] text-gray-800 align-middle text-center ">⬤</th>
-        <th class="p-4 border border-gray-900 text-[16px] text-gray-900 align-middle text-center ">⬤</th>
-        <th class="p-4 border border-gray-950 text-[16px] text-gray-950 align-middle text-center ">⬤</th>  
-        <th class="p-4 border border-gray-500 text-[16px] align-middle text-center ">☁️</th>              
+        <th class="align-middle text-center bg-gray-300 text-[111px] opacity-50 text-sky-950 mea-culpa-regular" colspan="15">growingGenkiness</th>
       </tr>
-    </thead>
+    </thead>    
     <tbody>
       <tr>
-        <th class="w-32 p-4 border border-stone-300 bg-stone-500 opacity-100 text-[22px]">
-          <span class="text-stone-50 ">⬤</span>
-          <span class="text-stone-100">⬤</span>
-          <span class="text-stone-200">⬤</span>
-          <span class="text-stone-300">⬤</span>
-          <span class="text-stone-400">⬤</span>
-          <span class="text-stone-500">⬤</span>
-          <span class="text-stone-600">⬤</span>
-          <span class="text-stone-700">⬤</span>
-          <span class="text-stone-800">⬤</span>
-          <span class="text-stone-900">⬤</span>
-          <span class="text-stone-950">⬤</span>
-        </th>
-        <td class="w-12 p-4 border border-stone-500 text-[27px] text-stone-50 align-middle text-center ">∅</td>
-        <td class="w-12 p-4 border border-stone-50 text-[16px] text-stone-50 align-middle text-center ">stone</td>
-        <td class="w-12 p-4 border border-stone-100 text-[16px] text-stone-100 align-middle text-center ">⬤</td>
-        <td class="p-4 border border-stone-200 text-[16px] text-stone-200 align-middle text-center ">⬤</td>
-        <td class="p-4 border border-stone-300 text-[16px] text-stone-300 align-middle text-center ">/</td>
-        <td class="p-4 border border-stone-400 text-[16px] text-stone-400 align-middle text-center ">⬤</td>
-        <td class="p-4 border border-stone-500 text-[16px] text-stone-500 align-middle text-center ">⬤</td>
-        <td class="p-4 border border-stone-600 text-[16px] text-stone-600 align-middle text-center ">⬤</td>
-        <td class="p-4 border border-stone-700 text-[16px] text-stone-700 align-middle text-center ">⬤</td>
-        <td class="p-4 border border-stone-800 text-[16px] text-stone-800 align-middle text-center ">⬤</td>
-        <td class="p-4 border border-stone-900 text-[16px] text-stone-900 align-middle text-center ">⬤</td>
-        <td class="p-4 border border-stone-950 text-[16px] text-stone-950 align-middle text-center ">⬤</td>  
-        <td class="w-66 border border-stone-500 text-[11px] align-middle text-center">∅</td>
-      </tr>
-      <tr>
-        <th class="w-32 p-4 border border-neutral-300 bg-neutral-500 opacity-100 text-[22px]">
-          <span class="text-neutral-50 ">⬤</span>
-          <span class="text-neutral-100">⬤</span>
-          <span class="text-neutral-200">⬤</span>
-          <span class="text-neutral-300">⬤</span>
-          <span class="text-neutral-400">⬤</span>
-          <span class="text-neutral-500">⬤</span>
-          <span class="text-neutral-600">⬤</span>
-          <span class="text-neutral-700">⬤</span>
-          <span class="text-neutral-800">⬤</span>
-          <span class="text-neutral-900">⬤</span>
-          <span class="text-neutral-950">⬤</span>
-        </th>
-        <td class="w-12 p-4 border border-neutral-500 text-[27px] text-neutral-50 align-middle text-center ">∅</td>
-        <td class="w-12 p-4 border border-neutral-50 text-[16px] text-neutral-50 align-middle text-center ">neutral</td>
-        <td class="w-12 p-4 border border-neutral-100 text-[16px] text-neutral-100 align-middle text-center ">⬤</td>
-        <td class="p-4 border border-neutral-200 text-[16px] text-neutral-200 align-middle text-center ">⬤</td>
-        <td class="p-4 border border-neutral-300 text-[16px] text-neutral-300 align-middle text-center ">/</td>
-        <td class="p-4 border border-neutral-400 text-[16px] text-neutral-400 align-middle text-center ">⬤</td>
-        <td class="p-4 border border-neutral-500 text-[16px] text-neutral-500 align-middle text-center ">⬤</td>
-        <td class="p-4 border border-neutral-600 text-[16px] text-neutral-600 align-middle text-center ">⬤</td>
-        <td class="p-4 border border-neutral-700 text-[16px] text-neutral-700 align-middle text-center ">⬤</td>
-        <td class="p-4 border border-neutral-800 text-[16px] text-neutral-800 align-middle text-center ">⬤</td>
-        <td class="p-4 border border-neutral-900 text-[16px] text-neutral-900 align-middle text-center ">⬤</td>
-        <td class="p-4 border border-neutral-950 text-[16px] text-neutral-950 align-middle text-center ">⬤</td>  
-        <td class="w-66 border border-neutral-500 text-[11px] align-middle text-center">∅</td>
-      </tr>
-</tbody>
-</table>
-</div>
-<div class="overflow-x-auto p-4">
-  <table class="table-auto border-collapse w-full text-left">
-    <thead>
-      <tr>
+        <th rowspan="22" class="bg-gray-300 opacity-50">rowspan</th>
         <th class="w-32 p-4 border border-gray-300 bg-gray-500 opacity-100 text-[22px]">
           <span class="text-gray-50 ">⬤</span>
           <span class="text-gray-100">⬤</span>
@@ -130,8 +44,6 @@ defineOptions({
         <th class="p-4 border border-gray-950 text-[16px] text-gray-950 align-middle text-center ">⬤</th>  
         <th class="p-4 border border-gray-500 text-[16px] align-middle text-center ">☁️</th>              
       </tr>
-    </thead>
-    <tbody>
       <tr>
         <th class="w-32 p-4 border border-stone-300 bg-stone-500 opacity-100 text-[22px]">
           <span class="text-stone-50 ">⬤</span>
@@ -797,6 +709,44 @@ defineOptions({
     </tbody>
   </table>
 </div>
+
+<div class="overflow-x-auto p-4">
+  <table class="table-auto border-collapse text-left">
+    <thead>
+      <tr>
+        <th class="w-12 p-4 border border-gray-300 bg-gray-200"></th>
+        <th colspan="2" class="p-4 border border-gray-300 bg-gray-500 text-center">Grouped Header</th>
+        <th class="w-12 p-4 border border-gray-300 bg-gray-500">Solo Header</th>
+      </tr>
+      <tr>
+        <th class="w-12 p-4 border border-gray-300 bg-gray-500">Row Headers</th>
+        <th class="w-12 p-4 border border-gray-300 bg-gray-500">Sub 1</th>
+        <th class="w-12 p-4 border border-gray-300 bg-gray-500">Sub 2</th>
+        <th class="w-12 p-4 border border-gray-300 bg-gray-500">Extra</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th rowspan="2" class="p-4 border border-gray-300 bg-gray-500 align-top">Row A & B</th>
+        
+        <td class="p-4 border border-gray-300">Data A1</td>
+        <td class="p-4 border border-gray-300">Data A2</td>
+        <td class="p-4 border border-gray-300">Data A3</td>
+      </tr>
+      <tr>
+        <td class="p-4 border border-gray-300">Data B1</td>
+        <td class="p-4 border border-gray-300">Data B2</td>
+        <td class="p-4 border border-gray-300">Data B3</td>
+      </tr>
+      <tr>
+        <th class="p-4 border border-gray-300 bg-gray-100">Row C</th>
+        <td colspan="2" class="p-4 border border-gray-300 text-center">Spans 2 Columns</td>
+        <td class="p-4 border border-gray-300">Data C3</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 
   
   </center>
