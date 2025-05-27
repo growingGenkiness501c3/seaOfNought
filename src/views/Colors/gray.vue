@@ -9,7 +9,7 @@ defineOptions({
   <table class="table-auto border-collapse w-full text-left bg-gray-500/50">
     <tbody>
       <tr><th></th><th class="text-gray-50 align-middle text-left">0 routing</th></tr>
-      <tr><th></th><th class="text-gray-100 align-middle text-left">1</th></tr>
+      <tr><th></th><th class="text-gray-100 align-middle text-left text-[99px]">yes, meleneth, each color bar is in its own file</th></tr>
       <tr><th></th><th class="text-gray-200 align-middle text-left">2</th></tr>
       <tr><th></th><th class="text-gray-300 align-middle text-left">3</th></tr>
       <tr><th></th><th class="text-gray-400 align-middle text-left">4</th></tr>

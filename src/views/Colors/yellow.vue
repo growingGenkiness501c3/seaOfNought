@@ -10,7 +10,7 @@ defineOptions({
     <tbody>
       <tr><th></th><th class="text-yellow-50 align-middle text-left">0 yellow has been asigned the task of representing physical genkiness.</th></tr>
       <tr><th></th><th class="text-yellow-100 align-middle text-left">1</th></tr>
-      <tr><th></th><th class="text-yellow-200 align-middle text-left">2</th></tr>
+      <tr><th></th><th class="text-yellow-200 align-middle text-left">today i feel fat. fortunately, i know what to do about that.</th></tr>
       <tr><th></th><th class="text-yellow-300 align-middle text-left">3</th></tr>
       <tr><th></th><th class="text-yellow-400 align-middle text-left">4</th></tr>
       <tr><th></th><th class="text-yellow-500 align-middle text-left">5</th></tr>
