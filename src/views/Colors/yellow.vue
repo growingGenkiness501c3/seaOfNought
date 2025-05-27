@@ -1,6 +1,6 @@
 <script setup lang="ts">
 defineOptions({
-  name: "gray"
+  name: "yellow"
 });
 </script>
 <template>
