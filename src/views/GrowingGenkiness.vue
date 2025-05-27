@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import gray from '@/views/Colors/gray.vue'
+import yellow from '@/views/Colors/yellow.vue'
+import amber from '@/views/Colors/amber.vue'
 defineOptions({
   name: "growingGenkiness"
 });
@@ -197,17 +199,17 @@ defineOptions({
         <td class="w-66 border border-yellow-500 text-[11px] align-middle text-center">🟨🟡🌻💛✨🌼💫</td>
       </tr>
       <tr rowspan="11"></tr>
-      <tr><th></th><th class="text-yellow-50 align-middle text-center">⬤</th><th colspan="15" class="align-middle text-left">O</th></tr>
-      <tr><th></th><th class="text-yellow-100 align-middle text-center">⬤</th><th colspan="15" class="align-middle text-left">O</th></tr>
-      <tr><th></th><th class="text-yellow-200 align-middle text-center">⬤</th><th colspan="15" class="align-middle text-left">O</th></tr>
-      <tr><th></th><th class="text-yellow-300 align-middle text-center">⬤</th><th colspan="15" class="align-middle text-left">O</th></tr>
-      <tr><th></th><th class="text-yellow-400 align-middle text-center">⬤</th><th colspan="15" class="align-middle text-left">O</th></tr>
-      <tr><th></th><th class="text-yellow-500 align-middle text-center">⬤</th><th colspan="15" class="align-middle text-left">O</th></tr>
-      <tr><th></th><th class="text-yellow-600 align-middle text-center">⬤</th><th colspan="15" class="align-middle text-left">O</th></tr>
-      <tr><th></th><th class="text-yellow-700 align-middle text-center">⬤</th><th colspan="15" class="align-middle text-left">O</th></tr>
-      <tr><th></th><th class="text-yellow-800 align-middle text-center">⬤</th><th colspan="15" class="align-middle text-left">O</th></tr>
-      <tr><th></th><th class="text-yellow-900 align-middle text-center">⬤</th><th colspan="15" class="align-middle text-left">O</th></tr>
-      <tr><th></th><th class="text-yellow-950 align-middle text-center">⬤</th><th colspan="15" class="align-middle text-left">O</th></tr>
+      <tr><th></th><th class="text-yellow-50 align-middle text-center">⬤</th><th colspan="15" rowspan="11"><yellow /></th></tr>
+      <tr><th></th><th class="text-yellow-100 align-middle text-center">⬤</th></tr>
+      <tr><th></th><th class="text-yellow-200 align-middle text-center">⬤</th></tr>
+      <tr><th></th><th class="text-yellow-300 align-middle text-center">⬤</th></tr>
+      <tr><th></th><th class="text-yellow-400 align-middle text-center">⬤</th></tr>
+      <tr><th></th><th class="text-yellow-500 align-middle text-center">⬤</th></tr>
+      <tr><th></th><th class="text-yellow-600 align-middle text-center">⬤</th></tr>
+      <tr><th></th><th class="text-yellow-700 align-middle text-center">⬤</th></tr>
+      <tr><th></th><th class="text-yellow-800 align-middle text-center">⬤</th></tr>
+      <tr><th></th><th class="text-yellow-900 align-middle text-center">⬤</th></tr>
+      <tr><th></th><th class="text-yellow-950 align-middle text-center">⬤</th></tr>
       <tr>
         <th class="w-32 p-4 border border-amber-300 bg-amber-500 opacity-100 text-[22px]">
           <span class="text-amber-50 ">⬤</span>
@@ -234,8 +236,20 @@ defineOptions({
         <td class="p-4 border border-amber-800 text-[16px] text-amber-800 align-middle text-center ">⬤</td>
         <td class="p-4 border border-amber-900 text-[16px] text-amber-900 align-middle text-center ">⬤</td>
         <td class="p-4 border border-amber-950 text-[16px] text-amber-950 align-middle text-center ">⬤</td>  
-        <td class="p-4 border border-amber-500 text-[16px] align-middle text-center ">📐</td>  
+        <td class="p-4 border border-amber-500 text-[16px] align-middle text-center ">📐</td> 
       </tr>
+      <tr rowspan="11"><th></th></tr>
+      <tr><th></th><th class="text-yellow-50 align-middle text-center">⬤</th><th colspan="15" rowspan="11"><amber /></th></tr>
+      <tr><th></th><th class="text-yellow-100 align-middle text-center">⬤</th></tr>
+      <tr><th></th><th class="text-yellow-200 align-middle text-center">⬤</th></tr>
+      <tr><th></th><th class="text-yellow-300 align-middle text-center">⬤</th></tr>
+      <tr><th></th><th class="text-yellow-400 align-middle text-center">⬤</th></tr>
+      <tr><th></th><th class="text-yellow-500 align-middle text-center">⬤</th></tr>
+      <tr><th></th><th class="text-yellow-600 align-middle text-center">⬤</th></tr>
+      <tr><th></th><th class="text-yellow-700 align-middle text-center">⬤</th></tr>
+      <tr><th></th><th class="text-yellow-800 align-middle text-center">⬤</th></tr>
+      <tr><th></th><th class="text-yellow-900 align-middle text-center">⬤</th></tr>
+      <tr><th></th><th class="text-yellow-950 align-middle text-center">⬤</th></tr>
       <tr>
         <th class="w-32 p-4 border border-orange-300 bg-orange-500 opacity-100 text-[22px]">
           <span class="text-orange-50 ">⬤</span>
