@@ -16,20 +16,8 @@ defineOptions({
     </thead>    
     <tbody>
       <tr>
-        <th rowspan="22" class="bg-gray-300 opacity-50">rowspan</th>
-        <th class="w-32 p-4 border border-gray-300 bg-gray-500 opacity-100 text-[22px]">
-          <span class="text-gray-50 ">⬤</span>
-          <span class="text-gray-100">⬤</span>
-          <span class="text-gray-200">⬤</span>
-          <span class="text-gray-300">⬤</span>
-          <span class="text-gray-400">⬤</span>
-          <span class="text-gray-500">⬤</span>
-          <span class="text-gray-600">⬤</span>
-          <span class="text-gray-700">⬤</span>
-          <span class="text-gray-800">⬤</span>
-          <span class="text-gray-900">⬤</span>
-          <span class="text-gray-950">⬤</span>
-        </th>
+        <th rowspan="111" class="w-12 bg-gray-300 opacity-50 align-middle text-center text-sky-950">⬤</th>
+        <th class="w-32 p-4 border border-gray-300 bg-gray-500 opacity-100 text-[22px]"></th>
         <th class="w-12 p-4 border border-gray-500 text-[27px] text-gray-50 align-middle text-center">∅©</th>
         <th class="w-12 p-4 border border-gray-50 text-[16px] text-gray-50 align-middle text-center ">gray</th>
         <th class="w-12 p-4 border border-gray-100 text-[16px] text-gray-100 align-middle text-center ">⬤</th>
@@ -157,7 +145,7 @@ defineOptions({
         <td class="w-66 border border-slate-500 text-[11px] align-middle text-center">∅</td>
       </tr>                  
       <tr>
-        <th class="w-32 p-4 border border-yellow-300 bg-yellow-500 opacity-100 text-[22px]">
+        <th class="bg-yellow-500 text-[22px] align-middle text-center">
           <span class="text-yellow-50 ">⬤</span>
           <span class="text-yellow-100">⬤</span>
           <span class="text-yellow-200">⬤</span>
@@ -184,6 +172,18 @@ defineOptions({
         <td class="p-4 border border-yellow-950 text-[16px] text-yellow-950 align-middle text-center ">⬤</td>  
         <td class="w-66 border border-yellow-500 text-[11px] align-middle text-center">🟨🟡🌻💛✨🌼💫</td>
       </tr>
+      <tr rowspan="11"></tr>
+      <tr><th></th><th class="text-yellow-50 align-middle text-center">⬤</th><th colspan="15" class="align-middle text-left">O</th></tr>
+      <tr><th></th><th class="text-yellow-100 align-middle text-center">⬤</th><th colspan="15" class="align-middle text-left">O</th></tr>
+      <tr><th></th><th class="text-yellow-200 align-middle text-center">⬤</th><th colspan="15" class="align-middle text-left">O</th></tr>
+      <tr><th></th><th class="text-yellow-300 align-middle text-center">⬤</th><th colspan="15" class="align-middle text-left">O</th></tr>
+      <tr><th></th><th class="text-yellow-400 align-middle text-center">⬤</th><th colspan="15" class="align-middle text-left">O</th></tr>
+      <tr><th></th><th class="text-yellow-500 align-middle text-center">⬤</th><th colspan="15" class="align-middle text-left">O</th></tr>
+      <tr><th></th><th class="text-yellow-600 align-middle text-center">⬤</th><th colspan="15" class="align-middle text-left">O</th></tr>
+      <tr><th></th><th class="text-yellow-700 align-middle text-center">⬤</th><th colspan="15" class="align-middle text-left">O</th></tr>
+      <tr><th></th><th class="text-yellow-800 align-middle text-center">⬤</th><th colspan="15" class="align-middle text-left">O</th></tr>
+      <tr><th></th><th class="text-yellow-900 align-middle text-center">⬤</th><th colspan="15" class="align-middle text-left">O</th></tr>
+      <tr><th></th><th class="text-yellow-950 align-middle text-center">⬤</th><th colspan="15" class="align-middle text-left">O</th></tr>
       <tr>
         <th class="w-32 p-4 border border-amber-300 bg-amber-500 opacity-100 text-[22px]">
           <span class="text-amber-50 ">⬤</span>
