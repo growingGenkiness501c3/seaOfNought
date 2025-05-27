@@ -5,8 +5,100 @@ defineOptions({
 </script>
 <template>
   <center>
-  <span  class="text-[99px]">💬無🖵ن</span>
-
+  <span  class="text-[99px]">💬</span>
+ 
+<div class="overflow-x-auto p-4">
+  <table class="table-auto border-collapse w-full text-left">
+    <thead>
+      <tr>
+        <th class="w-32 p-4 border border-gray-300 bg-gray-500 opacity-100 text-[22px] " rowspan="2">
+          <span class="text-gray-50 ">⬤</span>
+          <span class="text-gray-100">⬤</span>
+          <span class="text-gray-200">⬤</span>
+          <span class="text-gray-300">⬤</span>
+          <span class="text-gray-400">⬤</span>
+          <span class="text-gray-500">⬤</span>
+          <span class="text-gray-600">⬤</span>
+          <span class="text-gray-700">⬤</span>
+          <span class="text-gray-800">⬤</span>
+          <span class="text-gray-900">⬤</span>
+          <span class="text-gray-950">⬤</span>
+        </th>
+        <th class="w-12 p-4 border border-gray-500 text-[27px] text-gray-50 align-middle text-center">∅©</th>
+        <th class="w-12 p-4 border border-gray-50 text-[16px] text-gray-50 align-middle text-center ">gray</th>
+        <th class="w-12 p-4 border border-gray-100 text-[16px] text-gray-100 align-middle text-center ">⬤</th>
+        <th class="w-12 p-4 border border-gray-200 text-[16px] text-gray-200 align-middle text-center ">⬤</th>
+        <th class="w-12 p-4 border border-gray-300 text-[16px] text-gray-300 align-middle text-center ">/localhost:5173/</th>
+        <th class="p-4 border border-gray-400 text-[16px] text-gray-400 align-middle text-center ">⬤</th>
+        <th class="p-4 border border-gray-500 text-[16px] text-gray-500 align-middle text-center ">⬤</th>
+        <th class="p-4 border border-gray-600 text-[16px] text-gray-600 align-middle text-center ">⬤</th>
+        <th class="p-4 border border-gray-700 text-[16px] text-gray-700 align-middle text-center ">⬤</th>
+        <th class="p-4 border border-gray-800 text-[16px] text-gray-800 align-middle text-center ">⬤</th>
+        <th class="p-4 border border-gray-900 text-[16px] text-gray-900 align-middle text-center ">⬤</th>
+        <th class="p-4 border border-gray-950 text-[16px] text-gray-950 align-middle text-center ">⬤</th>  
+        <th class="p-4 border border-gray-500 text-[16px] align-middle text-center ">☁️</th>              
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th class="w-32 p-4 border border-stone-300 bg-stone-500 opacity-100 text-[22px]">
+          <span class="text-stone-50 ">⬤</span>
+          <span class="text-stone-100">⬤</span>
+          <span class="text-stone-200">⬤</span>
+          <span class="text-stone-300">⬤</span>
+          <span class="text-stone-400">⬤</span>
+          <span class="text-stone-500">⬤</span>
+          <span class="text-stone-600">⬤</span>
+          <span class="text-stone-700">⬤</span>
+          <span class="text-stone-800">⬤</span>
+          <span class="text-stone-900">⬤</span>
+          <span class="text-stone-950">⬤</span>
+        </th>
+        <td class="w-12 p-4 border border-stone-500 text-[27px] text-stone-50 align-middle text-center ">∅</td>
+        <td class="w-12 p-4 border border-stone-50 text-[16px] text-stone-50 align-middle text-center ">stone</td>
+        <td class="w-12 p-4 border border-stone-100 text-[16px] text-stone-100 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-stone-200 text-[16px] text-stone-200 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-stone-300 text-[16px] text-stone-300 align-middle text-center ">/</td>
+        <td class="p-4 border border-stone-400 text-[16px] text-stone-400 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-stone-500 text-[16px] text-stone-500 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-stone-600 text-[16px] text-stone-600 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-stone-700 text-[16px] text-stone-700 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-stone-800 text-[16px] text-stone-800 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-stone-900 text-[16px] text-stone-900 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-stone-950 text-[16px] text-stone-950 align-middle text-center ">⬤</td>  
+        <td class="w-66 border border-stone-500 text-[11px] align-middle text-center">∅</td>
+      </tr>
+      <tr>
+        <th class="w-32 p-4 border border-neutral-300 bg-neutral-500 opacity-100 text-[22px]">
+          <span class="text-neutral-50 ">⬤</span>
+          <span class="text-neutral-100">⬤</span>
+          <span class="text-neutral-200">⬤</span>
+          <span class="text-neutral-300">⬤</span>
+          <span class="text-neutral-400">⬤</span>
+          <span class="text-neutral-500">⬤</span>
+          <span class="text-neutral-600">⬤</span>
+          <span class="text-neutral-700">⬤</span>
+          <span class="text-neutral-800">⬤</span>
+          <span class="text-neutral-900">⬤</span>
+          <span class="text-neutral-950">⬤</span>
+        </th>
+        <td class="w-12 p-4 border border-neutral-500 text-[27px] text-neutral-50 align-middle text-center ">∅</td>
+        <td class="w-12 p-4 border border-neutral-50 text-[16px] text-neutral-50 align-middle text-center ">neutral</td>
+        <td class="w-12 p-4 border border-neutral-100 text-[16px] text-neutral-100 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-neutral-200 text-[16px] text-neutral-200 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-neutral-300 text-[16px] text-neutral-300 align-middle text-center ">/</td>
+        <td class="p-4 border border-neutral-400 text-[16px] text-neutral-400 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-neutral-500 text-[16px] text-neutral-500 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-neutral-600 text-[16px] text-neutral-600 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-neutral-700 text-[16px] text-neutral-700 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-neutral-800 text-[16px] text-neutral-800 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-neutral-900 text-[16px] text-neutral-900 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-neutral-950 text-[16px] text-neutral-950 align-middle text-center ">⬤</td>  
+        <td class="w-66 border border-neutral-500 text-[11px] align-middle text-center">∅</td>
+      </tr>
+</tbody>
+</table>
+</div>
 <div class="overflow-x-auto p-4">
   <table class="table-auto border-collapse w-full text-left">
     <thead>
@@ -25,7 +117,7 @@ defineOptions({
           <span class="text-gray-950">⬤</span>
         </th>
         <th class="w-12 p-4 border border-gray-500 text-[27px] text-gray-50 align-middle text-center">∅©</th>
-        <th class="w-12 p-4 border border-gray-50 text-[16px] text-gray-50 align-middle text-center ">⬤</th>
+        <th class="w-12 p-4 border border-gray-50 text-[16px] text-gray-50 align-middle text-center ">gray</th>
         <th class="w-12 p-4 border border-gray-100 text-[16px] text-gray-100 align-middle text-center ">⬤</th>
         <th class="w-12 p-4 border border-gray-200 text-[16px] text-gray-200 align-middle text-center ">⬤</th>
         <th class="w-12 p-4 border border-gray-300 text-[16px] text-gray-300 align-middle text-center ">/localhost:5173/</th>
@@ -41,6 +133,118 @@ defineOptions({
     </thead>
     <tbody>
       <tr>
+        <th class="w-32 p-4 border border-stone-300 bg-stone-500 opacity-100 text-[22px]">
+          <span class="text-stone-50 ">⬤</span>
+          <span class="text-stone-100">⬤</span>
+          <span class="text-stone-200">⬤</span>
+          <span class="text-stone-300">⬤</span>
+          <span class="text-stone-400">⬤</span>
+          <span class="text-stone-500">⬤</span>
+          <span class="text-stone-600">⬤</span>
+          <span class="text-stone-700">⬤</span>
+          <span class="text-stone-800">⬤</span>
+          <span class="text-stone-900">⬤</span>
+          <span class="text-stone-950">⬤</span>
+        </th>
+        <td class="w-12 p-4 border border-stone-500 text-[27px] text-stone-50 align-middle text-center ">∅</td>
+        <td class="w-12 p-4 border border-stone-50 text-[16px] text-stone-50 align-middle text-center ">stone</td>
+        <td class="w-12 p-4 border border-stone-100 text-[16px] text-stone-100 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-stone-200 text-[16px] text-stone-200 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-stone-300 text-[16px] text-stone-300 align-middle text-center ">/</td>
+        <td class="p-4 border border-stone-400 text-[16px] text-stone-400 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-stone-500 text-[16px] text-stone-500 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-stone-600 text-[16px] text-stone-600 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-stone-700 text-[16px] text-stone-700 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-stone-800 text-[16px] text-stone-800 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-stone-900 text-[16px] text-stone-900 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-stone-950 text-[16px] text-stone-950 align-middle text-center ">⬤</td>  
+        <td class="w-66 border border-stone-500 text-[11px] align-middle text-center">∅</td>
+      </tr>
+      <tr>
+        <th class="w-32 p-4 border border-neutral-300 bg-neutral-500 opacity-100 text-[22px]">
+          <span class="text-neutral-50 ">⬤</span>
+          <span class="text-neutral-100">⬤</span>
+          <span class="text-neutral-200">⬤</span>
+          <span class="text-neutral-300">⬤</span>
+          <span class="text-neutral-400">⬤</span>
+          <span class="text-neutral-500">⬤</span>
+          <span class="text-neutral-600">⬤</span>
+          <span class="text-neutral-700">⬤</span>
+          <span class="text-neutral-800">⬤</span>
+          <span class="text-neutral-900">⬤</span>
+          <span class="text-neutral-950">⬤</span>
+        </th>
+        <td class="w-12 p-4 border border-neutral-500 text-[27px] text-neutral-50 align-middle text-center ">∅</td>
+        <td class="w-12 p-4 border border-neutral-50 text-[16px] text-neutral-50 align-middle text-center ">neutral</td>
+        <td class="w-12 p-4 border border-neutral-100 text-[16px] text-neutral-100 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-neutral-200 text-[16px] text-neutral-200 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-neutral-300 text-[16px] text-neutral-300 align-middle text-center ">/</td>
+        <td class="p-4 border border-neutral-400 text-[16px] text-neutral-400 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-neutral-500 text-[16px] text-neutral-500 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-neutral-600 text-[16px] text-neutral-600 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-neutral-700 text-[16px] text-neutral-700 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-neutral-800 text-[16px] text-neutral-800 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-neutral-900 text-[16px] text-neutral-900 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-neutral-950 text-[16px] text-neutral-950 align-middle text-center ">⬤</td>  
+        <td class="w-66 border border-neutral-500 text-[11px] align-middle text-center">∅</td>
+      </tr>
+      <tr>
+        <th class="w-32 p-4 border border-zinc-300 bg-zinc-500 opacity-100 text-[22px]">
+          <span class="text-zinc-50 ">⬤</span>
+          <span class="text-zinc-100">⬤</span>
+          <span class="text-zinc-200">⬤</span>
+          <span class="text-zinc-300">⬤</span>
+          <span class="text-zinc-400">⬤</span>
+          <span class="text-zinc-500">⬤</span>
+          <span class="text-zinc-600">⬤</span>
+          <span class="text-zinc-700">⬤</span>
+          <span class="text-zinc-800">⬤</span>
+          <span class="text-zinc-900">⬤</span>
+          <span class="text-zinc-950">⬤</span>
+        </th>
+        <td class="w-12 p-4 border border-zinc-500 text-[27px] text-zinc-50 align-middle text-center ">∅</td>
+        <td class="w-12 p-4 border border-zinc-50 text-[16px] text-zinc-50 align-middle text-center ">zinc</td>
+        <td class="w-12 p-4 border border-zinc-100 text-[16px] text-zinc-100 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-zinc-200 text-[16px] text-zinc-200 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-zinc-300 text-[16px] text-zinc-300 align-middle text-center ">/</td>
+        <td class="p-4 border border-zinc-400 text-[16px] text-zinc-400 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-zinc-500 text-[16px] text-zinc-500 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-zinc-600 text-[16px] text-zinc-600 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-zinc-700 text-[16px] text-zinc-700 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-zinc-800 text-[16px] text-zinc-800 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-zinc-900 text-[16px] text-zinc-900 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-zinc-950 text-[16px] text-zinc-950 align-middle text-center ">⬤</td>  
+        <td class="w-66 border border-zinc-500 text-[11px] align-middle text-center">∅</td>
+      </tr>
+      <tr>
+        <th class="w-32 p-4 border border-slate-300 bg-slate-500 opacity-100 text-[22px]">
+          <span class="text-slate-50 ">⬤</span>
+          <span class="text-slate-100">⬤</span>
+          <span class="text-slate-200">⬤</span>
+          <span class="text-slate-300">⬤</span>
+          <span class="text-slate-400">⬤</span>
+          <span class="text-slate-500">⬤</span>
+          <span class="text-slate-600">⬤</span>
+          <span class="text-slate-700">⬤</span>
+          <span class="text-slate-800">⬤</span>
+          <span class="text-slate-900">⬤</span>
+          <span class="text-slate-950">⬤</span>
+        </th>
+        <td class="w-12 p-4 border border-slate-500 text-[27px] text-slate-50 align-middle text-center ">∅</td>
+        <td class="w-12 p-4 border border-slate-50 text-[16px] text-slate-50 align-middle text-center ">slate</td>
+        <td class="w-12 p-4 border border-slate-100 text-[16px] text-slate-100 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-slate-200 text-[16px] text-slate-200 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-slate-300 text-[16px] text-slate-300 align-middle text-center ">/</td>
+        <td class="p-4 border border-slate-400 text-[16px] text-slate-400 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-slate-500 text-[16px] text-slate-500 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-slate-600 text-[16px] text-slate-600 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-slate-700 text-[16px] text-slate-700 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-slate-800 text-[16px] text-slate-800 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-slate-900 text-[16px] text-slate-900 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-slate-950 text-[16px] text-slate-950 align-middle text-center ">⬤</td>  
+        <td class="w-66 border border-slate-500 text-[11px] align-middle text-center">∅</td>
+      </tr>                  
+      <tr>
         <th class="w-32 p-4 border border-yellow-300 bg-yellow-500 opacity-100 text-[22px]">
           <span class="text-yellow-50 ">⬤</span>
           <span class="text-yellow-100">⬤</span>
@@ -55,10 +259,10 @@ defineOptions({
           <span class="text-yellow-950">⬤</span>
         </th>
         <td class="w-12 p-4 border border-yellow-500 text-[27px] text-yellow-50 align-middle text-center ">🍋</td>
-        <td class="w-12 p-4 border border-yellow-50 text-[16px] text-yellow-50 align-middle text-center ">⬤</td>
+        <td class="w-12 p-4 border border-yellow-50 text-[16px] text-yellow-50 align-middle text-center ">yellow</td>
         <td class="w-12 p-4 border border-yellow-100 text-[16px] text-yellow-100 align-middle text-center ">⬤</td>
         <td class="p-4 border border-yellow-200 text-[16px] text-yellow-200 align-middle text-center ">⬤</td>
-        <td class="p-4 border border-yellow-300 text-[16px] text-yellow-300 align-middle text-center ">/orientation</td>
+        <td class="p-4 border border-yellow-300 text-[16px] text-yellow-300 align-middle text-center ">/</td>
         <td class="p-4 border border-yellow-400 text-[16px] text-yellow-400 align-middle text-center ">⬤</td>
         <td class="p-4 border border-yellow-500 text-[16px] text-yellow-500 align-middle text-center ">⬤</td>
         <td class="p-4 border border-yellow-600 text-[16px] text-yellow-600 align-middle text-center ">⬤</td>
@@ -83,7 +287,7 @@ defineOptions({
           <span class="text-amber-950">⬤</span>
         </th>
         <td class="w-12 p-4 border border-amber-500 text-[27px] text-amber-50 align-middle text-center">🌙</td>
-        <td class="w-12 p-4 border border-amber-50 text-[16px] text-amber-100 align-middle text-center ">⬤</td>
+        <td class="w-12 p-4 border border-amber-50 text-[16px] text-amber-100 align-middle text-center ">amber</td>
         <td class="w-12 p-4 border border-amber-100 text-[16px] text-amber-100 align-middle text-center ">⬤</td>
         <td class="p-4 border border-amber-200 text-[16px] text-amber-200 align-middle text-center ">⬤</td>
         <td class="p-4 border border-amber-300 text-[16px] text-amber-300 align-middle text-center ">/orientation</td>
@@ -111,7 +315,7 @@ defineOptions({
           <span class="text-orange-950">⬤</span>
         </th>
         <td class="w-12 p-4 border border-orange-500 text-[27px] text-orange-50 align-middle text-center">🛠</td>
-        <td class="w-12 p-4 border border-orange-50 text-[16px] text-orange-100 align-middle text-center ">⬤</td>
+        <td class="w-12 p-4 border border-orange-50 text-[16px] text-orange-100 align-middle text-center ">orange</td>
         <td class="w-12 p-4 border border-orange-100 text-[16px] text-orange-100 align-middle text-center ">⬤</td>
         <td class="p-4 border border-orange-200 text-[16px] text-orange-200 align-middle text-center ">⬤</td>
         <td class="p-4 border border-orange-300 text-[16px] text-orange-300 align-middle text-center ">/anchor</td>
@@ -140,7 +344,7 @@ defineOptions({
           <span class="text-red-950">⬤</span>
         </th>
         <td class="w-12 p-4 border border-red-500 text-[27px] text-red-50 align-middle text-center">🎬</td>
-        <td class="w-12 p-4 border border-red-50 text-[16px] text-red-100 align-middle text-center ">⬤</td>
+        <td class="w-12 p-4 border border-red-50 text-[16px] text-red-100 align-middle text-center ">red</td>
         <td class="w-12 p-4 border border-red-100 text-[16px] text-red-100 align-middle text-center ">⬤</td>
         <td class="p-4 border border-red-200 text-[16px] text-red-200 align-middle text-center ">⬤</td>
         <td class="p-4 border border-red-300 text-[16px] text-red-300 align-middle text-center ">/dailies</td>
@@ -169,14 +373,14 @@ defineOptions({
           <span class="text-rose-950">⬤</span>
         </th>
         <td class="w-12 p-4 border border-rose-500 text-[27px] text-rose-50 align-middle text-center">👑</td>
-        <td class="w-12 p-4 border border-rose-50 text-[16px] text-rose-100 align-middle text-center ">⬤</td>
+        <td class="w-12 p-4 border border-rose-50 text-[16px] text-rose-100 align-middle text-center ">rose</td>
         <td class="w-12 p-4 border border-rose-100 text-[16px] text-rose-100 align-middle text-center ">⬤</td>
         <td class="p-4 border border-rose-200 text-[16px] text-rose-200 align-middle text-center ">⬤</td>
         <td class="p-4 border border-rose-300 text-[16px] text-rose-300 align-middle text-center ">/royalwe</td>
         <td class="p-4 border border-rose-400 text-[16px] text-rose-400 align-middle text-center ">⬤</td>
         <td class="p-4 border border-rose-500 text-[16px] text-rose-500 align-middle text-center ">⬤</td>
         <td class="p-4 border border-rose-600 text-[16px] text-rose-600 align-middle text-center ">⬤</td>
-        <td class="p-4 border border-rose-700 text-[16px] text-orrosenge-700 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-rose-700 text-[16px] text-rose-700 align-middle text-center ">⬤</td>
         <td class="p-4 border border-rose-800 text-[16px] text-rose-800 align-middle text-center ">⬤</td>
         <td class="p-4 border border-rose-900 text-[16px] text-rose-900 align-middle text-center ">⬤</td>
         <td class="p-4 border border-rose-950 text-[16px] text-rose-950 align-middle text-center ">⬤</td>  
@@ -197,7 +401,7 @@ defineOptions({
           <span class="text-pink-950">⬤</span>
         </th>
         <td class="w-12 p-4 border border-pink-500 text-[27px] text-pink-50 align-middle text-center">📆</td>
-        <td class="w-12 p-4 border border-pink-50 text-[16px] text-pink-100 align-middle text-center ">⬤</td>
+        <td class="w-12 p-4 border border-pink-50 text-[16px] text-pink-100 align-middle text-center ">pink</td>
         <td class="w-12 p-4 border border-pink-100 text-[16px] text-pink-100 align-middle text-center ">⬤</td>
         <td class="p-4 border border-pink-200 text-[16px] text-pink-200 align-middle text-center ">⬤</td>
         <td class="p-4 border border-pink-300 text-[16px] text-pink-300 align-middle text-center ">/monthlies</td>
@@ -225,7 +429,7 @@ defineOptions({
           <span class="text-fuchsia-950">⬤</span>
         </th>
         <td class="w-12 p-4 border border-fuchsia-500 text-[27px] text-fuchsia-50 align-middle text-center">📊</td>
-        <td class="w-12 p-4 border border-fuchsia-50 text-[16px] text-fuchsia-100 align-middle text-center ">⬤</td>
+        <td class="w-12 p-4 border border-fuchsia-50 text-[16px] text-fuchsia-100 align-middle text-center ">fuchsia</td>
         <td class="w-12 p-4 border border-fuchsia-100 text-[16px] text-fuchsia-100 align-middle text-center ">⬤</td>
         <td class="p-4 border border-fuchsia-200 text-[16px] text-fuchsia-200 align-middle text-center ">⬤</td>
         <td class="p-4 border border-fuchsia-300 text-[16px] text-fuchsia-300 align-middle text-center ">/forecastling</td>
@@ -253,7 +457,7 @@ defineOptions({
           <span class="text-purple-950">⬤</span>
         </th>
         <td class="w-12 p-4 border border-purple-500 text-[27px] text-purple-50 align-middle text-center">📅</td>
-        <td class="w-12 p-4 border border-purple-50 text-[16px] text-purple-100 align-middle text-center ">⬤</td>
+        <td class="w-12 p-4 border border-purple-50 text-[16px] text-purple-100 align-middle text-center ">purple</td>
         <td class="w-12 p-4 border border-purple-100 text-[16px] text-purple-100 align-middle text-center ">⬤</td>
         <td class="p-4 border border-purple-200 text-[16px] text-purple-200 align-middle text-center ">⬤</td>
         <td class="p-4 border border-purple-300 text-[16px] text-purple-300 align-middle text-center ">/yearlies</td>
@@ -281,10 +485,10 @@ defineOptions({
           <span class="text-violet-950">⬤</span>
         </th>
         <td class="w-12 p-4 border border-violet-500 text-[27px] text-violet-50 align-middle text-center">👌</td>
-        <td class="w-12 p-4 border border-violet-50 text-[16px] text-violet-100 align-middle text-center ">⬤</td>
+        <td class="w-12 p-4 border border-violet-50 text-[16px] text-violet-100 align-middle text-center ">violet</td>
         <td class="w-12 p-4 border border-violet-100 text-[16px] text-violet-100 align-middle text-center ">⬤</td>
         <td class="p-4 border border-violet-200 text-[16px] text-violet-200 align-middle text-center ">⬤</td>
-        <td class="p-4 border border-violet-300 text-[16px] text-violet-300 align-middle text-center ">perfection👌</td>
+        <td class="p-4 border border-violet-300 text-[16px] text-violet-300 align-middle text-center "> | perfection | </td>
         <td class="p-4 border border-violet-400 text-[16px] text-violet-400 align-middle text-center ">⬤</td>
         <td class="p-4 border border-violet-500 text-[16px] text-violet-500 align-middle text-center ">⬤</td>
         <td class="p-4 border border-violet-600 text-[16px] text-violet-600 align-middle text-center ">⬤</td>
@@ -309,7 +513,7 @@ defineOptions({
           <span class="text-indigo-950">⬤</span>
         </th>
         <td class="w-12 p-4 border border-indigo-500 text-[27px] text-indigo-50 align-middle text-center">📓</td>
-        <td class="w-12 p-4 border border-indigo-50 text-[16px] text-indigo-100 align-middle text-center ">⬤</td>
+        <td class="w-12 p-4 border border-indigo-50 text-[16px] text-indigo-100 align-middle text-center ">indigo</td>
         <td class="w-12 p-4 border border-indigo-100 text-[16px] text-indigo-100 align-middle text-center ">⬤</td>
         <td class="p-4 border border-indigo-200 text-[16px] text-indigo-200 align-middle text-center ">⬤</td>
         <td class="p-4 border border-indigo-300 text-[16px] text-indigo-300 align-middle text-center ">/log</td>
@@ -337,7 +541,7 @@ defineOptions({
           <span class="text-blue-950">⬤</span>
         </th>
         <td class="w-12 p-4 border border-blue-500 text-[27px] text-blue-50 align-middle text-center">🏛️</td>
-        <td class="w-12 p-4 border border-blue-50 text-[16px] text-blue-100 align-middle text-center ">⬤</td>
+        <td class="w-12 p-4 border border-blue-50 text-[16px] text-blue-100 align-middle text-center ">blue</td>
         <td class="w-12 p-4 border border-blue-100 text-[16px] text-blue-100 align-middle text-center ">⬤</td>
         <td class="p-4 border border-blue-200 text-[16px] text-blue-200 align-middle text-center ">⬤</td>
         <td class="p-4 border border-blue-300 text-[16px] text-blue-300 align-middle text-center ">/libraries</td>
@@ -365,7 +569,7 @@ defineOptions({
           <span class="text-sky-950">⬤</span>
         </th>
         <td class="w-12 p-4 border border-sky-500 text-[27px] text-sky-50 align-middle text-center">💬</td>
-        <td class="w-12 p-4 border border-sky-50 text-[16px] text-sky-100 align-middle text-center ">⬤</td>
+        <td class="w-12 p-4 border border-sky-50 text-[16px] text-sky-100 align-middle text-center ">sky</td>
         <td class="w-12 p-4 border border-sky-100 text-[16px] text-sky-100 align-middle text-center ">⬤</td>
         <td class="p-4 border border-sky-200 text-[16px] text-sky-200 align-middle text-center ">⬤</td>
         <td class="p-4 border border-sky-300 text-[16px] text-sky-300 align-middle text-center ">/growingGenkiness</td>
@@ -393,7 +597,7 @@ defineOptions({
           <span class="text-cyan-950">⬤</span>
         </th>
         <td class="w-12 p-4 border border-cyan-500 text-[27px] text-cyan-50 align-middle text-center">🎪</td>
-        <td class="w-12 p-4 border border-cyan-50 text-[16px] text-cyan-100 align-middle text-center ">⬤</td>
+        <td class="w-12 p-4 border border-cyan-50 text-[16px] text-cyan-100 align-middle text-center ">cyan</td>
         <td class="w-12 p-4 border border-cyan-100 text-[16px] text-cyan-100 align-middle text-center ">⬤</td>
         <td class="p-4 border border-cyan-200 text-[16px] text-cyan-200 align-middle text-center ">⬤</td>
         <td class="p-4 border border-cyan-300 text-[16px] text-cyan-300 align-middle text-center ">/Xhibition</td>
@@ -421,7 +625,7 @@ defineOptions({
           <span class="text-teal-950">⬤</span>
         </th>
         <td class="w-12 p-4 border border-teal-500 text-[27px] text-teal-50 align-middle text-center">📁</td>
-        <td class="w-12 p-4 border border-teal-50 text-[16px] text-teal-100 align-middle text-center ">⬤</td>
+        <td class="w-12 p-4 border border-teal-50 text-[16px] text-teal-100 align-middle text-center ">teal</td>
         <td class="w-12 p-4 border border-teal-100 text-[16px] text-teal-100 align-middle text-center ">⬤</td>
         <td class="p-4 border border-teal-200 text-[16px] text-teal-200 align-middle text-center ">⬤</td>
         <td class="p-4 border border-teal-300 text-[16px] text-teal-300 align-middle text-center ">/sorting</td>
@@ -449,7 +653,7 @@ defineOptions({
           <span class="text-emerald-950">⬤</span>
         </th>
         <td class="w-12 p-4 border border-emerald-500 text-[27px] text-emerald-50 align-middle text-center">📖</td>
-        <td class="w-12 p-4 border border-emerald-50 text-[16px] text-emerald-100 align-middle text-center ">⬤</td>
+        <td class="w-12 p-4 border border-emerald-50 text-[16px] text-emerald-100 align-middle text-center ">emerald</td>
         <td class="w-12 p-4 border border-emerald-100 text-[16px] text-emerald-100 align-middle text-center ">⬤</td>
         <td class="p-4 border border-emerald-200 text-[16px] text-emerald-200 align-middle text-center ">⬤</td>
         <td class="p-4 border border-emerald-300 text-[16px] text-emerald-300 align-middle text-center ">/vocabulary</td>
@@ -477,7 +681,7 @@ defineOptions({
           <span class="text-green-950">⬤</span>
         </th>
         <td class="w-12 p-4 border border-green-500 text-[27px] text-green-50 align-middle text-center">✅</td>
-        <td class="w-12 p-4 border border-green-50 text-[16px] text-green-100 align-middle text-center ">⬤</td>
+        <td class="w-12 p-4 border border-green-50 text-[16px] text-green-100 align-middle text-center ">green</td>
         <td class="w-12 p-4 border border-green-100 text-[16px] text-green-100 align-middle text-center ">⬤</td>
         <td class="p-4 border border-green-200 text-[16px] text-green-200 align-middle text-center ">⬤</td>
         <td class="p-4 border border-green-300 text-[16px] text-green-300 align-middle text-center ">/check</td>
@@ -506,7 +710,7 @@ defineOptions({
           <span class="text-lime-950">⬤</span>
         </th>
         <td class="p-4 border border-lime-500 text-[27px] text-lime-50 align-middle text-center ">🗽</td>
-        <td class="p-4 border border-lime-50 text-[16px] text-lime-50 align-middle text-center ">⬤</td>
+        <td class="p-4 border border-lime-50 text-[16px] text-lime-50 align-middle text-center ">lime</td>
         <td class="p-4 border border-lime-100 text-[16px] text-lime-100 align-middle text-center ">⬤</td>
         <td class="p-4 border border-lime-200 text-[16px] text-lime-200 align-middle text-center ">⬤</td>
         <td class="p-4 border border-lime-300 text-[16px] text-lime-300 align-middle text-center ">/royalwethepeople</td>
@@ -517,12 +721,55 @@ defineOptions({
         <td class="p-4 border border-lime-800 text-[16px] text-lime-800 align-middle text-center ">⬤</td>
         <td class="p-4 border border-lime-900 text-[16px] text-lime-900 align-middle text-center ">⬤</td>
         <td class="p-4 border border-lime-950 text-[16px] text-lime-950 align-middle text-center ">⬤</td>  
-        <td class="p-4 border border-lime-500 text-[16px] align-middle text-center">🟩</td>
+        <td class="p-4 border border-lime-500 text-[16px] align-middle text-center">🗽</td>
       </tr>
     </tbody>
   </table>
 </div>
-<br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br>
+<br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br>
+
+<div class="overflow-x-auto p-4">
+  <table class="table-auto border-collapse w-full text-left">
+    <thead>
+      <tr>
+        <th class="p-4 border border-gray-300 bg-gray-200"></th>
+        <th colspan="2" class="p-4 border border-gray-300 bg-gray-100 text-center">Grouped Header</th>
+        <th class="p-4 border border-gray-300 bg-gray-100">Solo Header</th>
+      </tr>
+      <tr>
+        <th class="p-4 border border-gray-300 bg-gray-100">Row Headers</th>
+        <th class="p-4 border border-gray-300 bg-gray-100">Sub 1</th>
+        <th class="p-4 border border-gray-300 bg-gray-100">Sub 2</th>
+        <th class="p-4 border border-gray-300 bg-gray-100">Extra</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th rowspan="2" class="p-4 border border-gray-300 bg-gray-100 align-top">Row A & B</th>
+        <td class="p-4 border border-gray-300">Data A1</td>
+        <td class="p-4 border border-gray-300">Data A2</td>
+        <td class="p-4 border border-gray-300">Data A3</td>
+      </tr>
+      <tr>
+        <td class="p-4 border border-gray-300">Data B1</td>
+        <td class="p-4 border border-gray-300">Data B2</td>
+        <td class="p-4 border border-gray-300">Data B3</td>
+      </tr>
+      <tr>
+        <th class="p-4 border border-gray-300 bg-gray-100">Row C</th>
+        <td colspan="2" class="p-4 border border-gray-300 text-center">Spans 2 Columns</td>
+        <td class="p-4 border border-gray-300">Data C3</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+
+
+
+
+ <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br>
   
   <div class="overflow-x-auto p-4">
   <table class="table-auto border-collapse w-full text-left">
