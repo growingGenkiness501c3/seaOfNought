@@ -661,70 +661,25 @@ defineOptions({
     </tbody>
   </table>
 </div>
-<br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br>
-
 <div class="overflow-x-auto p-4">
-  <table class="table-auto border-collapse w-full text-left">
+  <table class="table-auto border-collapse text-left">
     <thead>
       <tr>
-        <th class="p-4 border border-gray-300 bg-gray-200"></th>
-        <th colspan="2" class="p-4 border border-gray-300 bg-gray-100 text-center">Grouped Header</th>
-        <th class="p-4 border border-gray-300 bg-gray-100">Solo Header</th>
-      </tr>
-      <tr>
-        <th class="p-4 border border-gray-300 bg-gray-100">Row Headers</th>
-        <th class="p-4 border border-gray-300 bg-gray-100">Sub 1</th>
-        <th class="p-4 border border-gray-300 bg-gray-100">Sub 2</th>
-        <th class="p-4 border border-gray-300 bg-gray-100">Extra</th>
+        <th class="w-32 p-4 border border-gray-300 bg-gray-500"></th>
+        <th class="p-4 border border-gray-300 bg-gray-500">Header 1</th>
+        <th class="p-4 border border-gray-300 bg-gray-500">Header 2</th>
+        <th class="p-4 border border-gray-300 bg-gray-500">Header 3</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <th rowspan="2" class="p-4 border border-gray-300 bg-gray-100 align-top">Row A & B</th>
-        <td class="p-4 border border-gray-300">Data A1</td>
-        <td class="p-4 border border-gray-300">Data A2</td>
-        <td class="p-4 border border-gray-300">Data A3</td>
-      </tr>
-      <tr>
-        <td class="p-4 border border-gray-300">Data B1</td>
-        <td class="p-4 border border-gray-300">Data B2</td>
-        <td class="p-4 border border-gray-300">Data B3</td>
-      </tr>
-      <tr>
-        <th class="p-4 border border-gray-300 bg-gray-100">Row C</th>
-        <td colspan="2" class="p-4 border border-gray-300 text-center">Spans 2 Columns</td>
-        <td class="p-4 border border-gray-300">Data C3</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-
-
-
-
-
- <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br> <br> <br>
-  
-  <div class="overflow-x-auto p-4">
-  <table class="table-auto border-collapse w-full text-left">
-    <thead>
-      <tr>
-        <th class="w-32 p-4 border border-gray-300 bg-gray-100"></th>
-        <th class="p-4 border border-gray-300 bg-gray-100">Header 1</th>
-        <th class="p-4 border border-gray-300 bg-gray-100">Header 2</th>
-        <th class="p-4 border border-gray-300 bg-gray-100">Header 3</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th class="p-4 border border-gray-300 bg-gray-100">Row A</th>
+        <th class="p-4 border border-gray-300 bg-gray-500">Row A</th>
         <td class="p-6 border border-gray-300 align-top">Long text or notes go here. You can write paragraphs or include form fields.</td>
         <td class="p-6 border border-gray-300 align-top">More descriptive content fits easily here too.</td>
         <td class="p-6 border border-gray-300 align-top">Even more text here, all properly spaced.</td>
       </tr>
       <tr>
-        <th class="p-4 border border-gray-300 bg-gray-100">Row B</th>
+        <th class="p-4 border border-gray-300 bg-gray-500">Row B</th>
         <td class="p-6 border border-gray-300 align-top">Additional content here.</td>
         <td class="p-6 border border-gray-300 align-top">Optional comments or data.</td>
         <td class="p-6 border border-gray-300 align-top">Large text area simulated.</td>
@@ -732,7 +687,6 @@ defineOptions({
     </tbody>
   </table>
 </div>
-
 <div class="overflow-x-auto p-4">
   <table class="table-auto border-collapse text-left">
     <thead>
@@ -769,8 +723,5 @@ defineOptions({
     </tbody>
   </table>
 </div>
-
-
-  
-  </center>
+</center>
 </template>
