@@ -17,8 +17,20 @@ defineOptions({
     <tbody>
       <tr>
         <th rowspan="111" class="w-12 bg-gray-300 opacity-50 align-middle text-center text-sky-950">⬤</th>
-        <th class="w-32 p-4 border border-gray-300 bg-gray-500 opacity-100 text-[22px]"></th>
-        <th class="w-12 p-4 border border-gray-500 text-[27px] text-gray-50 align-middle text-center">∅©</th>
+        <th class="w-32 p-4 border border-gray-300 bg-gray-500 opacity-100 text-[22px]">
+          <span class="text-gray-50 ">⬤</span>
+          <span class="text-gray-100">⬤</span>
+          <span class="text-gray-200">⬤</span>
+          <span class="text-gray-300">⬤</span>
+          <span class="text-gray-400">⬤</span>
+          <span class="text-gray-500">⬤</span>
+          <span class="text-gray-600">⬤</span>
+          <span class="text-gray-700">⬤</span>
+          <span class="text-gray-800">⬤</span>
+          <span class="text-gray-900">⬤</span>
+          <span class="text-gray-950">⬤</span>
+        </th>
+        <th class="w-12 p-4 border border-gray-500 text-[27px] text-gray-50 align-middle text-center">🐘</th>
         <th class="w-12 p-4 border border-gray-50 text-[16px] text-gray-50 align-middle text-center ">gray</th>
         <th class="w-12 p-4 border border-gray-100 text-[16px] text-gray-100 align-middle text-center ">⬤</th>
         <th class="w-12 p-4 border border-gray-200 text-[16px] text-gray-200 align-middle text-center ">⬤</th>
@@ -30,8 +42,19 @@ defineOptions({
         <th class="p-4 border border-gray-800 text-[16px] text-gray-800 align-middle text-center ">⬤</th>
         <th class="p-4 border border-gray-900 text-[16px] text-gray-900 align-middle text-center ">⬤</th>
         <th class="p-4 border border-gray-950 text-[16px] text-gray-950 align-middle text-center ">⬤</th>  
-        <th class="p-4 border border-gray-500 text-[16px] align-middle text-center ">☁️</th>              
+        <th class="p-4 border border-gray-500 text-[16px] align-middle text-center ">🐘</th>              
       </tr>
+      <tr><th></th><th class="text-gray-50 align-middle text-center">⬤</th><th colspan="15" class="align-middle text-left">O</th></tr>
+      <tr><th></th><th class="text-gray-100 align-middle text-center">⬤</th><th colspan="15" class="align-middle text-left">O</th></tr>
+      <tr><th></th><th class="text-gray-200 align-middle text-center">⬤</th><th colspan="15" class="align-middle text-left">O</th></tr>
+      <tr><th></th><th class="text-gray-300 align-middle text-center">⬤</th><th colspan="15" class="align-middle text-left">O</th></tr>
+      <tr><th></th><th class="text-gray-400 align-middle text-center">⬤</th><th colspan="15" class="align-middle text-left">O</th></tr>
+      <tr><th></th><th class="text-gray-500 align-middle text-center">⬤</th><th colspan="15" class="align-middle text-left">O</th></tr>
+      <tr><th></th><th class="text-gray-600 align-middle text-center">⬤</th><th colspan="15" class="align-middle text-left">O</th></tr>
+      <tr><th></th><th class="text-gray-700 align-middle text-center">⬤</th><th colspan="15" class="align-middle text-left">O</th></tr>
+      <tr><th></th><th class="text-gray-800 align-middle text-center">⬤</th><th colspan="15" class="align-middle text-left">O</th></tr>
+      <tr><th></th><th class="text-gray-900 align-middle text-center">⬤</th><th colspan="15" class="align-middle text-left">O</th></tr>
+      <tr><th></th><th class="text-gray-950 align-middle text-center">⬤</th><th colspan="15" class="align-middle text-left">O</th></tr>
       <tr>
         <th class="w-32 p-4 border border-stone-300 bg-stone-500 opacity-100 text-[22px]">
           <span class="text-stone-50 ">⬤</span>
