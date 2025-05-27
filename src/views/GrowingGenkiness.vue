@@ -1,7 +1,26 @@
 <script setup lang="ts">
-import gray from '@/views/Colors/gray.vue'
-import yellow from '@/views/Colors/yellow.vue'
 import amber from '@/views/Colors/amber.vue'
+import blue from '@/views/Colors/blue.vue'
+import cyan from '@/views/Colors/cyan.vue'
+import emerald from '@/views/Colors/emerald.vue'
+import fuchsia from '@/views/Colors/fuchsia.vue'
+import gray from '@/views/Colors/gray.vue'
+import green from '@/views/Colors/green.vue'
+import indigo from '@/views/Colors/indigo.vue'
+import lime from '@/views/Colors/lime.vue'
+import neutral from '@/views/Colors/neutral.vue'
+import orange from '@/views/Colors/orange.vue'
+import pink from '@/views/Colors/pink.vue'
+import purple from '@/views/Colors/purple.vue'
+import red from '@/views/Colors/red.vue'
+import rose from '@/views/Colors/rose.vue'
+import sky from '@/views/Colors/sky.vue'
+import slate from '@/views/Colors/slate.vue'
+import stone from '@/views/Colors/stone.vue'
+import teal from '@/views/Colors/teal.vue'
+import violet from '@/views/Colors/violet.vue'
+import yellow from '@/views/Colors/yellow.vue'
+import zinc from '@/views/Colors/zinc.vue'
 defineOptions({
   name: "growingGenkiness"
 });
