@@ -8,12 +8,13 @@ import routerBar from "@/components/routerBar.vue";
 import hsl60Bar from "@/components/color/hsl60Bar.vue";
 import { RouterLink, RouterView } from "vue-router";
 import TailwindColorNameBar from "./components/color/tailwindColorNameBar.vue";
+import wccScaffolding from "./views/wccScaffolding.vue;"
 </script>
-<template><routerBar class="text-[9px]" />
-
-<br><br>
+<template>
+<routerBar class="text-[9px]" /><br><br>
+<center><a href="http://localhost:5173/wccScaffolding" class="p-2.5; text-sky-200 hover:text-violet-200 border border-sky-400 cursor-pointer text-[99px]" target="_blank" rel="noopener noreferrer">🐢<br></a></center>
 <backgroundImages><center>
-
+<div class="text-[99px]"><clock /></div>
 <skyTop /><skyTop /><br>
 <div class="text-xl"><skyTop /><skyTop /><br></div>
 <span  class="text-4xl">ن🖵無 </span><br>

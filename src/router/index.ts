@@ -12,6 +12,8 @@ import SeaOfNought from '@/views/NaughtSea.vue'
 import Orientation from '@/views/Orientation.vue'
 import Dailies from '@/views/Dailies.vue'
 import GrowingGenkiness from '@/views/GrowingGenkiness.vue'
+import wccScaffolding from '@/views/wccScaffolding.vue'
+import amber from '@/views/tailwindColors/amber.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -81,7 +83,17 @@ const router = createRouter({
       name: 'xhibition',
       component: Xhibition
     },
-]
+    {
+      path: '/wccScaffolding',
+      name: 'wccScaffolding',
+      component: wccScaffolding
+    },    
+    {
+      path: '/tailwindColors/amber',
+      name: 'amber',
+      component: amber
+    }, 
+  ]
 })
 
 export default router

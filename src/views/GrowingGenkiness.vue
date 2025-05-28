@@ -301,8 +301,8 @@ defineOptions({
         <td class="p-4 border border-amber-950 text-[16px] text-amber-950 align-middle text-center ">⬤</td>  
         <td class="p-4 border border-amber-500 text-[16px] align-middle text-center ">📐</td> 
       </tr>
-      <tr rowspan="11"><th></th></tr>
-      <tr><th class="text-yellow-50 align-middle text-center">⬤</th><th colspan="15" rowspan="11"><amber /></th></tr>
+      <tr rowspan="12"><th></th></tr>
+      <tr><th class="text-yellow-50 align-middle text-center">⬤</th><th colspan="15" rowspan="12"><amber /></th></tr>
       <tr><th class="text-yellow-100 align-middle text-center">⬤</th></tr>
       <tr><th class="text-yellow-200 align-middle text-center">⬤</th></tr>
       <tr><th class="text-yellow-300 align-middle text-center">⬤</th></tr>
@@ -313,6 +313,7 @@ defineOptions({
       <tr><th class="text-yellow-800 align-middle text-center">⬤</th></tr>
       <tr><th class="text-yellow-900 align-middle text-center">⬤</th></tr>
       <tr><th class="text-yellow-950 align-middle text-center">⬤</th></tr>
+      <tr><th class="text-[#ffc107] align-middle text-center">⬤</th></tr>
       <tr>
         <th class="w-32 p-4 border border-orange-300 bg-orange-500 opacity-100 text-[22px]">
           <span class="text-orange-50 ">⬤</span>
@@ -902,7 +903,7 @@ defineOptions({
         <td class="p-4 border border-lime-500 text-[16px] align-middle text-center">🗽</td>
       </tr>
       <tr rowspan="11"><th></th></tr>
-      <tr><th class="text-lime-50 align-middle text-center">⬤</th><th colspan="15" rowspan="11"><lime /></th></tr>
+      <tr><th class="text-lime-50 align-middle text-center">⬤</th><th colspan="15" rowspan="12"><lime /></th></tr>
       <tr><th class="text-lime-100 align-middle text-center">⬤</th></tr>
       <tr><th class="text-lime-200 align-middle text-center">⬤</th></tr>
       <tr><th class="text-lime-300 align-middle text-center">⬤</th></tr>
@@ -913,6 +914,7 @@ defineOptions({
       <tr><th class="text-lime-800 align-middle text-center">⬤</th></tr>
       <tr><th class="text-lime-900 align-middle text-center">⬤</th></tr>
       <tr><th class="text-lime-950 align-middle text-center">⬤</th></tr>       
+      <tr><th class="text-[#00ff00] align-middle text-center">⬤</th></tr>       
     </tbody>
   </table>
 </div>
