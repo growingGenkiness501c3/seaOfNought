@@ -4,10 +4,10 @@ import blue from '@/components/color/tailwindColors/blue.vue'
 import cyan from '@/components/color/tailwindColors/cyan.vue'
 import emerald from '@/components/color/tailwindColors/emerald.vue'
 import fuchsia from '@/components/color/tailwindColors/fuchsia.vue'
-import gray from '@/components/color/tailwindColors/gray.vue'
+import grayComponent from '@/components/color/tailwindColors/grayComponent.vue'
 import green from '@/components/color/tailwindColors/green.vue'
 import indigo from '@/components/color/tailwindColors/indigo.vue'
-import lime from '@/components/color/tailwindColors/lime.vue'
+import limeComponent from '@/components/color/tailwindColors/limeComponent.vue'
 import neutral from '@/components/color/tailwindColors/neutral.vue'
 import orange from '@/components/color/tailwindColors/orange.vue'
 import pink from '@/components/color/tailwindColors/pink.vue'
@@ -67,7 +67,7 @@ defineOptions({
         <th class="p-4 border border-gray-950 text-[16px] text-gray-950 align-middle text-center ">⬤</th>  
         <th class="p-4 border border-gray-500 text-[16px] align-middle text-center ">🐘</th>              
       </tr>
-      <tr><th class="text-gray-50 align-middle text-center">⬤</th><th colspan="16" rowspan="11"><gray /></th></tr>
+      <tr><th class="text-gray-50 align-middle text-center">⬤</th><th colspan="16" rowspan="12"><grayComponent /></th></tr>
       <tr><th class="text-gray-100 align-middle text-center">⬤</th></tr>
       <tr><th class="text-gray-200 align-middle text-center">⬤</th></tr>
       <tr><th class="text-gray-300 align-middle text-center">⬤</th></tr>
@@ -78,6 +78,7 @@ defineOptions({
       <tr><th class="text-gray-800 align-middle text-center">⬤</th></tr>
       <tr><th class="text-gray-900 align-middle text-center">⬤</th></tr>
       <tr><th class="text-gray-950 align-middle text-center">⬤</th></tr>
+      <tr><th class="text-[#808080] align-middle text-center">⬤</th></tr>
       <tr>
         <th class="w-32 p-4 border border-stone-300 bg-stone-500 opacity-100 text-[22px]">
           <span class="text-stone-50 ">⬤</span>
@@ -904,7 +905,7 @@ defineOptions({
         <td class="p-4 border border-lime-500 text-[16px] align-middle text-center">🗽</td>
       </tr>
       <tr rowspan="11"><th></th></tr>
-      <tr><th class="text-lime-50 align-middle text-center">⬤</th><th colspan="15" rowspan="12"><lime /></th></tr>
+      <tr><th class="text-lime-50 align-middle text-center">⬤</th><th colspan="15" rowspan="12"><limeComponent /></th></tr>
       <tr><th class="text-lime-100 align-middle text-center">⬤</th></tr>
       <tr><th class="text-lime-200 align-middle text-center">⬤</th></tr>
       <tr><th class="text-lime-300 align-middle text-center">⬤</th></tr>

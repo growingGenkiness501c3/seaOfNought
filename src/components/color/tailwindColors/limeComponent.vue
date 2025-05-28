@@ -1,6 +1,6 @@
 <script setup lang="ts">
 defineOptions({
-  name: "lime"
+  name: "limeComponent"
 });
 </script>
 <template>

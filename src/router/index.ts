@@ -14,6 +14,8 @@ import Dailies from '@/views/Dailies.vue'
 import GrowingGenkiness from '@/views/GrowingGenkiness.vue'
 import wccScaffolding from '@/views/wccScaffolding.vue'
 import amberVue from '@/views/tailwindColors/amberVue.vue'
+import grayVue from '@/views/tailwindColors/grayVue.vue'
+import limeVue from '@/views/tailwindColors/limeVue.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -93,6 +95,16 @@ const router = createRouter({
       name: 'amberVue',
       component: amberVue
     }, 
+    {
+      path: '/grayVue',
+      name: 'grayVue',
+      component: grayVue
+    }, 
+        {
+      path: '/limeVue',
+      name: 'limeVue',
+      component: limeVue
+    },     
   ]
 })
 
