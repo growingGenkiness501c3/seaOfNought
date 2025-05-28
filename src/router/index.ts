@@ -13,7 +13,7 @@ import Orientation from '@/views/Orientation.vue'
 import Dailies from '@/views/Dailies.vue'
 import GrowingGenkiness from '@/views/GrowingGenkiness.vue'
 import wccScaffolding from '@/views/wccScaffolding.vue'
-import amber from '@/views/tailwindColors/amber.vue'
+import amberVue from '@/views/tailwindColors/amberVue.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -89,9 +89,9 @@ const router = createRouter({
       component: wccScaffolding
     },    
     {
-      path: '/tailwindColors/amber',
-      name: 'amber',
-      component: amber
+      path: '/tailwindColors/amberVue',
+      name: 'amberVue',
+      component: amberVue
     }, 
   ]
 })
