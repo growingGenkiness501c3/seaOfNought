@@ -89,7 +89,7 @@ const router = createRouter({
       component: wccScaffolding
     },    
     {
-      path: '/tailwindColors/amberVue',
+      path: '/amberVue',
       name: 'amberVue',
       component: amberVue
     }, 

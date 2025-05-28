@@ -7,7 +7,7 @@ defineOptions({
   <center>
     <div class="overflow-x-auto">
       <table class="table-auto border-collapse w-full text-left bg-amber-500/50">
-        <tbody class="bg-gray-500/100 bg-contain [background-size:100px_100px]" style="background-image: url('/backgrounds/amber.png');">
+        <tbody class="bg-sky-950/100 bg-contain [background-size:100px_100px]" style="background-image: url('/backgrounds/amber.png');">
           <tr><th class="text-amber-50 align-middle text-left">#fefce8 hsl(54.55,8.66,99.61) so far, I haven't assigned the color Amber to anything. Today, I'm asigning it to my story. a story of hope.</th></tr>
           <tr><th class="text-amber-100 align-middle text-left">#fef9c2 hsl(55,23.62,99.61)</th></tr>
           <tr><th class="text-amber-200 align-middle text-left">#fff085 hsl(52.62,47.84,100)</th></tr>

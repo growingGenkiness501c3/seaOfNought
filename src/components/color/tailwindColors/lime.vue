@@ -7,7 +7,7 @@ defineOptions({
 <center>
 <div class="overflow-x-auto">
   <table class="table-auto border-collapse w-full text-left bg-lime-500/50">
-    <tbody class="bg-gray-500/100 bg-contain" style="background-image: url('/backgrounds/lime.png');">
+    <tbody class="bg-sky-950/100 bg-contain" style="background-image: url('/backgrounds/lime.png');">
       <tr><th></th><th class="text-lime-50 align-middle text-left">lime-50 #f7fee7 hsl(78.26, 9.06, 99.61)</th></tr>
       <tr><th></th><th class="text-lime-100 align-middle text-left">lime-100 #ecfcca hsl(79.20, 19.84, 98.82)</th></tr>
       <tr><th></th><th class="text-lime-200 align-middle text-left">lime-200 #d8f999 hsl(80.62, 38.55, 97.65)</th></tr>
