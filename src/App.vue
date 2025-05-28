@@ -7,8 +7,8 @@ import clock from "@/components/Clock.vue";
 import routerBar from "@/components/routerBar.vue";
 import hsl60Bar from "@/components/color/hsl60Bar.vue";
 import { RouterLink, RouterView } from "vue-router";
-import TailwindColorNameBar from "./components/color/tailwindColorNameBar.vue";
-import wccScaffolding from "./views/wccScaffolding.vue;"
+import TailwindColorNameBar from "@/components/color/tailwindColorNameBar.vue";
+import wccScaffolding from "@/views/wccScaffolding.vue;"
 </script>
 <template>
 <routerBar class="text-[9px]" /><br><br>

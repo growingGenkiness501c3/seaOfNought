@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import amber from '@/components/color/tailwindColors/amber.vue'
+import amberComponent from '@/components/color/tailwindColors/amberComponent.vue'
 import blue from '@/components/color/tailwindColors/blue.vue'
 import cyan from '@/components/color/tailwindColors/cyan.vue'
 import emerald from '@/components/color/tailwindColors/emerald.vue'
@@ -303,7 +303,7 @@ defineOptions({
         <td class="p-4 border border-amber-500 text-[16px] align-middle text-center ">📐</td> 
       </tr>
       <tr rowspan="12"><th></th></tr>
-      <tr><th class="text-yellow-50 align-middle text-center">⬤</th><th colspan="15" rowspan="12"><amber /></th></tr>
+      <tr><th class="text-yellow-50 align-middle text-center">⬤</th><th colspan="15" rowspan="12"><amberComponent /></th></tr>
       <tr><th class="text-yellow-100 align-middle text-center">⬤</th></tr>
       <tr><th class="text-yellow-200 align-middle text-center">⬤</th></tr>
       <tr><th class="text-yellow-300 align-middle text-center">⬤</th></tr>

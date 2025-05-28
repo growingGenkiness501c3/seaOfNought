@@ -25,7 +25,7 @@ defineOptions({
     <RouterLink class="p-2.5; text-sky-200 hover:text-lime-200 border border-lime-400 cursor-pointer" to="/royalwethepeople">🗽<br>RWTP</RouterLink>            
   </nav> 
   <nav class="grid grid-cols-[repeat(1,minmax(0,1fr))] w-full h-6 gap-3 p-5">
-    <RouterLink class="p-2.5; text-amber-200 hover:text-amber-200 border border-amber-400 cursor-pointer" to="/amber"> amber</RouterLink>            
+    <RouterLink class="p-2.5; text-amber-200 hover:text-amber-200 border border-amber-400 cursor-pointer" to="/amberVue"> amberVue</RouterLink>            
   </nav> 
   </center>
 </template>
