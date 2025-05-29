@@ -4,7 +4,7 @@ defineOptions({
 });
 </script>
 <template>
-
+<span class="text-[99px] mea-culpa-regular text-sky-400">age</span>
 <div class="grid grid-cols-[repeat(51,minmax(0,1fr))] w-full h-6 text-[16px] gap-1 p-1">
   <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⓪</a></div>
   <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">①</a></div>
@@ -58,6 +58,7 @@ defineOptions({
   <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊾</a></div>
   <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊿</a></div>
 </div>
+<span class="text-[99px] mea-culpa-regular text-sky-400">year</span>
 <div class="grid grid-cols-[repeat(51,minmax(0,1fr))] w-full h-6 gap-2 p-4 hubot-sans  text-[11px]">
   <div class="bg-[hsl(0,0%,0%,0%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" >75</div>
   <div class="bg-[hsl(0,0%,2%,0%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" >76</div>
@@ -112,7 +113,7 @@ defineOptions({
   <div class="bg-[hsl(0,0%,98%,0%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" >24</div>
   <div class="bg-[hsl(0,0%,100%,0%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" >25</div>
 </div>
-
+<span class="text-[99px] mea-culpa-regular text-sky-400">inclusive plan</span>
 <div class="grid grid-cols-[repeat(15,minmax(0,1fr))] w-full h-6 gap-2 p-5  text-center flex items-center justify-center">
   <div class="border border-sky-300 bg-yellow-500/30 text-yellow-500" >yellow
   </div>
@@ -142,10 +143,21 @@ defineOptions({
   </div>
   <div class="border border-sky-300 bg-neutral-300/30 text-stone-950" >black <br>on<br> white
   </div>
-  <div class="border border-sky-300 bg-gray-500/30 text-pink-500" >pink<br> on<br> gray
+  <div class="border border-sky-300 bg-gray-500/30 text-[#FFC0CB]" >pink<br> on<br> gray
   </div>
 </div>
-<br><br><br><br>
+
+<span class="text-[99px] mea-culpa-regular">color</span>
+<div class="grid grid-cols-[repeat(3,minmax(0,1fr))] gap-2 p-4 text-[55px] mea-culpa-regular">
+  <div> <img src="/color/YRB-Paint.png" class="h-55 object-cover rounded-md" /></div>
+  <div> <img src="/color/RGB-Additive.png" class="w-55 object-cover rounded-md" /></div>
+  <div> <img src="/color/YMC-Subtractive.png" class="w-55 object-cover rounded-md" /></div>
+  <div> mixing paint</div>
+  <div> mixing light</div>
+  <div> mixing pigment</div>
+</div>
+
+
 <div class="grid grid-cols-[repeat(51,minmax(0,1fr))] w-full h-6 gap-2 p-4 hubot-sans  text-[11px]">
   <div class="bg-[hsl(0,0%,0%,0%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ></div>
   <div class="bg-[hsl(0,0%,2%,0%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ></div>
@@ -232,7 +244,7 @@ defineOptions({
   </div>
   <div class="border border-sky-300 bg-neutral-300/30 text-stone-950" >black <br>on<br> white
   </div>
-  <div class="border border-sky-300 bg-gray-500/30 text-pink-500" >pink<br> on<br> gray
+  <div class="border border-sky-300 bg-gray-500/30 text-[#FFC0CB]" >pink<br> on<br> gray
   </div>
 </div>
 <br><br><br><br>
@@ -348,7 +360,7 @@ after leaving Salem: vonGeist
   </div>
   <div class="border border-sky-300 bg-neutral-300/30 text-stone-950" >black <br>on<br> white
   </div>
-  <div class="border border-sky-300 bg-gray-500/30 text-pink-500" >pink<br> on<br> gray
+  <div class="border border-sky-300 bg-gray-500/30 text-[#FFC0CB]" >pink<br> on<br> gray
   </div>
 </div>
 
