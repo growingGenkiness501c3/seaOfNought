@@ -7,7 +7,7 @@ defineOptions({
 <center>
 <div class="overflow-x-auto">
   <table class="table-auto border-collapse w-full text-left bg-gray-500/50">
-    <tbody>
+        <tbody class="bg-sky-950/100 bg-contain [background-size:100px_100px]" style="background-image: url('/backgrounds/gray.png');">
       <tr><th class="text-gray-50 align-middle text-left">#f9fafb hsl(210, .80, 98.43)</th></tr>
       <tr><th class="text-gray-100 align-middle text-left">#f3f4f6 hsl(220,1.22,96.47)</th></tr>
       <tr><th class="text-gray-200 align-middle text-left">#e5e7eb hsl(220, 2.55, 92.16)</th></tr>

@@ -328,7 +328,7 @@ import yellowFlag from '@/components/color/yellowFlag.vue'
   <div class="p-2 border hue120 orbitron">hue<br> 120°</div>
   <div class="p-2 border hue090 orbitron">hue<br> 90°</div>
 </div>
-
+<hr><br><hr><br><hr><br><hr><br><hr><br>
 <hsl60Bar />
 
 <NavigationBar />  
