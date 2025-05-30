@@ -18,7 +18,13 @@ import grayComponent from "@/components/color/tailwindColors/grayComponent.vue"
 <limeComponent />
 <amberComponent />
 <routerBar class="text-[9px]" /><br><br>
-<center><a href="http://localhost:5173/wccScaffolding" class="p-2.5; text-sky-200 hover:text-violet-200 border border-sky-400 cursor-pointer text-[99px]" target="_blank" rel="noopener noreferrer">🐢<br></a></center>
+<center>
+    <a href="http://localhost:5173/wccScaffolding" 
+    class="text-[99px]" 
+    target="_blank" rel="noopener noreferrer">🐢<br></a>
+    <a href="http://localhost:5173/wccScaffolding" class="" target="_blank" rel="noopener noreferrer">
+    <img src="/icons/turtle.png" class="h-55 object-cover rounded-md" />
+    <br></a></center>
 <backgroundImages><center>
 <div class="text-[99px]"><clock /></div>
 <skyTop /><skyTop /><br>

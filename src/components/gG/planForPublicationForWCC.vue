@@ -4,7 +4,7 @@ defineOptions({
 });
 </script>
 <template>
-
+https://www.courts.oregon.gov/Pages/contact.aspx
 <div class="grid grid-cols-[repeat(15,minmax(0,1fr))] w-full h-6 gap-2 p-5  text-center flex items-center justify-center">
   <div class="border border-sky-300 bg-yellow-500/30 text-yellow-500" >yellow
   </div>
@@ -56,7 +56,50 @@ What is important is that others are allowed to share their stories.
 </p>  
 </div>
 
+<div class="flex flex-wrap items-center justify-center gap-3 p-10">
+  <div class="border border-amber-800 cursor-pointer">
+    <a href="https://www.legalzoom.com/" class="" target="_blank" rel="noopener noreferrer">
+      🖶https://www.legalzoom.com/<br></a></div>
+  <div class="border border-amber-800 cursor-pointer">
+    <a href="https://www.lawdepot.com/" class="" target="_blank" rel="noopener noreferrer">
+      🖶https://www.lawdepot.com/</a></div>
+  <div class="border border-amber-800 cursor-pointer">
+    <a href="https://click2mail.com/" class="" target="_blank" rel="noopener noreferrer">
+      🖶https://click2mail.com/</a></div>
+  <div class="border border-amber-800 cursor-pointer">
+    <a href="https://www.mailform.io/" class="" target="_blank" rel="noopener noreferrer">
+      🖶https://www.mailform.io/</a></div>
+  <div class="border border-amber-800 cursor-pointer">
+    <a href="https://www.lob.com/" class="" target="_blank" rel="noopener noreferrer">
+      🖶https://www.lob.com/</a></div>
+  <div class="border border-amber-800 cursor-pointer">
+    <a href="https://recordpress.com/solutions/document-printing-solutions/" class="" target="_blank" rel="noopener noreferrer">
+      🖶https://recordpress.com/solutions/document-printing-solutions/</a></div>
+  <div class="border border-amber-800 cursor-pointer">
+    <a href="https://www.transperfectlegal.com/services/document-printing-scanning" class="" target="_blank" rel="noopener noreferrer">
+      🖶https://www.transperfectlegal.com/services/document-printing-scanning</a></div>
+  <div class="border border-amber-800 cursor-pointer">
+    <a href="https://www.postalmethods.com/services/legal-printing-and-mailing/" class="" target="_blank" rel="noopener noreferrer">
+      🖶https://www.postalmethods.com/services/legal-printing-and-mailing/</a></div>
+  <div class="border border-amber-800 cursor-pointer">
+    <a href="https://supremecourtpress.com/" class="" target="_blank" rel="noopener noreferrer">
+      🖶https://supremecourtpress.com/</a></div>
+  <div class="border border-amber-800 cursor-pointer">
+    <a href="https://www.office.fedex.com/default/copy-and-print-services" class="" target="_blank" rel="noopener noreferrer">
+      🖶https://www.office.fedex.com/default/copy-and-print-services</a></div>
+  <div class="border border-amber-800 cursor-pointer">
+    <a href="https://www.minutemanteam.com/products_services/copying-digital-printing/legal_copies.html" class="" target="_blank" rel="noopener noreferrer">
+      🖶https://www.minutemanteam.com/products_services/copying-digital-printing/legal_copies.html</a></div>
+  <div class="border border-amber-800 cursor-pointer">
+    <a href="https://www.abclegal.com/en/partnerresources/printing" class="" target="_blank" rel="noopener noreferrer">
+      🖶https://www.abclegal.com/en/partnerresources/printing</a></div>
 
+
+
+
+
+
+</div>
 
 
 

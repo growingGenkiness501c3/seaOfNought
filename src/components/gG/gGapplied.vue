@@ -28,7 +28,8 @@ defineOptions({
 });
 </script>
 <template><br>
-<div class="text-[99px] mea-culpa-regular bg-slate-950">age</div>
+
+<div class="text-[99px] mea-culpa-regular text-sky-300 bg-slate-950 p-10">The year I turn fifty...</div>
 <div class="bg-neutral-950/50"> <age /></div>
 <div class="text-[99px] mea-culpa-regular bg-slate-950">years</div>
 <div class="bg-neutral-900/30"> <years /></div>
