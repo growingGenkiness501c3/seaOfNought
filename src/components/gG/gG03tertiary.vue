@@ -1,16 +1,33 @@
 <script setup lang="ts">
 defineOptions({
-  name: "aiYellow"
+  name: "gG03tertiary"
 });
 </script>
 <template>
 
-aiYellow
-  <div class="grid grid-cols-[repeat(1,minmax(0,1fr))] w-full h-6 gap-2 p-5">
-    <div class="border border-sky-300 bg-yellow-500/30 text-yellow-500" >yellow</div>
-  </div><br>
 
-  <div class="columns-6 gap-6 text-justify hubot-sans">
+tertiary
+<div class="grid grid-cols-[repeat(9,minmax(0,1fr))] w-full h-6 gap-2 p-5">
+  <div class="border border-sky-300 bg-yellow-500/30 text-yellow-500" >yellow
+  </div>
+  <div class="border border-sky-300 bg-orange-500/30 text-orange-500" >orange
+  </div>
+  <div class="border border-sky-300 bg-red-500/30 text-red-500" >red
+  </div>
+  <div class="border border-sky-300 bg-purple-500/30 text-purple-500" >purple
+  </div>
+  <div class="border border-sky-300 bg-blue-500/30 text-blue-500" >blue
+  </div>
+  <div class="border border-sky-300 bg-green-500/30 text-green-500" >green
+  </div>
+  <div class="border border-sky-300 bg-neutral-300/30 text-neutral-300" >white
+  </div>
+  <div class="border border-sky-300 bg-stone-950/30 text-stone-950" >black
+  </div>
+  <div class="border border-sky-300 bg-gray-500/30 text-gray-500" >gray
+  </div>
+</div>
+<div class="columns-6 gap-6 text-justify hubot-sans">
 <p>
   Art starts conversations.
 <br><br>
@@ -49,6 +66,27 @@ I want to know how to help you help yourself because doing so helps us all.
 <br>
 </p>  
 </div>
+<sub>11:44:56 AM [vite] (client) warning: p cannot be child of p, according to HTML specifications. This can cause hydration errors or potentially disrupt future functionality.</sub>
+<br>
+<br>
+<hr>
+<hr>
+<br>
+<br>
+<hr>
+<br>
+
+
+<br />
+<br />
+    <pre>
+https://en.wikipedia.org/wiki/File:Wanna_Work_Together%3F_with_subtitles_-_Creative_Commons.ogv</pre
+    >
+  <center><Clock /></center>
+
+
+
+
 
 
 </template>

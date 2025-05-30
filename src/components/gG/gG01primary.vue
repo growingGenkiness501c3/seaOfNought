@@ -1,16 +1,22 @@
 <script setup lang="ts">
 defineOptions({
-  name: "aiYellow"
+  name: "gG01primary"
 });
 </script>
 <template>
 
-aiYellow
-  <div class="grid grid-cols-[repeat(1,minmax(0,1fr))] w-full h-6 gap-2 p-5">
-    <div class="border border-sky-300 bg-yellow-500/30 text-yellow-500" >yellow</div>
-  </div><br>
+primary issues
+  <div class="grid grid-cols-[repeat(3,minmax(0,1fr))] w-full h-6 gap-2 p-5">
+    <div class="border border-sky-300 bg-yellow-500/30 text-yellow-500" >yellow
+    </div>
+    <div class="border border-sky-300 bg-red-500/30 text-red-500" >red
+    </div>
+    <div class="border border-sky-300 bg-blue-500/30 text-blue-500" >blue
+    </div>
+  </div>
+  <br>
 
-  <div class="columns-6 gap-6 text-justify hubot-sans">
+<div class="columns-6 gap-6 text-justify hubot-sans">
 <p>
   Art starts conversations.
 <br><br>
@@ -49,6 +55,18 @@ I want to know how to help you help yourself because doing so helps us all.
 <br>
 </p>  
 </div>
+<sub>11:44:56 AM [vite] (client) warning: p cannot be child of p, according to HTML specifications. This can cause hydration errors or potentially disrupt future functionality.</sub>
+<br>
+<br>
+<hr>
+<hr>
+<br>
+<br>
+<hr>
+<br>
+
+
+
 
 
 </template>

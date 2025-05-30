@@ -3,9 +3,9 @@ import gGapplied from "@/components/gG/gGapplied.vue"
 // No script logic needed for static legal document
 </script>
 <template>
-<section id="timeline">
-  <gGapplied />
-  <br><br><br><br><br><br><hr><br><hr><br><hr><br><hr><br><hr><br>
+  <section id="gGappliedWCC">
+    <gGapplied />
+    <br><br><br><br><br><br><hr><br><hr><br><hr><br><hr><br><hr><br>
   </section>
 
 
