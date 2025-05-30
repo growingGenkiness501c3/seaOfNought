@@ -4,7 +4,7 @@ defineOptions({
 });
 </script>
 <template>
-<span class="text-[99px] mea-culpa-regular text-sky-400">age</span>
+<span class="text-[99px] mea-culpa-regular text-sky-400">The year I turn fifty...</span>
 <div class="grid grid-cols-[repeat(51,minmax(0,1fr))] w-full h-6 text-[16px] gap-1 p-1">
   <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⓪</a></div>
   <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">①</a></div>
@@ -58,7 +58,7 @@ defineOptions({
   <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊾</a></div>
   <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊿</a></div>
 </div>
-<div class="columns-6 gap-6 text-justify hubot-sans">
+<div class="columns-6 gap-6 text-justify hubot-sans p-10">
 <p>
   Art starts conversations.
 <br><br>

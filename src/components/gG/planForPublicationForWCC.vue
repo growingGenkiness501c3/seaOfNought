@@ -4,7 +4,7 @@ defineOptions({
 });
 </script>
 <template>
-<span class="text-[99px] mea-culpa-regular text-sky-400">plan for publication</span>
+
 <div class="grid grid-cols-[repeat(15,minmax(0,1fr))] w-full h-6 gap-2 p-5  text-center flex items-center justify-center">
   <div class="border border-sky-300 bg-yellow-500/30 text-yellow-500" >yellow
   </div>
@@ -37,7 +37,8 @@ defineOptions({
   <div class="border border-sky-300 bg-gray-500/30 text-[#FFC0CB]" >pink<br> on<br> gray
   </div>
 </div>
-<div class="columns-6 gap-6 text-justify hubot-sans">
+<br><br>
+<div class="columns-6 gap-6 text-justify hubot-sans p-10">
 <p>
   Art starts conversations.
 <br><br>
@@ -52,48 +53,8 @@ My bleeding disorder, passed along to my triplet adult sons, is of interest to O
 My story isn't important.
 <br><br>
 What is important is that others are allowed to share their stories.
-<br><br>
-Entrepreneurship is all about problem solving and in the early 90s while exceptional at academics, I realized that every seat at the medical school will be filled and lawyers will still find their ways to pass the bar, but my mother had never had a vacation.
-<br><br>
-My generation watched glass ceilings shattered only for misogynists now to surprise women that we ARE the DEI hire. I have never met someone my age who doesn't have a story about how a man or men limited their potential or took away their feelings of sovereignty.
-<br><br>
-Critical Race Theory isn't about making white boys feel bad about themselves - if it were, as the mother of triplet sons, I would have noticed. We talked about those Scholastic book fairs that never had a white boys section, but they were also taught that the reason I could run a business and be with them was because I benefited from my grandfather, father, and uncle's privilege. The reason I was ok making the world better "in my lane" or "in my community" was because I knew how exceptional my childhood was and I hope my sons remember to be proud of themselves because they had to struggle through hard times caused by MAGA violence when the police were used to endorse the violence rather than protect children from it.
-<br><br>
-Unless I find the right help, I will be taking judicial action against the State of Oregon, Kaiser Permanente, and the Church of the Nazarene pro se because MAGA didn't occupy the USA, but they did occupy the GOP and We The People deserve our 1st amendment right to tell the truth about ourselves even when that truth isn't flattering because Mr Rogers promised if it's mentionable it's manageable.
-<br><br>
-I am on MedicAID and Social Security because my business ended when I reported violence and was labelled "unkind". And when it was my child experiencing the life-threatening child abuse, the fact that the worst anyone could truthfully call me is "unkind" speaks of how well my mother taught me.
-<br><br>
-Romeo and Juliet isn't a story for children... it's a story for the parents. What warring between adults is worth losing our children?
-<br><br>
-I am here because I'm willing to look stupid and help you tell YOUR story because the more we empower each other into entrepreneurial efforts, the more problem-solving and the fewer fatalities.
-<br><br>
-When World War TrumPutin is over, my children will be able to say their mother did "everything she could".
-<br><br>
-What will you say you did to make things a tiny bit better than you found them?
-<br><br>
-I want to know how to help you help yourself because doing so helps us all.
-<br>
-<br>
 </p>  
 </div>
-<sub>11:44:56 AM [vite] (client) warning: p cannot be child of p, according to HTML specifications. This can cause hydration errors or potentially disrupt future functionality.</sub>
-<br>
-<br>
-<hr>
-<hr>
-<br>
-<br>
-<hr>
-<br>
-
-
-<br />
-<br />
-    <pre>
-https://en.wikipedia.org/wiki/File:Wanna_Work_Together%3F_with_subtitles_-_Creative_Commons.ogv</pre
-    >
-  <center><Clock /></center>
-
 
 
 
