@@ -18,14 +18,30 @@ import grayComponent from "@/components/color/tailwindColors/grayComponent.vue"
 <limeComponent />
 <amberComponent />
 <routerBar class="text-[9px]" /><br><br>
-<center>
+<backgroundImages><center>
     <a href="http://localhost:5173/wccScaffolding" 
     class="text-[99px]" 
-    target="_blank" rel="noopener noreferrer">🐢<br></a>
+    target="_blank" rel="noopener noreferrer">🦄<br></a>
     <a href="http://localhost:5173/wccScaffolding" class="" target="_blank" rel="noopener noreferrer">
     <img src="/icons/turtle.png" class="h-55 object-cover rounded-md" />
-    <br></a></center>
-<backgroundImages><center>
+    <br></a>
+    <a href="https://allostasissy.studio/" 
+    class="text-[99px]" 
+    target="_blank" rel="noopener noreferrer">🐢<br></a>
+    <a href="https://allostasissy.squarespace.com/config/pages/683a8b78429bfc5167849479" 
+    class="text-[99px]" 
+    target="_blank" rel="noopener noreferrer">🐯<br></a>
+    <a href="https://account.squarespace.com/" 
+    class="text-[99px]" 
+    target="_blank" rel="noopener noreferrer">🦝<br></a>
+    <a href="https://jackbox.tv/" 
+    class="text-[99px]" 
+    target="_blank" rel="noopener noreferrer">🦍<br></a>
+    <a href="https://www.amazon.com/arya/webplayer?asin=0063002779&useRelativeUrl=true&amazonAsin=B08TX69G85&marketplaceId=AF2M0KC94RCEA&initialCPLaunch=true&isMobile=false&ref_=adbl_pdp_cloudplayer_dt" 
+    class="text-[99px]" 
+    target="_blank" rel="noopener noreferrer">🐮<br></a>
+    </center>
+<center>
 <div class="text-[99px]"><clock /></div>
 <skyTop /><skyTop /><br>
 <div class="text-xl"><skyTop /><skyTop /><br></div>
