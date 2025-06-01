@@ -1,6 +1,6 @@
 <script setup lang="ts">
 defineOptions({
-  name: "rose"
+  name: "roseVue"
 });
 </script>
 <template>

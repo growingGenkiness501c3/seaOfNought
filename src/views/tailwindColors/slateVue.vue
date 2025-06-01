@@ -1,6 +1,6 @@
 <script setup lang="ts">
 defineOptions({
-  name: "slate"
+  name: "slateVue"
 });
 </script>
 <template>

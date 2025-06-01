@@ -1,6 +1,6 @@
 <script setup lang="ts">
 defineOptions({
-  name: "indigo"
+  name: "indigoVue"
 });
 </script>
 <template>

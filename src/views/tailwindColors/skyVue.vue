@@ -1,6 +1,6 @@
 <script setup lang="ts">
 defineOptions({
-  name: "sky"
+  name: "skyVue"
 });
 </script>
 <template>

@@ -12,35 +12,13 @@ import wccScaffolding from "@/views/wccScaffolding.vue;"
 import amberComponent from "@/components/color/tailwindColors/amberComponent.vue";
 import limeComponent from "@/components/color/tailwindColors/limeComponent.vue"
 import grayComponent from "@/components/color/tailwindColors/grayComponent.vue"
+import routerFlexBar from "./components/menus/routerFlexBar.vue";
+import routerEverythingFlexBar from "./components/menus/routerEverythingFlexBar.vue";
 </script>
 <template>
-<grayComponent />
-<limeComponent />
-<amberComponent />
-<routerBar class="text-[9px]" /><br><br>
-<backgroundImages><center>
-    <a href="http://localhost:5173/wccScaffolding" 
-    class="text-[99px]" 
-    target="_blank" rel="noopener noreferrer">🦄<br></a>
-    <a href="http://localhost:5173/wccScaffolding" class="" target="_blank" rel="noopener noreferrer">
-    <img src="/icons/turtle.png" class="h-55 object-cover rounded-md" />
-    <br></a>
-    <a href="https://allostasissy.studio/" 
-    class="text-[99px]" 
-    target="_blank" rel="noopener noreferrer">🐢<br></a>
-    <a href="https://allostasissy.squarespace.com/config/pages/683a8b78429bfc5167849479" 
-    class="text-[99px]" 
-    target="_blank" rel="noopener noreferrer">🐯<br></a>
-    <a href="https://account.squarespace.com/" 
-    class="text-[99px]" 
-    target="_blank" rel="noopener noreferrer">🦝<br></a>
-    <a href="https://jackbox.tv/" 
-    class="text-[99px]" 
-    target="_blank" rel="noopener noreferrer">🦍<br></a>
-    <a href="https://www.amazon.com/arya/webplayer?asin=0063002779&useRelativeUrl=true&amazonAsin=B08TX69G85&marketplaceId=AF2M0KC94RCEA&initialCPLaunch=true&isMobile=false&ref_=adbl_pdp_cloudplayer_dt" 
-    class="text-[99px]" 
-    target="_blank" rel="noopener noreferrer">🐮<br></a>
-    </center>
+<backgroundImages>
+<routerEverythingFlexBar  class="text-[33px]" />
+<br><br>
 <center>
 <div class="text-[99px]"><clock /></div>
 <skyTop /><skyTop /><br>

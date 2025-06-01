@@ -1,6 +1,6 @@
 <script setup lang="ts">
 defineOptions({
-  name: "emerald"
+  name: "emeraldVue"
 });
 </script>
 <template>

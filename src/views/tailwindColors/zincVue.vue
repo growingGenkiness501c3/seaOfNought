@@ -1,6 +1,6 @@
 <script setup lang="ts">
 defineOptions({
-  name: "zinc"
+  name: "zincVue"
 });
 </script>
 <template>

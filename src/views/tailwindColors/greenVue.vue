@@ -1,6 +1,6 @@
 <script setup lang="ts">
 defineOptions({
-  name: "green"
+  name: "greenVue"
 });
 </script>
 <template>
