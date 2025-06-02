@@ -9,6 +9,48 @@ defineOptions({
 <center class="p-1"> 
   <RouterLink class="p-1 text-amber-600 hover:text-amber-50 border border-amber-800 cursor-pointer alumni-sans-pinstripe-regular text-[11px] " to="/wccScaffolding">🐢 wccScaffolding</RouterLink>
 </center>
+<br>
+<center><code>allostasissy@gmail.com</code></center>
+<center class="text-[11px] gap-1 p-1 flex items-center justify-center">
+  <div class="border border-neutral-50 w-6 p-1"><a class="text-neutral-50" href="https://www.chase.com/?jp_pet=tnt-11070a&"  target="_blank" rel="noopener noreferrer"> ⬤ </a></div>
+  <div class="border border-neutral-100 w-6 p-1"><a class="text-neutral-100" href="https://allostasissy.squarespace.com/config/pages/683a8b78429bfc5167849479"  target="_blank" rel="noopener noreferrer"> ⬤ </a></div>
+  <div class="border border-neutral-200 w-6 p-1"><a class="text-neutral-200" href="https://allostasissy.squarespace.com/config/"  target="_blank" rel="noopener noreferrer"> ⬤ </a></div>
+  <div class="border border-neutral-300 w-6 p-1"><a class="text-neutral-300" href="https://allostasissy.squarespace.com/config/"  target="_blank" rel="noopener noreferrer"> ⬤ </a></div>
+  <div class="border border-neutral-400 w-6 p-1"><a class="text-neutral-400" href="https://allostasissy.squarespace.com/config/"  target="_blank" rel="noopener noreferrer"> ⬤ </a></div>
+  <div class="border border-neutral-500 w-6 p-1"><a class="text-neutral-500" href="https://allostasissy.squarespace.com/config/"  target="_blank" rel="noopener noreferrer"> ⬤ </a></div>
+  <div class="border border-neutral-600 w-6 p-1"><a class="text-neutral-600" href="https://allostasissy.squarespace.com/config/"  target="_blank" rel="noopener noreferrer"> ⬤ </a></div>
+  <div class="border border-neutral-700 w-6 p-1"><a class="text-neutral-700" href="https://allostasissy.squarespace.com/config/"  target="_blank" rel="noopener noreferrer"> ⬤ </a></div>
+  <div class="border border-neutral-800 w-6 p-1"><a class="text-neutral-800" href="https://allostasissy.squarespace.com/config/"  target="_blank" rel="noopener noreferrer"> ⬤ </a></div>
+  <div class="border border-neutral-900 w-6 p-1"><a class="text-neutral-900" href="https://allostasissy.squarespace.com/config/"  target="_blank" rel="noopener noreferrer"> ⬤ </a></div>
+  <div class="border border-neutral-950 w-6 p-1"><a class="text-neutral-950" href="https://allostasissy.squarespace.com/config/"  target="_blank" rel="noopener noreferrer"> ⬤ </a></div>  
+</center>
+
+
+
+
+<center class="alumni-sans-pinstripe-regular text-[11px]">
+  <div class="grid grid-cols-[repeat(15,minmax(0,1fr))] w-full h-6 gap-1 p-1  text-center flex items-center justify-center">
+    <div class="border border-yellow-300 bg-yellow-500/30 text-yellow-500" >yellow<br>physical</div>
+    <div class="border border-orange-500 bg-orange-500/30 text-orange-500" >orange<br>occupational</div>
+    <div class="border border-red-500 bg-red-500/30 text-red-500" >red<br>emotional</div>
+    <div class="border border-purple-500 bg-purple-500/30 text-purple-500" >purple<br>intellectual</div>
+    <div class="border border-blue-400 bg-blue-500/30 text-blue-500" >blue<br>social</div>
+    <div class="border border-green-500 bg-green-500/30 text-green-500" >green<br>environmental</div>
+    <div class="border border-white-300 bg-neutral-300/30 text-neutral-300" >white<br>spiritual</div>
+    <div class="border border-slate-950 bg-stone-950/30 text-stone-950" ><strong>black<br>factual</strong></div>
+    <div class="border border-gray-500 bg-gray-500/30 text-gray-500" >gray<br>nutritional</div>
+    <div class="border border-pink-500 bg-pink-500/30 text-pink-500" >pink<br>generational</div>
+    <div class="border border-cyan-500 bg-cyan-500/30 text-cyan-500" >cyan<br>miscellaneal</div>
+    <div class="border border-amber-700 bg-amber-800/30 text-amber-800" >brown<br>punctuational</div>
+    <div class="border border-gray-500 bg-gray-500/30 text-[#FFC0CB]" ><strong>pink<br> ( on )<br> gray</strong></div>
+    <div class="border border-neutral-300 bg-neutral-300/30 text-stone-950" ><strong>black <br>{ on }<br> white</strong></div>
+    <div class="border border-stone-950 bg-stone-950/30 text-neutral-300" ><strong>white <br>[ on ]<br> black</strong></div>
+  </div>
+  <br><br><br>
+</center>
+
+
+
 
 
 <center>
@@ -75,27 +117,6 @@ defineOptions({
   </div>    
 </center>
 <br>
-
-<center class="alumni-sans-pinstripe-regular text-[11px]">
-  <div class="grid grid-cols-[repeat(15,minmax(0,1fr))] w-full h-6 gap-1 p-1  text-center flex items-center justify-center">
-    <div class="border border-yellow-300 bg-yellow-500/30 text-yellow-500" >yellow<br>physical</div>
-    <div class="border border-orange-500 bg-orange-500/30 text-orange-500" >orange<br>occupational</div>
-    <div class="border border-red-500 bg-red-500/30 text-red-500" >red<br>emotional</div>
-    <div class="border border-purple-500 bg-purple-500/30 text-purple-500" >purple<br>intellectual</div>
-    <div class="border border-blue-400 bg-blue-500/30 text-blue-500" >blue<br>social</div>
-    <div class="border border-green-500 bg-green-500/30 text-green-500" >green<br>environmental</div>
-    <div class="border border-white-300 bg-neutral-300/30 text-neutral-300" >white<br>spiritual</div>
-    <div class="border border-slate-950 bg-stone-950/30 text-stone-950" ><strong>black<br>factual</strong></div>
-    <div class="border border-gray-500 bg-gray-500/30 text-gray-500" >gray<br>nutritional</div>
-    <div class="border border-pink-500 bg-pink-500/30 text-pink-500" >pink<br>generational</div>
-    <div class="border border-cyan-500 bg-cyan-500/30 text-cyan-500" >cyan<br>miscellaneal</div>
-    <div class="border border-amber-700 bg-amber-800/30 text-amber-800" >brown<br>punctuational</div>
-    <div class="border border-gray-500 bg-gray-500/30 text-[#FFC0CB]" ><strong>pink<br> ( on )<br> gray</strong></div>
-    <div class="border border-neutral-300 bg-neutral-300/30 text-stone-950" ><strong>black <br>{ on }<br> white</strong></div>
-    <div class="border border-stone-950 bg-stone-950/30 text-neutral-300" ><strong>white <br>[ on ]<br> black</strong></div>
-  </div>
-  <br><br><br>
-</center>
 
 
 <center>
@@ -168,8 +189,7 @@ defineOptions({
     </nav>
   </div>
 </center>
-
-  <center>
+<center>
     <div class="gap-1 p-1 flex items-center justify-center ">
       <div class="alumni-sans-pinstripe-regular text-[11px] gap-1 p-1 text-center flex items-center justify-center border border-zinc-500 bg-zinc-500/0 g">
         <div class="border border-zinc-500 bg-zinc-500/0 gap-1 p-1 flex items-center justify-center alumni-sans-pinstripe-regular text-[5px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-7 gap-1 p-1">
@@ -244,11 +264,9 @@ defineOptions({
         </div>                
       </div>  
     </div>
-  </center>
 
 
 
-  <center>
     <div class="gap-1 p-1 flex items-center justify-center ">
       <div class="alumni-sans-pinstripe-regular text-[11px] gap-1 p-1 text-center flex items-center justify-center border border-yellow-500 bg-yellow-500/0 g">
         <div class="border border-yellow-500 bg-yellow-500/0 gap-1 p-1 flex items-center justify-center alumni-sans-pinstripe-regular text-[5px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-7 gap-1 p-1">
@@ -383,9 +401,7 @@ defineOptions({
         </div>
       </div>  
     </div>
-  </center>
 
-<center>
     <div class="gap-1 p-1 flex items-center justify-center ">
       <div class="alumni-sans-pinstripe-regular text-[11px] gap-1 p-1 text-center flex items-center justify-center border border-orange-500 bg-orange-500/0 g">
         <div class="border border-orange-500 bg-orange-500/0 gap-1 p-1 flex items-center justify-center alumni-sans-pinstripe-regular text-[5px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-7 gap-1 p-1">
@@ -508,9 +524,7 @@ defineOptions({
         </div>
       </div>  
     </div>
-  </center>
-
-
+</center>
 
 
 
