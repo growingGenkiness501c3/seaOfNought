@@ -7,8 +7,97 @@ defineOptions({
 </script>
 <template>
 <center class="p-1"> 
-  <RouterLink class="p-1 text-amber-600 hover:text-amber-50 border border-amber-600 cursor-pointer alumni-sans-pinstripe-regular text-[11px] " to="/wccScaffolding">🐢 wccScaffolding</RouterLink>
+  <RouterLink class="p-1 text-amber-600 hover:text-amber-50 border border-amber-800 cursor-pointer alumni-sans-pinstripe-regular text-[11px] " to="/wccScaffolding">🐢 wccScaffolding</RouterLink>
 </center>
+
+
+<center>
+  <div class="alumni-sans-pinstripe-regular  text-[9px] grid grid-cols-[repeat(15,minmax(0,1fr))] w-full h-6 gap-1 p-1  text-center flex items-center justify-center">
+    <div class="p-2 border border-yellow-300 bg-yellow-500/30 text-yellow-500" >
+      <RouterLink class="p-1 text-sky-500 hover:text-yellow-200 border border-yellow-500 cursor-pointer" 
+      to="/">📓</RouterLink>    
+    </div>
+    <div class="p-2 border border-orange-400 bg-orange-500/30 text-orange-500" >
+      <RouterLink class="p-1 text-sky-500 hover:text-yellow-200 border border-orange-500 cursor-pointer" 
+      to="/orientation">📐</RouterLink>         
+    </div>
+    <div class="p-2 border border-red-400 bg-red-500/30 text-red-500" >
+      <RouterLink class="p-1 text-red-500 hover:text-yellow-200 border border-red-500 cursor-pointer" 
+      to="/anchor">🛠</RouterLink>       
+    </div>
+    <div class="p-2 border border-purple-400 bg-purple-500/30 text-purple-500" >
+      <a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 text-purple-500 hover:text-yellow-200 border border-purple-500 cursor-pointer" target="_blank" rel="noopener noreferrer">👌</a>                
+    </div>
+    <div class="p-2 border border-blue-500 bg-blue-500/30 text-blue-500" >
+      <RouterLink class="p-1 text-blue-500 hover:text-yellow-200 border border-blue-500 cursor-pointer" 
+      to="/vocabulary">📖</RouterLink>        
+    </div>
+    <div class="p-2 border border-green-300 bg-green-500/30 text-green-500" >
+      <RouterLink class="p-1 text-green-500 hover:text-yellow-200 border border-green-500 cursor-pointer" 
+      to="/check">✅</RouterLink>       
+    </div>
+    <div class="p-2 border border-white-300 bg-neutral-300/30 text-neutral-300">
+      <RouterLink class="p-1 text-neutral-500 hover:text-yellow-200 border border-neutral-500 cursor-pointer" 
+      to="/royalwe">👑</RouterLink>       
+    </div>
+    <div class="p-2 border border-slate-950 bg-slate-950/30 text-stone-950" >
+      <RouterLink class="p-1 text-slate-950 hover:text-yellow-200 border border-slate-950 cursor-pointer" 
+      to="/forecastle">📊</RouterLink>       
+    </div>
+    <div class="p-2 border border-gray-500 bg-gray-500/30 text-gray-500" >
+      <RouterLink class="p-1 text-gray-500 hover:text-yellow-200 border border-gray-500 cursor-pointer" 
+      to="/dailies">🎬</RouterLink>  
+    </div>
+    <div class="p-2 border border-pink-400 bg-pink-500/30 text-pink-500" >
+      <RouterLink class="p-1 text-pink-400 hover:text-yellow-200 border border-pink-400 cursor-pointer" 
+      to="/">💬</RouterLink>       
+    </div>
+    <div class="p-2 border border-cyan-300 bg-cyan-500/30 text-cyan-500" >
+      <RouterLink class="p-1 text-sky-500 hover:text-yellow-200 border border-sky-500 cursor-pointer" 
+      to="/">📁</RouterLink>              
+    </div>
+    <div class="p-2 border border-amber-800 bg-amber-800/30 text-amber-800" >
+      <RouterLink class="p-1 text-amber-800 hover:text-yellow-200 border border-amber-800 cursor-pointer" 
+      to="/library">🏛️</RouterLink>                 
+    </div>
+    <div class="p-2 border border-gray-500 bg-gray-500/30 text-[#FFC0CB]" >
+      <RouterLink class="p-1 text-sky-500 hover:text-yellow-200 border border-gray-500 cursor-pointer" 
+      to="/exhibits">🎪</RouterLink>        
+    </div>
+    <div class="p-2 border border-neutral-300 bg-neutral-300/30 text-stone-950" >
+      <RouterLink class="p-1 text-neutral-500 hover:text-yellow-200 border neutral-sky-500 cursor-pointer" 
+      to="/">🥰</RouterLink>       
+    </div>
+    <div class="p-2 border border-stone-950 bg-stone-950/30 text-neutral-300" >
+      <RouterLink class="p-1 text-sky-500 hover:text-yellow-200 border border-slate-950 cursor-pointer" 
+        to="/royalwethepeople">🗽</RouterLink>         
+      </div>
+  </div>    
+</center>
+<br>
+
+<center class="alumni-sans-pinstripe-regular text-[11px]">
+  <div class="grid grid-cols-[repeat(15,minmax(0,1fr))] w-full h-6 gap-1 p-1  text-center flex items-center justify-center">
+    <div class="border border-yellow-300 bg-yellow-500/30 text-yellow-500" >yellow<br>physical</div>
+    <div class="border border-orange-500 bg-orange-500/30 text-orange-500" >orange<br>occupational</div>
+    <div class="border border-red-500 bg-red-500/30 text-red-500" >red<br>emotional</div>
+    <div class="border border-purple-500 bg-purple-500/30 text-purple-500" >purple<br>intellectual</div>
+    <div class="border border-blue-400 bg-blue-500/30 text-blue-500" >blue<br>social</div>
+    <div class="border border-green-500 bg-green-500/30 text-green-500" >green<br>environmental</div>
+    <div class="border border-white-300 bg-neutral-300/30 text-neutral-300" >white<br>spiritual</div>
+    <div class="border border-slate-950 bg-stone-950/30 text-stone-950" ><strong>black<br>factual</strong></div>
+    <div class="border border-gray-500 bg-gray-500/30 text-gray-500" >gray<br>nutritional</div>
+    <div class="border border-pink-500 bg-pink-500/30 text-pink-500" >pink<br>generational</div>
+    <div class="border border-cyan-500 bg-cyan-500/30 text-cyan-500" >cyan<br>miscellaneal</div>
+    <div class="border border-amber-700 bg-amber-800/30 text-amber-800" >brown<br>punctuational</div>
+    <div class="border border-gray-500 bg-gray-500/30 text-[#FFC0CB]" ><strong>pink<br> ( on )<br> gray</strong></div>
+    <div class="border border-neutral-300 bg-neutral-300/30 text-stone-950" ><strong>black <br>{ on }<br> white</strong></div>
+    <div class="border border-stone-950 bg-stone-950/30 text-neutral-300" ><strong>white <br>[ on ]<br> black</strong></div>
+  </div>
+  <br><br><br>
+</center>
+
+
 <center>
   <div class="alumni-sans-pinstripe-regular text-[11px] gap-1 p-1 text-center flex items-center justify-center">
     <nav class="border border-zinc-500 gap-1 p-1 flex items-center justify-center">
@@ -79,299 +168,83 @@ defineOptions({
     </nav>
   </div>
 </center>
-<center>
-  <div class="alumni-sans-pinstripe-regular  text-[9px] grid grid-cols-[repeat(15,minmax(0,1fr))] w-full h-6 gap-1 p-1  text-center flex items-center justify-center">
-    <div class="p-2 border border-stone-950 bg-stone-950/30 text-neutral-300" >
-      <RouterLink class="p-1 text-sky-500 hover:text-yellow-200 border border-slate-950 cursor-pointer" 
-        to="/royalwethepeople">🗽</RouterLink>         
-      </div>
-    <div class="p-2 border border-neutral-300 bg-neutral-300/30 text-stone-950" >
-      <RouterLink class="p-1 text-neutral-500 hover:text-yellow-200 border neutral-sky-500 cursor-pointer" 
-      to="/">🥰</RouterLink>       
-    </div>
-    <div class="p-2 border border-gray-500 bg-gray-500/30 text-[#FFC0CB]" >
-      <RouterLink class="p-1 text-sky-500 hover:text-yellow-200 border border-gray-500 cursor-pointer" 
-      to="/exhibits">🎪</RouterLink>        
-    </div>
-    <div class="p-2 border border-yellow-300 bg-yellow-500/30 text-yellow-500" >
-      <RouterLink class="p-1 text-sky-500 hover:text-yellow-200 border border-yellow-500 cursor-pointer" 
-      to="/">📓</RouterLink>    
-        
-    </div>
-    <div class="p-2 border border-orange-400 bg-orange-500/30 text-orange-500" >
-      <RouterLink class="p-1 text-sky-500 hover:text-yellow-200 border border-orange-500 cursor-pointer" 
-      to="/orientation">📐</RouterLink>         
-    </div>
-    <div class="p-2 border border-red-400 bg-red-500/30 text-red-500" >
-      <RouterLink class="p-1 text-red-500 hover:text-yellow-200 border border-red-500 cursor-pointer" 
-      to="/anchor">🛠</RouterLink>       
-    </div>
-    <div class="p-2 border border-purple-400 bg-purple-500/30 text-purple-500" >
-      <a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 text-purple-500 hover:text-yellow-200 border border-purple-500 cursor-pointer" target="_blank" rel="noopener noreferrer">👌</a>                
-    </div>
-    <div class="p-2 border border-blue-500 bg-blue-500/30 text-blue-500" >
-      <RouterLink class="p-1 text-blue-500 hover:text-yellow-200 border border-blue-500 cursor-pointer" 
-      to="/vocabulary">📖</RouterLink>        
-    </div>
-    <div class="p-2 border border-green-300 bg-green-500/30 text-green-500" >
-      <RouterLink class="p-1 text-green-500 hover:text-yellow-200 border border-green-500 cursor-pointer" 
-      to="/check">✅</RouterLink>       
-    </div>
-    <div class="p-2 border border-white-300 bg-neutral-300/30 text-neutral-300">
-      <RouterLink class="p-1 text-neutral-500 hover:text-yellow-200 border border-neutral-500 cursor-pointer" 
-      to="/royalwe">👑</RouterLink>       
-    </div>
-    <div class="p-2 border border-slate-950 bg-slate-950/30 text-stone-950" >
-      <RouterLink class="p-1 text-slate-950 hover:text-yellow-200 border border-slate-950 cursor-pointer" 
-      to="/forecastle">📊</RouterLink>       
-    </div>
-    <div class="p-2 border border-gray-500 bg-gray-500/30 text-gray-500" >
-      <RouterLink class="p-1 text-gray-500 hover:text-yellow-200 border border-gray-500 cursor-pointer" 
-      to="/dailies">🎬</RouterLink>  
-    </div>
-    <div class="p-2 border border-pink-400 bg-pink-500/30 text-pink-500" >
-      <RouterLink class="p-1 text-pink-400 hover:text-yellow-200 border border-pink-400 cursor-pointer" 
-      to="/">💬</RouterLink>       
-    </div>
-    <div class="p-2 border border-cyan-300 bg-cyan-500/30 text-cyan-500" >
-      <RouterLink class="p-1 text-sky-500 hover:text-yellow-200 border border-sky-500 cursor-pointer" 
-      to="/">📁</RouterLink>              
-    </div>
-    <div class="p-2 border border-amber-800 bg-amber-800/30 text-amber-800" >
-      <RouterLink class="p-1 text-amber-800 hover:text-yellow-200 border border-amber-800 cursor-pointer" 
-      to="/library">🏛️</RouterLink>                 
-    </div>
-  </div>    
-</center>
-<br><br>
-<center class="alumni-sans-pinstripe-regular text-[11px]">
-  <div class="grid grid-cols-[repeat(15,minmax(0,1fr))] w-full h-6 gap-1 p-1  text-center flex items-center justify-center">
-    <div class="border border-yellow-300 bg-yellow-500/30 text-yellow-500" >yellow
-    </div>
-    <div class="border border-orange-500 bg-orange-500/30 text-orange-500" >orange
-    </div>
-    <div class="border border-red-500 bg-red-500/30 text-red-500" >red
-    </div>
-    <div class="border border-purple-500 bg-purple-500/30 text-purple-500" >purple
-    </div>
-    <div class="border border-blue-400 bg-blue-500/30 text-blue-500" >blue
-    </div>
-    <div class="border border-green-500 bg-green-500/30 text-green-500" >green
-    </div>
-    <div class="border border-white-300 bg-neutral-300/30 text-neutral-300" >white
-    </div>
-    <div class="border border-slate-950 bg-stone-950/30 text-stone-950" >black
-    </div>
-    <div class="border border-gray-500 bg-gray-500/30 text-gray-500" >gray
-    </div>
-    <div class="border border-pink-500 bg-pink-500/30 text-pink-500" >pink
-    </div>
-    <div class="border border-cyan-500 bg-cyan-500/30 text-cyan-500" >cyan
-    </div>
-    <div class="border border-amber-700 bg-amber-800/30 text-amber-800" >brown
-    </div>
-    <div class="border border-gray-500 bg-gray-500/30 text-[#FFC0CB]" ><strong>pink<br> ( on )<br> gray</strong>
-    </div>
-    <div class="border border-neutral-300 bg-neutral-300/30 text-stone-950" ><strong>black <br>{ on }<br> white</strong>
-    </div>
-    <div class="border border-stone-950 bg-stone-950/30 text-neutral-300" ><strong>white <br>[ on ]<br> black</strong>
-    </div>
-  </div>
-  <br><br><br>
-</center>
-<center>
 
-    <div class="alumni-sans-pinstripe-regular  text-[11px] grid grid-cols-[repeat(4,minmax(0,1fr))] gap-2 p-4 bg-sky-200/20">
-
-      <div> mixing black and white</div>
-      <div> mixing light</div>
-      <div> mixing pigment</div>
-      <div> mixing pigment</div>
-      <div> <br><img src="/color/BWG circles.png" class="w-22 object-cover rounded-md rotate-180" /></div>
-      <div> <br><img src="/color/YRB-Paint.png" class="h-22 object-cover rounded-md" /></div>
-      <div> <br><img src="/color/RGB-Additive.png" class="w-22 object-cover rounded-md" /></div>
-      <div> <br><img src="/color/YMC-Subtractive.png" class="w-22 object-cover rounded-md" /></div>
-    </div>
-    <div class="bg-neutral-700/50">
-      <div class="alumni-sans-pinstripe-regular  text-[11px] grid grid-cols-[repeat(4,minmax(0,1fr))] gap-1 p-1">
-        <div class="grid grid-cols-[repeat(3,minmax(0,1fr))] w-full h-6 gap-1 p-1  text-center flex items-center justify-center">
-          <div class="border border-slate-950 bg-slate-950/30 text-slate-950" ><strong>slate-950</strong>
-          </div>
-          <div class="border border-neutral-50 bg-neutral-50/30 text-neutral-50" ><strong>neutral-50</strong>
-          </div>
-          <div class="border border-gray-500 bg-gray-500/30 text-gray-500" ><strong>gray-500</strong>
-          </div>
-        </div>
-        <div class="grid grid-cols-[repeat(3,minmax(0,1fr))] w-full h-6 gap-1 p-1  text-center flex items-center justify-center">
-          <div class="border border-bg-yellow-300 bg-yellow-300/30 text-yellow-300/50" >yellow-300
-          </div>
-          <div class="border border-red-500 bg-red-500/30 text-red-500" >red-500
-          </div>
-          <div class="border border-blue-700 bg-blue-700/30 text-blue-700" >blue-700
-          </div>
-        </div>
-        <div class="grid grid-cols-[repeat(3,minmax(0,1fr))] w-full h-6 gap-1 p-1  text-center flex items-center justify-center">
-          <div class="border border-red-500 bg-red-500/30 text-red-500" >red-500
-          </div>
-          <div class="border border-green-500 bg-green-500/30 text-green-500" >green-500
-          </div>
-          <div class="border border-blue-700 bg-blue-700/30 text-blue-700" >blue-700
-          </div>
-        </div>
-        <div class="grid grid-cols-[repeat(3,minmax(0,1fr))] w-full h-6 gap-1 p-1  text-center flex items-center justify-center">
-          <div class="border border-yellow-500 bg-yellow-500/30 text-yellow-500" >yellow-500
-          </div>
-          <div class="border border-fuchsia-500 bg-fuchsia-500/30 text-fuchsia-500" >fuchsia-500
-          </div>
-          <div class="border border-cyan-500 bg-cyan-500/30 text-cyan-500" >cyan-500
-          </div>
-        </div>
-      </div>
-    </div>
-    <br><br>
-
-</center>
-<center>
+  <center>
     <div class="gap-1 p-1 flex items-center justify-center ">
-      <div class="alumni-sans-pinstripe-regular text-[11px] gap-1 p-1 text-center flex items-center justify-center border border-orange-500 bg-orange-500/0 g">
-        <div class="border border-orange-500 bg-orange-500/0 gap-1 p-1 flex items-center justify-center alumni-sans-pinstripe-regular text-[5px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-7 gap-1 p-1">
-          <RouterLink class="p-2.5; text-zinc-500 hover:text-orange-200 border border-orange-500 cursor-pointer text-[11px]" to="/yellowVue">🏀</RouterLink> 
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-orange-50 hover:text-yellow-200 border border-orange-50 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-orange-100 hover:text-yellow-200 border border-orange-100 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-orange-200 hover:text-yellow-200 border border-orange-200 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-orange-300 hover:text-yellow-200 border border-orange-300 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-orange-400 hover:text-yellow-200 border border-orange-400 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-orange-500 hover:text-yellow-200 border border-orange-500 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-orange-600 hover:text-yellow-200 border border-orange-600 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-orange-700 hover:text-yellow-200 border border-orange-700 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-orange-800 hover:text-yellow-200 border border-orange-800 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-orange-900 hover:text-yellow-200 border border-orange-900 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-orange-950 hover:text-yellow-200 border border-orange-950 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+      <div class="alumni-sans-pinstripe-regular text-[11px] gap-1 p-1 text-center flex items-center justify-center border border-zinc-500 bg-zinc-500/0 g">
+        <div class="border border-zinc-500 bg-zinc-500/0 gap-1 p-1 flex items-center justify-center alumni-sans-pinstripe-regular text-[5px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-7 gap-1 p-1">
+          <RouterLink class="p-2.5; text-zinc-500 hover:text-yellow-200 border border-zinc-500 cursor-pointer text-[11px]" to="/zincVue">🛒</RouterLink> 
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-zinc-50 hover:text-yellow-200 border border-zinc-50 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-zinc-100 hover:text-yellow-200 border border-zinc-100 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-zinc-200 hover:text-yellow-200 border border-zinc-200 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-zinc-300 hover:text-yellow-200 border border-zinc-300 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-zinc-400 hover:text-yellow-200 border border-zinc-400 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-zinc-500 hover:text-yellow-200 border border-zinc-500 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-zinc-600 hover:text-yellow-200 border border-zinc-600 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-zinc-700 hover:text-yellow-200 border border-zinc-700 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-zinc-800 hover:text-yellow-200 border border-zinc-800 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-zinc-900 hover:text-yellow-200 border border-zinc-900 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-zinc-950 hover:text-yellow-200 border border-zinc-950 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
         </div>
-        <div class="border border-amber-500 bg-amber-500/0 gap-1 p-1 flex items-center justify-center alumni-sans-pinstripe-regular text-[5px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-7 gap-1 p-1">
-          <RouterLink class="p-2.5; text-zinc-500 hover:text-amber-200 border border-amber-500 cursor-pointer text-[11px]" to="/amberVue">🛕</RouterLink> 
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-amber-50 hover:text-yellow-200 border border-amber-50 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-amber-100 hover:text-yellow-200 border border-amber-100 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-amber-200 hover:text-yellow-200 border border-amber-200 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-amber-300 hover:text-yellow-200 border border-amber-300 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-amber-400 hover:text-yellow-200 border border-amber-400 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-amber-500 hover:text-yellow-200 border border-amber-500 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-amber-600 hover:text-yellow-200 border border-amber-600 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-amber-700 hover:text-yellow-200 border border-amber-700 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-amber-800 hover:text-yellow-200 border border-amber-800 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-amber-900 hover:text-yellow-200 border border-amber-900 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-amber-950 hover:text-yellow-200 border border-amber-950 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-        </div>        
-      </div>  
-      <div class="alumni-sans-pinstripe-regular text-[11px] gap-1 p-1 text-center flex items-center justify-center border border-purple-500 bg-purple-500/0 g">
-        <div class="border border-purple-500 bg-purple-500/0 gap-1 p-1 flex items-center justify-center alumni-sans-pinstripe-regular text-[5px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-7 gap-1 p-1">
-          <RouterLink class="p-2.5; text-purple-500 hover:text-yellow-200 border border-purple-500 cursor-pointer text-[11px]" to="/purpleVue">🛍️</RouterLink> 
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-purple-50 hover:text-yellow-200 border border-purple-50 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-purple-100 hover:text-yellow-200 border border-purple-100 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-purple-200 hover:text-yellow-200 border border-purple-200 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-purple-300 hover:text-yellow-200 border border-purple-300 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-purple-400 hover:text-yellow-200 border border-purple-400 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-purple-500 hover:text-yellow-200 border border-purple-500 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-purple-600 hover:text-yellow-200 border border-purple-600 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-purple-700 hover:text-yellow-200 border border-purple-700 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-purple-800 hover:text-yellow-200 border border-purple-800 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-purple-900 hover:text-yellow-200 border border-purple-900 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-purple-950 hover:text-yellow-200 border border-purple-950 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+        <div class="border border-gray-500 bg-gray-500/0 gap-1 p-1 flex items-center justify-center alumni-sans-pinstripe-regular text-[5px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-7 gap-1 p-1">
+          <RouterLink class="p-2.5; text-gray-500 hover:text-yellow-200 border border-gray-500 cursor-pointer text-[11px]" to="/grayVue">🧷</RouterLink> 
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-gray-50 hover:text-yellow-200 border border-gray-50 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-gray-100 hover:text-yellow-200 border border-gray-100 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-gray-200 hover:text-yellow-200 border border-gray-200 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-gray-300 hover:text-yellow-200 border border-gray-300 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-gray-400 hover:text-yellow-200 border border-gray-400 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-gray-500 hover:text-yellow-200 border border-gray-500 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-gray-600 hover:text-yellow-200 border border-gray-600 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-gray-700 hover:text-yellow-200 border border-gray-700 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-gray-800 hover:text-yellow-200 border border-gray-800 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-gray-900 hover:text-yellow-200 border border-gray-900 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-gray-950 hover:text-yellow-200 border border-gray-950 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
         </div>
-        <div class="border border-indigo-500 bg-indigo-500/0 gap-1 p-1 flex items-center justify-center alumni-sans-pinstripe-regular text-[5px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-7 gap-1 p-1">
-          <RouterLink class="p-2.5; text-indigo-500 hover:text-yellow-200 border border-indigo-500 cursor-pointer text-[11px]" to="/indigoVue">🎵</RouterLink> 
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-indigo-50 hover:text-yellow-200 border border-indigo-50 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-indigo-100 hover:text-yellow-200 border border-indigo-100 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-indigo-200 hover:text-yellow-200 border border-indigo-200 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-indigo-300 hover:text-yellow-200 border border-indigo-300 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-indigo-400 hover:text-yellow-200 border border-indigo-400 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-indigo-500 hover:text-yellow-200 border border-indigo-500 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-indigo-600 hover:text-yellow-200 border border-indigo-600 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-indigo-700 hover:text-yellow-200 border border-indigo-700 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-indigo-800 hover:text-yellow-200 border border-indigo-800 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-indigo-900 hover:text-yellow-200 border border-indigo-900 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-indigo-950 hover:text-yellow-200 border border-indigo-950 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+        <div class="border border-neutral-500 bg-neutral-500/0 gap-1 p-1 flex items-center justify-center alumni-sans-pinstripe-regular text-[5px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-7 gap-1 p-1">
+          <RouterLink class="p-2.5; text-neutral-500 hover:text-yellow-200 border border-neutral-500 cursor-pointer text-[11px]" to="/neutralVue">📺</RouterLink> 
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-neutral-50 hover:text-yellow-200 border border-neutral-50 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-neutral-100 hover:text-yellow-200 border border-neutral-100 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-neutral-200 hover:text-yellow-200 border border-neutral-200 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-neutral-300 hover:text-yellow-200 border border-neutral-300 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-neutral-400 hover:text-yellow-200 border border-neutral-400 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-neutral-500 hover:text-yellow-200 border border-neutral-500 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-neutral-600 hover:text-yellow-200 border border-neutral-600 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-neutral-700 hover:text-yellow-200 border border-neutral-700 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-neutral-800 hover:text-yellow-200 border border-neutral-800 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-neutral-900 hover:text-yellow-200 border border-neutral-900 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-neutral-950 hover:text-yellow-200 border border-neutral-950 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
         </div>
-        <div class="border border-violet-500 bg-violet-500/0 gap-1 p-1 flex items-center justify-center alumni-sans-pinstripe-regular text-[5px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-7 gap-1 p-1">
-          <RouterLink class="p-2.5; text-violet-500 hover:text-yellow-200 border border-violet-500 cursor-pointer text-[11px]" to="/violetVue">☔</RouterLink> 
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-violet-50 hover:text-yellow-200 border border-violet-50 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-violet-100 hover:text-yellow-200 border border-violet-100 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-violet-200 hover:text-yellow-200 border border-violet-200 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-violet-300 hover:text-yellow-200 border border-violet-300 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-violet-400 hover:text-yellow-200 border border-violet-400 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-violet-500 hover:text-yellow-200 border border-violet-500 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-violet-600 hover:text-yellow-200 border border-violet-600 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-violet-700 hover:text-yellow-200 border border-violet-700 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-violet-800 hover:text-yellow-200 border border-violet-800 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-violet-900 hover:text-yellow-200 border border-violet-900 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-violet-950 hover:text-yellow-200 border border-violet-950 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+        <div class="border border-slate-500 bg-slate-500/0 gap-1 p-1 flex items-center justify-center alumni-sans-pinstripe-regular text-[5px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-7 gap-1 p-1">
+          <RouterLink class="p-2.5; text-slate-500 hover:text-yellow-200 border border-slate-500 cursor-pointer text-[11px]" to="/grayVue">🐃</RouterLink> 
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-slate-50 hover:text-yellow-200 border border-slate-50 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-slate-100 hover:text-yellow-200 border border-slate-100 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-slate-200 hover:text-yellow-200 border border-slate-200 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-slate-300 hover:text-yellow-200 border border-slate-300 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-slate-400 hover:text-yellow-200 border border-slate-400 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-slate-500 hover:text-yellow-200 border border-slate-500 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-slate-600 hover:text-yellow-200 border border-slate-600 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-slate-700 hover:text-yellow-200 border border-slate-700 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-slate-800 hover:text-yellow-200 border border-slate-800 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-slate-900 hover:text-yellow-200 border border-slate-900 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-slate-950 hover:text-yellow-200 border border-slate-950 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
         </div>
-      </div>  
-
-      <div class="alumni-sans-pinstripe-regular text-[11px] gap-1 p-1 text-center flex items-center justify-center border border-lime-500 bg-lime-500/0 g">
-        <div class="border border-lime-500 bg-lime-500/0 gap-1 p-1 flex items-center justify-center alumni-sans-pinstripe-regular text-[5px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-7 gap-1 p-1">
-          <RouterLink class="p-2.5; text-lime-500 hover:text-yellow-200 border border-lime-500 cursor-pointer text-[11px]" to="/limeVue">🦗</RouterLink> 
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-lime-50 hover:text-yellow-200 border border-lime-50 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-lime-100 hover:text-yellow-200 border border-lime-100 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-lime-200 hover:text-yellow-200 border border-lime-200 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-lime-300 hover:text-yellow-200 border border-lime-300 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-lime-400 hover:text-yellow-200 border border-lime-400 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-lime-500 hover:text-yellow-200 border border-lime-500 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-lime-600 hover:text-yellow-200 border border-lime-600 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-lime-700 hover:text-yellow-200 border border-lime-700 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-lime-800 hover:text-yellow-200 border border-lime-800 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-lime-900 hover:text-yellow-200 border border-lime-900 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-lime-950 hover:text-yellow-200 border border-lime-950 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-        </div>
-
-        <div class="border border-green-500 bg-green-500/0 gap-1 p-1 flex items-center justify-center alumni-sans-pinstripe-regular text-[5px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-7 gap-1 p-1">
-          <RouterLink class="p-2.5; text-green-500 hover:text-yellow-200 border border-green-500 cursor-pointer text-[11px]" to="/cyanVue">💲</RouterLink> 
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-green-50 hover:text-yellow-200 border border-green-50 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-green-100 hover:text-yellow-200 border border-green-100 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-green-200 hover:text-yellow-200 border border-green-200 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-green-300 hover:text-yellow-200 border border-green-300 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-green-400 hover:text-yellow-200 border border-green-400 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-green-500 hover:text-yellow-200 border border-green-500 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-green-600 hover:text-yellow-200 border border-green-600 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-green-700 hover:text-yellow-200 border border-green-700 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-green-800 hover:text-yellow-200 border border-green-800 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-green-900 hover:text-yellow-200 border border-green-900 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-green-950 hover:text-yellow-200 border border-green-950 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-        </div>
-        <div class="border border-emerald-500 bg-emerald-500/0 gap-1 p-1 flex items-center justify-center alumni-sans-pinstripe-regular text-[5px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-7 gap-1 p-1">
-          <RouterLink class="p-2.5; text-emerald-500 hover:text-yellow-200 border border-emerald-500 cursor-pointer text-[11px]" to="/emeraldVue">🦎</RouterLink> 
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-emerald-50 hover:text-yellow-200 border border-emerald-50 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-emerald-100 hover:text-yellow-200 border border-emerald-100 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-emerald-200 hover:text-yellow-200 border border-emerald-200 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-emerald-300 hover:text-yellow-200 border border-emerald-300 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-emerald-400 hover:text-yellow-200 border border-emerald-400 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-emerald-500 hover:text-yellow-200 border border-emerald-500 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-emerald-600 hover:text-yellow-200 border border-emerald-600 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-emerald-700 hover:text-yellow-200 border border-emerald-700 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-emerald-800 hover:text-yellow-200 border border-emerald-800 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-emerald-900 hover:text-yellow-200 border border-emerald-900 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-emerald-950 hover:text-yellow-200 border border-emerald-950 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-        </div>
+        <div class="border border-stone-500 bg-stone-500/0 gap-1 p-1 flex items-center justify-center alumni-sans-pinstripe-regular text-[5px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-7 gap-1 p-1">
+          <RouterLink class="p-2.5; text-stone-500 hover:text-yellow-200 border border-stone-500 cursor-pointer text-[11px]" to="/stoneVue">🧱</RouterLink> 
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-stone-50 hover:text-yellow-200 border border-stone-50 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-stone-100 hover:text-yellow-200 border border-stone-100 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-stone-200 hover:text-yellow-200 border border-stone-200 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-stone-300 hover:text-yellow-200 border border-stone-300 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-stone-400 hover:text-yellow-200 border border-stone-400 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-stone-500 hover:text-yellow-200 border border-stone-500 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-stone-600 hover:text-yellow-200 border border-stone-600 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-stone-700 hover:text-yellow-200 border border-stone-700 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-stone-800 hover:text-yellow-200 border border-stone-800 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-stone-900 hover:text-yellow-200 border border-stone-900 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-stone-950 hover:text-yellow-200 border border-stone-950 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+        </div>                
       </div>  
     </div>
   </center>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -512,88 +385,205 @@ defineOptions({
     </div>
   </center>
 
-
-
-
-
-
-
-  <center>
+<center>
     <div class="gap-1 p-1 flex items-center justify-center ">
-      <div class="alumni-sans-pinstripe-regular text-[11px] gap-1 p-1 text-center flex items-center justify-center border border-zinc-500 bg-zinc-500/0 g">
-        <div class="border border-zinc-500 bg-zinc-500/0 gap-1 p-1 flex items-center justify-center alumni-sans-pinstripe-regular text-[5px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-7 gap-1 p-1">
-          <RouterLink class="p-2.5; text-zinc-500 hover:text-yellow-200 border border-zinc-500 cursor-pointer text-[11px]" to="/zincVue">🛒</RouterLink> 
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-zinc-50 hover:text-yellow-200 border border-zinc-50 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-zinc-100 hover:text-yellow-200 border border-zinc-100 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-zinc-200 hover:text-yellow-200 border border-zinc-200 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-zinc-300 hover:text-yellow-200 border border-zinc-300 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-zinc-400 hover:text-yellow-200 border border-zinc-400 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-zinc-500 hover:text-yellow-200 border border-zinc-500 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-zinc-600 hover:text-yellow-200 border border-zinc-600 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-zinc-700 hover:text-yellow-200 border border-zinc-700 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-zinc-800 hover:text-yellow-200 border border-zinc-800 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-zinc-900 hover:text-yellow-200 border border-zinc-900 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-zinc-950 hover:text-yellow-200 border border-zinc-950 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+      <div class="alumni-sans-pinstripe-regular text-[11px] gap-1 p-1 text-center flex items-center justify-center border border-orange-500 bg-orange-500/0 g">
+        <div class="border border-orange-500 bg-orange-500/0 gap-1 p-1 flex items-center justify-center alumni-sans-pinstripe-regular text-[5px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-7 gap-1 p-1">
+          <RouterLink class="p-2.5; text-zinc-500 hover:text-orange-200 border border-orange-500 cursor-pointer text-[11px]" to="/yellowVue">🏀</RouterLink> 
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-orange-50 hover:text-yellow-200 border border-orange-50 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-orange-100 hover:text-yellow-200 border border-orange-100 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-orange-200 hover:text-yellow-200 border border-orange-200 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-orange-300 hover:text-yellow-200 border border-orange-300 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-orange-400 hover:text-yellow-200 border border-orange-400 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-orange-500 hover:text-yellow-200 border border-orange-500 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-orange-600 hover:text-yellow-200 border border-orange-600 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-orange-700 hover:text-yellow-200 border border-orange-700 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-orange-800 hover:text-yellow-200 border border-orange-800 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-orange-900 hover:text-yellow-200 border border-orange-900 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-orange-950 hover:text-yellow-200 border border-orange-950 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
         </div>
-        <div class="border border-gray-500 bg-gray-500/0 gap-1 p-1 flex items-center justify-center alumni-sans-pinstripe-regular text-[5px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-7 gap-1 p-1">
-          <RouterLink class="p-2.5; text-gray-500 hover:text-yellow-200 border border-gray-500 cursor-pointer text-[11px]" to="/grayVue">🧷</RouterLink> 
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-gray-50 hover:text-yellow-200 border border-gray-50 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-gray-100 hover:text-yellow-200 border border-gray-100 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-gray-200 hover:text-yellow-200 border border-gray-200 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-gray-300 hover:text-yellow-200 border border-gray-300 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-gray-400 hover:text-yellow-200 border border-gray-400 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-gray-500 hover:text-yellow-200 border border-gray-500 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-gray-600 hover:text-yellow-200 border border-gray-600 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-gray-700 hover:text-yellow-200 border border-gray-700 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-gray-800 hover:text-yellow-200 border border-gray-800 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-gray-900 hover:text-yellow-200 border border-gray-900 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-gray-950 hover:text-yellow-200 border border-gray-950 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+        <div class="border border-amber-500 bg-amber-500/0 gap-1 p-1 flex items-center justify-center alumni-sans-pinstripe-regular text-[5px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-7 gap-1 p-1">
+          <RouterLink class="p-2.5; text-zinc-500 hover:text-amber-200 border border-amber-500 cursor-pointer text-[11px]" to="/amberVue">🛕</RouterLink> 
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-amber-50 hover:text-yellow-200 border border-amber-50 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-amber-100 hover:text-yellow-200 border border-amber-100 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-amber-200 hover:text-yellow-200 border border-amber-200 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-amber-300 hover:text-yellow-200 border border-amber-300 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-amber-400 hover:text-yellow-200 border border-amber-400 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-amber-500 hover:text-yellow-200 border border-amber-500 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-amber-600 hover:text-yellow-200 border border-amber-600 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-amber-700 hover:text-yellow-200 border border-amber-700 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-amber-800 hover:text-yellow-200 border border-amber-800 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-amber-900 hover:text-yellow-200 border border-amber-900 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-amber-950 hover:text-yellow-200 border border-amber-950 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+        </div>        
+      </div>  
+      <div class="alumni-sans-pinstripe-regular text-[11px] gap-1 p-1 text-center flex items-center justify-center border border-purple-500 bg-purple-500/0 g">
+        <div class="border border-purple-500 bg-purple-500/0 gap-1 p-1 flex items-center justify-center alumni-sans-pinstripe-regular text-[5px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-7 gap-1 p-1">
+          <RouterLink class="p-2.5; text-purple-500 hover:text-yellow-200 border border-purple-500 cursor-pointer text-[11px]" to="/purpleVue">🛍️</RouterLink> 
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-purple-50 hover:text-yellow-200 border border-purple-50 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-purple-100 hover:text-yellow-200 border border-purple-100 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-purple-200 hover:text-yellow-200 border border-purple-200 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-purple-300 hover:text-yellow-200 border border-purple-300 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-purple-400 hover:text-yellow-200 border border-purple-400 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-purple-500 hover:text-yellow-200 border border-purple-500 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-purple-600 hover:text-yellow-200 border border-purple-600 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-purple-700 hover:text-yellow-200 border border-purple-700 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-purple-800 hover:text-yellow-200 border border-purple-800 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-purple-900 hover:text-yellow-200 border border-purple-900 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-purple-950 hover:text-yellow-200 border border-purple-950 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
         </div>
-        <div class="border border-neutral-500 bg-neutral-500/0 gap-1 p-1 flex items-center justify-center alumni-sans-pinstripe-regular text-[5px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-7 gap-1 p-1">
-          <RouterLink class="p-2.5; text-neutral-500 hover:text-yellow-200 border border-neutral-500 cursor-pointer text-[11px]" to="/neutralVue">📺</RouterLink> 
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-neutral-50 hover:text-yellow-200 border border-neutral-50 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-neutral-100 hover:text-yellow-200 border border-neutral-100 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-neutral-200 hover:text-yellow-200 border border-neutral-200 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-neutral-300 hover:text-yellow-200 border border-neutral-300 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-neutral-400 hover:text-yellow-200 border border-neutral-400 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-neutral-500 hover:text-yellow-200 border border-neutral-500 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-neutral-600 hover:text-yellow-200 border border-neutral-600 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-neutral-700 hover:text-yellow-200 border border-neutral-700 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-neutral-800 hover:text-yellow-200 border border-neutral-800 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-neutral-900 hover:text-yellow-200 border border-neutral-900 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-neutral-950 hover:text-yellow-200 border border-neutral-950 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+        <div class="border border-indigo-500 bg-indigo-500/0 gap-1 p-1 flex items-center justify-center alumni-sans-pinstripe-regular text-[5px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-7 gap-1 p-1">
+          <RouterLink class="p-2.5; text-indigo-500 hover:text-yellow-200 border border-indigo-500 cursor-pointer text-[11px]" to="/indigoVue">🎵</RouterLink> 
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-indigo-50 hover:text-yellow-200 border border-indigo-50 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-indigo-100 hover:text-yellow-200 border border-indigo-100 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-indigo-200 hover:text-yellow-200 border border-indigo-200 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-indigo-300 hover:text-yellow-200 border border-indigo-300 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-indigo-400 hover:text-yellow-200 border border-indigo-400 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-indigo-500 hover:text-yellow-200 border border-indigo-500 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-indigo-600 hover:text-yellow-200 border border-indigo-600 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-indigo-700 hover:text-yellow-200 border border-indigo-700 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-indigo-800 hover:text-yellow-200 border border-indigo-800 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-indigo-900 hover:text-yellow-200 border border-indigo-900 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-indigo-950 hover:text-yellow-200 border border-indigo-950 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
         </div>
-        <div class="border border-slate-500 bg-slate-500/0 gap-1 p-1 flex items-center justify-center alumni-sans-pinstripe-regular text-[5px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-7 gap-1 p-1">
-          <RouterLink class="p-2.5; text-slate-500 hover:text-yellow-200 border border-slate-500 cursor-pointer text-[11px]" to="/grayVue">🐃</RouterLink> 
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-slate-50 hover:text-yellow-200 border border-slate-50 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-slate-100 hover:text-yellow-200 border border-slate-100 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-slate-200 hover:text-yellow-200 border border-slate-200 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-slate-300 hover:text-yellow-200 border border-slate-300 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-slate-400 hover:text-yellow-200 border border-slate-400 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-slate-500 hover:text-yellow-200 border border-slate-500 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-slate-600 hover:text-yellow-200 border border-slate-600 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-slate-700 hover:text-yellow-200 border border-slate-700 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-slate-800 hover:text-yellow-200 border border-slate-800 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-slate-900 hover:text-yellow-200 border border-slate-900 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-slate-950 hover:text-yellow-200 border border-slate-950 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+        <div class="border border-violet-500 bg-violet-500/0 gap-1 p-1 flex items-center justify-center alumni-sans-pinstripe-regular text-[5px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-7 gap-1 p-1">
+          <RouterLink class="p-2.5; text-violet-500 hover:text-yellow-200 border border-violet-500 cursor-pointer text-[11px]" to="/violetVue">☔</RouterLink> 
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-violet-50 hover:text-yellow-200 border border-violet-50 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-violet-100 hover:text-yellow-200 border border-violet-100 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-violet-200 hover:text-yellow-200 border border-violet-200 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-violet-300 hover:text-yellow-200 border border-violet-300 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-violet-400 hover:text-yellow-200 border border-violet-400 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-violet-500 hover:text-yellow-200 border border-violet-500 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-violet-600 hover:text-yellow-200 border border-violet-600 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-violet-700 hover:text-yellow-200 border border-violet-700 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-violet-800 hover:text-yellow-200 border border-violet-800 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-violet-900 hover:text-yellow-200 border border-violet-900 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-violet-950 hover:text-yellow-200 border border-violet-950 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
         </div>
-        <div class="border border-stone-500 bg-stone-500/0 gap-1 p-1 flex items-center justify-center alumni-sans-pinstripe-regular text-[5px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-7 gap-1 p-1">
-          <RouterLink class="p-2.5; text-stone-500 hover:text-yellow-200 border border-stone-500 cursor-pointer text-[11px]" to="/stoneVue">🧱</RouterLink> 
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-stone-50 hover:text-yellow-200 border border-stone-50 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-stone-100 hover:text-yellow-200 border border-stone-100 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-stone-200 hover:text-yellow-200 border border-stone-200 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-stone-300 hover:text-yellow-200 border border-stone-300 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-stone-400 hover:text-yellow-200 border border-stone-400 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-stone-500 hover:text-yellow-200 border border-stone-500 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-stone-600 hover:text-yellow-200 border border-stone-600 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-stone-700 hover:text-yellow-200 border border-stone-700 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-stone-800 hover:text-yellow-200 border border-stone-800 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-stone-900 hover:text-yellow-200 border border-stone-900 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-stone-950 hover:text-yellow-200 border border-stone-950 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-        </div>                
+      </div>  
+
+      <div class="alumni-sans-pinstripe-regular text-[11px] gap-1 p-1 text-center flex items-center justify-center border border-lime-500 bg-lime-500/0 g">
+        <div class="border border-lime-500 bg-lime-500/0 gap-1 p-1 flex items-center justify-center alumni-sans-pinstripe-regular text-[5px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-7 gap-1 p-1">
+          <RouterLink class="p-2.5; text-lime-500 hover:text-yellow-200 border border-lime-500 cursor-pointer text-[11px]" to="/limeVue">🦗</RouterLink> 
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-lime-50 hover:text-yellow-200 border border-lime-50 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-lime-100 hover:text-yellow-200 border border-lime-100 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-lime-200 hover:text-yellow-200 border border-lime-200 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-lime-300 hover:text-yellow-200 border border-lime-300 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-lime-400 hover:text-yellow-200 border border-lime-400 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-lime-500 hover:text-yellow-200 border border-lime-500 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-lime-600 hover:text-yellow-200 border border-lime-600 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-lime-700 hover:text-yellow-200 border border-lime-700 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-lime-800 hover:text-yellow-200 border border-lime-800 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-lime-900 hover:text-yellow-200 border border-lime-900 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-lime-950 hover:text-yellow-200 border border-lime-950 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+        </div>
+
+        <div class="border border-green-500 bg-green-500/0 gap-1 p-1 flex items-center justify-center alumni-sans-pinstripe-regular text-[5px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-7 gap-1 p-1">
+          <RouterLink class="p-2.5; text-green-500 hover:text-yellow-200 border border-green-500 cursor-pointer text-[11px]" to="/cyanVue">💲</RouterLink> 
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-green-50 hover:text-yellow-200 border border-green-50 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-green-100 hover:text-yellow-200 border border-green-100 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-green-200 hover:text-yellow-200 border border-green-200 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-green-300 hover:text-yellow-200 border border-green-300 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-green-400 hover:text-yellow-200 border border-green-400 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-green-500 hover:text-yellow-200 border border-green-500 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-green-600 hover:text-yellow-200 border border-green-600 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-green-700 hover:text-yellow-200 border border-green-700 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-green-800 hover:text-yellow-200 border border-green-800 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-green-900 hover:text-yellow-200 border border-green-900 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-green-950 hover:text-yellow-200 border border-green-950 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+        </div>
+        <div class="border border-emerald-500 bg-emerald-500/0 gap-1 p-1 flex items-center justify-center alumni-sans-pinstripe-regular text-[5px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-7 gap-1 p-1">
+          <RouterLink class="p-2.5; text-emerald-500 hover:text-yellow-200 border border-emerald-500 cursor-pointer text-[11px]" to="/emeraldVue">🦎</RouterLink> 
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-emerald-50 hover:text-yellow-200 border border-emerald-50 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-emerald-100 hover:text-yellow-200 border border-emerald-100 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-emerald-200 hover:text-yellow-200 border border-emerald-200 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-emerald-300 hover:text-yellow-200 border border-emerald-300 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-emerald-400 hover:text-yellow-200 border border-emerald-400 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-emerald-500 hover:text-yellow-200 border border-emerald-500 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-emerald-600 hover:text-yellow-200 border border-emerald-600 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-emerald-700 hover:text-yellow-200 border border-emerald-700 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-emerald-800 hover:text-yellow-200 border border-emerald-800 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-emerald-900 hover:text-yellow-200 border border-emerald-900 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+          <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-emerald-950 hover:text-yellow-200 border border-emerald-950 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+        </div>
       </div>  
     </div>
   </center>
+
+
+
+
+
+
+
+
+
+<center>
+    <div class="alumni-sans-pinstripe-regular  text-[11px] grid grid-cols-[repeat(4,minmax(0,1fr))] gap-2 p-4 bg-sky-200/20">
+      <div> mixing black and white</div>
+      <div> mixing light</div>
+      <div> mixing pigment</div>
+      <div> mixing pigment</div>
+      <div> <br><img src="/color/BWG circles.png" class="w-22 object-cover rounded-md rotate-180" /></div>
+      <div> <br><img src="/color/YRB-Paint.png" class="h-22 object-cover rounded-md" /></div>
+      <div> <br><img src="/color/RGB-Additive.png" class="w-22 object-cover rounded-md" /></div>
+      <div> <br><img src="/color/YMC-Subtractive.png" class="w-22 object-cover rounded-md" /></div>
+    </div>
+    <div class="bg-neutral-700/50">
+      <div class="alumni-sans-pinstripe-regular  text-[11px] grid grid-cols-[repeat(4,minmax(0,1fr))] gap-1 p-1">
+        <div class="grid grid-cols-[repeat(3,minmax(0,1fr))] w-full h-6 gap-1 p-1  text-center flex items-center justify-center">
+          <div class="border border-slate-950 bg-slate-950/30 text-slate-950" ><strong>slate-950</strong>
+          </div>
+          <div class="border border-neutral-50 bg-neutral-50/30 text-neutral-50" ><strong>neutral-50</strong>
+          </div>
+          <div class="border border-gray-500 bg-gray-500/30 text-gray-500" ><strong>gray-500</strong>
+          </div>
+        </div>
+        <div class="grid grid-cols-[repeat(3,minmax(0,1fr))] w-full h-6 gap-1 p-1  text-center flex items-center justify-center">
+          <div class="border border-bg-yellow-300 bg-yellow-300/30 text-yellow-300/50" >yellow-300
+          </div>
+          <div class="border border-red-500 bg-red-500/30 text-red-500" >red-500
+          </div>
+          <div class="border border-blue-700 bg-blue-700/30 text-blue-700" >blue-700
+          </div>
+        </div>
+        <div class="grid grid-cols-[repeat(3,minmax(0,1fr))] w-full h-6 gap-1 p-1  text-center flex items-center justify-center">
+          <div class="border border-red-500 bg-red-500/30 text-red-500" >red-500
+          </div>
+          <div class="border border-green-500 bg-green-500/30 text-green-500" >green-500
+          </div>
+          <div class="border border-blue-700 bg-blue-700/30 text-blue-700" >blue-700
+          </div>
+        </div>
+        <div class="grid grid-cols-[repeat(3,minmax(0,1fr))] w-full h-6 gap-1 p-1  text-center flex items-center justify-center">
+          <div class="border border-yellow-500 bg-yellow-500/30 text-yellow-500" >yellow-500
+          </div>
+          <div class="border border-fuchsia-500 bg-fuchsia-500/30 text-fuchsia-500" >fuchsia-500
+          </div>
+          <div class="border border-cyan-500 bg-cyan-500/30 text-cyan-500" >cyan-500
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+
+</center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!--
 <br><hr><br>    
