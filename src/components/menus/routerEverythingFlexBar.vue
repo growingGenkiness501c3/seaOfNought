@@ -54,6 +54,24 @@ defineOptions({
         </div>
       </div>
     </div>
+    <br><br>
+    <center class="border border-zinc-500 bg-zinc-500/50 gap-1 p-1 flex items-center justify-center">
+    <div class="alumni-sans-pinstripe-regular text-[9px] gap-1 p-1 text-center flex items-center justify-center">
+      <a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-zinc-50 hover:text-yellow-200 border border-zinc-50 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤ 50</a>
+      <a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-zinc-100 hover:text-yellow-200 border border-zinc-100 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤ 100</a>
+      <a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-zinc-200 hover:text-yellow-200 border border-zinc-200 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤ 200</a>
+      <a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-zinc-300 hover:text-yellow-200 border border-zinc-300 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤ 300</a>
+      <a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-zinc-400 hover:text-yellow-200 border border-zinc-400 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤ 400</a>
+      <a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-zinc-500 hover:text-yellow-200 border border-zinc-500 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤ 500</a>
+      <a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-zinc-600 hover:text-yellow-200 border border-zinc-600 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤ 600</a>
+      <a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-zinc-700 hover:text-yellow-200 border border-zinc-700 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤ 700</a>
+      <a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-zinc-800 hover:text-yellow-200 border border-zinc-800 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤ 800</a>
+      <a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-zinc-900 hover:text-yellow-200 border border-zinc-900 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤ 900</a>
+      <a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-zinc-950 hover:text-yellow-200 border border-zinc-950 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤ 950</a>
+      
+    </div>
+    </center>
+
     <center>
     <div class="alumni-sans-pinstripe-regular text-[11px] gap-1 p-1 text-center flex items-center justify-center">
       <nav class="border border-zinc-500 gap-1 p-1 flex items-center justify-center">
@@ -100,19 +118,19 @@ defineOptions({
       <div class="flex items-center justify-center gap-1 p-1">
         <nav class="border border-orange-500 text-orange-500 gap-1 p-1 flex items-center justify-center gap-1" >
           <RouterLink class="p-2.5; text-orange-500 hover:text-yellow-200 border border-orange-500 cursor-pointer" 
-            to="/orangeVue"> | 🏀 orange |</RouterLink>  
+            to="/orangeVue">🏀 orange</RouterLink>  
           <RouterLink class="p-2.5; border border-amber-500 text-amber-500 hover:text-amber-500 cursor-pointer" 
-            to="/amberVue"> | 🛕 amber |</RouterLink>             
+            to="/amberVue">🛕 amber</RouterLink>             
         </nav>
         <nav class="border border-purple-500 text-purple-500 gap-1 p-1 flex items-center justify-center" >
             <RouterLink class="p-2.5; border-purple-500 text-purple-500 hover:text-yellow-200 border cursor-pointer" 
               to="/purpleVue">🛍️ purple</RouterLink>             
             <RouterLink class="p-2.5; text-pink-500 hover:text-yellow-200 border border-pink-500 cursor-pointer" 
-              to="/pinkVue">🐷 pinkVue</RouterLink>  
+              to="/pinkVue">🐷 pink</RouterLink>  
             <RouterLink class="p-2.5; text-indigo-500 hover:text-yellow-200 border border-indigo-500 cursor-pointer" 
-              to="/indigoVue">🎵 indigoVue</RouterLink> 
+              to="/indigoVue">🎵 indigo</RouterLink> 
             <RouterLink class="p-2.5; text-violet-500 hover:text-yellow-200 border border-violet-500 cursor-pointer" 
-              to="/violetVue">☔ violetVue</RouterLink>  
+              to="/violetVue">☔ violet</RouterLink>  
         </nav>
         <nav class="border border-green-500 text-green-500 gap-1 p-1 flex items-center justify-center" >
           <RouterLink class="p-2.5; text-green-500 hover:text-yellow-200 border border-green-500 cursor-pointer" 
