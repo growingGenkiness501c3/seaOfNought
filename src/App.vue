@@ -17,6 +17,8 @@ import routerEverythingFlexBar from "./components/menus/routerEverythingFlexBar.
 </script>
 <template>
 <backgroundImages>
+<center><span class="text-[33px] mea-culpa-regular">an Ecclesiastical approach to Allostatic Regulation</span></center>
+<center  class="updock-regular text-pink-200 text-[55px]">https://allostasissy.studio/</center>
 <routerEverythingFlexBar  class="text-[33px]" />
 <br><br>
 <center>
@@ -45,6 +47,26 @@ font-style: normal;
 font-family: "Alumni Sans Pinstripe", sans-serif;
 font-weight: 400;
 font-style: italic;
+}
+.anonymous-pro-regular {
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+.anonymous-pro-bold {
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+.anonymous-pro-regular-italic {
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+.anonymous-pro-bold-italic {
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 700;
+  font-style: italic;
 }
 .coral-pixels-regular {
 font-family: "Coral Pixels", serif;
@@ -93,6 +115,11 @@ font-style: normal;
 font-family: "Rajdhani", sans-serif;
 font-weight: 700;
 font-style: normal;
+}
+.updock-regular {
+  font-family: "Updock", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .hue090 { color: hsl(90, 050%, 070%, 100%); }
