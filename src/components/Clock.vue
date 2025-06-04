@@ -14,6 +14,6 @@ onMounted(() => {
 });
 </script>
 <template>
-  <span class="orbitron text-sky-300" style="font-size: 111px;">&nbsp;&nbsp;{{ currenttime }}&nbsp;&nbsp;</span><hr>
-  <span class="mea-culpa-regular text-sky-400" style="font-size: 55px;"><center>&nbsp;&nbsp;&nbsp;{{ currentdate }}&nbsp;&nbsp;&nbsp;</center></span>
+  <span class="orbitron text-sky-300" style="font-size: 44px;">&nbsp;&nbsp;{{ currenttime }}&nbsp;&nbsp;</span><hr>
+  <span class="mea-culpa-regular text-sky-400" style="font-size: 33px;"><center>&nbsp;&nbsp;&nbsp;{{ currentdate }}&nbsp;&nbsp;&nbsp;</center></span>
 </template>

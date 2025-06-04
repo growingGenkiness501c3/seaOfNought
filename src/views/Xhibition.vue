@@ -360,7 +360,7 @@ import yellowFlag from '@/components/color/yellowFlag.vue'
 <sub>clockFlag</sub><br><clockFlag>clockFlag</clockFlag><br>
 <sub>cyanFlag</sub><br><cyanFlag>cyanFlag</cyanFlag><br>
 <sub>Flag</sub><br><Flag>Flag</Flag><br><br>
-<sub>helloWorld</sub><br><helloWorld /><br>
+<sub>helloWorld</sub><br><helloWorld msg="Veronica was supposed to write somethign here"/><br>
 <sub>hueBar</sub><br><hueBar />
 <sub>magentaFlag</sub><br><magentaFlag>magentaFlag</magentaFlag><br><br><br>
 <sub>oO0</sub><br><oO0 /><br>

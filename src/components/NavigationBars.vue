@@ -3,7 +3,7 @@ import SplitOneTwoThree from "@/components/SplitOneTwoThree.vue";
 import NavigationBar from "@/components/NavigationBar.vue";
 import NavigationButtonBar from "@/components/NavigationButtonBar.vue";
 import NavigationRouterBar from "@/components/NavigationRouterBar.vue";
-import WordBar from "@/components/WordBar.vue";
+import WordBar from "@/components/wordBar.vue";
 import Clock from "@/components/Clock.vue";
 
 defineOptions({

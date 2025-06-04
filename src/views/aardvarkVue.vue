@@ -218,7 +218,7 @@ defineOptions({
 <sub>blackFlag</sub><br><blackFlag>blackFlag</blackFlag><br>
 <sub>cyanFlag</sub><br><cyanFlag>cyanFlag</cyanFlag><br>
 <sub>Flag</sub><br><Flag>Flag</Flag><br><br>
-<sub>helloWorld</sub><br><helloWorld /><br>
+<sub>helloWorld</sub><br><helloWorld msg="Veronica was supposed to write a thing here"/><br>
 <sub>hueBar</sub><br><hueBar />
 <sub>magentaFlag</sub><br><magentaFlag>magentaFlag</magentaFlag><br><br><br>
 <sub>oO0</sub><br><oO0 /><br>

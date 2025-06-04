@@ -7,7 +7,7 @@ import Library from '@/views/Library.vue'
 import RoyalWeThePeople from '@/views/RoyalWeThePeople.vue'
 import RoyalWe from '@/views/RoyalWe.vue'
 import Xhibition from '@/views/Xhibition.vue'
-import AardvarkVue from '@/views/AardvarkVue.vue'
+import AardvarkVue from '@/views/aardvarkVue.vue'
 import SeaOfNought from '@/views/NaughtSea.vue'
 import Orientation from '@/views/Orientation.vue'
 import Dailies from '@/views/Dailies.vue'
@@ -36,10 +36,16 @@ import tealVue from '@/views/tailwindColors/tealVue.vue'
 import violetVue from '@/views/tailwindColors/violetVue.vue'
 import yellowVue from '@/views/tailwindColors/yellowVue.vue'
 import zincVue from '@/views/tailwindColors/zincVue.vue'
+import routerEverythingFlexBar from '@/components/menus/routerEverythingFlexBar.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
+    {
+      path: '/routerEverythingFlexBar',
+      name: 'routerEverythingFlexBar',
+      component: routerEverythingFlexBar
+    }, 
     {
       path: '/amberVue',
       name: 'amberVue',
