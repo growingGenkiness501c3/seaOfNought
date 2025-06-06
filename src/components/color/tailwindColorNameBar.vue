@@ -20,7 +20,7 @@ defineOptions({
   <nav class="grid grid-cols-[repeat(18,minmax(0,1fr))] w-full h-6 gap-3 p-5">
     <RouterLink class="p-2 text-lime-400 hover:text-sky-200 border border-lime-400 bg-lime-400/25 cursor-pointer" to="/limeVue"> limeVue</RouterLink>
     <RouterLink class="p-2 text-yellow-400 hover:text-sky-200 border border-yellow-400 bg-yellow-400/25 cursor-pointer" to="/yellowVue"> yellowVue</RouterLink>    
-    <RouterLink class="p-2 text-amber-400 hover:text-sky-200 border border-amber-400 bg-amber-400/25 cursor-pointer" to="/amberVue"> amberVue</RouterLink>
+    <RouterLink class="p-2 text-amber-400 hover:text-sky-200 border border-amber-400 bg-amber-400/25 cursor-pointer" to="/amberVue">  <i class="material-icons" style="font-size: 17px">filter_center_focus</i> amberVue <i class="material-icons" style="font-size: 17px">filter_center_focus</i></RouterLink>
     <RouterLink class="p-2 text-orange-400 hover:text-sky-200 border border-orange-400 bg-orange-400/25 cursor-pointer" to="/orangeVue"> orangeVue</RouterLink>    
     <RouterLink class="p-2 text-red-400 hover:text-sky-200 border border-red-400 bg-red-400/25 cursor-pointer" to="/redVue"> redVue</RouterLink>
     <RouterLink class="p-2 text-rose-400 hover:text-sky-200 border border-rose-400 bg-red-400/25 cursor-pointer" to="/roseVue"> roseVue</RouterLink>    
