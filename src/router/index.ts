@@ -36,11 +36,19 @@ import tealVue from '@/views/tailwindColors/tealVue.vue'
 import violetVue from '@/views/tailwindColors/violetVue.vue'
 import yellowVue from '@/views/tailwindColors/yellowVue.vue'
 import zincVue from '@/views/tailwindColors/zincVue.vue'
+
+import Ikigai from '@/components/Ikigai.vue'
 import routerEverythingFlexBar from '@/components/menus/routerEverythingFlexBar.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
+    {
+      path: '/Ikigai',
+      name: 'Ikigai',
+      component: Ikigai
+    }, 
+
     {
       path: '/routerEverythingFlexBar',
       name: 'routerEverythingFlexBar',

@@ -9,7 +9,7 @@ defineOptions({
 });
 </script>
 <template>
-<span class="text-2xl"><skyBottom /><skyBottom /></span> 
+
 <center>
 <div class="grid grid-cols-72 gap-0 p-0 text-[11px] alumni-sans-pinstripe-regular">
   <div class="p-2 border bg-[hsl(60,50%,50%)]/50 text-[hsl(60,50%,70%)]">60°</div>
@@ -645,10 +645,5 @@ defineOptions({
   <div class="p-2 border bg-[hsl(75,50%,25%)]/50 text-[hsl(75,50%,70%)]">75°</div>
 </div>
 </center>
-<center>
-<skyTop /><skyTop /><br>
-<div class="text-xl"><skyTop /><skyTop /><br></div>
-<skyTop /><skyTop /><br>
 
-</center>
 </template>

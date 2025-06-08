@@ -33,15 +33,15 @@ defineOptions({
   <div class="border border-[#7B68EE] bg-[#7B68EE]/25 text-[#7B68EE]">mediumslateblue 	#7B68EE</div>
   <div class="border border-[#6A5ACD] bg-[#6A5ACD]/25 text-[#6A5ACD]">slateblue 	#6A5ACD</div>
   <div class="border border-[#483D8B] bg-[#483D8B]/25 text-[#483D8B]">darkslateblue 	#483D8B</div>
-  <div class="border border-sky-300 p-3"><div class="border border-[#663399] bg-[#663399]/50 text-[#663399]">rebeccapurple 	#663399</div></div>
-  <div class="border border-sky-300 p-3"><div class="border border-[#4B0082] bg-[#4B0082]/25 text-[#4B0082]">indigo	#4B0082</div></div>
-  <div class="border border-[#FFA07A] bg-[#ffc0cb]/25 text-[#FFA07A]">lightsalmon 	#FFA07A</div>
+  <div class="border border-sky-50"><div class="border border-[#663399] bg-[#663399]/50 text-[#663399]">rebeccapurple 	#663399</div></div>
+  <div class="border border-sky-50"><div class="border border-[#4B0082] bg-[#4B0082]/25 text-[#4B0082]">indigo	#4B0082</div></div>
+  <div class="border border-[#FFA07A] bg-[#ffc0cb]/25 text-[#FFA07A] ">lightsalmon 	#FFA07A</div>
   <div class="border border-[#FA8072] bg-[#FA8072]/25 text-[#FA8072]">salmon 	#FA8072</div>
   <div class="border border-[#E9967A] bg-[#E9967A]/25 text-[#E9967A]">darksalmon 	#E9967A</div>
   <div class="border border-[#F08080] bg-[#F08080]/25 text-[#F08080]">lightcoral 	#F08080</div>
   <div class="border border-[#CD5C5C] bg-[#CD5C5C]/25 text-[#CD5C5C]">indianred 	#CD5C5C</div>
   <div class="border border-[#DC143C] bg-[#DC143C]/25 text-[#DC143C]">crimson #DC143C</div>
-  <div class="border border-sky-300 p-3"><div class="border border-[#FF0000] bg-[#FF0000]/25 text-[#FF0000]">red #FF0000</div></div>
+  <div class="border border-sky-50"><div class="border border-[#FF0000] bg-[#FF0000]/25 text-[#FF0000]">red #FF0000</div></div>
   <div class="border border-[#B22222] bg-[#B22222]/25 text-[#B22222]">firebrick 	#B22222</div>
   <div class="border border-[#8B0000] bg-[#8B0000]/25 text-[#8B0000]">darkred #8B0000</div>
   <div class="border border-[#ffc0cb] bg-[#ffc0cb]/25 text-[#ffc0cb]">orange #FFA500</div>
@@ -49,8 +49,8 @@ defineOptions({
   <div class="border border-[#FF7F50] bg-[#FF7F50]/25 text-[#FF7F50]">coral 	#FF7F50</div>
   <div class="border border-[#FF6347] bg-[#FF6347]/25 text-[#FF6347]">tomato #FF6347</div>
   <div class="border border-[#FF4500] bg-[#FF4500]/25 text-[#FF4500]">orangered #FF4500</div>
-  <div class="border border-sky-300 p-3"><div class="border border-[#FFD700] bg-[#FFD700]/25 text-[#FFD700]">gold #FFD700</div></div>
-  <div class="border border-sky-300 p-3"><div class="border border-[#FFFF00] bg-[#FFFF00]/25 text-[#FFFF00]">yellow #FFFF00</div></div>
+  <div class="border border-sky-50"><div class="border border-[#FFD700] bg-[#FFD700]/25 text-[#FFD700]">gold #FFD700</div></div>
+  <div class="border border-sky-50"><div class="border border-[#FFFF00] bg-[#FFFF00]/25 text-[#FFFF00]">yellow #FFFF00</div></div>
   <div class="border border-[#FFFFE0] bg-[#FFFFE0]/25 text-[#FFFFE0]">lightyellow 	#FFFFE0</div>
   <div class="border border-[#FFFACD] bg-[#FFFACD]/25 text-[#FFFACD]">lemonchiffon #FFFACD</div>
   <div class="border border-[#FAFAD2] bg-[#FAFAD2]/25 text-[#FAFAD2]">lightgoldenrodyellow #FAFAD2	</div>
@@ -100,8 +100,8 @@ defineOptions({
   <div class="border border-[#6495ED] bg-[#6495ED]/25 text-[#6495ED]">cornflowerblue	#6495ED</div>
   <div class="border border-[#00BFFF] bg-[#00BFFF]/25 text-[#00BFFF]">deepskyblue #00BFFF</div>
   <div class="border border-[#1E90FF] bg-[#1E90FF]/25 text-[#1E90FF]">dodgerblue	#1E90FF</div>
-  <div class="border border-sky-300 p-3"><div class="border border-[#4169E1] bg-[#4169E1]/25 text-[#4169E1]">royalblue	#4169E1</div></div>
-  <div class="border border-sky-300 p-3"><div class="border border-[#0000FF] bg-[#0000FF]/25 text-[#0000FF]">blue	#0000FF</div></div>
+  <div class="border border-sky-50"><div class="border border-[#4169E1] bg-[#4169E1]/25 text-[#4169E1]">royalblue	#4169E1</div></div>
+  <div class="border border-sky-50"><div class="border border-[#0000FF] bg-[#0000FF]/25 text-[#0000FF]">blue	#0000FF</div></div>
   <div class="border border-[#0000CD] bg-[#0000CD]/25 text-[#0000CD]">mediumblue	#0000CD</div>
   <div class="border border-[#00008B] bg-[#00008B]/25 text-[#00008B]">darkblue	#00008B</div>
   <div class="border border-[#000080] bg-[#000080]/25 text-[#000080]">navy	#000080</div>
@@ -123,7 +123,7 @@ defineOptions({
   <div class="border border-[#8B4513] bg-[#8B4513]/25 text-[#8B4513]">saddlebrown #8B4513</div>
   <div class="border border-[#A0522D] bg-[#A0522D]/25 text-[#A0522D]">sienna	#A0522D	</div>
   <div class="border border-[#A52A2A] bg-[#A52A2A]/25 text-[#A52A2A]">brown	#A52A2A</div>
-  <div class="border border-sky-300 p-3"><div class="border border-[#800000] bg-[#800000]/25 text-[#800000]">maroon #800000</div></div>
+  <div class="border border-sky-50"><div class="border border-[#800000] bg-[#800000]/25 text-[#800000]">maroon #800000</div></div>
   <div class="border border-[#FFFFFF] bg-[#FFFFFF]/25 text-[#FFFFFF]">white #FFFFFF</div>
   <div class="border border-[#FFFAFA] bg-[#FFFAFA]/25 text-[#FFFAFA]">snow 	#FFFAFA</div>
   <div class="border border-[#F0FFF0] bg-[#F0FFF0]/25 text-[#F0FFF0]">honeydew	#F0FFF0</div>
@@ -143,10 +143,10 @@ defineOptions({
   <div class="border border-[#FFE4E1] bg-[#FFE4E1]/25 text-[#FFE4E1]">mistyrose	#FFE4E1</div>
     <div class="border border-[#DCDCDC] bg-[#DCDCDC]/25 text-[#DCDCDC]">gainsboro	#DCDCDC</div>
     <div class="border border-[#D3D3D3] bg-[#D3D3D3]/25 text-[#D3D3D3]">lightgray	#D3D3D3</div>
-    <div class="border border-sky-300 p-3"><div class="border border-[#C0C0C0] bg-[#C0C0C0]/25 text-[#C0C0C0]">silver	#C0C0C0</div></div>
+    <div class="border border-sky-50"><div class="border border-[#C0C0C0] bg-[#C0C0C0]/25 text-[#C0C0C0]">silver	#C0C0C0</div></div>
     <div class="border border-[#A9A9A9] bg-[#A9A9A9]/25 text-[#A9A9A9]">darkgray	#A9A9A9</div>
     <div class="border border-[#696969] bg-[#696969]/25 text-[#696969]">dimgray	#696969</div>
-    <div class="border border-sky-300 p-3"><div class="border border-[#808080] bg-[#808080]/25 text-[#808080]">gray #808080</div></div>
+    <div class="border border-sky-50"><div class="border border-[#808080] bg-[#808080]/25 text-[#808080]">gray #808080</div></div>
     <div class="border border-[#778899] bg-[#778899]/25 text-[#778899]">lightslategray	#778899</div>
     <div class="border border-[#708090] bg-[#708090]/25 text-[#708090]">slategray #708090</div>
     <div class="border border-[#2F4F4F] bg-[#2F4F4F]/25 text-[#2F4F4F]">darkslategray	#2F4F4F</div>

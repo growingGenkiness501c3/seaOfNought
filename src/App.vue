@@ -18,11 +18,34 @@ import zer05 from "@/components/zer05.vue"
 import zer06 from "@/components/zer06.vue"
 import zer07 from "@/components/zer07.vue"
 import LargeClock from "@/components/LargeClock.vue"
-
+import Ikigai from "@/components/Ikigai.vue"
+import IkigaiBar from "@/components/IkigaiBar.vue"
+import AllostasissyBar from "@/components/AllostasissyBar.vue"
+import fontBar from "@/components/fontBar.vue"
+import WIPBar from "@/components/WIPBar.vue"
 </script>
 <template>
 <backgroundImages>
 <Header />
+
+<div class="grid grid-cols-[2fr_2fr_1fr] h-32">
+  <div class="flex items-center justify-center border border-gray-950 bg-gray-950/50">
+      <fontBar />
+  </div>
+  <div class="flex items-center justify-center border border-gray-950 bg-sky-950/50">
+    <div class="grid grid-rows-[1fr_1fr] border border-gray-400">
+      <div><IkigaiBar /></div>
+      <div><AllostasissyBar /></div>
+    </div>
+  </div>
+  <div class="flex items-center justify-center border border-gray-950 bg-gray-950/50">
+    <clock />
+  </div>
+</div>
+<br><br><br><br><br><br><br><br>
+
+<WIPBar /><br>
+<hueBar />
 <div class="grid grid-cols-[1fr_1fr_1fr_1fr_1fr_4fr] gap-1">
   <div class="bg-gray-950/75 p-1 w-22">
     <zer02 />
@@ -30,12 +53,13 @@ import LargeClock from "@/components/LargeClock.vue"
   <div class="bg-gray-950/75 p-1 w-180">
     <zer03 />
   </div>
-  <div class="bg-gray-950/75 p-1 w-77">
+  <div class="bg-gray-950/75 p-1 w-82">
     <zer04 />
   </div>
   <div class="bg-gray-950/75 p-1 w-99">
     <zer06 />
     <zer05 />
+    <center><Footer /></center>     
   </div>
   <div class="bg-sky-950/50 p-2 w-666">
     <center><LargeClock /></center>
@@ -44,11 +68,22 @@ import LargeClock from "@/components/LargeClock.vue"
         <span  class="text-4xl">ن🖵無 </span><br>
           <RouterView />
         <span  class="text-4xl">無🖵ن </span><br>
+        
+        <span class="text-2xl"><skyBottom /><skyBottom /></span> 
+
+        <center><Footer /></center>        
       <span class="text-2xl"><skyBottom /><skyBottom /></span> 
     </center>
   </div>
 </div>
-<Footer />
+
+<center>
+<skyTop /><skyTop /><br>
+<div class="text-9xl"><skyTop /><skyTop /><br></div>
+<skyTop /><skyTop /><br>
+
+</center>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </backgroundImages>
 </template>
 <style>
