@@ -47,7 +47,7 @@ import WIPBar from "@/components/WIPBar.vue"
 </div>
 <br><br><br><br><br><br><br><br>
 
-<WIPBar /><br>
+<WIPBar /><br><br><br>
 <hueBar />
 <div class="grid grid-cols-[1fr_1fr_1fr_1fr_1fr_4fr] gap-1">
   <div class="bg-gray-950/75 p-1 w-22">

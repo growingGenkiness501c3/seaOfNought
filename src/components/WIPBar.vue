@@ -11,7 +11,7 @@ defineOptions({
 <center>
 <br><br><br><br>
 
-<nav class="grid grid-cols-[repeat(22,minmax(0,1fr))] w-full h-6 gap-3 p-5">
+<nav class="grid grid-cols-[repeat(23,minmax(0,1fr))] w-full h-6 gap-3 p-5">
   <div>
     <RouterLink class="p-2 text-stone-400 hover:text-sky-200 border border-stone-400 bg-stone-400/25 cursor-pointer text-[66px]" to="/stoneVue"><i class="material-icons" style="font-size: 55px">account_box</i></RouterLink>
     <br><br><RouterLink class="p-2 text-stone-400 hover:text-sky-200 border border-stone-400 bg-stone-400/25 cursor-pointer" to="/stoneVue"> account_box</RouterLink>
@@ -166,25 +166,28 @@ defineOptions({
           <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-rose-950 hover:text-yellow-200 border border-rose-950 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
         </div>
   </div>  
+
   <div>
     <div class="text-[66px] p-2 text-pink-400 hover:text-sky-200 border border-pink-400 bg-pink-400/25 cursor-pointer text-[55px]"><a href="https://allostasissy.squarespace.com/config/" target="_blank" rel="noopener noreferrer"><i class="material-icons" style="font-size: 55px">accessibility</i></a></div>
-    <br><div><a href="https://allostasissy.squarespace.com/config/" target="_blank" rel="noopener noreferrer" class="p-2 text-pink-400 hover:text-sky-200 border border-pink-400 bg-pink-400/25 cursor-pointer text-[22px]">accessibility</a></div>
+    <br><div><a href="https://allostasissy.squarespace.com/config/" target="_blank" rel="noopener noreferrer" class="p-2 text-pink-400 hover:text-sky-200 border border-pink-400 bg-pink-400/25 cursor-pointer text-[17px]">accessibility</a></div>
     <br><RouterLink class="p-2 text-pink-400 hover:text-sky-200 border border-pink-400 bg-pink-400/25 cursor-pointer" to="/pinkVue"> pinkVue</RouterLink>  
-    <br><br><div class="border border-pink-500 bg-pink-500/0 gap-1 p-1 flex items-center justify-center alumni-sans-pinstripe-regular text-[5px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-7 gap-1 p-1">
-          <RouterLink class="p-2.5; text-pink-500 hover:text-yellow-200 border border-pink-500 cursor-pointer text-[11px]" to="/pinkVue">🐷</RouterLink> 
-          <div><a href="https://allostasissy.squarespace.com/config/" class="p-1 gap-1 block text-pink-50 hover:text-yellow-200 border border-pink-50 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://allostasissy.squarespace.com/config/" class="p-1 gap-1 block text-pink-100 hover:text-yellow-200 border border-pink-100 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://allostasissy.squarespace.com/config/" class="p-1 gap-1 block text-pink-200 hover:text-yellow-200 border border-pink-200 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://allostasissy.squarespace.com/config/" class="p-1 gap-1 block text-pink-300 hover:text-yellow-200 border border-pink-300 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://allostasissy.squarespace.com/config/" class="p-1 gap-1 block text-pink-400 hover:text-yellow-200 border border-pink-400 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://allostasissy.squarespace.com/config/" class="p-1 gap-1 block text-pink-500 hover:text-yellow-200 border border-pink-500 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://allostasissy.squarespace.com/config/" class="p-1 gap-1 block text-pink-600 hover:text-yellow-200 border border-pink-600 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://allostasissy.squarespace.com/config/" class="p-1 gap-1 block text-pink-700 hover:text-yellow-200 border border-pink-700 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://allostasissy.squarespace.com/config/" class="p-1 gap-1 block text-pink-800 hover:text-yellow-200 border border-pink-800 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://allostasissy.squarespace.com/config/" class="p-1 gap-1 block text-pink-900 hover:text-yellow-200 border border-pink-900 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
-          <div><a href="https://allostasissy.squarespace.com/config/" class="p-1 gap-1 block text-pink-950 hover:text-yellow-200 border border-pink-950 cursor-pointer" target="_blank" rel="noopener noreferrer">⬤</a></div>
+    <br><br><div class="border border-pink-500 bg-pink-500/0 gap-1 p-1 flex items-center justify-center alumni-sans-pinstripe-regular text-[11px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-11 gap-1 p-1">
+          <div><RouterLink class="p-1 border border-pink-500 cursor-pointer text-[18px]" to="/pinkVue">🐷</RouterLink></div>
+          <div class="p-1 gap-1 block text-pink-50 hover:text-sky-200 border border-pink-50 cursor-pointer"><a href="https://allostasissy.squarespace.com/config/"  target="_blank" rel="noopener noreferrer">██</a></div>
+          <div class="p-1 gap-1 block text-pink-100 hover:text-sky-200 border border-pink-100 cursor-pointer"><a href="https://allostasissy.squarespace.com/config/" target="_blank" rel="noopener noreferrer">██</a></div>
+          <div class="p-1 gap-1 block text-pink-200 hover:text-sky-200 border border-pink-200 cursor-pointer"><a href="https://allostasissy.squarespace.com/config/" target="_blank" rel="noopener noreferrer">██</a></div>
+          <div class="p-1 gap-1 block text-pink-300 hover:text-sky-200 border border-pink-300 cursor-pointer"><a href="https://allostasissy.squarespace.com/config/" target="_blank" rel="noopener noreferrer">██</a></div>
+          <div class="p-1 gap-1 block text-pink-400 hover:text-sky-200 border border-pink-400 cursor-pointer"><a href="https://allostasissy.squarespace.com/config/" target="_blank" rel="noopener noreferrer">██</a></div>
+          <div class="p-1 gap-1 block text-pink-500 hover:text-sky-200 border border-pink-500 cursor-pointer"><a href="https://allostasissy.squarespace.com/config/" target="_blank" rel="noopener noreferrer">██</a></div>
+          <div class="p-1 gap-1 block text-pink-600 hover:text-sky-200 border border-pink-600 cursor-pointer"><a href="https://allostasissy.squarespace.com/config/" target="_blank" rel="noopener noreferrer">██</a></div>
+          <div class="p-1 gap-1 block text-pink-700 hover:text-sky-200 border border-pink-700 cursor-pointer"><a href="https://allostasissy.squarespace.com/config/" target="_blank" rel="noopener noreferrer">██</a></div>
+          <div class="p-1 gap-1 block text-pink-800 hover:text-sky-200 border border-pink-800 cursor-pointer"><a href="https://allostasissy.squarespace.com/config/" target="_blank" rel="noopener noreferrer">██</a></div>
+          <div class="p-1 gap-1 block text-pink-900 hover:text-sky-200 border border-pink-900 cursor-pointer"><a href="https://allostasissy.squarespace.com/config/" target="_blank" rel="noopener noreferrer">██</a></div>
+          <div class="p-1 gap-1 block text-pink-950 hover:text-sky-200 border border-pink-950 cursor-pointer"><a href="https://allostasissy.squarespace.com/config/" target="_blank" rel="noopener noreferrer">██</a></div>
         </div>
-  </div>
+
+  </div>  
+
   <div>
     <RouterLink class="p-2 text-fuchsia-400 hover:text-sky-200 border border-fuchsia-400 bg-fuchsia-400/25 cursor-pointer text-[66px]" to="/fuchsiaVue"><i class="material-icons" style="font-size: 55px">fingerprint</i></RouterLink>
     <br><br><RouterLink class="p-2 text-fuchsia-400 hover:text-sky-200 border border-fuchsia-400 bg-fuchsia-400/25 cursor-pointer" to="/fuchsiaVue"> fingerprint</RouterLink>
