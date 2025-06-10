@@ -11,42 +11,44 @@ defineOptions({
   <div class="bg-gray-950/25 p-2">
   <center class="w-full gap-1 p-1 flex items-center justify-center">
   <center>
-    <div class="grid grid-cols-16 gap-1 w-full">
-      <div class="col-span-16 grid grid-cols-16 gap-1 text-[8px]">
-        <div class="p-2 border text-center">class="alumni-sans-pinstripe-regular"</div>
-        <div class="p-2 border text-center">class="alumni-sans-pinstripe-regular-italic"</div>
-        <div class="p-2 border text-center">class="anonymous-pro-regular"</div>
-        <div class="p-2 border text-center">class="anonymous-pro-bold"</div>
-        <div class="p-2 border text-center">class="anonymous-pro-regular-italic"</div>
-        <div class="p-2 border text-center">class="anonymous-pro-bold-italic"</div>
-        <div class="p-2 border text-center">class="coral-pixels-regular"</div>
-        <div class="p-2 border text-center">class="hubot-sans"</div>
-        <div class="p-2 border text-center">class="mea-culpa-regular"</div>
-        <div class="p-2 border text-center">class="orbitron"</div>
-        <div class="p-2 border text-center">class="rajdhani-light"</div>
-        <div class="p-2 border text-center">class="rajdhani-regular"</div>
-        <div class="p-2 border text-center">class="rajdhani-medium"</div>
-        <div class="p-2 border text-center">class="rajdhani-semibold"</div>
-        <div class="p-2 border text-center">class="rajdhani-bold"</div>
-        <div class="p-2 border text-center">class="updock-regular"</div>
+    <div class="grid grid-cols-17 gap-1 w-full">
+      <div class="col-span-17 grid grid-cols-17 gap-1 text-[6px]">
+        <div class="p-2 border text-center">class="alumni-sans-pinstripe-regular text-[20px]"</div>
+        <div class="p-2 border text-center">class="alumni-sans-pinstripe-regular-italic text-[20px]"</div>
+        <div class="p-2 border text-center">class="anonymous-pro-regular text-[18px]"</div>
+        <div class="p-2 border text-center">class="anonymous-pro-bold text-[18px]"</div>
+        <div class="p-2 border text-center">class="anonymous-pro-regular-italic text-[18px]"</div>
+        <div class="p-2 border text-center">class="anonymous-pro-bold-italic text-[18px]"</div>
+        <div class="p-2 border text-center">class="coral-pixels-regular text-[18px]"</div>
+        <div class="p-2 border text-center">class="hubot-sans text-[16px]"</div>
+        <div class="p-2 border text-center">class="mea-culpa-regular text-[16px]"</div>
+        <div class="p-2 border text-center">class="orbitron text-[13px]"</div>
+        <div class="p-2 border text-center">class="Oswald text-[18px]"</div>
+        <div class="p-2 border text-center">class="rajdhani-light text-[18px]"</div>
+        <div class="p-2 border text-center">class="rajdhani-regular text-[20px]"</div>
+        <div class="p-2 border text-center">class="rajdhani-medium text-[20px]"</div>
+        <div class="p-2 border text-center">class="rajdhani-semibold text-[20px]"</div>
+        <div class="p-2 border text-center">class="rajdhani-bold text-[20px]"</div>
+        <div class="p-2 border text-center">class="updock-regular text-[18px]"</div>
       </div>
-      <div class="col-span-16 grid grid-cols-16 gap-1  text-[18px] ">
-        <div class="p-1 border text-center"><span class="alumni-sans-pinstripe-regular">oO0◯<br>AaXxZ<br>!*?<br>ن🖵無</span></div>
-        <div class="p-1 border text-center"><span class="alumni-sans-pinstripe-regular-italic">oO0◯<br>AaXxZ<br>!*?<br>ن🖵無</span></div>
-        <div class="p-1 border text-center"><span class="anonymous-pro-regular">oO0◯<br>AaXxZ<br>!*?<br>ن🖵無</span></div>
-        <div class="p-1 border text-center"><span class="anonymous-pro-bold">oO0◯<br>AaXxZ<br>!*?<br>ن🖵無</span></div>
-        <div class="p-1 border text-center"><span class="anonymous-pro-regular-italic">oO0◯<br>AaXxZ<br>!*?<br>ن🖵無</span></div>
-        <div class="p-1 border text-center"><span class="anonymous-pro-bold-italic">oO0◯<br>AaXxZ<br>!*?<br>ن🖵無</span></div>
-        <div class="p-1 border text-center"><span class="coral-pixels-regular">oO0◯<br>AaXxZ<br>!*?<br>ن🖵無</span></div>
-        <div class="p-1 border text-center"><span class="hubot-sans">oO0◯<br>AaXxZ<br>!*?<br>ن🖵無</span></div>
-        <div class="p-1 border text-center"><span class="mea-culpa-regular">oO0◯<br>AaXxZ<br>!*?<br>ن🖵無</span></div>
-        <div class="p-1 border text-center"><span class="orbitron">oO0◯<br>AaXxZ<br>!*?<br>ن🖵無</span></div>
-        <div class="p-1 border text-center"><span class="rajdhani-light">oO0◯<br>AaXxZ<br>!*?<br>ن🖵無</span></div>
-        <div class="p-1 border text-center"><span class="rajdhani-regular">oO0◯<br>AaXxZ<br>!*?<br>ن🖵無</span></div>
-        <div class="p-1 border text-center"><span class="rajdhani-medium">oO0◯<br>AaXxZ<br>!*?<br>ن🖵無</span></div>
-        <div class="p-1 border text-center"><span class="rajdhani-semibold ">oO0◯<br>AaXxZ<br>!*?<br>ن🖵無</span></div>
-        <div class="p-1 border text-center"><span class="rajdhani-bold">oO0◯<br>AaXxZ<br>!*?<br>ن🖵無</span></div>
-        <div class="p-1 border text-center"><span class="updock-regular">oO0◯<br>AaXxZ<br>!*?<br>ن🖵無</span></div>
+      <div class="col-span-17 grid grid-cols-17 gap-1  text-[18px] ">
+        <div class="p-1 border text-center"><span class="alumni-sans-pinstripe-regular text-[20px]">oO0◯<br>AaXxZz<br>g!*?G<br>ن🖵無</span></div>
+        <div class="p-1 border text-center"><span class="alumni-sans-pinstripe-regular-italic text-[20px]">oO0◯<br>AaXxZz<br>g!*?G<br>ن🖵無</span></div>
+        <div class="p-1 border text-center"><span class="anonymous-pro-regular text-[18px]">oO0◯<br>AaXxZz<br>g!*?G<br>ن🖵無</span></div>
+        <div class="p-1 border text-center"><span class="anonymous-pro-bold text-[18px]">oO0◯<br>AaXxZz<br>g!*?G<br>ن🖵無</span></div>
+        <div class="p-1 border text-center"><span class="anonymous-pro-regular-italic text-[18px]">oO0◯<br>AaXxZz<br>g!*?G<br>ن🖵無</span></div>
+        <div class="p-1 border text-center"><span class="anonymous-pro-bold-italic text-[18px]">oO0◯<br>AaXxZz<br>g!*?G<br>ن🖵無</span></div>
+        <div class="p-1 border text-center"><span class="coral-pixels-regular text-[18px]">oO0◯<br>AaXxZz<br>g!*?G<br>ن🖵無</span></div>
+        <div class="p-1 border text-center"><span class="hubot-sans text-[16px]">oO0◯<br>AaXxZz<br>g!*?G<br>ن🖵無</span></div>
+        <div class="p-1 border text-center"><span class="mea-culpa-regular text-[16px]">oO0◯<br>AaXxZz<br>g!*?G<br>ن🖵無</span></div>
+        <div class="p-1 border text-center"><span class="orbitron text-[13px]">oO0◯<br>AaXxZz<br>g!*?G<br>ن🖵無</span></div>
+        <div class="p-1 border text-center"><span class="oswald text-[18px]">oO0◯<br>AaXxZz<br>g!*?G<br>ن🖵無</span></div>
+        <div class="p-1 border text-center"><span class="rajdhani-light text-[18px]">oO0◯<br>AaXxZz<br>g!*?G<br>ن🖵無</span></div>
+        <div class="p-1 border text-center"><span class="rajdhani-regular text-[20px]">oO0◯<br>AaXxZz<br>g!*?G<br>ن🖵無</span></div>
+        <div class="p-1 border text-center"><span class="rajdhani-medium text-[20px]">oO0◯<br>AaXxZz<br>g!*?G<br>ن🖵無</span></div>
+        <div class="p-1 border text-center"><span class="rajdhani-semibold text-[20px] ">oO0◯<br>AaXxZz<br>g!*?G<br>ن🖵無</span></div>
+        <div class="p-1 border text-center"><span class="rajdhani-bold text-[20px]">oO0◯<br>AaXxZz<br>g!*?G<br>ن🖵無</span></div>
+        <div class="p-1 border text-center"><span class="updock-regular text-[18px]">oO0◯<br>AaXxZz<br>g!*?G<br>ن🖵無</span></div>
       </div>
     </div>
   </center>    

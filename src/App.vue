@@ -27,10 +27,12 @@ import WIPBar from "@/components/WIPBar.vue"
 <template>
 <backgroundImages>
 <Header />
-
-<div class="grid grid-cols-[2fr_2fr_1fr] h-32">
+<p>thou sayeth</p>
+<div class="grid grid-cols-[3fr_1fr_3fr] h-32">
   <div class="flex items-center justify-center border border-gray-950 bg-gray-950/50">
-      <fontBar />
+      
+    
+    <clock />
   </div>
   <div class="flex items-center justify-center border border-gray-950 bg-sky-950/50">
     <div class="grid grid-rows-[1fr_1fr] border border-gray-400">
@@ -39,7 +41,8 @@ import WIPBar from "@/components/WIPBar.vue"
     </div>
   </div>
   <div class="flex items-center justify-center border border-gray-950 bg-gray-950/50">
-    <clock />
+    <img src="/allostasis.png" class="h-88" alt="Description of image" />
+
   </div>
 </div>
 <br><br><br><br><br><br><br><br>
@@ -85,6 +88,39 @@ import WIPBar from "@/components/WIPBar.vue"
 </center>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </backgroundImages>
+<br>
+https://oregon.public.law/statutes/ors_419B.050
+<br>
+https://oregon.public.law/statutes/ors_419B.020
+<br>
+https://oregon.public.law/statutes/ors_419b.005?utm_source=chatgpt.com
+<br>
+https://kick.com/
+<br>
+https://www.twitch.tv/portlandandyirl
+<br>
+https://materializecss.com/icons.html
+<br>
+https://oregon.public.law/statutes/ors_419b.005
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<fontBar />
 </template>
 <style>
 .alumni-sans-pinstripe-regular {
@@ -139,6 +175,12 @@ font-family: "Orbitron", sans-serif;
 font-optical-sizing: auto;
 font-weight: <weight>;
 font-style: normal;
+}
+.oswald {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 .rajdhani-light {
 font-family: "Rajdhani", sans-serif;
