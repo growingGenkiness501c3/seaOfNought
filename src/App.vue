@@ -22,7 +22,7 @@ import Ikigai from "@/components/Ikigai.vue"
 import IkigaiBar from "@/components/IkigaiBar.vue"
 import AllostasissyBar from "@/components/AllostasissyBar.vue"
 import fontBar from "@/components/fontBar.vue"
-import WIPBar from "@/components/WIPBar.vue"
+import WIPBar from "@/components/verttailwindbar/WIPBar.vue"
 </script>
 <template>
 <backgroundImages>
