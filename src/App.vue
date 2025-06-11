@@ -26,69 +26,60 @@ import WIPBar from "@/components/verttailwindbar/WIPBar.vue"
 </script>
 <template>
 <backgroundImages>
+
 <Header />
 <p>thou sayeth</p>
 <div class="grid grid-cols-[3fr_1fr_3fr] h-32">
-  <div class="flex items-center justify-center border border-gray-950 bg-gray-950/50">
-      
-    
-    <clock />
-  </div>
+  <div class="flex items-center justify-center border border-gray-950 bg-gray-50/50 gap-11">
+      <div> <img src="/color/YMC-Subtractive.png" class="w-88 object-cover rounded-md" /></div>
+      <div> <img src="/color/RGB-Additive.png" class="w-88 object-cover rounded-md" /></div>
+      <div> <img src="/color/YRB-Paint.png" class="h-88 object-cover rounded-md" /></div>
+      <div> <img src="/color/BWG circles.png" class="w-88 object-cover rounded-md rotate-180" /></div>
+    </div>
   <div class="flex items-center justify-center border border-gray-950 bg-sky-950/50">
     <div class="grid grid-rows-[1fr_1fr] border border-gray-400">
       <div><IkigaiBar /></div>
       <div><AllostasissyBar /></div>
     </div>
   </div>
-  <div class="flex items-center justify-center border border-gray-950 bg-gray-950/50">
-    <img src="/allostasis.png" class="h-88" alt="Description of image" />
-
+  <div class="flex items-center justify-center border border-gray-950 bg-gray-50/50">
+    <img src="Allostatic_load_sketch.svg" class="h-88" alt="Description of image" />
   </div>
 </div>
-<br><br><br><br><br><br><br><br>
-
-<WIPBar /><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br>
 <hueBar />
-<div class="grid grid-cols-[1fr_1fr_1fr_1fr_1fr_4fr] gap-1">
-  <div class="bg-gray-950/75 p-1 w-22">
-    <zer02 />
-  </div>
-  <div class="bg-gray-950/75 p-1 w-180">
-    <zer03 />
-  </div>
-  <div class="bg-gray-950/75 p-1 w-82">
-    <zer04 />
+<div class="grid grid-cols-[1fr_1fr_22fr] gap-1">
+  <div class="bg-gray-950/75 p-1 w-120">
+    <zer01 /><zer02 /><zer03 />
   </div>
   <div class="bg-gray-950/75 p-1 w-99">
     <zer06 />
     <zer05 />
+    <zer04 />
     <center><Footer /></center>     
   </div>
-  <div class="bg-sky-950/50 p-2 w-666">
-    <center><LargeClock /></center>
+  <div class="bg-sky-950/50 p-2 w-999">
     <center>
       <div class="text-xl"><skyTop /><skyTop /><br></div>
         <span  class="text-4xl">ن🖵無 </span><br>
           <RouterView />
         <span  class="text-4xl">無🖵ن </span><br>
-        
         <span class="text-2xl"><skyBottom /><skyBottom /></span> 
 
-        <center><Footer /></center>        
+        <center></center>        
       <span class="text-2xl"><skyBottom /><skyBottom /></span> 
     </center>
   </div>
 </div>
 
 <center>
+<div class="text-9xl"><skyTop /><skyTop /></div>
+<div class="text-6xl"><skyTop /><skyTop /></div>
+<div class="text-4xl"><skyTop /><skyTop /></div>
+<div class="text-xl"><skyTop /><skyTop /></div>
+<div class="text-sm"><skyTop /><skyTop /></div>
 <skyTop /><skyTop /><br>
-<div class="text-9xl"><skyTop /><skyTop /><br></div>
-<skyTop /><skyTop /><br>
-
 </center>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-</backgroundImages>
-<br>
 https://oregon.public.law/statutes/ors_419B.050
 <br>
 https://oregon.public.law/statutes/ors_419B.020
@@ -103,24 +94,9 @@ https://materializecss.com/icons.html
 <br>
 https://oregon.public.law/statutes/ors_419b.005
 <br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
 <fontBar />
+<Footer />
+</backgroundImages>
 </template>
 <style>
 .alumni-sans-pinstripe-regular {

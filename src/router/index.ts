@@ -39,10 +39,20 @@ import zincVue from '@/views/tailwindColors/zincVue.vue'
 
 import Ikigai from '@/components/Ikigai.vue'
 import routerEverythingFlexBar from '@/components/menus/routerEverythingFlexBar.vue'
+import WIPBar from '@/components/verttailwindbar/WIPBar.vue'
+
+
+
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
+    {
+      path: '/WIPBar',
+      name: 'WIPBar',
+      component: WIPBar
+    }, 
+
     {
       path: '/Ikigai',
       name: 'Ikigai',

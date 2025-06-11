@@ -27,11 +27,11 @@ defineOptions({
       </RouterLink>
   </div>
   <div class="border border-yellow-800 bg-sky-200/50 w-24 text-yellow-800 hover:text-sky-500">
-    <a class="" href="https://allostasissy.studio" target="_blank" rel="noopener noreferrer"> 
+    <RouterLink class="" to="/WIPBar">
       <i class="material-icons" style="font-size: 55px">
-      replay
-    </i>
-    </a>
+        linear_scale
+      </i>
+    </RouterLink>
   </div>
   <div class="border border-yellow-700 bg-sky-300/50 w-24 text-yellow-700 hover:text-sky-500">
     <a class="" href="https://allostasissy.studio"  target="_blank" rel="noopener noreferrer"> 

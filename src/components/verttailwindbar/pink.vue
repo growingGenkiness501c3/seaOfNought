@@ -27,7 +27,8 @@ defineOptions({
       pinkVue
     </RouterLink>  
     <br><br>
-    <div class="border border-pink-500 bg-pink-500/0 gap-1 p-1 flex items-center justify-center alumni-sans-pinstripe-regular text-[11px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-11 gap-1 p-1">
+    <div class="border border-pink-500 bg-pink-500/0 gap-1 p-1 flex items-center justify-center 
+    alumni-sans-pinstripe-regular text-[11px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-11 gap-1 p-1">
       <div>
         <RouterLink class="p-1 border border-pink-500 cursor-pointer text-[18px]" to="/pinkVue">
           🐷
