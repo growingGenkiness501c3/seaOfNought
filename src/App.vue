@@ -28,13 +28,14 @@ import WIPBar from "@/components/verttailwindbar/WIPBar.vue"
 <backgroundImages>
 
 <Header />
-<p>thou sayeth</p>
+<p>thou sayeth</p> 
 <div class="grid grid-cols-[3fr_1fr_3fr] h-32">
-  <div class="flex items-center justify-center border border-gray-950 bg-gray-50/50 gap-11">
-      <div> <img src="/color/YMC-Subtractive.png" class="w-88 object-cover rounded-md" /></div>
-      <div> <img src="/color/RGB-Additive.png" class="w-88 object-cover rounded-md" /></div>
-      <div> <img src="/color/YRB-Paint.png" class="h-88 object-cover rounded-md" /></div>
-      <div> <img src="/color/BWG circles.png" class="w-88 object-cover rounded-md rotate-180" /></div>
+  <div class="flex items-center justify-center border border-gray-950 bg-gray-50/0 gap-11">
+      <div> <img src="/color/YMC-Subtractive.png" class="w-77 object-cover rounded-md" /></div>
+      <div> <img src="/color/RGB-Additive.png" class="w-77 object-cover rounded-md" /></div>
+      <div> <img src="/color/YRB-Paint.png" class="w-77 object-cover rounded-md" /></div>
+      <div> <img src="/color/BWG circles.png" class="w-77 object-cover rounded-md rotate-180" /></div>
+      <div> <img src="/home.png" class="w-111 object-cover rounded-md" /></div>
     </div>
   <div class="flex items-center justify-center border border-gray-950 bg-sky-950/50">
     <div class="grid grid-rows-[1fr_1fr] border border-gray-400">
@@ -43,10 +44,10 @@ import WIPBar from "@/components/verttailwindbar/WIPBar.vue"
     </div>
   </div>
   <div class="flex items-center justify-center border border-gray-950 bg-gray-50/50">
-    <img src="Allostatic_load_sketch.svg" class="h-88" alt="Description of image" />
+    <img src="/Allostatic_load_sketch.svg" class="h-88" alt="Description of image" />
   </div>
 </div>
-<br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br> 
 <hueBar />
 <div class="grid grid-cols-[1fr_1fr_22fr] gap-1">
   <div class="bg-gray-950/75 p-1 w-120">
@@ -97,6 +98,8 @@ https://oregon.public.law/statutes/ors_419b.005
 <fontBar />
 <Footer />
 </backgroundImages>
+<br><br><br>
+<div class="bg-[#000] orbitron text-[333px]"> Meleneth</div>
 </template>
 <style>
 .alumni-sans-pinstripe-regular {
