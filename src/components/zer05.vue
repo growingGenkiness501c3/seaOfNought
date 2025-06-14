@@ -48,7 +48,7 @@ name: "zer05"
           <RouterLink class="p-1 text-rose-500 hover:text-yellow-200 border border-rose-500 cursor-pointer" 
           to="/roseVue">🌹 <br>rose</RouterLink> 
           <RouterLink class="p-1 text-pink-500 hover:text-yellow-200 border border-pink-500 cursor-pointer" 
-          to="/pinkVue">🐷 <br>pink</RouterLink>            
+          to="/pinkVue">🐷 <br>pink<br>CBT</RouterLink>            
           </nav>
   <br>
           <nav class="border border-blue-500 gap-1 p-1 flex items-center justify-center text-[27px]">
@@ -72,7 +72,7 @@ name: "zer05"
   <br>
           <nav class="border border-purple-500 text-purple-500 gap-1 p-1 flex items-center justify-center text-[27px]" >
           <RouterLink class="p-1 border-purple-500 text-purple-500 hover:text-yellow-200 border cursor-pointer" 
-          to="/purpleVue">🛍️ <br>purple</RouterLink>             
+          to="/purpleVue">🛍️ <br>purple<br>CGBT</RouterLink>             
           <RouterLink class="p-1 text-indigo-500 hover:text-yellow-200 border border-indigo-500 cursor-pointer" 
           to="/indigoVue">🎵 <br>indigo</RouterLink> 
           <RouterLink class="p-1 text-violet-500 hover:text-yellow-200 border border-violet-500 cursor-pointer" 

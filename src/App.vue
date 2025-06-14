@@ -59,7 +59,7 @@ import WIPBar from "@/components/verttailwindbar/WIPBar.vue"
     <zer04 />
     <center><Footer /></center>     
   </div>
-  <div class="bg-sky-950/50 p-2 w-999">
+  <div class="bg-sky-950/50 p-2 w-full">
     <center>
       <div class="text-xl"><skyTop /><skyTop /><br></div>
         <span  class="text-4xl">ن🖵無 </span><br>
