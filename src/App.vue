@@ -22,16 +22,19 @@ import fontBar from "@/components/fontBar.vue"
 
 <hueBar />
 <div class="grid grid-cols-[1fr_22fr] gap-1">
+  <!--
   <div class="bg-gray-950/75 p-1 w-120">
     <zer01 /><zer02 /><zer03 />
   </div>
+  -->
   <div class="bg-gray-950/75 p-1 w-99">
     <zer06 />
     <zer05 />
     <zer04 />
     <center><Footer /></center>     
   </div>
-  <div class="bg-sky-950/50 p-2 w-1111">
+  <div class="bg-sky-950/50 p-2 w-full">
+  <!--<div class="bg-sky-950/50 p-2 w-1111">-->
     <center>
       <div class="text-xl"><skyTop /><skyTop /><br></div>
         <span  class="text-4xl">ن🖵無 </span><br>
