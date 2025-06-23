@@ -15,9 +15,19 @@ import fontBar from "@/components/fontBar.vue"
 </script>
 <template>
 <backgroundImages>
-
 <Header />
-<p>thou sayeth</p> 
+<div class="grid grid-cols-3 h-11">
+  <div><hr><p class="text-right bg-[#0000ff80] text-[#f00]">right-aligned</p></div>
+  <div class="place-items-center">
+    <p class="text-center bg-[#000] text-[#ffff00] text-[33px]">⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅</p>
+  </div>
+  <div><hr><p class="text-left bg-[#ff000080] text-[#00f]">left-aligned</p></div>
+</div> 
+<div class="bg-[#00000077] w-full">
+  <img src="/unicorn.png" class="float-left w-77 h-auto" />
+  <p>thou sayeth</p> 
+  <img src="/unicorn-inverted.png" class="float-right w-99 h-auto" />
+</div>
 <div class="grid grid-cols-[3fr_1fr_3fr] h-32">
   <div class="flex items-center justify-center border border-gray-950 bg-gray-50/0 gap-1">
       <div> <img src="/color/YMC-Subtractive.png" class="w-77 object-cover rounded-md" /></div>
