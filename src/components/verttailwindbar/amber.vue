@@ -18,7 +18,7 @@ defineOptions({
     <br>
     <div>
       <a href="https://allostasissy.squarespace.com/config/" target="_blank" rel="noopener noreferrer" 
-      class="p-2 text-amber-400 hover:text-sky-400 border border-amber-400 bg-amber-400/25 cursor-pointer text-[13px]">
+      class="p-2 text-amber-400 hover:text-sky-400 border border-amber-400 bg-amber-400/25 cursor-pointer text-[8px]">
         filter_center_focus
       </a>
     </div>

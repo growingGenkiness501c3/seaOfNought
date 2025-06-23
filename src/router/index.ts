@@ -41,12 +41,19 @@ import Ikigai from '@/components/Ikigai.vue'
 import routerEverythingFlexBar from '@/components/menus/routerEverythingFlexBar.vue'
 import WIPBar from '@/components/verttailwindbar/WIPBar.vue'
 
+import TailWindGenkiness from '@/views/TailWindGenkiness.vue'
 
 
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
+    {
+      path: '/TailWindGenkiness',
+      name: 'TailWindGenkiness',
+      component: TailWindGenkiness
+    },
+
     {
       path: '/WIPBar',
       name: 'WIPBar',

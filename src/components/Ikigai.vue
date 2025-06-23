@@ -1,8 +1,6 @@
 
 <script setup lang="ts">
-import routerBar from "@/components/routerBar.vue"
-import TailwindColorNameBar from "@/components/color/tailwindColorNameBar.vue"
-import hueBar from "@/components/color/hueBar.vue"
+
 defineOptions({
   name: "Ikigai"
 });
