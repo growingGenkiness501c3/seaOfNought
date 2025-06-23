@@ -6,52 +6,25 @@ import { RouterLink, RouterView } from "vue-router"
 import Footer from "@/components/Footer.vue"
 import hueBar from "@/components/color/hueBar.vue"
 import Header from "@/components/Header.vue"
+
+import zer01 from "@/components/zer01.vue"
+import zer02 from "@/components/zer02.vue"
+import zer03 from "@/components/zer03.vue"
 import zer04 from "@/components/zer04.vue"
 import zer05 from "@/components/zer05.vue"
 import zer06 from "@/components/zer06.vue"
-import IkigaiBar from "@/components/IkigaiBar.vue"
-import AllostasissyBar from "@/components/AllostasissyBar.vue"
+
 import fontBar from "@/components/fontBar.vue"
 </script>
 <template>
 <backgroundImages>
 <Header />
-<div class="grid grid-cols-3 h-11">
-  <div><hr><p class="text-right bg-[#0000ff80] text-[#f00]">right-aligned</p></div>
-  <div class="place-items-center">
-    <p class="text-center bg-[#000] text-[#ffff00] text-[33px]">⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅</p>
-  </div>
-  <div><hr><p class="text-left bg-[#ff000080] text-[#00f]">left-aligned</p></div>
-</div> 
-<div class="bg-[#00000077] w-full">
-  <img src="/unicorn.png" class="float-left w-77 h-auto" />
-  <p>thou sayeth</p> 
-  <img src="/unicorn-inverted.png" class="float-right w-99 h-auto" />
-</div>
-<div class="grid grid-cols-[3fr_1fr_3fr] h-32">
-  <div class="flex items-center justify-center border border-gray-950 bg-gray-50/0 gap-1">
-      <div> <img src="/color/YMC-Subtractive.png" class="w-77 object-cover rounded-md" /></div>
-      <div> <img src="/color/RGB-Additive.png" class="w-77 object-cover rounded-md" /></div>
-      <div> <img src="/color/YRB-Paint.png" class="w-77 object-cover rounded-md" /></div>
-      <div> <img src="/color/BWG circles.png" class="w-77 object-cover rounded-md rotate-180" /></div>
-      <!-- <div> <img src="/home.png" class="w-111 object-cover rounded-md" /></div>-->
-    </div>
-  <div class="flex items-center justify-center border border-gray-950 bg-sky-950/50">
-    <div class="grid grid-rows-[1fr_1fr] border border-gray-400">
-      <div><IkigaiBar /></div>
-      <div><AllostasissyBar /></div>
-    </div>
-  </div>
-  <div class="flex items-center justify-center border border-gray-950 bg-gray-50/50">
-    <img src="/Allostatic_load_sketch.svg" class="h-88" alt="Description of image" />
-  </div>
-</div>
-<br><br><br><br><br><br><br><br><br><br><br> 
+
 <hueBar />
 <div class="grid grid-cols-[1fr_22fr] gap-1">
-  <!--<div class="bg-gray-950/75 p-1 w-120">
+  <div class="bg-gray-950/75 p-1 w-120">
     <zer01 /><zer02 /><zer03 />
-  </div>-->
+  </div>
   <div class="bg-gray-950/75 p-1 w-99">
     <zer06 />
     <zer05 />

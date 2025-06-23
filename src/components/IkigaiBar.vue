@@ -3,6 +3,7 @@
 import routerBar from "@/components/routerBar.vue"
 import TailwindColorNameBar from "@/components/color/tailwindColorNameBar.vue"
 import hueBar from "@/components/color/hueBar.vue"
+import blenderIcon from "@/components/blenderIcon.vue"
 defineOptions({
   name: "IkigaiBar"
 });
@@ -57,12 +58,10 @@ defineOptions({
       </i>
     </RouterLink>
   </div>
-  <div class="border border-yellow-700 bg-sky-300/50 w-24 text-yellow-700 hover:text-sky-500">
-    <a class="" href="https://allostasissy.squarespace.com/config/"  target="_blank" rel="noopener noreferrer"> 
-      <i class="material-icons" style="font-size: 55px">
-      add 
-    </i>
-    </a>
+    <div class="border border-yellow-700 text-yellow-700 bg-sky-300/50 w-24 hover:border-sky-500">
+    <RouterLink to="/BlenderVue" class="flex justify-center items-center p-2 text-yellow-700 hover:text-sky-500">
+      <blenderIcon />
+    </RouterLink>
   </div>
   <div class="border border-yellow-600 bg-sky-400/50 w-24 text-yellow-600 hover:text-sky-500">
     <a class="" href="https://oval-llama-ax9h.squarespace.com/config/"  target="_blank" rel="noopener noreferrer"> 

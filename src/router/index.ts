@@ -43,11 +43,16 @@ import WIPBar from '@/components/verttailwindbar/WIPBar.vue'
 
 import TailWindGenkiness from '@/views/TailWindGenkiness.vue'
 
-
+import BlenderVue from '@/views/BlenderVue.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
+    {
+      path: '/BlenderVue',
+      name: 'BlenderVue',
+      component: BlenderVue
+    }, 
     {
       path: '/TailWindGenkiness',
       name: 'TailWindGenkiness',
