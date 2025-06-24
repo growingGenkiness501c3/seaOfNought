@@ -39,7 +39,7 @@ import zincVue from '@/views/tailwindColors/zincVue.vue'
 
 import Ikigai from '@/components/Ikigai.vue'
 import routerEverythingFlexBar from '@/components/menus/routerEverythingFlexBar.vue'
-import WIPBar from '@/components/verttailwindbar/WIPBar.vue'
+import WIPBar from '@/components/WIPComponents/WIPBar.vue'
 
 import TailWindGenkiness from '@/views/TailWindGenkiness.vue'
 
