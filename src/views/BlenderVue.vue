@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import Clock from '@/components/Clock.vue'
 import LargeClock from '@/components/LargeClock.vue'
+import blenderIcon from '@/components/svgsAsVues/blenderIcon.vue';
 
 defineOptions({
   name: "BlenderVue"
@@ -8,6 +9,7 @@ defineOptions({
 </script>
 <template class="#ffffff80">
 <clock />
+<span class="text-[#f0f]"><blenderIcon /></span>
 <h1 class="text-[99px]">Vue-ing Blender</h1>
 <h2 class="text-[99px]">first,</h2>
 <pre class="text-[33px]">let's make some text to animate a transparent video that can serve as an overlay in OBS during a twitch stream or other video.</pre>

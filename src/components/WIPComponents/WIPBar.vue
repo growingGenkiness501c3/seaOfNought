@@ -22,14 +22,21 @@ import emerald from "@/components/verttailwindbar/emerald.vue"
 import zinc from "@/components/verttailwindbar/zinc.vue"
 import green from "@/components/verttailwindbar/green.vue"
 import slate from "@/components/verttailwindbar/slate.vue"
+import turtleCompiled from "@/components/turtleVuesByLayer/turtleCompiled.vue"
 
 defineOptions({
   name: "WIPBar"
 });
 </script>
 <template>
+<turtleCompiled />
+
 <span class="text-[99px] text-[#aa00aa]"> move WIPBar and ÷ </span>
 <center>
+<code>save as plain svg for less trash code. set fill to currentColor in component for tailwind maniuplation</code>
+<code>will need to rename to start file with any alpha character... not number</code>
+<code>in inkscape upon open select rendering mode: blocky</code>
+<code>if it doesn't detect brightness @ .5 threshold (it won't preview) flood with black in krita and come back</code>
 <nav class="grid grid-cols-[repeat(1,minmax(0,1fr))] gap-3 p-5">
   <div class="border border-[#FFFF00] bg-[#FFFF0040] text-[#FFFF00] cursor-pointer hover:text-pink-400 ">
     <a href="https://strudel.cc/#c2FtcGxlcygnZ2l0aHViOmVkZHlmbHV4L2NyYXRlJykKc2V0Y3BzKC40MikKCmxldCBjaG9yZHMgPSBjaG9yZCgiPEMgRyBDIEcgQyBHIEFtIEMgQ20gRyBDIEcgQz4vMiIpLmRpY3QoJ2lyZWFsJykKCnN0YWNrKAogIHN0YWNrKAogICAgcygiYmQiKS5zdHJ1Y3QoInggeCA8W3gqPDEgMiAzPiBbeCB%2BQDIgfkAzXV0%2BIiksCiAgICBuKCJbMCA8MCAxPl0qPDIhMyA2PiIpLnMoImhoIikKICApLmdhaW4oMC4yKSwgLy8gYXBwbHkgZ2FpbiB0byBkcnVtcyBvbmx5CgogIGNob3Jkcy5vZmZzZXQoLTEpLnZvaWNpbmcoKS5zKCJnbV9lcGlhbm8xOjEiKQopCg%3D%3D" target="_blank" rel="noopener noreferrer">
@@ -298,7 +305,7 @@ Let me know if you'd like help analyzing specific verses or how the live arrange
 </nav>
 <span class="align-middle text-[33px]">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; let chords = chord("&lt; C Cm C7 CM7 Cm7 &gt;/4").dict('ireal') *don't work: Cdim C° C+ Cø*</span> 
 <hr><br><hr><br><hr>
-
+ABBA Gimme 
 <nav class="grid grid-cols-[repeat(4,minmax(0,1fr))] gap-3 p-5">
   <div class="border border-[#FFFF00] bg-[#FFFF0040] text-[#FFFF00] cursor-pointer hover:text-pink-400 ">
     <a href="https://strudel.cc/#c2FtcGxlcygnZ2l0aHViOmVkZHlmbHV4L2NyYXRlJykKc2V0Y3BzKC40MikKCiAgIGxldCBjaG9yZHMgPSBjaG9yZCgiPCBDOSBDMTMgQzdiOSBDNyM1IENhZGQ5ID4vNCIpLmRpY3QoJ2lyZWFsJykgCgpzdGFjaygKICBzdGFjaygKICAgIHMoImJkIikuc3RydWN0KCJ4IHggPFt4KjwxIDIgMz4gW3ggfkAyIH5AM11dPiIpLAogICAgbigiWzAgPDAgMT5dKjwyITMgNj4iKS5zKCJoaCIpCiAgKS5nYWluKDAuMiksIC8vIGFwcGx5IGdhaW4gdG8gZHJ1bXMgb25seQoKICBjaG9yZHMub2Zmc2V0KC0xKS52b2ljaW5nKCkucygiZ21fZXBpYW5vMToxIikKKQo%3D" target="_blank" rel="noopener noreferrer">

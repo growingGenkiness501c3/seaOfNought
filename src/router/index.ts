@@ -44,10 +44,17 @@ import WIPBar from '@/components/WIPComponents/WIPBar.vue'
 import TailWindGenkiness from '@/views/TailWindGenkiness.vue'
 
 import BlenderVue from '@/views/BlenderVue.vue'
+import EightVue from '@/views/EightVue.vue'
+
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
+    {
+      path: '/EightVue',
+      name: 'EightVue',
+      component: EightVue
+    }, 
     {
       path: '/BlenderVue',
       name: 'BlenderVue',

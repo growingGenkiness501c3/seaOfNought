@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import clock from "@/components/Clock.vue"
-import zer01 from "@/components/zer01.vue"
-import zer02 from "@/components/zer02.vue"
-import zer03 from "@/components/zer03.vue"
-import zer04 from "@/components/zer04.vue"
-import zer05 from "@/components/zer05.vue"
+import zer01 from "@/components/zer0/zer01.vue"
+import zer02 from "@/components/zer0/zer02.vue"
+import zer03 from "@/components/zer0/zer03.vue"
+import zer04 from "@/components/zer0/zer04.vue"
+import zer05 from "@/components/zer0/zer05.vue"
 
 
 

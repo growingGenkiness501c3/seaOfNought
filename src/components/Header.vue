@@ -7,24 +7,24 @@ defineOptions({
 });
 </script>
 <template>
-<center><dfn class="updock-regular text-neutral-100 text-[33px]">falsus in uno, falsus in omnibus ::</dfn> <dfn class="updock-regular text-neutral-100 text-[33px]">:: no one lies better than a Christian</dfn></center>
-  <center  class="hubot-sans text-neutral-950 bg-yellow-100 text-[55px]">allostasissy@gmail.com</center>
-  <center class="bg-neutral-400 text-sky-950 text-[88px]"><span class="orbitron  text-[55px]"><strong>allostasissy.studio</strong></span> <span  class="rajdhani-bold"> [allosta{(sis)]sy}</span>  <span class="text-[55px]">studio o<span class="text-[55px] mea-culpa-regular">f</span>&nbsp; </span><span class="hubot-sans">(s<i class="material-icons" style="font-size: 66px">accessibility</i>s)</span>, <span class="updock-regular">{sissy}</span>, <span class="text-[55px]">&&nbsp; </span> <span class="orbitron text-[77px]">[allostasis]</span> </center>
+<center><dfn class="updock-regular text-neutral-100 text-[33px]">falsus in uno, falsus in omnibus ::</dfn> <dfn class="updock-regular text-neutral-100 text-[33px]">:: no one lies better than a Christian</dfn> &nbsp; &nbsp; &nbsp; &nbsp; best viewed at 100% and 3840x2160  </center>
+  <center  class="hubot-sans text-neutral-950 bg-yellow-100 text-[33px]">allostasissy@gmail.com</center>
+  <center class="bg-neutral-400 text-sky-950 text-[33px]"><span class="orbitron  text-[33px]"><strong>allostasissy.studio</strong></span> <span  class="rajdhani-bold"> [allosta{(sis)]sy}</span>  <span class="text-[33px]">studio o<span class="text-[33px] mea-culpa-regular">f</span>&nbsp; </span><span class="hubot-sans">(s<i class="material-icons" style="font-size: 33px">accessibility</i>s)</span>, <span class="updock-regular">{sissy}</span>, <span class="text-[33px]">&&nbsp; </span> <span class="orbitron text-[33px]">[allostasis]</span> </center>
 
 
-<div class="grid grid-cols-3 h-11">
+<div class="grid grid-cols-3 h-5">
   <div><hr><p class="text-right bg-[#0000ff80] text-[#fff]">right-aligned</p></div>
   <div class="place-items-center">
-    <p class="text-center bg-[#ffff0080] text-[#000] text-[33px]">⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅</p>
+    <p class="text-center bg-[#ffff0080] text-[#000] text-[11px]">⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅</p>
   </div>
   <div><hr><p class="text-left bg-[#ff000080] text-[#fff]">left-aligned</p></div>
 </div> 
 <div class="bg-[#00000077] w-full">
-  <img src="/unicorn.png" class="float-left w-77 h-auto" />
+  <img src="/unicorn.png" class="float-left w-22 h-auto" />
   <p>thou sayeth</p> 
-  <img src="/unicorn-inverted.png" class="float-right w-99 h-auto" />
+  <img src="/unicorn-inverted.png" class="float-right w-22 h-auto" />
 </div>
-<div class="grid grid-cols-[3fr_1fr_3fr] h-32">
+<div class="grid grid-cols-[3fr_1fr_3fr] h-33">
   <div class="flex items-center justify-center border border-gray-950 bg-gray-50/0 gap-1">
       <div> <img src="/color/YMC-Subtractive.png" class="w-77 object-cover rounded-md" /></div>
       <div> <img src="/color/RGB-Additive.png" class="w-77 object-cover rounded-md" /></div>

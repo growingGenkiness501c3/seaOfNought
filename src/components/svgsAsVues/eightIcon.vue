@@ -1,0 +1,17 @@
+<script setup lang="ts">
+defineOptions({
+  name: "EightVue"
+});
+</script>
+<template>
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 333 333"
+        class="w-24 fill-current"
+    >
+<path
+       style="fill:currentColor"
+       d="M 7.6570556,17.133326 -7.7677439,17.792934 -19.141138,7.3523681 -19.800747,-8.0724314 -9.3601806,-19.445826 6.0646189,-20.105434 17.438013,-9.6648681 18.097622,5.7599314 Z"
+       transform="matrix(8.0834564,0.36706804,-0.36706713,8.0834569,172.95915,176.15918)" />
+    </svg>
+</template>
