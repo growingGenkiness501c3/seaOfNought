@@ -23,13 +23,36 @@ import zinc from "@/components/verttailwindbar/zinc.vue"
 import green from "@/components/verttailwindbar/green.vue"
 import slate from "@/components/verttailwindbar/slate.vue"
 import turtleCompiled from "@/components/turtleVuesByLayer/turtleCompiled.vue"
+import sailboatCompiled from "@/components/sailboat/sailboatCompiled.vue"
 
 defineOptions({
   name: "WIPBar"
 });
 </script>
 <template>
-<turtleCompiled />
+
+<div class="grid grid-cols-3 grid-rows-2 gap-4 p-4">
+  <div class="flex items-center justify-center">
+    <turtleCompiled />
+  </div>
+  <div class="bg-sky-950/75 border border-sky-500 flex items-center justify-center">
+    <sailboatCompiled />
+  </div>
+  <div class="flex items-center justify-center">
+    <turtleCompiled />
+  </div>
+  <div class="flex items-center justify-center">
+    <turtleCompiled />
+  </div>
+  <div class="flex items-center justify-center">
+    <turtleCompiled />
+  </div>
+  <div class="flex items-center justify-center">
+    <turtleCompiled />
+  </div>
+</div>
+
+
 
 <span class="text-[99px] text-[#aa00aa]"> move WIPBar and ÷ </span>
 <center>

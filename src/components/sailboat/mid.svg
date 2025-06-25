@@ -4,43 +4,18 @@
 <svg
    version="1.1"
    id="svg1"
-   width="2304"
-   height="2304"
-   viewBox="0 0 2304 2304"
-   sodipodi:docname="mid.svg"
-   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   width="2232"
+   height="2230"
+   viewBox="0 0 2232 2230"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs1" />
-  <sodipodi:namedview
-     id="namedview1"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     showgrid="false"
-     inkscape:zoom="0.20996094"
-     inkscape:cx="1066.8651"
-     inkscape:cy="1033.5256"
-     inkscape:window-width="1696"
-     inkscape:window-height="1278"
-     inkscape:window-x="1869"
-     inkscape:window-y="739"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="g1" />
   <g
-     inkscape:groupmode="layer"
-     inkscape:label="Image"
      id="g1">
     <path
        style="fill:#000000"
-       d="M 168.41667,1711.0833 C 168.1875,1710.8542 168,1679.4667 168,1641.3333 V 1572 h 970.5 970.5 v 69.75 69.75 h -970.0833 c -533.54587,0 -970.27087,-0.1875 -970.50003,-0.4167 z"
+       d="M 144.41667,1669.0833 C 144.1875,1668.8542 144,1637.4673 144,1599.3346 v -69.332 l 381.25,-0.2513 c 209.6875,-0.1382 646.4125,-0.138 970.5,4e-4 l 589.25,0.2517 v 69.7483 69.7483 h -970.0833 c -533.54587,0 -970.27087,-0.1875 -970.50003,-0.4167 z"
        id="path1" />
   </g>
 </svg>

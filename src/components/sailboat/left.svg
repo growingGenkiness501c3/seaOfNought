@@ -4,43 +4,18 @@
 <svg
    version="1.1"
    id="svg1"
-   width="2304"
-   height="2304"
-   viewBox="0 0 2304 2304"
-   sodipodi:docname="left.svg"
-   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   width="2232"
+   height="2230"
+   viewBox="0 0 2232 2230"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs1" />
-  <sodipodi:namedview
-     id="namedview1"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     showgrid="false"
-     inkscape:zoom="0.41992188"
-     inkscape:cx="1245.4698"
-     inkscape:cy="1697.9349"
-     inkscape:window-width="1696"
-     inkscape:window-height="1278"
-     inkscape:window-x="1869"
-     inkscape:window-y="739"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="g1" />
   <g
-     inkscape:groupmode="layer"
-     inkscape:label="Image"
      id="g1">
     <path
        style="fill:#000000"
-       d="M 687.24966,880.5 C 820.48682,614.025 929.83675,396 930.24952,396 930.66228,396 931,614.025 931,880.5 V 1365 H 688.00014 445.00027 Z"
+       d="m 520.25,2223.25 c 283.1125,-0.1386 746.3875,-0.1386 1029.5,0 283.1125,0.1386 51.475,0.2519 -514.75,0.2519 -566.225,0 -797.8625,-0.1133 -514.75,-0.2519 z m -96.95026,-901.9113 c -0.41515,-1.0818 83.13865,-169.214 239.5647,-482.06688 192.39183,-384.78467 240.54388,-480.33983 241.91888,-480.07503 1.61899,0.31178 1.73096,27.74335 1.96771,482.0669 L 907.00206,1323 H 665.46965 c -224.1943,0 -241.57818,-0.1193 -242.16991,-1.6613 z"
        id="path1" />
   </g>
 </svg>
