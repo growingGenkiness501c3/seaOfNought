@@ -49,7 +49,7 @@ export default {
 <template>
    <svg viewBox="0 0 1111 1111">
       <circle
-         style="fill: one;"
+         :style="{fill: one}"
          cx="555.5"
          cy="555.5"
          r="555.5" />
