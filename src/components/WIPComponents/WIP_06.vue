@@ -1,57 +1,18 @@
 
 <script setup lang="ts">
-import stone from "@/components/verttailwindbar/stone.vue"
-import lime from "@/components/verttailwindbar/lime.vue"
-import neutral from "@/components/verttailwindbar/neutral.vue"
-import yellow from "@/components/verttailwindbar/yellow.vue"
-import amber from "@/components/verttailwindbar/amber.vue"
-import orange from "@/components/verttailwindbar/orange.vue"
-import red from "@/components/verttailwindbar/red.vue"
-import rose from "@/components/verttailwindbar/rose.vue"
-import pink from "@/components/verttailwindbar/pink.vue"
-import fuchsia from "@/components/verttailwindbar/fuchsia.vue"
-import gray from "@/components/verttailwindbar/gray.vue"
-import purple from "@/components/verttailwindbar/purple.vue"
-import violet from "@/components/verttailwindbar/violet.vue"
-import indigo from "@/components/verttailwindbar/indigo.vue"
-import blue from "@/components/verttailwindbar/blue.vue"
-import sky from "@/components/verttailwindbar/sky.vue"
-import cyan from "@/components/verttailwindbar/cyan.vue"
-import teal from "@/components/verttailwindbar/teal.vue"
-import emerald from "@/components/verttailwindbar/emerald.vue"
-import zinc from "@/components/verttailwindbar/zinc.vue"
-import green from "@/components/verttailwindbar/green.vue"
-import slate from "@/components/verttailwindbar/slate.vue"
-
-import turtleCompiled from "@/components/turtle/turtleCompiled.vue"
-
-import turtle_00 from "@/components/turtle/turtle_00.vue"
-import turtle_01 from "@/components/turtle/turtle_01.vue"
-
-
-import sailboatCompiled from "@/components/sailboat/sailboatCompiled.vue"
-
 import sailboat_00 from "@/components/sailboat/sailboat_00.vue"
-import sailboat_01 from "@/components/sailboat/sailboat_01.vue"
-
-import WIP_00 from "@/components/WIPComponents/WIP_00.vue"
-import WIP_01 from "@/components/WIPComponents/WIP_01.vue"
-
-import nazCompiled from "@/components/naz/nazCompiled.vue"
-import naz_00 from "@/components/naz/naz_00.vue"
-
+import turtle_00 from "@/components/turtle/turtle_00.vue"
 
 defineOptions({
-  name: "WIPBar"
+  name: "WIP_06"
 });
 </script>
 <template>
-  <h1>WIPBar</h1>
-  <nazCompiled />
-  <naz_00 />
+<h1>WIP_06</h1>
+
 <div class="grid grid-cols-[repeat(32,minmax(0,1fr))] w-full h-6 hubot-sans text-[33px] gap-1 p-1 cursor-pointer text-center">
   <div class=""><RouterLink class="hover:text-pink-300 flex justify-center items-center text-sky-300" to="/WIP_00"> ⓪ </RouterLink><sailboat_00 /><turtle_00 /></div>
-  <div class=""><RouterLink class="hover:text-pink-300 flex justify-center items-center text-sky-300" to="/WIP_01"> ① </RouterLink><sailboat_01 /><turtle_01 /></div>
+  <div class=""><RouterLink class="hover:text-pink-300 flex justify-center items-center text-sky-300" to="/WIP_01"> ① </RouterLink></div>
   <div class=""><RouterLink class="hover:text-pink-300 flex justify-center items-center text-sky-300" to="/WIP_02"> ② </RouterLink></div>
   <div class=""><RouterLink class="hover:text-pink-300 flex justify-center items-center text-sky-300" to="/WIP_03"> ③ </RouterLink></div>
   <div class=""><RouterLink class="hover:text-pink-300 flex justify-center items-center text-sky-300" to="/WIP_04"> ④ </RouterLink></div>
@@ -84,7 +45,6 @@ defineOptions({
   <div class=""><RouterLink class="hover:text-pink-300 flex justify-center items-center text-sky-300" to="/WIP_31"> ㉛ </RouterLink></div>
 </div>
 <br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>s
 <div class="grid grid-cols-3 grid-rows-2 gap-4 p-4">
   <div class="flex items-center justify-center">
     <turtleCompiled />
@@ -5921,6 +5881,8 @@ zoom_out_map</i></a></div>
 </nav>
 
 </center>
+
+
 
 
 
