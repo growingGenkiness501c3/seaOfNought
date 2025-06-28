@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import clock from "@/components/Clock.vue"
+
 defineOptions({
 name: "zer05"
 });
