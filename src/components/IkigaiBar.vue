@@ -29,7 +29,7 @@ defineOptions({
   <dfn class="text-[11px] flex items-center justify-center">ikigai</dfn>
   </div>
   <div class="border border-yellow-800 bg-sky-200/50">
-    <RouterLink class="hover:text-indigo-500 flex w-12 h-12 justify-center items-center p-2 text-yellow-800" to="/WIPBar">
+    <RouterLink class="hover:text-indigo-500 flex w-12 h-12 justify-center items-center p-2 text-yellow-800" to="/WIP">
       <i class="material-icons" style="font-size: 33px">
         linear_scale
       </i>
@@ -89,12 +89,12 @@ defineOptions({
     <dfn class="text-[11px] flex items-center justify-center">post</dfn>
     </div>
   <div class="border border-yellow-50 bg-sky-950/50">
-    <RouterLink class="hover:text-indigo-500 flex w-12 h-12 justify-center items-center p-2 text-yellow-50" to="/routerEverythingFlexBar">
+    <RouterLink class="hover:text-indigo-500 flex w-12 h-12 justify-center items-center p-2 text-yellow-50" to="/xhibition">
       <i class="material-icons" style="font-size: 33px">
         select_all
       </i>
     </RouterLink>
-    <dfn class="text-[11px] flex items-center justify-center">everything</dfn>
+    <dfn class="text-[11px] flex items-center justify-center">xhibition</dfn>
     </div>
   <div>
     <RouterLink class="text-[55px]" to="/wccScaffolding">

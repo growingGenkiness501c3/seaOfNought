@@ -3,6 +3,47 @@
 defineOptions({
   name: "xhibition"
 });
+
+import stone from "@/components/verttailwindbar/stone.vue"
+import lime from "@/components/verttailwindbar/lime.vue"
+import neutral from "@/components/verttailwindbar/neutral.vue"
+import yellow from "@/components/verttailwindbar/yellow.vue"
+import amber from "@/components/verttailwindbar/amber.vue"
+import orange from "@/components/verttailwindbar/orange.vue"
+import red from "@/components/verttailwindbar/red.vue"
+import rose from "@/components/verttailwindbar/rose.vue"
+import pink from "@/components/verttailwindbar/pink.vue"
+import fuchsia from "@/components/verttailwindbar/fuchsia.vue"
+import gray from "@/components/verttailwindbar/gray.vue"
+import purple from "@/components/verttailwindbar/purple.vue"
+import violet from "@/components/verttailwindbar/violet.vue"
+import indigo from "@/components/verttailwindbar/indigo.vue"
+import blue from "@/components/verttailwindbar/blue.vue"
+import sky from "@/components/verttailwindbar/sky.vue"
+import cyan from "@/components/verttailwindbar/cyan.vue"
+import teal from "@/components/verttailwindbar/teal.vue"
+import emerald from "@/components/verttailwindbar/emerald.vue"
+import zinc from "@/components/verttailwindbar/zinc.vue"
+import green from "@/components/verttailwindbar/green.vue"
+import slate from "@/components/verttailwindbar/slate.vue"
+
+import turtleCompiled from "@/components/turtle/turtleCompiled.vue"
+
+import turtle_00 from "@/components/turtle/turtle_00.vue"
+import turtle_01 from "@/components/turtle/turtle_01.vue"
+
+
+import sailboatCompiled from "@/components/sailboat/sailboatCompiled.vue"
+
+import sailboat_00 from "@/components/sailboat/sailboat_00.vue"
+import sailboat_01 from "@/components/sailboat/sailboat_01.vue"
+
+import WIP_00 from "@/components/WIPComponents/WIP_00.vue"
+import WIP_01 from "@/components/WIPComponents/WIP_01.vue"
+
+import nazCompiled from "@/components/naz/nazCompiled.vue"
+import naz_00 from "@/components/naz/naz_00.vue"
+
 import aardvarkComponent from '@/components/aardvarkComponent.vue'
 import Clock from '@/components/Clock.vue'
 import Flag from '@/components/Flag.vue'
@@ -33,11 +74,310 @@ import skyTop from '@/components/color/skyTop.vue'
 import whiteFlag from '@/components/color/whiteFlag.vue'
 import yellowFlag from '@/components/color/yellowFlag.vue'
 
+import backgroundImages from "@/components/color/backgroundImages.vue"
+
+import Footer from "@/components/Footer.vue"
+import Header from "@/components/Header.vue"
+
+import zer01 from "@/components/zer0/zer04.vue"
+import zer02 from "@/components/zer0/zer05.vue"
+import zer03 from "@/components/zer0/zer06.vue"
+import zer04 from "@/components/zer0/zer04.vue"
+import zer05 from "@/components/zer0/zer05.vue"
+import zer06 from "@/components/zer0/zer06.vue"
+
+import fontBar from "@/components/fontBar.vue"
+import hsl60Bar from "@/components/color/hsl60Bar.vue"
 
 </script>
 <template>
-🗒️亗ᨖ <hr>
+🗒️亗ᨖ ᨖ亗🗒️
 <backgroundImages>
+<hr>
+<h1>stone</h1>
+<stone />
+<hr>
+<h1>lime</h1>
+<lime />
+<hr>
+<h1>neutral</h1>
+<neutral />
+<hr>
+<h1>yellow</h1>
+<yellow />
+<hr>
+<h1>amber</h1>
+<amber />
+<hr>
+<h1>orange</h1>
+<orange />
+<hr>
+<h1>red</h1>
+<red />
+<hr>
+<h1>rose</h1>
+<rose />
+<hr>
+<h1>pink</h1>
+<pink />
+<hr>
+<h1>fuchsia</h1>
+<fuchsia />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>purple</h1>
+<purple />
+<hr>
+<h1>violet</h1>
+<violet />
+<hr>
+<h1>indigo</h1>
+<indigo />
+<hr>
+<h1>blue</h1>
+<blue />
+<hr>
+<h1>sky</h1>
+<sky />
+<hr>
+<h1>cyan</h1>
+<cyan />
+<hr>
+<h1>teal</h1>
+<teal />
+<hr>
+<h1>emerald</h1>
+<emerald />
+<hr>
+<h1>zinc</h1>
+<zinc />
+<hr>
+<h1>green</h1>
+<green />
+<hr>
+<h1>slate</h1>
+<gray />
+<hr>
+<h1>turtleCompiled</h1>
+<turtleCompiled />
+<hr>
+<h1>turtle_00</h1>
+<turtle_00 />
+<hr>
+<h1>turtle_01</h1>
+<turtle_01 />
+<hr>
+<h1>sailboatCompiled</h1>
+<sailboatCompiled />
+<hr>
+<h1>sailboat_00</h1>
+<sailboat_00 />
+<hr>
+<h1>sailboat_01</h1>
+<sailboat_01 />
+<hr>
+<h1>WIP_00</h1>
+<WIP_00 />
+<hr>
+<h1>WIP_01</h1>
+<WIP_01 />
+<hr>
+<h1>nazCompiled</h1>
+<nazCompiled />
+<hr>
+<h1>naz_00</h1>
+<naz_00 />
+<hr>
+<h1>aardvarkComponent</h1>
+<aardvarkComponent />
+<hr>
+<h1>Clock</h1>
+<Clock />
+<hr>
+<h1>Flag</h1>
+<Flag />
+<hr>
+<h1>helloWorld</h1>
+<helloWorld />
+<hr>
+<h1>NaughtSeaHeader</h1>
+<NaughtSeaHeader />
+<hr>
+<h1>NavigationBar</h1>
+<NavigationBar />
+<hr>
+<h1>NavigationBars</h1>
+<NavigationBars />
+<hr>
+<h1>NavigationButtonBar</h1>
+<NavigationButtonBar />
+<hr>
+<h1>NavigationRouterBar</h1>
+<NavigationRouterBar />
+<hr>
+<h1>oO0</h1>
+<oO0 />
+<hr>
+<h1>grseaOfNoughtBaray</h1>
+<seaOfNoughtBar />
+<hr>
+<h1>seaOfNoughtNavigationBar</h1>
+<seaOfNoughtNavigationBar />
+<hr>
+<h1>seaOfNoughtShipsLog</h1>
+<seaOfNoughtShipsLog />
+<hr>
+<h1>shipsLogHeader</h1>
+<shipsLogHeader />
+<hr>
+<h1>SplitOneTwoThree</h1>
+<SplitOneTwoThree />
+<hr>
+<h1>wordBar</h1>
+<wordBar />
+<hr>
+<h1>yearsBar</h1>
+<yearsBar />
+<hr>
+<h1>zer0Oo</h1>
+<zer0Oo />
+<hr>
+<h1>blackFlag</h1>
+<blackFlag />
+<hr>
+<h1>cyanFlag</h1>
+<cyanFlag />
+<hr>
+<h1>hueBar</h1>
+<hueBar />
+<hr>
+<h1>magentaFlag</h1>
+<magentaFlag />
+<hr>
+<h1>rainbowDots</h1>
+<rainbowDots />
+<hr>
+<h1>skyBottom</h1>
+<skyBottom />
+<hr>
+<h1>skyMini</h1>
+<skyMini />
+<hr>
+<h1>skyTop</h1>
+<skyTop />
+<hr>
+<h1>whiteFlag</h1>
+<whiteFlag />
+<hr>
+<h1>yellowFlag</h1>
+<yellowFlag />
+<hr>
+<h1>slate</h1>
+<slate />
+<hr>
+<h1>Footer</h1>
+<Footer />
+<hr>
+<h1>Header</h1>
+<Header />
+<hr>
+<h1>zer01</h1>
+<zer01 />
+<hr>
+<h1>zer02</h1>
+<zer02 />
+<hr>
+<h1>zer03</h1>
+<zer03 />
+<hr>
+<h1>zer04</h1>
+<zer04 />
+<hr>
+<h1>zer05</h1>
+<zer05 />
+<hr>
+<h1>zer06</h1>
+<zer06 />
+<hr>
+<h1>fontBar</h1>
+<fontBar />
+<hr>
+<h1>hsl60Bar</h1>
+<hsl60Bar />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+
+
+<hr>
+<lime />
+<br />
+<br /><br /><br /><br /><br /><br />
 
 <div class="grid grid-cols-[repeat(6,minmax(0,1fr))] w-full h-6 gap-2 p-5">
   <div class="border border-sky-700" >

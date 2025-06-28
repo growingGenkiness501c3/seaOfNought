@@ -1,78 +1,44 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from "vue-router"
-
 import skyTop from "@/components/color/skyTop.vue"
 import skyBottom from "@/components/color/skyBottom.vue"
 import backgroundImages from "@/components/color/backgroundImages.vue"
-
-import Header from "@/components/Header.vue"
+import { RouterLink, RouterView } from "vue-router"
 import Footer from "@/components/Footer.vue"
 import hueBar from "@/components/color/hueBar.vue"
-import hsl60Bar from "@/components/color/hsl60Bar.vue"
+import Header from "@/components/Header.vue"
 
 import zer04 from "@/components/zer0/zer04.vue"
 import zer05 from "@/components/zer0/zer05.vue"
 import zer06 from "@/components/zer0/zer06.vue"
 
 import fontBar from "@/components/fontBar.vue"
-
-import IkigaiBar from "@/components/IkigaiBar.vue"
-import AllostasissyBar from "@/components/AllostasissyBar.vue"
-import Ikigai from "./components/Ikigai.vue"
-
+import hsl60Bar from "@/components/color/hsl60Bar.vue"
+import Xhibition  from "@/views/Xhibition.vue"
 </script>
 <template>
 <backgroundImages>
 <Header />
-<div class="grid grid-cols-[1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr] h-33 flex items-center justify-center">
-  <div class="transform scale-x-[-1]">
-    <img src="/unicorn-inverted.png" class="" />
-  </div>
-  <div>
-    <img src="/color/YMC-Subtractive.png" class="object-cover rounded-md" />
-  </div>
-  <div>
-    <img src="/color/RGB-Additive.png" class="object-cover rounded-md" />
-  </div>
-  <div>
-    <img src="/color/YRB-Paint.png" class="object-cover rounded-md" />
-  </div>
-  <div>
-    <img src="/color/BWG circles.png" class="object-cover rounded-md rotate-180" />
-  </div>
-  <div class="flex items-center justify-center p-5">
-    <IkigaiBar />
-  </div>
-  <div class="flex items-center justify-center p-5">
-    <AllostasissyBar />
-  </div>
-  <div class="flex items-top justify-center border border-gray-950 bg-gray-50/50">
-    <div>
-      <img src="/Allostatic_load_sketch.svg" class="w-full" alt="Description of image" />
-    </div>
-  </div>
-    <div class="transform scale-x-[-1]">
-      <img src="/unicorn.png" class="" />
-    </div>
-  </div>
-<br><br><br>
-
 <hueBar />
 <hsl60Bar />
 <div class="grid grid-cols-[1fr_22fr] gap-1">
+  <!--
+  <div class="bg-gray-950/75 p-1 w-120">
+    <zer01 /><zer02 /><zer03 />
+  </div>
+  -->
   <div class="bg-gray-950/75 p-1 w-99">
     <zer06 />
     <zer05 />
     <zer04 />
+    <Footer />  
   </div>
   <div class="bg-sky-950/50 p-2 w-full">
-    <div class="flex flex-col items-center justify-top">
-      <div class="text-xl"><skyTop /><br></div>
-        <span  class="text-9xl">ن🖵無 </span><br>
-
+  <!--<div class="bg-sky-950/50 p-2 w-1111">-->
+    <div class="flex flex-col items-center justify-top h-55">
+      <div class="text-xl"><skyTop /><skyTop /><br></div>
+        <span  class="text-4xl">ن🖵無 </span><br>
           <RouterView />
-
-        <span  class="text-9xl">無🖵ن </span><br>
+        <span  class="text-4xl">無🖵ن </span><br>
         <span class="text-2xl"><skyBottom /><skyBottom /></span> 
     </div>
   </div>

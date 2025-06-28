@@ -1,18 +1,13 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import CrowsNest from '@/views/CrowsNest.vue'
-import Forecastle from '@/views/Forecastle.vue'
-import Anchor from '@/views/Anchor.vue'
-import vocabulary from '@/views/vocabulary.vue'
-import Library from '@/views/Library.vue'
-import RoyalWeThePeople from '@/views/RoyalWeThePeople.vue'
-import RoyalWe from '@/views/RoyalWe.vue'
-import Xhibition from '@/views/Xhibition.vue'
-import AardvarkVue from '@/views/aardvarkVue.vue'
-import SeaOfNought from '@/views/NaughtSea.vue'
-import Orientation from '@/views/Orientation.vue'
-import Dailies from '@/views/Dailies.vue'
-import GrowingGenkiness from '@/views/GrowingGenkiness.vue'
-import wccScaffolding from '@/views/wccScaffolding.vue'
+import CrowsNest from '@/views/else/CrowsNest.vue'
+import Forecastle from '@/views/else/Forecastle.vue'
+import Anchor from '@/views/else/Anchor.vue'
+import vocabulary from '@/views/else/vocabulary.vue'
+import Library from '@/views/else/Library.vue'
+import AardvarkVue from '@/views/main/aardvarkVue.vue'
+import Orientation from '@/views/else/Orientation.vue'
+import Dailies from '@/views/else/Dailies.vue'
+import wccScaffolding from '@/views/else/wccScaffolding.vue'
 
 import amberVue from '@/views/tailwindColors/amberVue.vue'
 import blueVue  from '@/views/tailwindColors/blueVue.vue'
@@ -37,9 +32,8 @@ import violetVue from '@/views/tailwindColors/violetVue.vue'
 import yellowVue from '@/views/tailwindColors/yellowVue.vue'
 import zincVue from '@/views/tailwindColors/zincVue.vue'
 
-import Ikigai from '@/components/Ikigai.vue'
 import routerEverythingFlexBar from '@/components/menus/routerEverythingFlexBar.vue'
-import WIPBar from '@/components/WIPComponents/WIPBar.vue'
+
 import WIP_00 from '@/components/WIPComponents/WIP_00.vue'
 import WIP_01 from '@/components/WIPComponents/WIP_01.vue'
 import WIP_02 from '@/components/WIPComponents/WIP_02.vue'
@@ -74,16 +68,87 @@ import WIP_30 from '@/components/WIPComponents/WIP_30.vue'
 import WIP_31 from '@/components/WIPComponents/WIP_31.vue'
 
 
+import EightVue from '@/views/else/EightVue.vue'
 
+
+
+
+
+import SeaOfNought from '@/views/NaughtSea.vue'
+import Allostasissy from '@/views/Allostasissy.vue'
+import BlenderVue from '@/views/main/BlenderVue.vue'
+import GrowingGenkiness from '@/views/Main/GrowingGenkiness.vue'
+import Ikigai from '@/components/Ikigai.vue'
+import RoyalWe from '@/views/else/RoyalWe.vue'
+import RoyalWeThePeople from '@/views/else/RoyalWeThePeople.vue'
 import TailWindGenkiness from '@/views/TailWindGenkiness.vue'
-
-import BlenderVue from '@/views/BlenderVue.vue'
-import EightVue from '@/views/EightVue.vue'
-
+import WIP from '@/views/WIP.vue'
+import WIPBar from '@/components/WIPComponents/WIPBar.vue'
+import Xhibition from '@/views/Xhibition.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
+    {
+      path: '/',
+      name: 'seaOfNought',
+      component: SeaOfNought
+    },
+
+    {
+      path: '/Allostasissy',
+      name: 'Allostasissy',
+      component: Allostasissy
+    }, 
+    {
+      path: '/BlenderVue',
+      name: 'BlenderVue',
+      component: BlenderVue
+    }, 
+    {
+      path: '/GrowingGenkiness',
+      name: 'GrowingGenkiness',
+      component: GrowingGenkiness
+    },
+    {
+      path: '/royalwe',
+      name: 'royalwe',
+      component: RoyalWe
+    },
+    {
+      path: '/royalwethepeople',
+      name: 'royalwethepeople',
+      component: RoyalWeThePeople
+    },
+
+    {
+      path: '/TailWindGenkiness',
+      name: 'TailWindGenkiness',
+      component: TailWindGenkiness
+    },
+    {
+      path: '/WIP',
+      name: 'WIP',
+      component: WIP
+    }, 
+
+    {
+      path: '/WIPBar',
+      name: 'WIPBar',
+      component: WIPBar
+    }, 
+
+    {
+      path: '/xhibition',
+      name: 'xhibition',
+      component: Xhibition
+    },
+
+
+
+
+
+
     {
       path: '/WIP_00',
       name: 'WIP_00',
@@ -252,22 +317,6 @@ const router = createRouter({
       name: 'EightVue',
       component: EightVue
     }, 
-    {
-      path: '/BlenderVue',
-      name: 'BlenderVue',
-      component: BlenderVue
-    }, 
-    {
-      path: '/TailWindGenkiness',
-      name: 'TailWindGenkiness',
-      component: TailWindGenkiness
-    },
-
-    {
-      path: '/WIPBar',
-      name: 'WIPBar',
-      component: WIPBar
-    }, 
 
     {
       path: '/Ikigai',
@@ -392,11 +441,6 @@ const router = createRouter({
     }, 
 
     {
-      path: '/',
-      name: 'seaOfNought',
-      component: SeaOfNought
-    },
-    {
       path: '/aardvarkVue',
       name: 'aardvarkVue',
       component: AardvarkVue
@@ -422,11 +466,6 @@ const router = createRouter({
       component: Forecastle
     },
     {
-      path: '/GrowingGenkiness',
-      name: 'GrowingGenkiness',
-      component: GrowingGenkiness
-    },
-    {
       path: '/Library',
       name: 'library',
       component: Library
@@ -437,24 +476,9 @@ const router = createRouter({
       component: Orientation
     },
     {
-      path: '/royalwe',
-      name: 'royalwe',
-      component: RoyalWe
-    },
-    {
-      path: '/royalwethepeople',
-      name: 'royalwethepeople',
-      component: RoyalWeThePeople
-    },
-    {
       path: '/vocabulary',
       name: 'vocabulary',
       component: vocabulary
-    },
-    {
-      path: '/xhibition',
-      name: 'xhibition',
-      component: Xhibition
     },
     {
       path: '/wccScaffolding',
