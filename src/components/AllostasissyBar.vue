@@ -9,6 +9,7 @@ defineOptions({
 <template>
   <div>
   <table>
+    <tbody>
     <tr>
       <td>
         <div><div class="border border-pink-50 bg-gray-950/50 w-22"><a class="hue060" href="https://allostasissy.studio"  target="_blank" rel="noopener noreferrer"> <i class="material-icons  hover:text-sky-500" style="font-size: 55px">mood_bad</i></a></div></div>
@@ -49,8 +50,13 @@ defineOptions({
         <div><div class="border border-pink-600 bg-gray-400/80 w-22">wikiversity</div></div>
       </td>
     </tr>
+  </tbody>
+
   </table>
+
   <table class=" text-[11px] alumni-sans-pinstripe-regular text-center">
+        <tbody>
+
   <tr>
     <td class="w-[8%]">
       <div class="border hue060 orbitron">hue<br> 60°</div>
@@ -78,6 +84,8 @@ defineOptions({
       <div class="border hue090 orbitron">hue<br> 90°</div>
     </td>
   </tr>
+      </tbody>
+
 </table>
 </div>
 
