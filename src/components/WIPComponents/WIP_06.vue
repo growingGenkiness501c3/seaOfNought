@@ -9,6 +9,94 @@ defineOptions({
 </script>
 <template>
 <h1>WIP_06</h1>
+adding a second router
+
+Great question! Let’s break this down clearly.
+
+When you say **"second place for router"**, I assume you mean **adding a second `router-view` or a secondary outlet for your routes**, which is commonly done in **Vue.js** (Vue Router) or similar frameworks.
+
+---
+
+## ✅ In Vue with Tailwind
+
+By default, you have one `router-view`, which renders your matched route component.
+But **Vue Router** supports **named views**, which let you have **multiple "places" where routes render**.
+
+---
+
+### 🗺 Example of named views
+
+**1️⃣ Define your layout (template)**
+
+```vue
+<template>
+  <div class="flex flex-col h-screen">
+    <header class="bg-blue-500 text-white p-4">Header</header>
+    <main class="flex flex-1">
+      <!-- Primary router view -->
+      <router-view class="flex-1 p-4" />
+      <!-- Secondary router view -->
+      <router-view name="sidebar" class="w-64 bg-gray-100 p-4" />
+    </main>
+    <footer class="bg-blue-500 text-white p-4">Footer</footer>
+  </div>
+</template>
+```
+
+Here we used Tailwind utilities (`flex`, `p-4`, `bg-gray-100`, etc.) to style the layout.
+
+---
+
+**2️⃣ Define routes with named views**
+
+```js
+import MainContent from './views/MainContent.vue';
+import SidebarContent from './views/SidebarContent.vue';
+
+export default [
+  {
+    path: '/example',
+    components: {
+      default: MainContent,   // default is the unnamed router-view
+      sidebar: SidebarContent // this matches router-view name="sidebar"
+    }
+  }
+];
+```
+
+---
+
+### 💡 What this does
+
+* `<router-view />` (without name) uses `components.default`.
+* `<router-view name="sidebar" />` uses `components.sidebar`.
+
+---
+
+## ✅ Using Tailwind for layout
+
+You can use Tailwind classes to control **widths**, **flex behavior**, **backgrounds**, etc., for each router view container.
+
+Example flex layout (main + sidebar):
+
+```html
+<main class="flex">
+  <router-view class="flex-1 p-4" />
+  <router-view name="sidebar" class="w-64 bg-gray-200 p-4" />
+</main>
+```
+
+---
+
+## 💬 Summary
+
+✅ Use **named views** to add a second router view.
+✅ Style each view container using Tailwind.
+✅ Define multiple components in your routes via `components` object.
+
+---
+
+🎁 **If you'd like, I can also create a full working Vue example (with App.vue, router file, and sample components), or show it for a different framework like React (with nested routes). Just say!**
 
 <div class="grid grid-cols-[repeat(32,minmax(0,1fr))] w-full h-6 hubot-sans text-[33px] gap-1 p-1 cursor-pointer text-center">
   <div class=""><RouterLink class="hover:text-pink-300 flex justify-center items-center text-sky-300" to="/WIP_00"> ⓪ </RouterLink><sailboat_00 /><turtle_00 /></div>

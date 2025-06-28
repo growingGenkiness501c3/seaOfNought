@@ -15,12 +15,13 @@ import zer05 from "@/components/zer0/zer05.vue"
 import zer06 from "@/components/zer0/zer06.vue"
 
 import fontBar from "@/components/fontBar.vue"
+import hsl60Bar from "./components/color/hsl60Bar.vue"
 </script>
 <template>
 <backgroundImages>
 <Header />
-
 <hueBar />
+<hsl60Bar />
 <div class="grid grid-cols-[1fr_22fr] gap-1">
   <!--
   <div class="bg-gray-950/75 p-1 w-120">
@@ -31,32 +32,28 @@ import fontBar from "@/components/fontBar.vue"
     <zer06 />
     <zer05 />
     <zer04 />
-    <center><Footer /></center>     
+    <Footer />  
   </div>
   <div class="bg-sky-950/50 p-2 w-full">
   <!--<div class="bg-sky-950/50 p-2 w-1111">-->
-    <center>
+    <div class="flex flex-col items-center justify-top h-55">
       <div class="text-xl"><skyTop /><skyTop /><br></div>
         <span  class="text-4xl">ن🖵無 </span><br>
           <RouterView />
         <span  class="text-4xl">無🖵ن </span><br>
         <span class="text-2xl"><skyBottom /><skyBottom /></span> 
-
-        <center></center>        
-      <span class="text-2xl"><skyBottom /><skyBottom /></span> 
-    </center>
+    </div>
   </div>
 </div>
-
-<center>
-<div class="text-9xl"><skyTop /><skyTop /></div>
-<div class="text-6xl"><skyTop /><skyTop /></div>
-<div class="text-4xl"><skyTop /><skyTop /></div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="flex flex-col items-center justify-center h-55">
+<div class="text-9xl"><skyTop /></div>
+<div class="text-6xl"><skyTop /></div>
+<div class="text-4xl"><skyTop /></div>
 <div class="text-xl"><skyTop /><skyTop /></div>
 <div class="text-sm"><skyTop /><skyTop /></div>
 <skyTop /><skyTop /><br>
-</center>
-
+</div>
 3:16 PM
 Message from you, 97124, Friday, June 20 2025, 3:16 PM.
 97124
