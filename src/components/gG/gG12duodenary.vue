@@ -62,7 +62,7 @@ defineOptions({
   <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊿</a></div>
 </div>
 <br>
-<center><div class="grid grid-cols-12 gap-10 p-5 text-[18px] alumni-sans-pinstripe-regular">
+<div><div class="grid grid-cols-12 gap-10 p-5 text-[18px] alumni-sans-pinstripe-regular">
   <div class="p-2 border hue060 orbitron">January</div>
   <div class="p-2 border hue030 orbitron">February</div>
   <div class="p-2 border hue000 orbitron">March</div>
@@ -75,7 +75,7 @@ defineOptions({
   <div class="p-2 border hue150 orbitron">October</div>
   <div class="p-2 border hue120 orbitron">November</div>
   <div class="p-2 border hue090 orbitron">December</div>
-</div></center>
+</div></div>
 <div class="grid grid-cols-[repeat(51,minmax(0,1fr))] w-full h-6 gap-2 p-4 alumni-sans-pinstripe-regular text-[22px]">
   <div class="bg-[hsl(0,0%,0%,0%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">75</a></div>
   <div class="bg-[hsl(0,0%,2%,0%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">76</a></div>

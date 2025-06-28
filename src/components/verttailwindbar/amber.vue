@@ -5,7 +5,7 @@ defineOptions({
 });
 </script>
 <template>
-<center>
+<div>
 
   <div>
     <div class="text-[66px] p-2 text-amber-400 hover:text-sky-400 border border-amber-400 bg-amber-400/25 cursor-pointer text-[55px]">
@@ -90,5 +90,5 @@ defineOptions({
       </div>
     </div>
   </div>  
-</center>
+</div>
 </template>

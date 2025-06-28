@@ -10,7 +10,7 @@ defineOptions({
 </script>
 <template>
 
-<center>
+<div>
 <div class="grid grid-cols-72 gap-0 p-0 text-[11px] alumni-sans-pinstripe-regular">
   <div class="p-2 border bg-[hsl(60,50%,50%)]/50 text-[hsl(60,50%,70%)]">60°</div>
   <div class="p-2 border bg-[hsl(55,50%,50%)]/50 text-[hsl(55,50%,70%)]">55°</div>
@@ -644,6 +644,6 @@ defineOptions({
   <div class="p-2 border bg-[hsl(80,50%,25%)]/50 text-[hsl(80,50%,70%)]">80°</div>
   <div class="p-2 border bg-[hsl(75,50%,25%)]/50 text-[hsl(75,50%,70%)]">75°</div>
 </div>
-</center>
+</div>
 
 </template>

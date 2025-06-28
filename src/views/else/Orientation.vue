@@ -7,7 +7,7 @@ defineOptions({
 });
 </script>
 <template>
-<center class="text-9xl">🧭</center>
+<div class="text-9xl">🧭</div>
 <div>🏠<br>
    home<br>
    sea of Nought<br>

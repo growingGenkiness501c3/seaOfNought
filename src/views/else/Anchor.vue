@@ -23,7 +23,7 @@ defineOptions({
 </div>
 <br>
 <div class="text-right">
-  <center><sup>what are hydration errors?</sup></center>
+  <div><sup>what are hydration errors?</sup></div>
 </div>
 <br>
 <img src="/herstory/125-05-15/Slide3.PNG" class="w-1/2 h-auto" />

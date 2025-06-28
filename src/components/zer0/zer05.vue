@@ -6,35 +6,35 @@ name: "zer05"
 <template>
 
 <div class="bg-gray-950/75 p-2">
-  <center class="hubot-sans text-neutral-950 bg-yellow-100 text-[18px]">allostasissy@gmail.com
-  </center>
-  <center><span class="text-[17px] orbitron text-fuchsia-100"><span class="text-[11px]">an</span> Ecclesiastical approach</span>
-  </center>
-  <center><span class="text-[17px] orbitron text-fuchsia-100"><span class="text-[11px]">to</span> Allostatic Regulation</span>
-  </center>
-  <center><span class="text-[18px] hubot-sans text-sky-200">Do I have the self-discipline and mental acuity to stay alive in a world that wants me dead?</span>
-  </center>
-  <center><span class="text-[15px] hubot-sans text-sky-200">mental acuity</span>
-  </center>
-  <center><span class="text-[15px] hubot-sans text-sky-200"> the ability to hear, see, & think accurately and clearly</span>
-  </center><br>
-  <center  class="hubot-sans bg-neutral-400 text-sky-950 text-[27px]"><strong>allostasissy.studio</strong>
-  </center>
+  <div class="hubot-sans text-neutral-950 bg-yellow-100 text-[18px]">allostasissy@gmail.com
+  </div>
+  <div><span class="text-[17px] orbitron text-fuchsia-100"><span class="text-[11px]">an</span> Ecclesiastical approach</span>
+  </div>
+  <div><span class="text-[17px] orbitron text-fuchsia-100"><span class="text-[11px]">to</span> Allostatic Regulation</span>
+  </div>
+  <div><span class="text-[18px] hubot-sans text-sky-200">Do I have the self-discipline and mental acuity to stay alive in a world that wants me dead?</span>
+  </div>
+  <div><span class="text-[15px] hubot-sans text-sky-200">mental acuity</span>
+  </div>
+  <div><span class="text-[15px] hubot-sans text-sky-200"> the ability to hear, see, & think accurately and clearly</span>
+  </div><br>
+  <div  class="hubot-sans bg-neutral-400 text-sky-950 text-[27px]"><strong>allostasissy.studio</strong>
+  </div>
           <nav class="border border-zinc-500 gap-1 p-1 flex items-center justify-center  text-[27px]">
           <RouterLink class="p-1 text-zinc-500 hover:text-yellow-200 border border-zinc-500 cursor-pointer" 
-          to="/zincVue"><center>🛒 <br>zinc</center></RouterLink> 
+          to="/zincVue"><div>🛒 <br>zinc</div></RouterLink> 
           <RouterLink class="p-1 text-gray-500 hover:text-yellow-200 border border-gray-500 cursor-pointer" 
-          to="/grayVue"><center>🧷 <br>gray</center></RouterLink> 
+          to="/grayVue"><div>🧷 <br>gray</div></RouterLink> 
           <RouterLink class="p-1 text-neutral-500 hover:text-yellow-200 border border-neutral-500 cursor-pointer " 
-          to="/neutralVue"><center>📺 <br>neutral</center></RouterLink>  
+          to="/neutralVue"><div>📺 <br>neutral</div></RouterLink>  
           <RouterLink class="p-1 text-slate-500 hover:text-yellow-200 border border-slate-500 cursor-pointer" 
-          to="/slateVue"><center>🐃 <br>slate</center></RouterLink>  
+          to="/slateVue"><div>🐃 <br>slate</div></RouterLink>  
           <RouterLink class="p-1 text-stone-500 hover:text-yellow-200 border border-stone-500 cursor-pointer" 
-          to="/stoneVue"><center>🧱 <br>stone</center></RouterLink> 
+          to="/stoneVue"><div>🧱 <br>stone</div></RouterLink> 
           </nav>
   <br>
-  <center  class="hubot-sans bg-neutral-400 text-sky-950 text-[29px]"><strong>allostasissy.com</strong>
-  </center>
+  <div  class="hubot-sans bg-neutral-400 text-sky-950 text-[29px]"><strong>allostasissy.com</strong>
+  </div>
           <nav class="border border-yellow-500 gap-1 p-1 flex items-center justify-center text-[27px]">
           <RouterLink class="p-1 text-yellow-500 hover:text-yellow-200 border border-yellow-500 cursor-pointer" 
           to="/yellowVue">⚜️ <br>yellow</RouterLink>  
@@ -61,8 +61,8 @@ name: "zer05"
           <RouterLink class="p-1 text-teal-500 hover:text-yellow-200 border border-teal-500 cursor-pointer" 
           to="/tealVue">🔰 <br>teal</RouterLink>               
           </nav><br>
-  <center  class="hubot-sans bg-neutral-400 text-sky-950 text-[29px]"><strong>allostasissy.org</strong>
-  </center>
+  <div  class="hubot-sans bg-neutral-400 text-sky-950 text-[29px]"><strong>allostasissy.org</strong>
+  </div>
           <nav class="border border-orange-500 text-orange-500 gap-1 p-1 flex items-center justify-center gap-1 text-[27px]" >
           <RouterLink class="p-1 text-orange-500 hover:text-yellow-200 border border-orange-500 cursor-pointer" 
           to="/orangeVue">🏀 <br>orange</RouterLink>  
@@ -90,14 +90,14 @@ name: "zer05"
 
 </div>
 <div><clock /></div>
-    <br><center>
+    <br><div>
      <div class="alumni-sans-pinstripe-regular  text-[11px] grid grid-cols-[repeat(1,minmax(0,1fr))] gap-2 p-4 bg-sky-950/50">
 
       <div> <br><img src="/color/BWG circles.png" class="w-55 object-cover rounded-md rotate-180" /></div>
       <div> <br><img src="/color/YRB-Paint.png" class="h-55 object-cover rounded-md" /></div>
       <div> <br><img src="/color/RGB-Additive.png" class="w-55 object-cover rounded-md" /></div>
       <div> <br><img src="/color/YMC-Subtractive.png" class="w-55 object-cover rounded-md" /></div>
-    </div></center>
+    </div></div>
 
 
 

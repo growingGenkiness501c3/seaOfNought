@@ -5,7 +5,7 @@ defineOptions({
 </script>
 <template>
 
-<center>
+<div>
     <a href="http://localhost:5173/wccScaffolding" 
     class="text-[99px]" 
     target="_blank" rel="noopener noreferrer">🦄<br></a>
@@ -30,7 +30,7 @@ defineOptions({
     <a href="https://www.amazon.com/hz/mycd/digital-console/contentlist/audiobooks/dateDsc/" 
     class="text-[99px]" 
     target="_blank" rel="noopener noreferrer">😁<br></a>
-</center>
+</div>
 
     <p>
     😀	😁	😂	😃	😄	😅	😆	😇	😈	😉	😊	😋	😌	😍	😎	😏

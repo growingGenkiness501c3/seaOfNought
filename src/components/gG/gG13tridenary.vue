@@ -5,7 +5,7 @@ defineOptions({
 </script>
 <template>
 13
-<center>
+<div>
 <div class="grid grid-cols-3 gap-0 p-0 text-[18px] alumni-sans-pinstripe-regular">
   <div class="p-2 border hue060 orbitron bg-[hsl(60,50%,50%)]/50">hue 60°</div>
   <div class="p-2 border hue300 orbitron bg-[hsl(300,50%,50%)]/50">hue 300°</div>
@@ -474,5 +474,5 @@ defineOptions({
   <div class="p-2 border bg-[hsl(80,50%,25%)]/50 text-[hsl(80,50%,70%)]">80°</div>
   <div class="p-2 border bg-[hsl(75,50%,25%)]/50 text-[hsl(75,50%,70%)]">75°</div>
 </div>
-</center>
+</div>
 </template>

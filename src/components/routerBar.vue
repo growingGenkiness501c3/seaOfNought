@@ -4,7 +4,7 @@ defineOptions({
 });
 </script>
 <template>
-  <center>
+  <div>
   <nav class="grid grid-cols-[repeat(17,minmax(0,1fr))] w-full h-6 gap-3 p-5">
     <RouterLink class="p-2 text-yellow-400 hover:text-yellow-200 border border-yellow-400 cursor-pointer" to="/"> ∅<br>Sea</RouterLink>            
     <RouterLink class="p-2 text-amber-400 hover:text-amber-200 border border-amber-400 cursor-pointer" to="/orientation">📐<br>Orientation</RouterLink>      
@@ -24,5 +24,5 @@ defineOptions({
     <RouterLink class="p-2 text-green-400 hover:text-green-200 border border-green-400 cursor-pointer" to="/check">✅<br>Czech</RouterLink>            
     <RouterLink class="p-2 text-lime-400 hover:text-lime-200 border border-lime-400 cursor-pointer" to="/royalwethepeople">🗽<br>RWTP</RouterLink>            
   </nav> 
-  </center>
+  </div>
 </template>

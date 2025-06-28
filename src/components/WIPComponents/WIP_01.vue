@@ -61,7 +61,7 @@ defineOptions({
   </div>
 </div>
 <span class="text-[99px] text-[#aa00aa]"> move WIPBar and ÷ </span>
-<center>
+<div>
 <code>save as plain svg for less trash code. set fill to currentColor in component for tailwind maniuplation</code>
 <code>will need to rename to start file with any alpha character... not number</code>
 <code>in inkscape upon open select rendering mode: blocky</code>
@@ -72,5 +72,5 @@ defineOptions({
       <i class="material-icons" style="font-size: 55px">face</i></a></div></nav>
   <span class="text-[33px]">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; let chords = chord("&lt;C G C G C G Am C Cm G C G C&gt;/4").dict('ireal')</span>
 <hr>
-</center>
+</div>
 </template>

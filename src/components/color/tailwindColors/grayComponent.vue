@@ -4,7 +4,7 @@ defineOptions({
 });
 </script>
 <template>
-<center>
+<div>
 <div class="overflow-x-auto">
   <table class="table-auto border-collapse w-full text-left bg-gray-500/50">
         <tbody class="bg-sky-950/100 bg-contain [background-size:100px_100px]" style="background-image: url('/backgrounds/gray.png');">
@@ -23,5 +23,5 @@ defineOptions({
     </tbody>
   </table>
 </div>
-</center>
+</div>
 </template>

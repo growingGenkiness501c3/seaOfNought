@@ -782,7 +782,7 @@ import hsl60Bar from "@/components/color/hsl60Bar.vue"
 
 
 
-<center>
+<div>
 <h1> exhibitations </h1>
 <h2> courage is contagious </h2>
 <h3> prepare testimony for Oregon Medical Board </h3>
@@ -792,7 +792,7 @@ import hsl60Bar from "@/components/color/hsl60Bar.vue"
 <sub> Mastering Weak to Master Meek</sub>
 <sup>growingGenkiness</sup>
 <sub> Mastering Weak to Master Meek</sub>
-</center>
+</div>
 
   <div class="bg-[hsl(0,0%,0%,0%)]">
 📐
@@ -906,7 +906,7 @@ import hsl60Bar from "@/components/color/hsl60Bar.vue"
   <div class="border border-[hsl(0,0%,100%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">125</a></div>
 </div>
 
-<center><div class="grid grid-cols-12 gap-10 p-5 text-[18px] alumni-sans-pinstripe-regular">
+<div><div class="grid grid-cols-12 gap-10 p-5 text-[18px] alumni-sans-pinstripe-regular">
   <div class="p-2 border hue060 orbitron"></div>
   <div class="p-2 border hue030 orbitron"></div>
   <div class="p-2 border hue000 orbitron"></div>
@@ -919,7 +919,7 @@ import hsl60Bar from "@/components/color/hsl60Bar.vue"
   <div class="p-2 border hue150 orbitron"></div>
   <div class="p-2 border hue120 orbitron"></div>
   <div class="p-2 border hue090 orbitron"></div>
-</div></center>
+</div></div>
 
 <div class="grid grid-cols-[repeat(31,minmax(0,1fr))] w-full h-6 hubot-sans text-[33px] gap-1 p-1">
   <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
@@ -1050,21 +1050,21 @@ import hsl60Bar from "@/components/color/hsl60Bar.vue"
 <h4 class="text-justify">h4 class="text-justify" Orientation Orientation Orientation</h4>
 <h5 class="flex justify-between">h5 class="flex justify-between" Orientation</h5> 
 <code class="block">Orientation Orientation Orientation</code>
-<center class="text-xs">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</center><br>
-<center class="text-sm">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</center><br>
-<center class="text-base">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</center><br>
-<center class="text-lg">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</center><br>
-<center class="text-xl">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</center><br>
-<center class="text-2xl">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</center><br>
-<center class="text-3xl">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</center><br>
-<center class="text-4xl">`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?</center><br>
-<center class="text-5xl">`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?</center><br>
-<center class="text-6xl">`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?</center><br>
-<center class="text-7xl">`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?</center><br>
-<center class="text-8xl">`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?</center><br>
-<center class="text-9xl">`-=~!@#$%^&*()_+[]\{}|;':",./<>?</center><br>
+<div class="text-xs">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</div><br>
+<div class="text-sm">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</div><br>
+<div class="text-base">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</div><br>
+<div class="text-lg">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</div><br>
+<div class="text-xl">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</div><br>
+<div class="text-2xl">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</div><br>
+<div class="text-3xl">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</div><br>
+<div class="text-4xl">`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?</div><br>
+<div class="text-5xl">`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?</div><br>
+<div class="text-6xl">`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?</div><br>
+<div class="text-7xl">`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?</div><br>
+<div class="text-8xl">`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?</div><br>
+<div class="text-9xl">`-=~!@#$%^&*()_+[]\{}|;':",./<>?</div><br>
 <yearsBar /><br><br>
-<center class="text-9xl">📐</center><br>
+<div class="text-9xl">📐</div><br>
 </div>
 
 
@@ -1147,19 +1147,19 @@ import hsl60Bar from "@/components/color/hsl60Bar.vue"
 
   </div>
 </div>
-<center class="text-xs"><skyMini /></center><br>
-<center class="text-sm"><skyMini /></center><br>
-<center class="text-base"><skyMini /></center><br>
-<center class="text-lg"><skyMini /></center><br>
-<center class="text-xl"><skyMini /></center><br>
-<center class="text-2xl"><skyMini /></center><br>
-<center class="text-3xl"><skyMini /></center><br>
-<center class="text-4xl"><skyMini /></center><br>
-<center class="text-5xl"><skyMini /></center><br>
-<center class="text-6xl"><skyMini /></center><br>
-<center class="text-7xl"><skyMini /></center><br>
-<center class="text-8xl"><skyMini /></center><br>
-<center class="text-9xl"><skyMini /></center><br>
+<div class="text-xs"><skyMini /></div><br>
+<div class="text-sm"><skyMini /></div><br>
+<div class="text-base"><skyMini /></div><br>
+<div class="text-lg"><skyMini /></div><br>
+<div class="text-xl"><skyMini /></div><br>
+<div class="text-2xl"><skyMini /></div><br>
+<div class="text-3xl"><skyMini /></div><br>
+<div class="text-4xl"><skyMini /></div><br>
+<div class="text-5xl"><skyMini /></div><br>
+<div class="text-6xl"><skyMini /></div><br>
+<div class="text-7xl"><skyMini /></div><br>
+<div class="text-8xl"><skyMini /></div><br>
+<div class="text-9xl"><skyMini /></div><br>
 <br>
 <br>
 <br>
@@ -1172,18 +1172,18 @@ import hsl60Bar from "@/components/color/hsl60Bar.vue"
 <br>
 
 <br>
-<div><center class="text-2xl"><seaOfNoughtBar /></center></div>
+<div><div class="text-2xl"><seaOfNoughtBar /></div></div>
 <hueBar />
 <yearsBar /><br>
-<center class="text-2xl p-3"><skyTop /><skyTop /></center>
-<center>
+<div class="text-2xl p-3"><skyTop /><skyTop /></div>
+<div>
 <span class="mea-culpa text-[33px]"> ∅© </span>
 <span class="mea-culpa-regular" style="font-size: 55px">NaughtSea &nbsp;&nbsp;&nbsp;<br /></span>
 <seaOfNoughtNavigationBar />
 <span class="mea-culpa-regular" style="font-size: 22px">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⾈&nbsp;with
 Vite + Vue & tailwindcss &nbsp;⛵ </span>
-</center>
+</div>
 
 📆📅⏰✅📁🗒️🧾📝📋
 <br>
@@ -1456,7 +1456,7 @@ Vite + Vue & tailwindcss &nbsp;⛵ </span>
   <div class="bg-[hsl(0,0%,0%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊿</a></div>
 </div>
 
-<center>
+<div>
 <h1> exhibitations </h1>
 <h2> courage is contagious </h2>
 <h3> prepare testimony for Oregon Medical Board </h3>
@@ -1466,7 +1466,7 @@ Vite + Vue & tailwindcss &nbsp;⛵ </span>
 <sub> Mastering Weak to Master Meek</sub>
 <sup>growingGenkiness</sup>
 <sub> Mastering Weak to Master Meek</sub>
-</center>
+</div>
 <br>
 <nav class="flex flex-wrap items-center justify-center">
   <RouterLink class="p-2.5; text-sky-400 hover:text-purple-400" to="/">&nbsp;| 🏠 Crow's Nest |&nbsp;</RouterLink>
@@ -1480,7 +1480,7 @@ Vite + Vue & tailwindcss &nbsp;⛵ </span>
   <RouterLink class="p-2.5; text-sky-400 hover:text-purple-400" to="/royalwethepeople">&nbsp;| RoyalWeThePeople 👑 |&nbsp;</RouterLink>
 </nav><br>
 
-<center>
+<div>
 <span class="font-mea-culpa text-[33px]"> ∅© </span>
 <span class="mea-culpa-regular" style="font-size: 55px">NaughtSea &nbsp;&nbsp;&nbsp;<br /></span>
 <skyTop /><skyTop /><br>
@@ -1488,7 +1488,7 @@ Vite + Vue & tailwindcss &nbsp;⛵ </span>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⾈&nbsp;with
 Vite + Vue & tailwindcss &nbsp;⛵ </span><br /><br />
 
-</center>
+</div>
 
 
 <div class="grid grid-cols-[repeat(17,minmax(0,1fr))] w-full h-6 gap-2">
@@ -1520,7 +1520,7 @@ Vite + Vue & tailwindcss &nbsp;⛵ </span><br /><br />
 
 
 
-<center>
+<div>
 <div class="grid grid-cols-13 gap-2">
   <div class="p-2 border hue090">hue090</div>
   <div class="p-2 border hue060">hue060</div>
@@ -1536,7 +1536,7 @@ Vite + Vue & tailwindcss &nbsp;⛵ </span><br /><br />
   <div class="p-2 border hue120">hue120</div>
   <div class="p-2 border hue090">hue090</div>
 </div>
-</center>
+</div>
 
 <div class="grid grid-cols-[repeat(51,minmax(0,1fr))] w-full h-6">
   <div class="bg-[hsl(0,0%,0%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">75</a></div>
@@ -2076,7 +2076,7 @@ RoyalWeThePeople: Waltzing Matilda
 <br>
 <hr>
 <code>https://python.plainenglish.io/i-wish-i-knew-these-10-python-libraries-when-i-started-developing-1c819070fd5a</code>
-<center>
+<div>
 <div class="grid grid-cols-13 gap-2">
   <div class="p-2 border hue090">hue090</div>
   <div class="p-2 border hue060">hue060</div>
@@ -2092,16 +2092,16 @@ RoyalWeThePeople: Waltzing Matilda
   <div class="p-2 border hue120">hue120</div>
   <div class="p-2 border hue090">hue090</div>
 </div>
-</center>
+</div>
 <br />
 🖐️
 <HelloWorld msg="Vite HelloWorld Vue" />🖐️
-<center><Flag>Let's manifest some tests! !! !!!</Flag><br /></center>
-<center><skyBottom /><skyBottom /></center>
-<center><Flag>ABCDEFGHIJKLM01234567890NOPQRSTUVWXYZ</Flag></center>
-<center><Flag>abcdefghijklmnopqrstuvwxyz</Flag></center>
-<center><rainbowDots /></center>
-<center>
+<div><Flag>Let's manifest some tests! !! !!!</Flag><br /></div>
+<div><skyBottom /><skyBottom /></div>
+<div><Flag>ABCDEFGHIJKLM01234567890NOPQRSTUVWXYZ</Flag></div>
+<div><Flag>abcdefghijklmnopqrstuvwxyz</Flag></div>
+<div><rainbowDots /></div>
+<div>
 <div class="grid grid-cols-13 gap-2">
   <div class="p-2 border hue090">⬤</div>
   <div class="p-2 border hue060"><a href="file:///D:/125/html/level_zer0.html" target="_blank">🟡</a></div>
@@ -2117,11 +2117,11 @@ RoyalWeThePeople: Waltzing Matilda
   <div class="p-2 border hue120">⬤</div>
   <div class="p-2 border hue090">⬤</div>
 </div>
-</center>
+</div>
 
 
 
-<code class="orbitron"><center>&nbsp;&nbsp;&nbsp;⾈ exploring https://tailwindcss.com/ ⛵</center><br></code>
+<code class="orbitron"><div>&nbsp;&nbsp;&nbsp;⾈ exploring https://tailwindcss.com/ ⛵</div><br></code>
 
 <div class="grid grid-cols-11 gap-1 border border-gray-300">
   <div class="p-2 border border-gray-300 text-center text-4xl font-bold"><h1>oO0Oo</h1></div>
@@ -2549,7 +2549,7 @@ https://en.wikipedia.org/wiki/File:Wanna_Work_Together%3F_with_subtitles_-_Creat
 <br>
 <hr>
 <code>https://python.plainenglish.io/i-wish-i-knew-these-10-python-libraries-when-i-started-developing-1c819070fd5a</code>
-<center>
+<div>
 <div class="grid grid-cols-13 gap-2">
   <div class="p-2 border hue090">hue090</div>
   <div class="p-2 border hue060">hue060</div>
@@ -2565,16 +2565,16 @@ https://en.wikipedia.org/wiki/File:Wanna_Work_Together%3F_with_subtitles_-_Creat
   <div class="p-2 border hue120">hue120</div>
   <div class="p-2 border hue090">hue090</div>
 </div>
-</center>
+</div>
 <br />
 🖐️
 <HelloWorld msg="Vite HelloWorld Vue" />🖐️
-<center><Flag>Let's manifest some tests! !! !!!</Flag><br /></center>
-<center><skyBottom /><skyBottom /></center>
-<center><Flag>ABCDEFGHIJKLM01234567890NOPQRSTUVWXYZ</Flag></center>
-<center><Flag>abcdefghijklmnopqrstuvwxyz</Flag></center>
-<center><rainbowDots /></center>
-<center>
+<div><Flag>Let's manifest some tests! !! !!!</Flag><br /></div>
+<div><skyBottom /><skyBottom /></div>
+<div><Flag>ABCDEFGHIJKLM01234567890NOPQRSTUVWXYZ</Flag></div>
+<div><Flag>abcdefghijklmnopqrstuvwxyz</Flag></div>
+<div><rainbowDots /></div>
+<div>
 <div class="grid grid-cols-13 gap-2">
   <div class="p-2 border hue090">⬤</div>
   <div class="p-2 border hue060"><a href="file:///D:/125/html/level_zer0.html" target="_blank">🟡</a></div>
@@ -2590,11 +2590,11 @@ https://en.wikipedia.org/wiki/File:Wanna_Work_Together%3F_with_subtitles_-_Creat
   <div class="p-2 border hue120">⬤</div>
   <div class="p-2 border hue090">⬤</div>
 </div>
-</center>
+</div>
 
 
 
-<code class="orbitron"><center>&nbsp;&nbsp;&nbsp;⾈ exploring https://tailwindcss.com/ ⛵</center><br></code>
+<code class="orbitron"><div>&nbsp;&nbsp;&nbsp;⾈ exploring https://tailwindcss.com/ ⛵</div><br></code>
 
 <div class="grid grid-cols-11 gap-1 border border-gray-300">
   <div class="p-2 border border-gray-300 text-center text-4xl font-bold"><h1>oO0Oo</h1></div>

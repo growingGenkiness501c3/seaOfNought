@@ -15,7 +15,7 @@ defineOptions({
 <template>
 <blackFlag>🏰begin &nbsp; begin &nbsp; begin &nbsp; begin &nbsp; begin &nbsp; begin &nbsp; </blackFlag>
 <br><br><br><br>
-<center>
+<div>
 &nbsp;oO0&nbsp;<whiteFlag>&nbsp;oO0&nbsp;
   <blackFlag>&nbsp;oO0&nbsp;
     <yellowFlag>&nbsp;oO0&nbsp;
@@ -28,13 +28,13 @@ defineOptions({
     </yellowFlag>&nbsp;oO0&nbsp;
   </blackFlag>&nbsp;oO0&nbsp;
 </whiteFlag>&nbsp;oO0&nbsp;<br><br><br><br><br>
-</center>
-<center><span class="alumni-sans-pinstripe-regular-italic text-[33px] text-sky-500">Forecastle</span></center>
+</div>
+<div><span class="alumni-sans-pinstripe-regular-italic text-[33px] text-sky-500">Forecastle</span></div>
 <sup>why isn't font class working?</sup>
 <img src="/herstory/125-05-15/Slide0.PNG" class="w-full h-auto" />
-<center><span class="mea-culpa text-[33px] text-yellow-200">words</span></center>
-<center><span class="mea-culpa text-[33px] text-rose-400">words</span></center>
-<center><span class="mea-culpa text-[33px] text-indigo-400">words</span></center>
+<div><span class="mea-culpa text-[33px] text-yellow-200">words</span></div>
+<div><span class="mea-culpa text-[33px] text-rose-400">words</span></div>
+<div><span class="mea-culpa text-[33px] text-indigo-400">words</span></div>
 <img src="/herstory/125-05-15/Slide1.PNG" class="w-full h-auto" />
 <img src="/herstory/125-05-15/Slide2.PNG" class="w-full h-auto" />
 <img src="/herstory/125-05-15/Slide3.PNG" class="w-full h-auto" />

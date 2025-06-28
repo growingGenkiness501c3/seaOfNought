@@ -7,7 +7,7 @@ defineOptions({
 <div class="absolute bg-[url('/backgrounds/pink.png')] w-full bg-cover bg-center opacity-25">woredsmore workds
 <br><br><br><br><br><br>
 </div>
-<center>
+<div>
 <div class="overflow-x-auto">
   <table class="table-auto border-collapse w-full text-left">
     <tbody>
@@ -25,7 +25,7 @@ defineOptions({
     </tbody>
   </table>
 </div>
-</center>
+</div>
 
 <div class="columns-3 p-10 gap-6 text-justify hubot-sans">
 <pre>what are cbt exercises?</pre>

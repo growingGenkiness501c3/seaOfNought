@@ -4,7 +4,7 @@ defineOptions({
 });
 </script>
 <template>
-<center>
+<div>
 <div class="overflow-x-auto">
   <table class="table-auto border-collapse w-full text-left bg-purple-500/50">
     <tbody>
@@ -22,7 +22,7 @@ defineOptions({
     </tbody>
   </table>
 </div>
-</center>
+</div>
 
 <div class="columns-3 p-10 gap-6 text-justify hubot-sans">
 <p>

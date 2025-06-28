@@ -4,7 +4,7 @@ defineOptions({
 });
 </script>
 <template>
-<center>
+<div>
 <div class="overflow-x-auto">
   <table class="table-auto border-collapse w-full text-left bg-yellow-500/50">
     <tbody>
@@ -22,7 +22,7 @@ defineOptions({
     </tbody>
   </table>
 </div>
-</center>
+</div>
 
 <code>just curious where this goes</code>
 <p>it seems this can auto-size itself if i have too much to say here</p>

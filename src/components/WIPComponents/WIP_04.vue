@@ -298,7 +298,7 @@ LargeClock /
   </div>
 </div>
 <span class="text-[99px] text-[#aa00aa]"> move WIPBar and ÷ </span>
-<center>
+<div>
 <code>save as plain svg for less trash code. set fill to currentColor in component for tailwind maniuplation</code>
 <code>will need to rename to start file with any alpha character... not number</code>
 <code>in inkscape upon open select rendering mode: blocky</code>
@@ -1417,7 +1417,7 @@ ABBA Gimme
   </div>     
 </nav>
 
-</center>
+</div>
 
 
 
@@ -1430,7 +1430,7 @@ ABBA Gimme
 
 
 
-<center>
+<div>
 <nav class="grid grid-cols-[repeat(24,minmax(0,1fr))] w-full h-6 gap-3 p-5">
   <div>
     <stone />
@@ -1499,7 +1499,7 @@ ABBA Gimme
     <slate />
   </div>
 </nav>
-</center>
+</div>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>     <br><br><br><br><br><br><br><br>
 
 
@@ -1507,7 +1507,7 @@ ABBA Gimme
 
 
 
-<center class="bg-sky-950/50 text-[3px]">
+<div class="bg-sky-950/50 text-[3px]">
 <div class="grid grid-cols-[repeat(24,minmax(0,1fr))] gap-3 p-5 text-sky-400">
   <div class="border border-sky-400 bg-sky-400/25 cursor-pointer hover:text-pink-400">
     <a href="https://allostasissy.studio" target="_blank" rel="noopener noreferrer">
@@ -5243,9 +5243,9 @@ zoom_out</i></a></div>
 zoom_out_map</i></a></div>
 
 </div>
-</center>
+</div>
 
-<center>
+<div>
 <nav class="grid grid-cols-[repeat(24,minmax(0,1fr))] gap-3 p-5">
   <div class="border border-[#FFFF00] bg-[#FFFF0040] text-[#FFFF00] cursor-pointer hover:text-pink-400 ">
     <a href="https://allostasissy.studio" target="_blank" rel="noopener noreferrer">
@@ -6121,7 +6121,7 @@ zoom_out_map</i></a></div>
   </div>     
 </nav>
 
-</center>
+</div>
 
 
 

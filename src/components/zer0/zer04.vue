@@ -7,8 +7,8 @@ defineOptions({
 });
 </script>
 <template>
-<center>140 w3 color names</center>
-<center>
+<div>140 w3 color names</div>
+<div>
 <div class="flex flex-wrap justify-center gap-2 p-2 bg-sky-950/25">
   <div class="border border-[#ffc0cb] bg-[#ffc0cb]/25 text-[#ffc0cb]">pink #ffc0cb</div>
   <div class="border border-[#ffb6c1] bg-[#ffb6c1]/25 text-[#ffb6c1]">lightpink #ffb6c1</div>
@@ -152,7 +152,7 @@ defineOptions({
     <div class="border border-[#2F4F4F] bg-[#2F4F4F]/25 text-[#2F4F4F]">darkslategray	#2F4F4F</div>
     <div class="border border-[#000000] bg-[#000000]/25 text-[#000000]">black	#000000</div>
 </div>
-</center>
+</div>
 
 
 

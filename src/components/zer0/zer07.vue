@@ -4,7 +4,7 @@ defineOptions({
 });
 </script>
 <template>
-      <center>
+      <div>
 
-      </center>
+      </div>
 </template>

@@ -1,6 +1,6 @@
 
 <template>
-  <center>
+  <div>
   <nav  class="flex flex-wrap items-center justify-center gap-3 p-10">
     <RouterLink class="p-2.5; text-sky-500 hover:text-yellow-200 border border-sky-500 cursor-pointer" 
     to="/">&nbsp;| 🥰∅ NaughtSea |&nbsp;</RouterLink>            
@@ -165,6 +165,6 @@
     <RouterLink class="p-2.5; text-sky-500 hover:text-yellow-200 border border-sky-500 cursor-pointer" 
     to="/PrimaryVue"> | 🛒 Primary |</RouterLink>  
     </nav> 
-  </center>
+  </div>
 
 </template>

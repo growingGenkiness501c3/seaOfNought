@@ -22,9 +22,9 @@ defineOptions({
 </SplitOneTwoThree>
 
  
-<center><dfn>will it blend?</dfn><br>
+<div><dfn>will it blend?</dfn><br>
   <a href="https://tailwindcss.com/docs/colors" class="text-sky-100 hover:underline text-right"> tailwindcss/docs/colors </a>
-  </center>
+  </div>
   <p>
     Check out
     <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank"

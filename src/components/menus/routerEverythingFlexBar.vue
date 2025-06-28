@@ -6,11 +6,11 @@ defineOptions({
 });
 </script>
 <template>
-<center class="p-1"><RouterLink class="p-1 text-amber-600 hover:text-amber-50 border border-amber-800 cursor-pointer alumni-sans-pinstripe-regular text-[11px] " to="/wccScaffolding">🐢 wccScaffolding</RouterLink></center>
-<center><dfn class="updock-regular text-pink-200">falsus in uno, falsus in omnibus</dfn></center>
-<center><dfn class="updock-regular text-teal-200">no one lies better than a Christian</dfn></center>
-<center><code>allostasissy@gmail.com</code></center>
-<center class="text-[11px] gap-1 p-1 flex items-center justify-center">
+<div class="p-1"><RouterLink class="p-1 text-amber-600 hover:text-amber-50 border border-amber-800 cursor-pointer alumni-sans-pinstripe-regular text-[11px] " to="/wccScaffolding">🐢 wccScaffolding</RouterLink></div>
+<div><dfn class="updock-regular text-pink-200">falsus in uno, falsus in omnibus</dfn></div>
+<div><dfn class="updock-regular text-teal-200">no one lies better than a Christian</dfn></div>
+<div><code>allostasissy@gmail.com</code></div>
+<div class="text-[11px] gap-1 p-1 flex items-center justify-center">
   <div class="border border-stone-500 w-6 p-1"><a class="text-stone-50" href="https://allostasissy.squarespace.com/config/pages/683a8b78429bfc5167849479" target="_blank" rel="noopener noreferrer"> 🧱 </a></div>
   <div class="border border-stone-50 w-6 p-1"><a class="text-stone-50" href="https://www.chase.com/?jp_pet=tnt-11070a&"  target="_blank" rel="noopener noreferrer"> ⬤ </a></div>
   <div class="border border-stone-100 w-6 p-1"><a class="text-stone-100" href="https://allostasissy.squarespace.com/config/pages/683a8b78429bfc5167849479"  target="_blank" rel="noopener noreferrer"> ⬤ </a></div>
@@ -23,8 +23,8 @@ defineOptions({
   <div class="border border-stone-800 w-6 p-1"><a class="text-stone-800" href="https://allostasissy.squarespace.com/config/"  target="_blank" rel="noopener noreferrer"> ⬤ </a></div>
   <div class="border border-stone-900 w-6 p-1"><a class="text-stone-900" href="https://allostasissy.squarespace.com/config/"  target="_blank" rel="noopener noreferrer"> ⬤ </a></div>
   <div class="border border-stone-950 w-6 p-1"><a class="text-stone-950" href="https://allostasissy.squarespace.com/config/"  target="_blank" rel="noopener noreferrer"> ⬤ </a></div>  
-</center><br>
-<center>
+</div><br>
+<div>
 <div class="flex gap-4 p-4">
   <div class="flex-1">
     <img src="/color/YRB-Paint.png" class="h-22 object-cover rounded-md" />
@@ -35,10 +35,10 @@ defineOptions({
     <img src="/color/BWG circles.png" class="h-22 object-cover rounded-md" />
   </div>
 </div>
-</center>
+</div>
 
 <div class="bg-sky-950/75">
-  <center class="anonymous-pro-regular text-[11px]">
+  <div class="anonymous-pro-regular text-[11px]">
     <div class="grid grid-cols-[repeat(17,minmax(0,1fr))] w-full gap-1 p-1 text-center flex items-center justify-center">
       <div></div>
       <div style="border-color: yellow; color: yellow; background-color: #ffff0040;" class="border">yellow<br>physical</div>
@@ -58,8 +58,8 @@ defineOptions({
       <div style="border-color: black; color: white; background-color: #000000;" class="border"><strong>white <br>[ on ]<br> black</strong></div>
       <div></div>
     </div>
-  </center>
-  <center class="anonymous-pro-regular text-[11px]">
+  </div>
+  <div class="anonymous-pro-regular text-[11px]">
     <div class="grid grid-cols-[repeat(17,minmax(0,1fr))] gap-1 p-1  text-center flex items-center justify-center  text-[44px] ">
       <div></div>
       <div>
@@ -123,8 +123,8 @@ defineOptions({
         </div>
         <div></div>
     </div>
-  </center>
-  <center class="anonymous-pro-regular text-[55px]">
+  </div>
+  <div class="anonymous-pro-regular text-[55px]">
     <div class="grid grid-cols-[repeat(17,minmax(0,1fr))] gap-1 p-1  text-center flex items-center justify-center">
       <div></div>
       <div>
@@ -188,8 +188,8 @@ defineOptions({
         </div>
         <div></div>
     </div>
-  </center>
-  <center class="anonymous-pro-regular text-[22px]">
+  </div>
+  <div class="anonymous-pro-regular text-[22px]">
     <div class="grid grid-cols-[repeat(17,minmax(0,1fr))] gap-1 p-1 text-center flex items-center justify-center">
       <div></div>
       <div>
@@ -253,11 +253,11 @@ defineOptions({
         </div>
         <div></div>
     </div>    
-  </center>
+  </div>
 </div>
 <br>
 <div class="bg-sky-300/30">
-  <center class="anonymous-pro-regular text-[11px]">
+  <div class="anonymous-pro-regular text-[11px]">
     <div class="grid grid-cols-[repeat(17,minmax(0,1fr))] w-full gap-1 p-1 text-center flex items-center justify-center">
       <div></div>
       <div style="border-color: yellow; color: yellow; background-color: #ffff0040;" class="border">yellow<br>physical</div>
@@ -277,8 +277,8 @@ defineOptions({
       <div style="border-color: black; color: white; background-color: #000000;" class="border"><strong>white <br>[ on ]<br> black</strong></div>
       <div></div>
     </div>
-  </center>
-  <center class="anonymous-pro-regular text-[11px]">
+  </div>
+  <div class="anonymous-pro-regular text-[11px]">
     <div class="grid grid-cols-[repeat(17,minmax(0,1fr))] gap-1 p-1  text-center flex items-center justify-center">
       <div></div>
       <div>
@@ -342,8 +342,8 @@ defineOptions({
         </div>
         <div></div>
     </div>
-  </center>
-  <center class="anonymous-pro-regular text-[55px]">
+  </div>
+  <div class="anonymous-pro-regular text-[55px]">
     <div class="grid grid-cols-[repeat(17,minmax(0,1fr))] gap-1 p-1  text-center flex items-center justify-center">
       <div></div>
       <div>
@@ -407,8 +407,8 @@ defineOptions({
         </div>
         <div></div>
     </div>
-  </center>
-  <center class="anonymous-pro-regular text-[22px]">
+  </div>
+  <div class="anonymous-pro-regular text-[22px]">
     <div class="grid grid-cols-[repeat(17,minmax(0,1fr))] gap-1 p-1 text-center flex items-center justify-center">
       <div></div>
       <div>
@@ -472,12 +472,12 @@ defineOptions({
         </div>
         <div></div>
     </div>    
-  </center>
+  </div>
 </div>
 <br><hr>
 <div class="flex gap-4 p-4">
   <div class="flex-1">
-    <center>
+    <div>
       <div class="alumni-sans-pinstripe-regular text-[44px] gap-1 p-1 text-center flex items-center justify-center">
         <nav class="border border-zinc-500 gap-1 p-1 flex items-center justify-center">
           <RouterLink class="p-1 text-zinc-500 hover:text-yellow-200 border border-zinc-500 cursor-pointer" 
@@ -492,10 +492,10 @@ defineOptions({
             to="/stoneVue">🧱 <br>stone</RouterLink> 
         </nav>
       </div>
-    </center>
+    </div>
   </div>
   <div class="flex-1">
-    <center>
+    <div>
       <div class="alumni-sans-pinstripe-regular  text-[44px] w-full gap-1 p-1 text-center flex items-center justify-center">
         <nav class="border border-yellow-500 gap-1 p-1 flex items-center justify-center">
           <RouterLink class="p-1 text-yellow-500 hover:text-yellow-200 border border-yellow-500 cursor-pointer" 
@@ -522,10 +522,10 @@ defineOptions({
             to="/tealVue">🔰 <br>teal</RouterLink>               
         </nav>
       </div>
-    </center>   
+    </div>   
   </div>
   <div class="flex-1">
-    <center  class="alumni-sans-pinstripe-regular text-[44px]">
+    <div  class="alumni-sans-pinstripe-regular text-[44px]">
       <div class="flex items-center justify-center gap-1 p-1">
         <nav class="border border-orange-500 text-orange-500 gap-1 p-1 flex items-center justify-center gap-1" >
           <RouterLink class="p-1 text-orange-500 hover:text-yellow-200 border border-orange-500 cursor-pointer" 
@@ -550,13 +550,13 @@ defineOptions({
             to="/emeraldVue">🦎 <br>emerald</RouterLink> 
         </nav>
       </div>
-    </center>
+    </div>
   </div>
 </div>
 <hr><br><hr>
 <div class="flex gap-4 p-4">
   <div class="flex-1">
-    <center>
+    <div>
         <div class="gap-1 p-1 flex items-center justify-center ">
           <div class="alumni-sans-pinstripe-regular text-[11px] gap-1 p-1 text-center flex items-center justify-center border border-zinc-500 bg-zinc-500/0 g">
             <div class="border border-zinc-500 bg-zinc-500/0 gap-1 p-1 flex items-center justify-center alumni-sans-pinstripe-regular text-[5px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-7 gap-1 p-1">
@@ -631,7 +631,7 @@ defineOptions({
             </div>                
           </div>  
         </div>
-    </center>
+    </div>
   </div>
   <div class="flex-1">
     <div class="gap-1 p-1 flex items-center justify-center ">
@@ -894,7 +894,7 @@ defineOptions({
 </div>
 <hr><br><hr><br><hr>
 
-<center>
+<div>
 
 <div class="flex gap-4 p-4">
   <div class="flex-1">
@@ -983,8 +983,8 @@ defineOptions({
     </div>
   </div>
 </div>
-</center>
-<center>
+</div>
+<div>
 <div class="flex gap-4 p-4">
   <div class="flex-1">
     <div class="border border-yellow-500 gap-1 p-1 flex items-center justify-center anonymous-pro-regular text-[11px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-77">
@@ -1072,8 +1072,8 @@ defineOptions({
     </div>
   </div>  
 </div>
-</center>
-<center>
+</div>
+<div>
 <div class="flex gap-4 p-4">
   <div class="flex-1">
     <div class="border border-blue-500 gap-1 p-1 flex items-center justify-center anonymous-pro-regular text-[11px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-77">
@@ -1144,9 +1144,9 @@ defineOptions({
     </div>
   </div>
 </div>
-</center>
+</div>
 
-<center>
+<div>
 <div class="flex gap-4 p-4">
   <div class="flex-1">
     <div class="border border-orange-500 gap-1 p-1 flex items-center justify-center anonymous-pro-regular text-[11px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-77">
@@ -1236,8 +1236,8 @@ defineOptions({
     </div>
   </div>
 </div>
-</center>
-<center>
+</div>
+<div>
 <div class="flex gap-4 p-4">
   <div class="flex-1">
     <div class="border border-green-500 gap-1 p-1 flex items-center justify-center anonymous-pro-regular text-[11px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-77">
@@ -1291,10 +1291,10 @@ defineOptions({
     </div>
   </div>
 </div>
-</center>
+</div>
 
 
-<center>
+<div>
     <div class="alumni-sans-pinstripe-regular  text-[11px] grid grid-cols-[repeat(4,minmax(0,1fr))] gap-2 p-4 bg-sky-200/20">
       <div> mixing black and white</div>
       <div> mixing light</div>
@@ -1343,9 +1343,9 @@ defineOptions({
     </div>
     <br><br>
 
-</center>
+</div>
 
-<center>
+<div>
 <div class="grid grid-cols-3 gap-0 p-0 text-[18px] alumni-sans-pinstripe-regular">
   <div class="p-2 border hue060 orbitron bg-[hsl(60,50%,50%)]/50">hue 60°</div>
   <div class="p-2 border hue300 orbitron bg-[hsl(300,50%,50%)]/50">hue 300°</div>
@@ -1814,7 +1814,7 @@ defineOptions({
   <div class="p-2 border bg-[hsl(80,50%,25%)]/50 text-[hsl(80,50%,70%)]">80°</div>
   <div class="p-2 border bg-[hsl(75,50%,25%)]/50 text-[hsl(75,50%,70%)]">75°</div>
 </div>
-</center>
+</div>
 
 <div class="grid grid-cols-[repeat(6,minmax(0,1fr))] w-full h-6 gap-2 p-5  text-center flex items-center justify-center text-slate-950">
   <div class="border border-[#ffc0cb] bg-[#ffc0cb]/25 text-[#ffc0cb]">pink #ffc0cb</div>
@@ -2047,11 +2047,11 @@ defineOptions({
     <RouterLink class="p-2.5; text-sky-500 hover:text-yellow-200 border border-sky-500 cursor-pointer" 
     to="/zincVue"> | 🛒 zincVue |</RouterLink>  
     </nav> 
-  </center>
+  </div>
 -->
 <!--
 
-<center>
+<div>
   <div class="alumni-sans-pinstripe-regular text-[11px] gap-1 p-1 text-center flex items-center justify-center">
     <nav class="border border-zinc-500 gap-1 p-1 flex items-center justify-center">
       <RouterLink class="p-1 text-zinc-500 hover:text-yellow-200 border border-zinc-500 cursor-pointer" 
@@ -2066,8 +2066,8 @@ defineOptions({
         to="/stoneVue">🧱 stone</RouterLink> 
     </nav>
   </div>
-</center>
-<center>
+</div>
+<div>
   <div class="alumni-sans-pinstripe-regular  text-[11px] w-full gap-1 p-1 text-center flex items-center justify-center">
     <nav class="border border-yellow-500 gap-1 p-1 flex items-center justify-center">
       <RouterLink class="p-1 text-yellow-500 hover:text-yellow-200 border border-yellow-500 cursor-pointer" 
@@ -2094,8 +2094,8 @@ defineOptions({
         to="/tealVue">🔰 teal</RouterLink>               
     </nav>
   </div>
-</center>        
-<center  class="alumni-sans-pinstripe-regular text-[11px]">
+</div>        
+<div  class="alumni-sans-pinstripe-regular text-[11px]">
   <div class="flex items-center justify-center gap-1 p-1">
     <nav class="border border-orange-500 text-orange-500 gap-1 p-1 flex items-center justify-center gap-1" >
       <RouterLink class="p-1 text-orange-500 hover:text-yellow-200 border border-orange-500 cursor-pointer" 
@@ -2120,8 +2120,8 @@ defineOptions({
         to="/emeraldVue">🦎 emerald</RouterLink> 
     </nav>
   </div>
-</center>
-<center>
+</div>
+<div>
     <div class="gap-1 p-1 flex items-center justify-center ">
       <div class="alumni-sans-pinstripe-regular text-[11px] gap-1 p-1 text-center flex items-center justify-center border border-zinc-500 bg-zinc-500/0 g">
         <div class="border border-zinc-500 bg-zinc-500/0 gap-1 p-1 flex items-center justify-center alumni-sans-pinstripe-regular text-[5px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-7 gap-1 p-1">
@@ -2456,7 +2456,7 @@ defineOptions({
         </div>
       </div>  
     </div>
-</center>
+</div>
 
 -->
 

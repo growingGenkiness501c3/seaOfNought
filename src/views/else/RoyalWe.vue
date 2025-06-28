@@ -61,7 +61,7 @@ I want to know how to help you help yourself because doing so helps us all.
     <pre>
 https://en.wikipedia.org/wiki/File:Wanna_Work_Together%3F_with_subtitles_-_Creative_Commons.ogv</pre
     >
-  <center><Clock /></center>
+  <div><Clock /></div>
 
 
 

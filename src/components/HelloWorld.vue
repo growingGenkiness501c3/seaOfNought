@@ -12,12 +12,12 @@ const count = ref(0)
 <template>
   <h1>{{ msg }} </h1>
 
-<center>
+<div>
   <div class="card">
     <whiteFlag>How many times have I clicked this button?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <cyanFlag><button type="button" @click="count++">count is {{ count }}</button></cyanFlag></whiteFlag>
   </div>
-</center>
+</div>
 </template>
 <style scoped>
 

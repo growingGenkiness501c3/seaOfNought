@@ -27,7 +27,7 @@ defineOptions({
 });
 </script>
 <template>
-  <center>
+  <div>
   <span  class="text-[99px]">💬</span>
 
 <div class="overflow-x-auto p-4">
@@ -982,5 +982,5 @@ defineOptions({
     </tbody>
   </table>
 </div>
-</center>
+</div>
 </template>

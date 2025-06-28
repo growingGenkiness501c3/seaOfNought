@@ -13,7 +13,7 @@ defineOptions({
 </script>
 <template>
   <br><br>
-<center>
+<div>
 &nbsp;oO0&nbsp;<whiteFlag>&nbsp;oO0&nbsp;
   <blackFlag>&nbsp;oO0&nbsp;
     <yellowFlag>&nbsp;oO0&nbsp;
@@ -26,7 +26,7 @@ defineOptions({
     </yellowFlag>&nbsp;oO0&nbsp;
   </blackFlag>&nbsp;oO0&nbsp;
 </whiteFlag>&nbsp;oO0&nbsp;<br><br><br><br><br>
-</center>
+</div>
 
 &nbsp;oO0&nbsp;<whiteFlag>&nbsp;oO0&nbsp;<blackFlag>&nbsp;oO0&nbsp;<yellowFlag>&nbsp;oO0&nbsp;<magentaFlag>&nbsp;oO0&nbsp;<cyanFlag>&nbsp;oO0&nbsp;<flag>&nbsp;oO0&nbsp;&nbsp;</flag>&nbsp;oO0&nbsp;</cyanFlag>&nbsp;oO0&nbsp;</magentaFlag>&nbsp;oO0&nbsp;</yellowFlag>&nbsp;oO0&nbsp;</blackFlag>&nbsp;oO0&nbsp;</whiteFlag>&nbsp;oO0&nbsp;<br>
 <br>

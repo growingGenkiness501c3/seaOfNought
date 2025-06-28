@@ -4,7 +4,7 @@ defineOptions({
 });
 </script>
 <template class="justify-start">
-  <center>
+  <div>
 <div class="flex flex-wrap justify-center gap-2 p-2 bg-sky-950/100">  
   <div class="border border-zinc-500 gap-1 p-1 flex items-center justify-center anonymous-pro-regular text-[9px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-55">
     <RouterLink class="p-1 text-zinc-500 hover:text-yellow-200 border border-zinc-500 cursor-pointer text-[11px]" to="/zincVue">🛒 zinc</RouterLink> 
@@ -568,5 +568,5 @@ defineOptions({
 </a></div>
     <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-[#808080] hover:text-yellow-200 border border-[#808080] cursor-pointer" target="_blank" rel="noopener noreferrer">██ --</a></div>
   </div>
-</div></center>
+</div></div>
 </template>

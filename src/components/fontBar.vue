@@ -9,8 +9,8 @@ defineOptions({
 </script>
 <template>
   <div class="bg-gray-950/25 p-2">
-  <center class="w-full gap-1 p-1 flex items-center justify-center">
-  <center>
+  <div class="w-full gap-1 p-1 flex items-center justify-center">
+  <div>
     <div class="grid grid-cols-17 gap-1 w-full">
       <div class="col-span-17 grid grid-cols-17 gap-1 text-[6px]">
         <div class="p-2 border text-center">class="alumni-sans-pinstripe-regular text-[20px]"</div>
@@ -51,7 +51,7 @@ defineOptions({
         <div class="p-1 border text-center"><span class="updock-regular text-[18px]">oO0◯<br>AaXxZz<br>g!*?G<br>ن🖵無</span></div>
       </div>
     </div>
-  </center>    
-</center>
+  </div>    
+</div>
 </div>  
 </template>

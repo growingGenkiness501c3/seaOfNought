@@ -4,7 +4,7 @@ defineOptions({
 });
 </script>
 <template>
-  <center>
+  <div>
   <nav  class="flex flex-wrap items-center justify-center gap-3 p-10">
     <RouterLink class="p-2.5; text-sky-500 hover:text-yellow-200 border border-sky-500 cursor-pointer" to="/">&nbsp;| ∅ NaughtSea |&nbsp;</RouterLink>            
     <RouterLink class="p-2.5; text-sky-500 hover:text-yellow-200 border border-sky-500 cursor-pointer" to="/orientation">&nbsp;|  Orientation |&nbsp;</RouterLink>      
@@ -25,6 +25,6 @@ defineOptions({
     <RouterLink class="p-2.5; text-sky-500 hover:text-yellow-200 border border-sky-500 cursor-pointer" to="/royalwethepeople">&nbsp;|  RoyalWeThePeople |&nbsp;</RouterLink>            
     <RouterLink class="p-2.5; text-amber-200 hover:text-amber-200 border border-amber-400 cursor-pointer" to="/amberVue"> amberVue</RouterLink>            
   </nav> 
-  </center>
+  </div>
 
 </template>

@@ -4,7 +4,7 @@ defineOptions({
 });
 </script>
 <template>
-  <center>
+  <div>
   <nav class="grid grid-cols-[repeat(7,minmax(0,1fr))] w-full h-6 gap-3 p-5 orbitron">
     <div></div>
     <RouterLink class="p-2 text-slate-400 hover:text-sky-200 border border-slate-600 bg-slate-600/40 cursor-pointer" to="/slateVue"> slateVue</RouterLink>
@@ -15,8 +15,8 @@ defineOptions({
     <div></div>
   </nav>
   <br>
-  </center>  
-  <center>
+  </div>  
+  <div>
   <nav class="grid grid-cols-[repeat(18,minmax(0,1fr))] w-full h-6 gap-3 p-5">
     <RouterLink class="p-2 text-lime-400 hover:text-sky-200 border border-lime-400 bg-lime-400/25 cursor-pointer" to="/limeVue"> limeVue</RouterLink>
     <RouterLink class="p-2 text-yellow-400 hover:text-sky-200 border border-yellow-400 bg-yellow-400/25 cursor-pointer" to="/yellowVue"> yellowVue</RouterLink>    
@@ -38,5 +38,5 @@ defineOptions({
     <RouterLink class="p-2 text-lime-400 hover:text-sky-200 border border-lime-400 bg-lime-400/25 cursor-pointer" to="/limeVue"> limeVue</RouterLink>
   </nav>
   <br>
-  </center>
+  </div>
   </template>

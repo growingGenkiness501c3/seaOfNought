@@ -35,7 +35,7 @@ primary issues
     <div class="border border-sky-300 bg-blue-500/30 text-blue-500" >blue
     </div>
     <div></div>
-    <div><center><img src="/color/YRB-Paint.png" class="h-22 object-cover rounded-md" /></center></div>
+    <div><div><img src="/color/YRB-Paint.png" class="h-22 object-cover rounded-md" /></div></div>
     <div></div>
   </div>
   <div class="grid grid-cols-[repeat(3,minmax(0,1fr))] w-full h-6 gap-2 p-5  text-center flex items-center justify-center">
@@ -46,7 +46,7 @@ primary issues
     <div class="border border-sky-300 bg-blue-500/30 text-blue-500" >blue
     </div>
     <div></div>
-    <div><center><img src="/color/RGB-Additive.png" class="h-22 object-cover rounded-md" /></center></div>
+    <div><div><img src="/color/RGB-Additive.png" class="h-22 object-cover rounded-md" /></div></div>
     <div></div>
 
   </div>
@@ -58,7 +58,7 @@ primary issues
     <div class="border border-sky-300 bg-cyan-500/30 text-cyan-500" >cyan
     </div>
     <div></div>
-    <div> <center><img src="/color/YMC-Subtractive.png" class="h-22 object-cover rounded-md" /></center></div>
+    <div> <div><img src="/color/YMC-Subtractive.png" class="h-22 object-cover rounded-md" /></div></div>
     <div></div>
 
   </div>

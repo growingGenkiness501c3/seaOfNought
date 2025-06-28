@@ -7,10 +7,10 @@ defineOptions({
 </script>
 <template>
 
-<center><dfn class="updock-regular text-neutral-100 text-[33px]">falsus in uno, falsus in omnibus ::</dfn> <dfn class="updock-regular text-neutral-100 text-[33px]">:: no one lies better than a Christian</dfn></center>
-  <center class="text-[55px]"> 生き甲斐 ikigai </center>
-  <center class="text-[44px">Ikigai (生きがい) is a Japanese concept that refers to a reason for living or a sense of purpose. It's the intersection of what you love, what you're good at, what the world needs, and what you can be paid for. Finding one's ikigai can lead to a more fulfilling and joyful life</center>
-<center>
+<div><dfn class="updock-regular text-neutral-100 text-[33px]">falsus in uno, falsus in omnibus ::</dfn> <dfn class="updock-regular text-neutral-100 text-[33px]">:: no one lies better than a Christian</dfn></div>
+  <div class="text-[55px]"> 生き甲斐 ikigai </div>
+  <div class="text-[44px">Ikigai (生きがい) is a Japanese concept that refers to a reason for living or a sense of purpose. It's the intersection of what you love, what you're good at, what the world needs, and what you can be paid for. Finding one's ikigai can lead to a more fulfilling and joyful life</div>
+<div>
 <nav class="grid grid-cols-[repeat(7,minmax(0,1fr))] w-full h-6 gap-3 p-5 orbitron">
   <div></div>
   <RouterLink class="p-2 text-slate-900 hover:text-sky-200 border border-slate-600 bg-slate-600/75 cursor-pointer" to="/slateVue">  <i class="material-icons" style="font-size: 55px">home</i></RouterLink>
@@ -39,5 +39,5 @@ defineOptions({
   <div></div>
 </nav>
 <br><br>
-</center>  
+</div>  
 </template>

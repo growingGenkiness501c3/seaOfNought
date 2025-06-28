@@ -7,7 +7,7 @@ defineOptions({
 <template>
   👑
   <div class="mea-culpa-regular text-4xl">
-<center> <div class="mea-culpa-regular text-9xl">🧭RoyalWeThePeople⏰📆📅㏒📖</div></center>
+<div> <div class="mea-culpa-regular text-9xl">🧭RoyalWeThePeople⏰📆📅㏒📖</div></div>
 </div>
 <br>
 <div class="grid grid-cols-[repeat(3,minmax(0,1fr))] w-full h-6 gap-2 p-5">

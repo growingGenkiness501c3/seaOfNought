@@ -4,7 +4,7 @@ defineOptions({
   name: "zer02"
 });
 </script>
-<template><center>
+<template><div>
 <div class="flex flex-wrap justify-center gap-2 p-2 bg-sky-950/25">  
       <div class="border border-zinc-500 bg-zinc-500/0 gap-1 p-1 flex items-center justify-center alumni-sans-pinstripe-regular text-[5px] grid grid-cols-[repeat(1,minmax(0,1fr))] w-7 gap-1 p-1">
         <RouterLink class="p-2.5; text-zinc-500 hover:text-yellow-200 border border-zinc-500 cursor-pointer text-[11px]" to="/zincVue">🛒</RouterLink> 
@@ -314,5 +314,5 @@ defineOptions({
           <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-emerald-900 hover:text-yellow-200 border border-emerald-900 cursor-pointer" target="_blank" rel="noopener noreferrer">██</a></div>
           <div><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="p-1 gap-1 block text-emerald-950 hover:text-yellow-200 border border-emerald-950 cursor-pointer" target="_blank" rel="noopener noreferrer">██</a></div>
         </div>
-</div></center>
+</div></div>
 </template>

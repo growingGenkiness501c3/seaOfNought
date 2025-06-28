@@ -8,7 +8,7 @@ defineOptions({
 </script>
 
 <template>
-  <center>
+  <div>
     <div><clock /></div><br>
-  </center>
+  </div>
 </template>
