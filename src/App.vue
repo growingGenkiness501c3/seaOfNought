@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import ReRouteRed from "@/components/ReComp/ReRouteRed.vue";
 import DataDrivenRoutingByHue from "@/components/ReComp/DataDrivenRoutingByHue.vue";
+import DataDrivenRoutingByArrow from "@/components/ReComp/DataDrivenRoutingByArrow.vue";
 import hueBar from "@/components/color/hueBar.vue";
 import backgroundImages from "@/components/color/backgroundImages.vue";
 import Header from "@/components/Header.vue";
@@ -23,6 +24,7 @@ import Ikigai from "./components/Ikigai.vue";
 -->
   <backgroundImages>
     <Header />
+    <DataDrivenRoutingByArrow />
     <hueBar />
     <DataDrivenRoutingByHue />
     <zer06 />
