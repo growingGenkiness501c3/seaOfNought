@@ -19,6 +19,8 @@ import Ikigai from "./components/Ikigai.vue";
 </script>
 
 <template>
+<!-- https://www.youtube.com/watch?v=KOZ8RC70lS4&t=26s  https://www.youtube.com/watch?v=KOZ8RC70lS4&t=26s
+-->
   <backgroundImages>
     <Header />
     <hueBar />
@@ -53,13 +55,12 @@ import Ikigai from "./components/Ikigai.vue";
           <div class="div16 bg-sky-600/50">16</div>
           <div class="div17 bg-sky-200/50">17 </div>
           <div class="div18 bg-sky-500/50">18</div>
-          <div class="div19 bg-sky-300/50"><fontBar /></div>
-          <div class="div20 bg-sky-400/40"><ReRouteRed />
+          <div class="div19 bg-sky-300/50"><fontBar /><zer04 /></div>
+          <div class="div20 bg-sky-400/40"><ReRouteRed /><br><br>
           </div>
     </div>
-    <hr><br><hr><br><hr><br><hr><br>
-<zer04 />
-<Footer />
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <Footer />
   </backgroundImages>  
 </template>
 <style>
@@ -203,6 +204,6 @@ grid-row-gap: 11px;
 .div16 { grid-area: 2 / 1 / 3 / 2; display: grid; place-items: center;}
 .div17 { grid-area: 3 / 1 / 4 / 2; display: grid; place-items: center;}
 .div18 { grid-area: 4 / 1 / 5 / 2; display: grid; place-items: center;}
-.div19 { grid-area: 5 / 1 / 6 / 16; display: grid; place-items: center;}
+.div19 { height: 222px; grid-area: 5 / 1 / 6 / 16; display: grid; place-items: center;}
 .div20 { grid-area: 2 / 2 / 5 / 16; display: grid; place-items: center;}
 </style>

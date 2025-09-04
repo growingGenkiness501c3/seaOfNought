@@ -27,6 +27,11 @@
                   </span>
                 </div>
               </router-link>
+              <!--
+              <a :href="thing.url" :target="thing.target">
+                {{ thing['button name'] }}
+              </a>
+              -->
             </td>
           </tr>
         </tbody>

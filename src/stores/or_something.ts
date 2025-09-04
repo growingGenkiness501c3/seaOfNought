@@ -1,8 +1,28 @@
+/*
+👉 Question for you: do you want to keep copying the stores folder from Aileean into NaughtSea every time, or would you rather share one single datastore between both projects (so changes in one automatically show up in the other)? I can show you how to set up a shared alias in vite.config.ts so you don’t need to copy things around.
+*/
+
 // src/stores/counter.ts
 import { defineStore } from 'pinia'
 
 export const useOrSomethingStore = defineStore('or_something', {
   state: () => ({
+/*
+    count: 0,
+    links: [
+      { name: 'Home', url: '/' },
+      { name: 'About', url: '/about' },
+    ],
+  }),
+  actions: {
+    increment() {
+      this.count++
+    }
+  }
+})
+*/
+
+
     arrows: [
       /*
 #00003d for ⇦
@@ -21,6 +41,7 @@ export const useOrSomethingStore = defineStore('or_something', {
         'button name': 'LEFT',
         'short name': 'LEFT',
         url: 'file:///D:/125/TailWinds/gg-LEFT.html',
+        target: '_blank'   // 👈 add this
       },
       /*
 #444444 for ⇩
