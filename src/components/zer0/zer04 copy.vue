@@ -1,6 +1,5 @@
-<style>
-/*
-@keyframes flip-vert {
+  <style>
+    @keyframes flip-vert {
       0%   { transform: rotateX(0deg); }
       25%  { transform: rotateX(900deg); }
       50%  { transform: rotateX(1800deg); }
@@ -11,389 +10,93 @@
       animation: flip-vert 10s linear;
       transform-style: preserve-3d;
     }
-*/
 a {
 text-decoration: none;
 margin: 0;
 }
-</style>
+  </style>
+
 <script setup lang="ts">
 defineOptions({
   name: "zer04"
 });
-/*
-import { ref } from "vue"
 
-const rotate = ref(false)
-*/
+
+import { computed } from 'vue';
+
+interface Props {
+  headers?: string[];                  // length ≤ 4; will be padded/truncated to 4
+  row?: (string | number | null)[];    // length ≤ 4; will be padded/truncated to 4
+}
+
+const props = withDefaults(defineProps<Props>(), {
+  headers: () => ['Col 1', 'Col 2', 'Col 3', 'Col 4'],
+  row: () => ['—', '—', '—', '—'],
+});
+
+const fixedHeaders = computed(() => [...props.headers, '', '', '', ''].slice(0, 4));
+const fixedRow = computed(() => [...props.row, '', '', '', ''].slice(0, 4));
+
+
 </script>
 <template>
-<!--
-<div class="table-auto border border-sky-400 px-4 py-2 gap-11">
-   <table class="table-auto  px-4 py-2">
-    <tbody>
-      <tr>
-        <td>
-          <a href="http://localhost:5175/" 
-            target="_blank" rel="noopener noreferrer"
-            class="block border border-[Chartreuse] p-2 bg-[#88888888] rounded-[55px] ">
-                <div class="hover:flip-vert border border-[Chartreuse] 
-                            bg-[#7FFF0088] text-[Chartreuse] 
-                            p-2 flex items-center gap-2  rounded-[55px]
-                            hover:bg-[#7FFF0066] 
-                            hover:text-[#7FFF00] 
-                            hover:border-[#7FFF0033] 
-                            transition-colors">    
-                    <span class="text-[6rem]">👩‍💻</span>
-                </div>                            
-          </a>
-        </td>
-        <td style="width: 6rem; height: 6rem;" class="px-6 py-4">
-          <i
-              style="font-size: 99px; color: Chartreuse;
-              display:block; transition:transform 615s; transform:rotate(0deg);"
-              onmouseover="this.style.transform='rotate(3600000deg)'"
-              onmouseout="this.style.transform='rotate(-3600000deg)'"
-              class="material-symbols-outlined">
-              manufacturing
-            </i>
-        </td>
-        <td class="px-4 py-2 text-[Chartreuse]"><span class="text-[2rem]">vue 人</span></td>
+  <div class="overflow-x-auto rounded-xl border border-gray-700">
+    <table class="min-w-full table-fixed border-collapse">
+      <thead>
+        <tr class="bg-gray-900/50">
+          <th
+            v-for="(h, i) in fixedHeaders"
+            :key="i"
+            class="w-1/4 px-4 py-2 text-left font-medium text-gray-100 border-b border-gray-700"
+          >
+            {{ h }}
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="odd:bg-gray-800/30">
+          <td
+            v-for="(c, i) in fixedRow"
+            :key="i"
+            class="w-1/4 px-4 py-3 border-t border-gray-800 align-middle"
+          >
+            <slot :name="'col' + (i + 1)" :value="c">
+              {{ c }}
+            </slot>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>  
+<!-- Anywhere in your app -->
+<FourColOneRowTable
+  :headers="['Gauge', 'Outer Ø (mm)', 'Typical Use', 'Notes']"
+  :row="['25G', '0.515', 'Subcutaneous', 'Higher gauge = thinner']"
+/>
 
-        <td class="px-4 py-2"><span class="text-[1rem]">manufacturing</span></td>
-        <td class="px-4 py-2">
-          <span class="text-[1rem]">hsl(90, 100%, 50%)</span><br>
-          <span class="text-[1rem]">#7FFF00</span><br>
-          <span class="text-[1rem]">Chartreuse</span><br>
-          <span class="text-[1rem]">oklch(87.82% 0.258 134.39)</span><br>
-        </td>
-        <td class="px-4 py-2">
-          <span class="text-[.75rem]">href="http://localhost:5175/"</span></td>
-      </tr>
-    </tbody>
-  </table>
-</div>                            
-<br>
-<div class="table-auto border border-sky-400 px-4 py-2 gap-11">
-   <table class="table-auto  px-4 py-2">
-    <tbody>
-      <tr>
-        <td>
-          <a href="http://localhost:5175/" 
-            target="_blank" rel="noopener noreferrer"
-            class="block border border-[CornflowerBlue] p-2 bg-[#88888888] rounded-[55px] ">
-                <div class="hover:flip-vert border border-[CornflowerBlue] 
-                            bg-[#6495ED88] text-[CornflowerBlue] 
-                            p-2 flex items-center gap-2  rounded-[55px]
-                            hover:bg-[#6495ED66] 
-                            hover:text-[#7FFF00] 
-                            hover:border-[#7FFF0033] 
-                            transition-colors">    
-                    <span class="text-[6rem]">🧙‍♂️</span>
-                </div>                            
-          </a>
-        </td>
-        <td style="width: 6rem; height: 6rem;" class="px-6 py-4">
-          <i
-              style="font-size: 99px; color: CornflowerBlue;
-              display:block; transition:transform 615s; transform:rotate(0deg);"
-              onmouseover="this.style.transform='rotate(3600000deg)'"
-              onmouseout="this.style.transform='rotate(-3600000deg)'"
-              class="material-symbols-outlined">
-              patient_list
-            </i>
-        </td>
-        <td class="px-4 py-2 text-[CornflowerBlue]"><span class="text-[2rem]">twitch/meleneth</span></td>
+<a href="http://localhost:5175/" 
+   target="_blank" rel="noopener noreferrer"
+   class="block border border-[Chartreuse] p-2 bg-[#88888888]">
+  
+   <div class="hover:flip-vert border border-[Chartreuse] 
+              bg-[#7FFF0088] text-[Chartreuse] 
+              p-2 flex items-center gap-2 rounded-md 
+              hover:bg-[#7FFF0066] 
+              hover:text-[#7FFF00] 
+              hover:border-[#7FFF0033] 
+              transition-colors">
+      <span class="text-[6rem]">👩‍💻</span>
+      <span class="text-[3rem]">vue 人</span>
+      <span class="text-[2rem]">manufacturing</span>
+      <span class="text-[2rem]">hsl(90, 100%, 50%)</span>
+      <span class="text-[2rem]">#7FFF00</span>
+      <span class="text-[2rem]">Chartreuse</span>
+      <span class="text-[2rem]">oklch(87.82% 0.258 134.39)</span>
+      <span class="text-[2rem]">href="http://localhost:5175/"</span>
+      <span class="material-symbols-outlined text-[chartreuse] hover:text-[hsl(90, 100%, 50%)]">manufacturing</span>    
+  </div>
+</a>
 
-        <td class="px-4 py-2"><span class="text-[1rem]">patient_list</span></td>
-        <td class="px-4 py-2">
-          <span class="text-[1rem]">hsl(219, 79%, 66%)</span><br>
-          <span class="text-[1rem]">#6495ED</span><br>
-          <span class="text-[1rem]">CornflowerBlue</span><br>
-          <span class="text-[1rem]">oklch(66.83% 0.209 259.89)</span><br>
-        </td>
-        <td class="px-4 py-2">
-          <span class="text-[.75rem]">href="https://www.twitch.tv/meleneth"</span></td>
-      </tr>
-    </tbody>
-  </table>
-</div>                            
-<br>
-<div class="table-auto border border-sky-400 px-4 py-2 gap-11">
-   <table class="table-auto  px-4 py-2">
-    <tbody>
-      <tr>
-        <td>
-          <a href="http://localhost:5175/" 
-            target="_blank" rel="noopener noreferrer"
-            class="block border border-[Goldenrod] p-2 bg-[#88888888] rounded-[55px] ">
-                <div class="hover:flip-vert border border-[Goldenrod] 
-                            bg-[#DAA52088] text-[Goldenrod] 
-                            p-2 flex items-center gap-2  rounded-[55px]
-                            hover:bg-[#DAA52066] 
-                            hover:text-[#7FFF00] 
-                            hover:border-[#DAA52033] 
-                            transition-colors">    
-                    <span class="text-[6rem]">📐</span>
-                </div>                            
-          </a>
-        </td>
-        <td style="width: 6rem; height: 6rem;" class="px-6 py-4">
-          <i
-              style="font-size: 99px; color: Goldenrod;
-              display:block; transition:transform 615s; transform:rotate(0deg);"
-              onmouseover="this.style.transform='rotate(3600000deg)'"
-              onmouseout="this.style.transform='rotate(-3600000deg)'"
-              class="material-symbols-outlined">
-              width_normal
-            </i>
-        </td>
-        <td class="px-4 py-2 text-[Goldenrod]"><span class="text-[2rem]">今 frame.html </span></td>
-
-        <td class="px-4 py-2"><span class="text-[1rem]">width_normal</span></td>
-        <td class="px-4 py-2">
-          <span class="text-[1rem]">hsl(43, 74%, 49%)</span><br>
-          <span class="text-[1rem]">#DAA520</span><br>
-          <span class="text-[1rem]">Goldenrod</span><br>
-          <span class="text-[1rem]">oklch(73.47% 0.171 84.18)</span><br>
-        </td>
-        <td class="px-4 py-2">
-          <span class="text-[.75rem]">href="file:///D:/125/Tailwinds/frame.html"</span></td>
-      </tr>
-    </tbody>
-  </table>
-</div>                            
-<br>
-<div class="table-auto border border-sky-400 px-4 py-2 gap-11">
-   <table class="table-auto  px-4 py-2">
-    <tbody>
-      <tr>
-        <td>
-          <a href="http://localhost:5174/"
-            target="_blank" rel="noopener noreferrer"
-            class="block border border-[LightSkyBlue] p-2 bg-[#88888888] rounded-[55px] ">
-                <div class="hover:flip-vert border border-[LightSkyBlue] 
-                            bg-[#87CEFA88] text-[LightSkyBlue] 
-                            p-2 flex items-center gap-2  rounded-[55px]
-                            hover:bg-[#87CEFA66] 
-                            hover:text-[#87CEFA] 
-                            hover:border-[#87CEFA33] 
-                            transition-colors">    
-                    <span class="text-[6rem]">🕵️‍♀️</span>
-                </div>                            
-          </a>
-        </td>
-        <td style="width: 6rem; height: 6rem;" class="px-6 py-4">
-          <i
-              style="font-size: 99px; color: LightSkyBlue;
-              display:block; transition:transform 615s; transform:rotate(0deg);"
-              onmouseover="this.style.transform='rotate(3600000deg)'"
-              onmouseout="this.style.transform='rotate(-3600000deg)'"
-              class="material-symbols-outlined">
-              replay_5
-            </i>
-        </td>
-        <td class="px-4 py-2 text-[LightSkyBlue]"><span class="text-[2rem]">calf/tyit50 </span></td>
-
-        <td class="px-4 py-2"><span class="text-[1rem]">replay_5</span></td>
-        <td class="px-4 py-2">
-          <span class="text-[1rem]">hsl(203, 92%, 75%)</span><br>
-          <span class="text-[1rem]">#87CEFA</span><br>
-          <span class="text-[1rem]">LightSkyBlue</span><br>
-          <span class="text-[1rem]">oklch(84.17% 0.174 238.04)</span><br>
-        </td>
-        <td class="px-4 py-2">
-          <span class="text-[.75rem]">href="http://localhost:5175/"</span></td>
-      </tr>
-    </tbody>
-  </table>
-</div>                            
-<br>
-<div class="table-auto border border-sky-400 px-4 py-2 gap-11">
-   <table class="table-auto  px-4 py-2">
-    <tbody>
-      <tr>
-        <td>
-          <a href="http://localhost:5174/"
-            target="_blank" rel="noopener noreferrer"
-            class="block border border-[pink] p-2 bg-[#88888888] rounded-[55px] ">
-                <div class="hover:flip-vert border border-[pink] 
-                            bg-[#FFC0CB88] text-[pink] 
-                            p-2 flex items-center gap-2  rounded-[55px]
-                            hover:bg-[#FFC0CB66] 
-                            hover:text-[#FFC0CB] 
-                            hover:border-[#FFC0CB33] 
-                            transition-colors">    
-                    <span class="text-[6rem]">🩰</span>
-                </div>                            
-          </a>
-        </td>
-        <td style="width: 6rem; height: 6rem;" class="px-6 py-4">
-          <i
-              style="font-size: 99px; color: pink;
-              display:block; transition:transform 615s; transform:rotate(0deg);"
-              onmouseover="this.style.transform='rotate(3600000deg)'"
-              onmouseout="this.style.transform='rotate(-3600000deg)'"
-              class="material-symbols-outlined">
-              token
-            </i>
-        </td>
-        <td class="px-4 py-2 text-[Pink]"><span class="text-[2rem]">calf/BWGP</span></td>
-
-        <td class="px-4 py-2"><span class="text-[1rem]">token</span></td>
-        <td class="px-4 py-2">
-          <span class="text-[1rem]">hsl(350, 100%, 88%)</span><br>
-          <span class="text-[1rem]">#FFC0CB</span><br>
-          <span class="text-[1rem]">pink</span><br>
-          <span class="text-[1rem]">oklch(84.84% 0.067 15.41)</span><br>
-        </td>
-        <td class="px-4 py-2">
-          <span class="text-[.75rem]">href="http://localhost:5174/"</span></td>
-      </tr>
-    </tbody>
-  </table>
-</div>                            
-<br>
-<div class="table-auto border border-sky-400 px-4 py-2 gap-11">
-   <table class="table-auto  px-4 py-2">
-    <tbody>
-      <tr>
-        <td>
-          <a href="http://localhost:5174/" 
-            target="_blank" rel="noopener noreferrer"
-            class="block border border-[SandyBrown] p-2 bg-[#88888888] rounded-[55px] ">
-                <div class="hover:flip-vert border border-[SandyBrown] 
-                            bg-[#F4A46088] text-[SandyBrown] 
-                            p-2 flex items-center gap-2  rounded-[55px]
-                            hover:bg-[#F4A46066] 
-                            hover:text-[#F4A460] 
-                            hover:border-[#F4A46033] 
-                            transition-colors">    
-                    <span class="text-[6rem]">🐮</span>
-                </div>                            
-          </a>
-        </td>
-        <td style="width: 6rem; height: 6rem;" class="px-6 py-4">
-          <i
-              style="font-size: 99px; color: SandyBrown;
-              display:block; transition:transform 615s; transform:rotate(0deg);"
-              onmouseover="this.style.transform='rotate(3600000deg)'"
-              onmouseout="this.style.transform='rotate(-3600000deg)'"
-              class="material-symbols-outlined">
-              widget_width
-            </i>
-        </td>
-        <td class="px-4 py-2 text-[SandyBrown]"><span class="text-[2rem]">calf</span></td>
-
-        <td class="px-4 py-2"><span class="text-[1rem]">widget_width</span></td>
-        <td class="px-4 py-2">
-          <span class="text-[1rem]">hsl(28, 87%, 67%)</span><br>
-          <span class="text-[1rem]">#F4A460</span><br>
-          <span class="text-[1rem]">SandyBrown</span><br>
-          <span class="text-[1rem]">oklch(78.66% 0.179 57.30)</span><br>
-        </td>
-        <td class="px-4 py-2">
-          <span class="text-[.75rem]">href="http://localhost:5175/"</span></td>
-      </tr>
-    </tbody>
-  </table>
-</div>                            
-<br>
-<div class="table-auto border border-sky-400 px-4 py-2 gap-11">
-   <table class="table-auto  px-4 py-2">
-    <tbody>
-      <tr>
-        <td>
-          <a href="http://localhost:5175/" 
-            target="_blank" rel="noopener noreferrer"
-            class="block border border-[MediumAquamarine] p-2 bg-[#88888888] rounded-[55px] ">
-                <div class="hover:flip-vert border border-[MediumAquamarine] 
-                            bg-[#66CDAA88] text-[MediumAquamarine] 
-                            p-2 flex items-center gap-2  rounded-[55px]
-                            hover:bg-[#66CDAA66] 
-                            hover:text-[#66CDAA] 
-                            hover:border-[#66CDAA33] 
-                            transition-colors">    
-                    <span class="text-[6rem]">🔰</span>
-                </div>                            
-          </a>
-        </td>
-        <td style="width: 6rem; height: 6rem;" class="px-6 py-4">
-          <i
-              style="font-size: 99px; color: MediumAquamarine;
-              display:block; transition:transform 615s; transform:rotate(0deg);"
-              onmouseover="this.style.transform='rotate(3600000deg)'"
-              onmouseout="this.style.transform='rotate(-3600000deg)'"
-              class="material-symbols-outlined">
-              graph_5
-            </i>
-        </td>
-        <td class="px-4 py-2 text-[MediumAquamarine]"><span class="text-[2rem]">material-symbols-outlined</span></td>
-
-        <td class="px-4 py-2"><span class="text-[1rem]">graph_5</span></td>
-        <td class="px-4 py-2">
-          <span class="text-[1rem]">hsl(160, 51%, 60%)</span><br>
-          <span class="text-[1rem]">#66CDAA</span><br>
-          <span class="text-[1rem]">MediumAquamarine</span><br>
-          <span class="text-[1rem]">oklch(76.04% 0.150 175.91)</span><br>
-        </td>
-        <td class="px-4 py-2">
-          <span class="text-[.75rem]">href="https://fonts.google.com/icons?selected=Material+Symbols+Outlined"</span></td>
-      </tr>
-    </tbody>
-  </table>
-</div>                            
-<br>
-<div class="table-auto border border-sky-400 px-4 py-2 gap-11">
-   <table class="table-auto  px-4 py-2">
-    <tbody>
-      <tr>
-        <td>
-          <a href="http://localhost:5175/" 
-            target="_blank" rel="noopener noreferrer"
-            class="block border border-[DeepSkyBlue] p-2 bg-[#88888888] rounded-[55px] ">
-                <div class="hover:flip-vert border border-[DeepSkyBlue] 
-                            bg-[#00BFFF88] text-[DeepSkyBlue] 
-                            p-2 flex items-center gap-2  rounded-[55px]
-                            hover:bg-[#00BFFF66] 
-                            hover:text-[#00BFFF] 
-                            hover:border-[#00BFFF33] 
-                            transition-colors">    
-                    <span class="text-[6rem]">⛵</span>
-                </div>                            
-          </a>
-        </td>
-        <td style="width: 6rem; height: 6rem;" class="px-6 py-4">
-          <i
-              style="font-size: 99px; color: DeepSkyBlue;
-              display:block; transition:transform 615s; transform:rotate(0deg);"
-              onmouseover="this.style.transform='rotate(3600000deg)'"
-              onmouseout="this.style.transform='rotate(-3600000deg)'"
-              class="material-symbols-outlined">
-              category_search
-            </i>
-        </td>
-        <td class="px-4 py-2 text-[DeepSkyBlue]"><span class="text-[2rem]">NaughtSea </span></td>
-
-        <td class="px-4 py-2"><span class="text-[1rem]">category_search</span></td>
-        <td class="px-4 py-2">
-          <span class="text-[1rem]">hsl(195, 100%, 50%)</span><br>
-          <span class="text-[1rem]">#00BFFF</span><br>
-          <span class="text-[1rem]">DeepSkyBlue</span><br>
-          <span class="text-[1rem]">oklch(75.93% 0.246 230.62)</span><br>
-        </td>
-        <td class="px-4 py-2">
-          <span class="text-[.75rem]">href="http://localhost:5175/"</span></td>
-      </tr>
-    </tbody>
-  </table>
-</div>                            
-<br>
-https://fonts.google.com/icons?selected=Material+Symbols+Outlined:width_normal:FILL@0;wght@400;GRAD@0;opsz@24&icon.size=24&icon.color=%23e3e3e3
-https://en.wikipedia.org/wiki/METAR
-https://github.com/gregmalcolm/python_koans
-https://emojipedia.org/
-https://www.jam-software.com/treesize
 <a href="https://www.twitch.tv/meleneth" 
    target="_blank" rel="noopener noreferrer"
    class="block border border-[CornflowerBlue] p-2 bg-[#6495ED33]">
@@ -527,7 +230,7 @@ https://www.jam-software.com/treesize
   background-color: oklch(66.83% 0.209 259.89); /* cornflowerblue */
 }
 
--->
+
 
 <div>140 w3 color names</div>
 <div>
@@ -637,7 +340,7 @@ https://www.jam-software.com/treesize
   <div class="border border-[#D2B48C] bg-[#D2B48C]/25 text-[#D2B48C]">tan	#D2B48C</div>
   <div class="border border-[#BC8F8F] bg-[#BC8F8F]/25 text-[#BC8F8F]">rosybrown	#BC8F8F</div>
   <div class="border border-[#F4A460] bg-[#F4A460]/25 text-[#F4A460]">sandybrown	#F4A460</div>
-<!--<a href="file:///D:/125/Tailwinds/frame.html" 
+<a href="file:///D:/125/Tailwinds/frame.html" 
    target="_blank" rel="noopener noreferrer"
    class="block border border-sky-50 p-2">
   <div class="hover:flip-vert border border-[#DAA520] bg-[#DAA520]/25 text-[#DAA520] 
@@ -673,10 +376,8 @@ https://www.jam-software.com/treesize
     </div>
   </a>
   
-  <div class="border border-sky-50"><div class="border border-[#DAA520] bg-[#DAA520]/25 text-[#DAA520]">goldenrod	#DAA520 📐width_normal <i class="material-symbols-outlined" style="color: goldenrod">width_normal</i></div></div>-->
-
-  <div class="border border-[#DAA520] bg-[#DAA520]/25 text-[#DAA520]">goldenrod #DAA520	</div>
-  <div class="border border-[#B8860B] bg-[#B8860B]/25 text-[#B8860B]">darkgoldenrod #B8860B	</div>
+  <div class="border border-sky-50"><div class="border border-[#DAA520] bg-[#DAA520]/25 text-[#DAA520]">goldenrod	#DAA520 📐width_normal <i class="material-symbols-outlined" style="color: goldenrod">width_normal</i></div></div>
+  <div  class="border border-[#B8860B] bg-[#B8860B]/25 text-[#B8860B]">darkgoldenrod #B8860B	</div>
   <div class="border border-[#CD853F] bg-[#CD853F]/25 text-[#CD853F]">peru	#CD853F</div>
   <div class="border border-[#D2691E] bg-[#D2691E]/25 text-[#D2691E]">chocolate #D2691E</div>
   <div class="border border-[#808000] bg-[#808000]/25 text-[#808000]">olive #808000</div>
