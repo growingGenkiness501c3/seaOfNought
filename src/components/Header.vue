@@ -5,7 +5,7 @@ defineOptions({
 });
 </script>
 <template>
-<div class="grid grid-cols-3 h-1">
+<!--<div class="grid grid-cols-3 h-1">
   <div><hr><p class="text-right bg-[#0000ff80] text-[#fff]">right-aligned</p></div>
   <div class="place-items-center">
     <p class="text-center bg-[#ffff0080] text-[#000] text-[11px]">⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅</p>
@@ -18,6 +18,7 @@ defineOptions({
     &nbsp; &nbsp; &nbsp; &nbsp; best viewed at 100% and 3840x2160 &nbsp; &nbsp; &nbsp; &nbsp; 
     <dfn class="updock-regular text-neutral-100 text-[33px]"> :: no one lies better than a Christian</dfn>
   </div>
+-->
   <div class="w-full bg-neutral-400 text-sky-950 text-center text-[33px]">
     <span class="orbitron text-[33px]"><strong>allostasissy.studio </strong>||</span>
     <span class="rajdhani-bold"> [allosta{(sis)]sy}</span>
@@ -32,5 +33,5 @@ defineOptions({
   <div class="w-full hubot-sans text-neutral-950 bg-yellow-100 text-center text-[22px]">
     allostasissy@gmail.com
   </div>
-</div>
+<!--</div>-->
 </template>

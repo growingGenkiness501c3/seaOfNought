@@ -20,6 +20,78 @@ import Ikigai from "./components/Ikigai.vue";
 </script>
 
 <template>
+  <!--
+  🛤️ Journey / Path
+
+🛤️ U+1F6E4 railway track → symbolizes being on a path
+
+🧭 U+1F9ED compass → guidance, finding direction
+
+🗺️ U+1F5FA world map → journey, exploration
+
+🥾 U+1F97E hiking boot → step by step progress
+
+🌱 Growth / Healing
+
+🌱 U+1F331 seedling → new beginnings, recovery taking root
+
+🌳 U+1F333 deciduous tree → growth over time
+
+🪴 U+1FAB4 potted plant → nurturing progress
+
+💚 U+1F49A green heart → healing, renewal
+
+✨ Transformation / Hope
+
+✨ U+2728 sparkles → transformation, something new
+
+🌅 U+1F305 sunrise → new day, hope, fresh start
+
+🕊️ U+1F54A dove → peace, spiritual recovery
+
+🌈 U+1F308 rainbow → hope and promise
+
+🔢 Steps & Milestones
+
+🔢 U+1F522 input numbers → the 12 numbered steps
+
+🔟 U+1F51F keycap 10 + 1️⃣ 2️⃣ → represent “12” directly
+
+⬆️ U+2B06 up arrow → progress, moving upward
+
+✅ My top symbolic sequence for Celebrate Recovery / 12-Steps might be:
+🌱 🛤️ 🧭 🌅 ✨ 🕊️
+-->    
+    <!-- Growth & Healing --><!--
+    <div style="display:flex; flex-direction:column; align-items:center;">
+      <span class="material-symbols-outlined" style="font-size:77px;">spa</span>
+      spa
+    </div>
+    <div style="display:flex; flex-direction:column; align-items:center;">
+      <span class="material-symbols-outlined" style="font-size:77px;">self_improvement</span>
+      self_improvement
+    </div>
+    <div style="display:flex; flex-direction:column; align-items:center;">
+      <span class="material-symbols-outlined" style="font-size:77px;">volunteer_activism</span>
+      volunteer_activism
+    </div>
+    <!-- Journey & Path --><!--
+    <div style="display:flex; flex-direction:column; align-items:center;">
+      <span class="material-symbols-outlined" style="font-size:77px;">hiking</span>
+      hiking
+    </div>
+    <div style="display:flex; flex-direction:column; align-items:center;">
+      <span class="material-symbols-outlined" style="font-size:77px;">directions_walk</span>
+      directions_walk
+    </div>
+    <!-- Spiritual & Hope --><!--
+    <div style="display:flex; flex-direction:column; align-items:center;">
+      <span class="material-symbols-outlined" style="font-size:77px;">light_mode</span>
+      light_mode
+    </div>
+
+  -->
+
 <!-- https://www.youtube.com/watch?v=KOZ8RC70lS4&t=26s  https://www.youtube.com/watch?v=KOZ8RC70lS4&t=26s
 -->
   <backgroundImages>
@@ -54,9 +126,27 @@ import Ikigai from "./components/Ikigai.vue";
           <div class="div13 bg-[#dddddd80]"></div>
           <div class="div14 bg-[#eeeeee80]"></div>
           <div class="div15 bg-[#ffffff80]"></div>
-          <div class="div16 bg-sky-600/50">16</div>
-          <div class="div17 bg-sky-200/50">17 </div>
-          <div class="div18 bg-sky-500/50">18</div>
+          <div class="div16">
+            <a href="https://www.youtube.com/@VeronicaJeanAnderson" target="_blank" rel="noopener noreferrer"
+              class="inline-flex items-center hover:opacity-90">
+              <img src="/volunteer_activism.png" alt="Pepper site" class="w-[222px] h-auto inline-block" />
+            </a>
+            <code>www.youtube.com/@VeronicaJeanAnderson</code>
+          </div>
+          <div class="div17 bg-sky-200/50">
+            <a href="https://www.youtube.com/@VeronicaJeanAnderson" target="_blank" rel="noopener noreferrer"
+              class="inline-flex items-center hover:opacity-90">
+              <img src="/volunteer_activism.png" alt="Pepper site" class="w-[222px] h-auto inline-block" />
+            </a>
+            <code>www.youtube.com/@Allostasissy</code>
+          </div>            
+          <div class="div18 bg-sky-500/50">
+            <a href="https://www.youtube.com/@VeronicaJeanAnderson" target="_blank" rel="noopener noreferrer"
+              class="inline-flex items-center hover:opacity-90">
+              <img src="/volunteer_activism.png" alt="Pepper site" class="w-[222px] h-auto inline-block" />
+            </a>
+            <code>www.youtube.com/@CindysKids</code>
+          </div>             
           <div class="div19 bg-sky-300/50"><fontBar /><zer04 /></div>
           <div class="div20 bg-sky-400/40"><ReRouteRed /><br><br>
           </div>

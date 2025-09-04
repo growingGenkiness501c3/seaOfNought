@@ -556,6 +556,7 @@ https://www.jam-software.com/treesize
   <div class="border border-[#7B68EE] bg-[#7B68EE]/25 text-[#7B68EE] flex items-center justify-center">mediumslateblue 	#7B68EE</div>
   <div class="border border-[#6A5ACD] bg-[#6A5ACD]/25 text-[#6A5ACD] flex items-center justify-center">slateblue 	#6A5ACD</div>
   <div class="border border-[#483D8B] bg-[#483D8B]/25 text-[#483D8B] flex items-center justify-center">darkslateblue 	#483D8B</div>
+  <div class="inline-block"><img src="/volunteer_activism.png" class="w-11 h-11" /></div> 
   <div class="border border-sky-50"><div class="border border-[#663399] bg-[#663399]/50 text-[#663399] flex items-center justify-center">rebeccapurple 	#663399</div></div>
   <div class="border border-sky-50"><div class="border border-[#4B0082] bg-[#4B0082]/25 text-[#4B0082] flex items-center justify-center">indigo	#4B0082</div></div>
   <div class="border border-[#FFA07A] bg-[#ffc0cb]/25 text-[#FFA07A] flex items-center justify-center">lightsalmon 	#FFA07A</div>
