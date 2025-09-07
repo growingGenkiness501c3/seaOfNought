@@ -1,3 +1,9 @@
+Now let's talk safety. Jasons telephone is 503 984 1854. My google voice, I have to be watching for it to work, is 971 205 2514. I have recovered enough from the catastrophic reaction to Lupron KP refused to report to the FDA in 2014 that I'm trying to find a profession that can accommodate who I am now with these disabilities. I am no longer terrified of Bob, whose violence KP refused to report between 9 2015 and when you told the very first person outside of KP who was Libbie D Rascon a few weeks ago. I have testified against MAGA and Trump because my brother is a domestic terrorist w a militia who planned Jan sixth. To avoid BOB I watched MUSK and have now testified internationally against BOTH Netanyahu AND HAMAS and I assure you, testifying against Jews and Muslims is MUCH SCARIER than testifying against Bob who I tricked into eating a worm as a child.
+
+
+
+Now let's talk safety. Jasons telephone is 503 984 1854. My google voice, I have to be watching for it to work, is 971 205 2514‬. I have recovered enough from the catastrophic reaction to Lupron KP refused to report to the FDA in 2014 that I'm trying to find a profession that can accommodate who I am now with these disabilities. I am no longer terrified of Bob, whose violence KP refused to report between 9 2015 and when you told the very first person outside of KP who was Libbie D Rascon a few weeks ago. I have testified against MAGA and Trump because my brother is a domestic terrorist w a militia who planned Jan sixth. To avoid BOB I watched MUSK and have now testified internationally against BOTH Netanyahu AND HAMAS and I assure you, testifying against Jews and Muslims is MUCH SCARIER than testifying against Bob who I tricked into eating a worm as a child.
+
 <script setup lang="ts">
 import ReRouteRed from "@/components/ReComp/ReRouteRed.vue";
 import DataDrivenRoutingByHue from "@/components/ReComp/DataDrivenRoutingByHue.vue";
@@ -122,28 +128,28 @@ import Ikigai from "./components/Ikigai.vue";
           <div class="div9 bg-[#99999980]"></div>
           <div class="div10 bg-[#aaaaaa80]"></div>
           <div class="div11 bg-[#bbbbbb80]"></div>
-          <div class="div12 bg-[#cccccc80]"></div>
-          <div class="div13 bg-[#dddddd80]"></div>
-          <div class="div14 bg-[#eeeeee80]"></div>
-          <div class="div15 bg-[#ffffff80]"></div>
+          <div class="div12 bg-[#cccccc80]"><img src="/va3.png" alt="Pepper site" class="w-[222px] h-auto inline-block" /></div>
+          <div class="div13 bg-[#dddddd80]"><img src="/va3.png" alt="Pepper site" class="w-[222px] h-auto inline-block" /></div>
+          <div class="div14 bg-[#eeeeee80]"><img src="/va3.png" alt="Pepper site" class="w-[222px] h-auto inline-block" /></div>
+          <div class="div15 bg-[#ffffff80]"><img src="/va3.png" alt="Pepper site" class="w-[222px] h-auto inline-block" /></div>
           <div class="div16">
             <a href="https://www.youtube.com/@VeronicaJeanAnderson" target="_blank" rel="noopener noreferrer"
               class="inline-flex items-center hover:opacity-90">
-              <img src="/volunteer_activism.png" alt="Pepper site" class="w-[222px] h-auto inline-block" />
+              <img src="/va1.png" alt="Pepper site" class="w-[222px] h-auto inline-block" />
             </a>
             <code>www.youtube.com/@VeronicaJeanAnderson</code>
           </div>
-          <div class="div17 bg-sky-200/50">
+          <div class="div17 bg-sky-200/0">
             <a href="https://www.youtube.com/@VeronicaJeanAnderson" target="_blank" rel="noopener noreferrer"
               class="inline-flex items-center hover:opacity-90">
-              <img src="/volunteer_activism.png" alt="Pepper site" class="w-[222px] h-auto inline-block" />
+              <img src="/va2.png" alt="Pepper site" class="w-[222px] h-auto inline-block" />
             </a>
             <code>www.youtube.com/@Allostasissy</code>
           </div>            
-          <div class="div18 bg-sky-500/50">
+          <div class="div18 bg-sky-500/0">
             <a href="https://www.youtube.com/@VeronicaJeanAnderson" target="_blank" rel="noopener noreferrer"
               class="inline-flex items-center hover:opacity-90">
-              <img src="/volunteer_activism.png" alt="Pepper site" class="w-[222px] h-auto inline-block" />
+              <img src="/va3.png" alt="Pepper site" class="w-[222px] h-auto inline-block" />
             </a>
             <code>www.youtube.com/@CindysKids</code>
           </div>             
