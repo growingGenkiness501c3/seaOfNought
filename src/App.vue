@@ -1,10 +1,9 @@
-Now let's talk safety. Jasons telephone is 503 984 1854. My google voice, I have to be watching for it to work, is 971 205 2514. I have recovered enough from the catastrophic reaction to Lupron KP refused to report to the FDA in 2014 that I'm trying to find a profession that can accommodate who I am now with these disabilities. I am no longer terrified of Bob, whose violence KP refused to report between 9 2015 and when you told the very first person outside of KP who was Libbie D Rascon a few weeks ago. I have testified against MAGA and Trump because my brother is a domestic terrorist w a militia who planned Jan sixth. To avoid BOB I watched MUSK and have now testified internationally against BOTH Netanyahu AND HAMAS and I assure you, testifying against Jews and Muslims is MUCH SCARIER than testifying against Bob who I tricked into eating a worm as a child.
-
-
-
-Now let's talk safety. Jasons telephone is 503 984 1854. My google voice, I have to be watching for it to work, is 971 205 2514‬. I have recovered enough from the catastrophic reaction to Lupron KP refused to report to the FDA in 2014 that I'm trying to find a profession that can accommodate who I am now with these disabilities. I am no longer terrified of Bob, whose violence KP refused to report between 9 2015 and when you told the very first person outside of KP who was Libbie D Rascon a few weeks ago. I have testified against MAGA and Trump because my brother is a domestic terrorist w a militia who planned Jan sixth. To avoid BOB I watched MUSK and have now testified internationally against BOTH Netanyahu AND HAMAS and I assure you, testifying against Jews and Muslims is MUCH SCARIER than testifying against Bob who I tricked into eating a worm as a child.
+https://developers.google.com/fonts/docs/material_symbols
+https://fonts.google.com/icons?selected=Material+Symbols+Outlined:volunteer_activism:FILL@0;wght@400;GRAD@0;opsz@24&icon.query=volun&icon.size=24&icon.color=%23e3e3e3
 
 <script setup lang="ts">
+import Calendar from "@/components/ReComp/Calendar.vue";
+import Clock from "@/components/ReComp/Clock.vue";
 import ReRouteRed from "@/components/ReComp/ReRouteRed.vue";
 import DataDrivenRoutingByHue from "@/components/ReComp/DataDrivenRoutingByHue.vue";
 import DataDrivenRoutingByArrow from "@/components/ReComp/DataDrivenRoutingByArrow.vue";
@@ -13,11 +12,12 @@ import backgroundImages from "@/components/color/backgroundImages.vue";
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
 import fontBar from "@/components/fontBar.vue";
+import W3ColorNames from "@/components/ReComp/W3ColorNames.vue";
 
 import skyTop from "@/components/color/skyTop.vue";
 import skyBottom from "@/components/color/skyBottom.vue";
 import hsl60Bar from "@/components/color/hsl60Bar.vue";
-import zer04 from "@/components/zer0/zer04.vue";
+
 import zer05 from "@/components/zer0/zer05.vue";
 import zer06 from "@/components/zer0/zer06.vue";
 import IkigaiBar from "@/components/IkigaiBar.vue";
@@ -26,86 +26,13 @@ import Ikigai from "./components/Ikigai.vue";
 </script>
 
 <template>
-  <!--
-  🛤️ Journey / Path
 
-🛤️ U+1F6E4 railway track → symbolizes being on a path
-
-🧭 U+1F9ED compass → guidance, finding direction
-
-🗺️ U+1F5FA world map → journey, exploration
-
-🥾 U+1F97E hiking boot → step by step progress
-
-🌱 Growth / Healing
-
-🌱 U+1F331 seedling → new beginnings, recovery taking root
-
-🌳 U+1F333 deciduous tree → growth over time
-
-🪴 U+1FAB4 potted plant → nurturing progress
-
-💚 U+1F49A green heart → healing, renewal
-
-✨ Transformation / Hope
-
-✨ U+2728 sparkles → transformation, something new
-
-🌅 U+1F305 sunrise → new day, hope, fresh start
-
-🕊️ U+1F54A dove → peace, spiritual recovery
-
-🌈 U+1F308 rainbow → hope and promise
-
-🔢 Steps & Milestones
-
-🔢 U+1F522 input numbers → the 12 numbered steps
-
-🔟 U+1F51F keycap 10 + 1️⃣ 2️⃣ → represent “12” directly
-
-⬆️ U+2B06 up arrow → progress, moving upward
-
-✅ My top symbolic sequence for Celebrate Recovery / 12-Steps might be:
-🌱 🛤️ 🧭 🌅 ✨ 🕊️
--->    
-    <!-- Growth & Healing --><!--
-    <div style="display:flex; flex-direction:column; align-items:center;">
-      <span class="material-symbols-outlined" style="font-size:77px;">spa</span>
-      spa
-    </div>
-    <div style="display:flex; flex-direction:column; align-items:center;">
-      <span class="material-symbols-outlined" style="font-size:77px;">self_improvement</span>
-      self_improvement
-    </div>
-    <div style="display:flex; flex-direction:column; align-items:center;">
-      <span class="material-symbols-outlined" style="font-size:77px;">volunteer_activism</span>
-      volunteer_activism
-    </div>
-    <!-- Journey & Path --><!--
-    <div style="display:flex; flex-direction:column; align-items:center;">
-      <span class="material-symbols-outlined" style="font-size:77px;">hiking</span>
-      hiking
-    </div>
-    <div style="display:flex; flex-direction:column; align-items:center;">
-      <span class="material-symbols-outlined" style="font-size:77px;">directions_walk</span>
-      directions_walk
-    </div>
-    <!-- Spiritual & Hope --><!--
-    <div style="display:flex; flex-direction:column; align-items:center;">
-      <span class="material-symbols-outlined" style="font-size:77px;">light_mode</span>
-      light_mode
-    </div>
-
-  -->
-
-<!-- https://www.youtube.com/watch?v=KOZ8RC70lS4&t=26s  https://www.youtube.com/watch?v=KOZ8RC70lS4&t=26s
--->
   <backgroundImages>
     <Header />
-    <DataDrivenRoutingByArrow />
-    <hueBar />
+    <DataDrivenRoutingByArrow class="bg-[#ffffff60]"/><br>
     <DataDrivenRoutingByHue />
-    <zer06 />
+    <hueBar />
+    <Clock class="orbitron text-sky-300" style="font-size: 44px;" /><hr><Calendar class="mea-culpa-regular text-sky-400" style="font-size: 33px;" />
     <div class="parent">
           <div class="div1 bg-[#00000080]">
             <img src="/unicorn-inverted.png" class="transform scale-x-[-1] h-[111px] object-cover rounded-md" alt="Unicorn inverted" />
@@ -122,43 +49,48 @@ import Ikigai from "./components/Ikigai.vue";
           <div class="div5 bg-[#44444480]">
             <img src="/color/BWG circles.png" class="h-[111px] object-cover rounded-md rotate-180" alt="BWG Circles" />
           </div>
-          <div class="div6 bg-[#55555580]"></div>
-          <div class="div7 bg-[#66666680]"></div>
-          <div class="div8 bg-[#77777780]"></div>
-          <div class="div9 bg-[#99999980]"></div>
-          <div class="div10 bg-[#aaaaaa80]"></div>
-          <div class="div11 bg-[#bbbbbb80]"></div>
-          <div class="div12 bg-[#cccccc80]"><img src="/va3.png" alt="Pepper site" class="w-[222px] h-auto inline-block" /></div>
-          <div class="div13 bg-[#dddddd80]"><img src="/va3.png" alt="Pepper site" class="w-[222px] h-auto inline-block" /></div>
-          <div class="div14 bg-[#eeeeee80]"><img src="/va3.png" alt="Pepper site" class="w-[222px] h-auto inline-block" /></div>
-          <div class="div15 bg-[#ffffff80]"><img src="/va3.png" alt="Pepper site" class="w-[222px] h-auto inline-block" /></div>
-          <div class="div16">
+          <div class="div6 bg-[#55555580]"><img src="/color/BWG circles.png" class="h-[111px] object-cover rounded-md rotate-180" alt="BWG Circles" /></div>
+          <div class="div7 bg-[#66666680]"><img src="/color/BWG circles.png" class="h-[111px] object-cover rounded-md rotate-180" alt="BWG Circles" /></div>
+          <div class="div8 bg-[#77777780]"><img src="/color/BWG circles.png" class="h-[111px] object-cover rounded-md rotate-180" alt="BWG Circles" /></div>
+          <div class="div9 bg-[#99999980]"><img src="/color/BWG circles.png" class="h-[111px] object-cover rounded-md rotate-180" alt="BWG Circles" /></div>
+          <div class="div10 bg-[#aaaaaa80]"><img src="/color/BWG circles.png" class="h-[111px] object-cover rounded-md rotate-180" alt="BWG Circles" /></div>
+          <div class="div11 bg-[#bbbbbb80]"><img src="/color/BWG circles.png" class="h-[111px] object-cover rounded-md rotate-180" alt="BWG Circles" /></div>
+          <div class="div12 bg-[#cccccc80]"><img src="/color/BWG circles.png" class="h-[111px] object-cover rounded-md rotate-180" alt="BWG Circles" /></div>
+          <div class="div13 bg-[#dddddd80]"><img src="/color/BWG circles.png" class="h-[111px] object-cover rounded-md rotate-180" alt="BWG Circles" /></div>
+          <div class="div14 bg-[#eeeeee80]"><img src="/color/BWG circles.png" class="h-[111px] object-cover rounded-md rotate-180" alt="BWG Circles" /></div>
+          <div class="div15 bg-[#ffffff80]"><img src="/color/BWG circles.png" class="h-[111px] object-cover rounded-md rotate-180" alt="BWG Circles" /></div>
+          <div class="div16 flex items-center justify-center">
             <a href="https://www.youtube.com/@VeronicaJeanAnderson" target="_blank" rel="noopener noreferrer"
               class="inline-flex items-center hover:opacity-90">
-              <img src="/va1.png" alt="Pepper site" class="w-[222px] h-auto inline-block" />
+              <img src="/va1.png" alt="Pepper site" class="w-[px] h-auto inline-block" />
             </a>
-            <code>www.youtube.com/@VeronicaJeanAnderson</code>
+            youtube.com/
+              @VeronicaJeanAnderson
           </div>
-          <div class="div17 bg-sky-200/0">
+          <div class="div17">
             <a href="https://www.youtube.com/@VeronicaJeanAnderson" target="_blank" rel="noopener noreferrer"
               class="inline-flex items-center hover:opacity-90">
-              <img src="/va2.png" alt="Pepper site" class="w-[222px] h-auto inline-block" />
+              <div class="grid place-items-center">
+                <img src="/va2.png" alt="Pepper site" class="w-[px] h-auto inline-block" />
+              </div>
             </a>
             <code>www.youtube.com/@Allostasissy</code>
           </div>            
           <div class="div18 bg-sky-500/0">
             <a href="https://www.youtube.com/@VeronicaJeanAnderson" target="_blank" rel="noopener noreferrer"
               class="inline-flex items-center hover:opacity-90">
-              <img src="/va3.png" alt="Pepper site" class="w-[222px] h-auto inline-block" />
+              <img src="/va3.png" alt="Pepper site" class="w-[px] h-auto inline-block" />
             </a>
             <code>www.youtube.com/@CindysKids</code>
           </div>             
-          <div class="div19 bg-sky-300/50"><fontBar /><zer04 /></div>
-          <div class="div20 bg-sky-400/40"><ReRouteRed /><br><br>
+          <div class="div19"><W3ColorNames /><fontBar /></div>
+          <div class="div20"><ReRouteRed />
+                <Clock class="orbitron text-indigo-300" style="font-size: 444px;" /><hr><Calendar class="mea-culpa-regular text-indigo-400" style="font-size: 333px;" />
           </div>
     </div>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <Footer />
+    <br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+    <!--<Footer />-->
   </backgroundImages>  
 </template>
 <style>

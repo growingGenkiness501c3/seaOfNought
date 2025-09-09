@@ -8,11 +8,9 @@ defineOptions({
 });
 </script>
 <template>
-  <div class="bg-gray-950/25 p-2">
-  <div class="w-full gap-1 p-1 flex items-center justify-center">
-  <div>
+  <code>fontBar</code>
     <div class="grid grid-cols-17 gap-1 w-full">
-      <div class="col-span-17 grid grid-cols-17 gap-1 text-[6px]">
+      <div class="col-span-17 grid grid-cols-17 gap-1 text-[17px]">
         <div class="p-2 border text-center">class="alumni-sans-pinstripe-regular text-[20px]"</div>
         <div class="p-2 border text-center">class="alumni-sans-pinstripe-regular-italic text-[20px]"</div>
         <div class="p-2 border text-center">class="anonymous-pro-regular text-[18px]"</div>
@@ -51,7 +49,4 @@ defineOptions({
         <div class="p-1 border text-center"><span class="updock-regular text-[18px]">oO0◯<br>AaXxZz<br>g!*?G<br>ن🖵無</span></div>
       </div>
     </div>
-  </div>    
-</div>
-</div>  
 </template>
