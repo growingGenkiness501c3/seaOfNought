@@ -67,12 +67,7 @@ import WIP_29 from '@/components/WIPComponents/WIP_29.vue'
 import WIP_30 from '@/components/WIPComponents/WIP_30.vue'
 import WIP_31 from '@/components/WIPComponents/WIP_31.vue'
 
-
 import EightVue from '@/views/else/EightVue.vue'
-
-
-
-
 
 import SeaOfNought from '@/views/NaughtSea.vue'
 import Allostasissy from '@/views/Allostasissy.vue'
@@ -86,6 +81,9 @@ import WIP from '@/views/WIP.vue'
 import WIPBar from '@/components/WIPComponents/WIPBar.vue'
 import Xhibition from '@/views/Xhibition.vue'
 
+import TYIT50vue from '@/views/TYIT50/TYIT50vue.vue'
+
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -94,6 +92,11 @@ const router = createRouter({
       name: 'seaOfNought',
       component: SeaOfNought
     },
+    {
+      path: '/TYIT50vue',
+      name: 'TYIT50vue',
+      component: TYIT50vue
+    }, 
 
     {
       path: '/Allostasissy',

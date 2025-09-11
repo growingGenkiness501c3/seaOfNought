@@ -4,7 +4,7 @@
     <div
       v-for="thing in or_something.things"
       :key="thing.unicode"
-      class="flex items-center justify-center border border-indigo-400 w-[151px] h-[151px] text-center"
+      class="flex items-center justify-center border border-indigo-400 w-[33px] h-[33px] text-center"
     >
       <router-link :to="`/${thing['material icon']}`">
         <img

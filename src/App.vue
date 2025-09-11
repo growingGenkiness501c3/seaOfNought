@@ -12,7 +12,11 @@ import backgroundImages from "@/components/color/backgroundImages.vue";
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
 import fontBar from "@/components/fontBar.vue";
-import W3ColorNames from "@/components/ReComp/W3ColorNames.vue";
+import W3namesContrasted from "@/components/TYIT50/W3namesContrasted.vue";
+
+import TYIT50Component from "@/components/TYIT50/TYIT50Component.vue";
+
+
 
 import skyTop from "@/components/color/skyTop.vue";
 import skyBottom from "@/components/color/skyBottom.vue";
@@ -26,11 +30,251 @@ import Ikigai from "./components/Ikigai.vue";
 </script>
 
 <template>
+https://www.youtube.com/watch?v=upEGBGCiWEw&t=1704s
 
-  <backgroundImages>
-    <Header />
+640x360 - 1920x1080
+
+<backgroundImages>
+  <br>
+<div class="bg-sky-100/0 p-3 border border-[#ffc0cb] flex items-center justify-center gap-4">
+  <div class="border border-[#DAA520] p-3 flex flex-wrap items-center gap-3 max-w-full">
+    <h1 class="text-[22px]">not routed</h1>    
+    <!-- Image never shrinks; will move to next row when space runs out -->
+    <img src="/width_normal.png" class="h-[88px] w-auto flex-none shrink-0" />
+    <!-- Text pill can wrap or drop below the image when needed -->
+    <div class="p-3 bg-[#DAA520]/25 text-[#DAA520] flex items-center justify-center
+                flex-auto min-w-0">
+      goldenrod #DAA520
+    </div>
+  </div>
+  <div class="border border-[#F4A460] p-3 flex flex-wrap items-center gap-3 max-w-full">
+    <h1 class="text-[22px]">not routed</h1>    
+    <!-- Image never shrinks; will move to next row when space runs out -->
+    <img src="/widget_width.png" class="h-[88px] w-auto flex-none shrink-0" />
+    <!-- Text pill can wrap or drop below the image when needed -->
+    <div class="p-3 bg-[#F4A460]/25 text-[#F4A460] flex items-center justify-center
+                flex-auto min-w-0">
+      sandybrown #F4A460
+    </div>
+  </div>
+
+  <div class="border border-[#FF4500] p-3 flex flex-wrap items-center gap-3 max-w-full">
+    <h1 class="text-[22px]">not routed</h1>
+    <!-- Image never shrinks; will move to next row when space runs out -->
+    <img src="/heat.png" class="h-[88px] w-auto flex-none shrink-0" />
+    <!-- Text pill can wrap or drop below the image when needed -->
+    <div class="p-3 bg-[#FF4500]/25 text-[#FF4500] flex items-center justify-center
+                flex-auto min-w-0">
+      orangered #FF4500
+    </div>
+  </div>
+
+  <div class="border border-[#ffc0cb] p-3 flex flex-wrap items-center gap-3 max-w-full">
+    <h1 class="text-[22px]">not routed</h1>
+    <!-- Image never shrinks; will move to next row when space runs out -->
+    <img src="/token.png" class="h-[88px] w-auto flex-none shrink-0" />
+    <!-- Text pill can wrap or drop below the image when needed -->
+    <div class="p-3 bg-[#ffc0cb]/25 text-[#ffc0cb] flex items-center justify-center
+                flex-auto min-w-0">
+      pink #ffc0cb
+    </div>
+  </div>
+
+  <div class="border border-[#ffc0cb] p-3 flex flex-wrap items-center gap-3 max-w-full">
+    <h1 class="text-[22px]">not routed</h1>
+    <!-- Image never shrinks; will move to next row when space runs out -->
+    <img src="/wine_bar.png" class="h-[88px] w-auto flex-none shrink-0" />
+    <!-- Text pill can wrap or drop below the image when needed -->
+    <div class="p-3 bg-[#ffc0cb]/25 text-[#ffc0cb] flex items-center justify-center
+                flex-auto min-w-0">
+      pink #ffc0cb
+    </div>    
+  </div>
+  <div class="border border-[#ffc0cb] p-3 flex flex-wrap items-center gap-3 max-w-full">
+    <h1 class="text-[22px]">not routed</h1>
+    <!-- Image never shrinks; will move to next row when space runs out -->
+    <img src="/visibility.png" class="h-[88px] w-auto flex-none shrink-0" />
+    <!-- Text pill can wrap or drop below the image when needed -->
+    <div class="p-3 bg-[#ffc0cb]/25 text-[#ffc0cb] flex items-center justify-center
+                flex-auto min-w-0">
+      pink #ffc0cb
+    </div>    
+  </div>  
+</div>
+
+
+<div class="bg-sky-100/0 p-3 border border-[#ffc0cb] flex items-center justify-center gap-4">
+  <div class="border border-[#ffc0cb] p-3 flex flex-wrap items-center gap-3 max-w-full">
+    <h1 class="text-[22px]">not routed</h1>
+    <!-- Image never shrinks; will move to next row when space runs out -->
+    <img src="/patient_list.png" class="h-[88px] w-auto flex-none shrink-0" />
+    <!-- Text pill can wrap or drop below the image when needed -->
+    <div class="p-3 bg-[#ffc0cb]/25 text-[#ffc0cb] flex items-center justify-center
+                flex-auto min-w-0">
+      pink #ffc0cb
+    </div>    
+  </div>  
+
+  <div class="border border-[#87CEFA] p-3 flex flex-wrap items-center gap-3 max-w-full">
+    <h1 class="text-[22px]">not routed</h1>
+    <!-- Image never shrinks; will move to next row when space runs out -->
+    <img src="/replay_5.png" class="h-[88px] w-auto flex-none shrink-0" />
+    <!-- Text pill can wrap or drop below the image when needed -->
+    <div class="p-3 bg-[#87CEFA]/25 text-[#87CEFA] flex items-center justify-center
+                flex-auto min-w-0">
+      lightskyblue #87CEFA
+    </div>
+  </div>
+
+  <div class="border border-[#00BFFF] p-3 flex flex-wrap items-center gap-3 max-w-full">
+    <h1 class="text-[22px]">not routed</h1>
+    <!-- Image never shrinks; will move to next row when space runs out -->
+    <img src="/category_search.png" class="h-[88px] w-auto flex-none shrink-0" />
+    <!-- Text pill can wrap or drop below the image when needed -->
+    <div class="p-3 bg-[#00BFFF]/25 text-[#00BFFF] flex items-center justify-center
+                flex-auto min-w-0">
+      deepskyblue #00BFFF
+    </div>
+  </div>
+  <div class="border border-[#66CDAA] p-3 flex flex-wrap items-center gap-3 max-w-full">
+    <h1 class="text-[22px]">not routed</h1>
+    <!-- Image never shrinks; will move to next row when space runs out -->
+    <img src="/navigation.png" class="h-[88px] w-auto flex-none shrink-0" />
+    <!-- Text pill can wrap or drop below the image when needed -->
+    <div class="p-3 bg-[#66CDAA]/25 text-[#66CDAA] flex items-center justify-center
+                flex-auto min-w-0">
+      mediumaquamarine #66CDAA
+    </div>
+  </div>
+  <div class="border border-[#7CFC00] p-3 flex flex-wrap items-center gap-3 max-w-full">
+    <h1 class="text-[22px]">not routed</h1>
+    <!-- Image never shrinks; will move to next row when space runs out -->
+    <img src="/cycle.png" class="h-[88px] w-auto flex-none shrink-0" />
+    <!-- Text pill can wrap or drop below the image when needed -->
+    <div class="p-3 bg-[#7CFC00]/25 text-[#7CFC00] flex items-center justify-center
+                flex-auto min-w-0">
+      lawngreen #7CFC00
+    </div>
+  </div>
+
+
+
+  <div class="bg-sky-100/50 border border-[#663399] p-3 flex flex-wrap items-center gap-3 max-w-full">
+    <h1 class="text-[22px]"><span class="text-sky-950">not routed</span></h1>
+    <!-- Image never shrinks; will move to next row when space runs out -->
+    <img src="/va1.png" class="h-[88px] w-auto flex-none shrink-0" />
+    <!-- Text pill can wrap or drop below the image when needed -->
+    <div class="p-3 bg-[#663399]/25 text-[#663399] flex items-center justify-center
+                flex-auto min-w-0">
+      rebeccapurple #663399
+    </div>
+  </div>
+</div>
+
+<div class="p-3 border border-[#87CEFA] flex items-center justify-center gap-4">
+    <div class="border border-[#808080] p-3 flex flex-wrap items-center gap-3 max-w-full">
+    <h1 class="text-[22px]">not routed</h1>
+    <!-- Image never shrinks; will move to next row when space runs out -->
+    <img src="/keyboard_arrow_left.png" class="h-[88px] w-auto flex-none shrink-0" />
+    <!-- Text pill can wrap or drop below the image when needed -->
+    <div class="p-3 bg-[#808080]/25 text-[#808080] flex items-center justify-center
+                flex-auto min-w-0">
+      gray/grey #808080
+    </div>
+  </div>
+    <div class="border border-[#808080] p-3 flex flex-wrap items-center gap-3 max-w-full">
+    <h1 class="text-[22px]">not routed</h1>
+    <!-- Image never shrinks; will move to next row when space runs out -->
+    <img src="/keyboard_arrow_up.png" class="h-[88px] w-auto flex-none shrink-0" />
+    <!-- Text pill can wrap or drop below the image when needed -->
+    <div class="p-3 bg-[#808080]/25 text-[#808080] flex items-center justify-center
+                flex-auto min-w-0">
+      gray/grey #808080
+    </div>
+  </div>
+  <div class="border border-[#C0C0C0] p-3 flex flex-wrap items-center gap-3 max-w-full">
+    <h1 class="text-[22px]">not routed</h1>
+    <!-- Image never shrinks; will move to next row when space runs out -->
+    <img src="/Military_Tech.png" class="h-[88px] w-auto flex-none shrink-0" />
+    <!-- Text pill can wrap or drop below the image when needed -->
+    <div class="p-3 bg-[#C0C0C0]/25 text-[#C0C0C0] flex items-center justify-center
+                flex-auto min-w-0">
+      silver #C0C0C0
+    </div>
+  </div>
+  <div class="border border-[#808080] p-3 flex flex-wrap items-center gap-3 max-w-full">
+    <h1 class="text-[22px]">not routed</h1>
+    <!-- Image never shrinks; will move to next row when space runs out -->
+    <img src="/rainy.png" class="h-[88px] w-auto flex-none shrink-0" />
+    <!-- Text pill can wrap or drop below the image when needed -->
+    <div class="p-3 bg-[#808080]/25 text-[#808080] flex items-center justify-center
+                flex-auto min-w-0">
+      gray/grey #808080
+    </div>
+  </div>
+  
+    <div class="bg-sky-100/25 border border-[#808080] p-3 flex flex-wrap items-center gap-3 max-w-full">
+    <h1 class="text-[22px]">graph_5</h1>
+    <!-- Image never shrinks; will move to next row when space runs out -->
+    <img src="/graph_5.png" class="h-[88px] w-auto flex-none shrink-0" />
+    <!-- Text pill can wrap or drop below the image when needed -->
+    <div class="p-3 bg-[#808080]/25 text-[#808080] flex items-center justify-center
+                flex-auto min-w-0">
+      gray/grey #808080
+    </div>
+  </div>
+
+
+  <div class="border border-[#808080] p-3 flex flex-wrap items-center gap-3 max-w-full">
+    <h1 class="text-[22px]">not routed</h1>
+    <!-- Image never shrinks; will move to next row when space runs out -->
+    <img src="/salinity.png" class="h-[88px] w-auto flex-none shrink-0" />
+    <!-- Text pill can wrap or drop below the image when needed -->
+    <div class="p-3 bg-[#808080]/25 text-[#808080] flex items-center justify-center
+                flex-auto min-w-0">
+      gray/grey #808080
+    </div>
+  </div>
+    <div class="border border-[#808080] p-3 flex flex-wrap items-center gap-3 max-w-full">
+    <h1 class="text-[22px]">not routed</h1>
+    <!-- Image never shrinks; will move to next row when space runs out -->
+    <img src="/pepper.png" class="h-[88px] w-auto flex-none shrink-0" />
+    <!-- Text pill can wrap or drop below the image when needed -->
+    <div class="p-3 bg-[#808080]/25 text-[#808080] flex items-center justify-center
+                flex-auto min-w-0">
+      gray/grey #808080
+    </div>
+  </div>    
+
+
+    <div class="border border-[#808080] p-3 flex flex-wrap items-center gap-3 max-w-full">
+    <h1 class="text-[22px]">not routed</h1>
+    <!-- Image never shrinks; will move to next row when space runs out -->
+    <img src="/keyboard_arrow_down.png" class="h-[88px] w-auto flex-none shrink-0" />
+    <!-- Text pill can wrap or drop below the image when needed -->
+    <div class="p-3 bg-[#808080]/25 text-[#808080] flex items-center justify-center
+                flex-auto min-w-0">
+      gray/grey #808080
+    </div>
+  </div>
+
+      <div class="border border-[#808080] p-3 flex flex-wrap items-center gap-3 max-w-full">
+    <h1 class="text-[22px]">not routed</h1>
+    <!-- Image never shrinks; will move to next row when space runs out -->
+    <img src="/keyboard_arrow_right.png" class="h-[88px] w-auto flex-none shrink-0" />
+    <!-- Text pill can wrap or drop below the image when needed -->
+    <div class="p-3 bg-[#808080]/25 text-[#808080] flex items-center justify-center
+                flex-auto min-w-0">
+      gray/grey #808080
+    </div>
+  </div>
+
+</div>
+  <h1 class="text-[111px]">to do next: route!</h1>
+<Header />
     <DataDrivenRoutingByArrow class="bg-[#ffffff60]"/><br>
     <DataDrivenRoutingByHue />
+
     <hueBar />
     <Clock class="orbitron text-sky-300" style="font-size: 44px;" /><hr><Calendar class="mea-culpa-regular text-sky-400" style="font-size: 33px;" />
     <div class="parent">
@@ -83,15 +327,15 @@ import Ikigai from "./components/Ikigai.vue";
             </a>
             <code>www.youtube.com/@CindysKids</code>
           </div>             
-          <div class="div19"><W3ColorNames /><fontBar /></div>
+          <div class="div19"><fontBar /></div>
           <div class="div20"><ReRouteRed />
-                <Clock class="orbitron text-indigo-300" style="font-size: 444px;" /><hr><Calendar class="mea-culpa-regular text-indigo-400" style="font-size: 333px;" />
           </div>
     </div>
-    <br>
-<br><br><br><br><br><br><br><br><br><br><br><br>
-    <!--<Footer />-->
-  </backgroundImages>  
+    <Clock class="orbitron text-indigo-300" style="font-size: 44px;" /><hr><Calendar class="mea-culpa-regular text-indigo-400" style="font-size: 33px;" />          
+    <W3namesContrasted />
+
+
+</backgroundImages>  
 </template>
 <style>
 .alumni-sans-pinstripe-regular {
@@ -211,7 +455,7 @@ h6 {  color: hsl(120, 050%, 070%, 100%);}
 .parent {
 display: grid;
 grid-template-columns: repeat(15, 1fr);
-grid-template-rows: .5fr repeat(3, 1fr) 2fr;
+grid-template-rows: .5fr repeat(3, 1fr) 1fr;
 grid-column-gap: 11px;
 grid-row-gap: 11px;
 }
@@ -234,6 +478,6 @@ grid-row-gap: 11px;
 .div16 { grid-area: 2 / 1 / 3 / 2; display: grid; place-items: center;}
 .div17 { grid-area: 3 / 1 / 4 / 2; display: grid; place-items: center;}
 .div18 { grid-area: 4 / 1 / 5 / 2; display: grid; place-items: center;}
-.div19 { height: 222px; grid-area: 5 / 1 / 6 / 16; display: grid; place-items: center;}
+.div19 { grid-area: 5 / 1 / 6 / 16; display: grid; place-items: center; height: 111px; /* fixed height */}
 .div20 { grid-area: 2 / 2 / 5 / 16; display: grid; place-items: center;}
 </style>
